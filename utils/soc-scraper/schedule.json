@@ -1,0 +1,3791 @@
+{
+  "courses": [
+    {
+      "course_code": "03113",
+      "course_title": "Biologies in Text and Film",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "04:00PM",
+            "end": "05:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Affara, Nesrine",
+              "Squires, Jeffrey"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03121",
+      "course_title": "Modern Biology",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Affara, Nesrine"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03125",
+      "course_title": "Evolution",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "04:00PM",
+            "end": "05:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Bouaouina, Mohamed"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03151",
+      "course_title": "Honors Modern Biology",
+      "units": "10",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 2",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Affara, Nesrine"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "R"
+            ],
+            "begin": "03:45PM",
+            "end": "05:35PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Affara, Nesrine"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03201",
+      "course_title": "Undergraduate Colloquium for Sophomores",
+      "units": "1-3",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "M"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Younis, Ihab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03210",
+      "course_title": "Independent Study",
+      "units": "1-12",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W1",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Bouaouina, Mohamed"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "W2",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Younis, Ihab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03220",
+      "course_title": "Genetics",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 2",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Younis, Ihab"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "W"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Younis, Ihab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03343",
+      "course_title": "Experimental Techniques in Molecular Biology",
+      "units": "12",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 2",
+          "timings": {
+            "days": [
+              "U"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": []
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "09:00AM",
+            "end": "01:00PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person only",
+            "instructor": []
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03350",
+      "course_title": "Developmental Biology",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "08:30AM",
+            "end": "09:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Bouaouina, Mohamed"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03410",
+      "course_title": "Special Topics in Biological Sciences : Precision Medicine",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Naik, Adviti"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03411",
+      "course_title": "Topics in Research",
+      "units": "1-2",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "R"
+            ],
+            "begin": "08:30AM",
+            "end": "09:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Bouaouina, Mohamed"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03435",
+      "course_title": "Cancer Biology",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TR"
+            ],
+            "begin": "04:00PM",
+            "end": "05:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Younis, Ihab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03445",
+      "course_title": "Undergraduate Research",
+      "units": "1-18",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Younis, Ihab"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "X",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person only",
+            "instructor": [
+              "Bouaouina, Mohamed"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "Y",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Naik, Adviti"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "YY",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person only",
+            "instructor": []
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "Z",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person only",
+            "instructor": [
+              "Affara, Nesrine"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70050",
+      "course_title": "Study Abroad",
+      "units": "VAR",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Farooqi, Muhammad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70110",
+      "course_title": "Business Computing",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "04:00PM",
+            "end": "05:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Fadlallah, Hussein"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70122",
+      "course_title": "Introduction to Accounting",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Akguc, Serkan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70207",
+      "course_title": "Probability and Statistics for Business Applications",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "08:30AM",
+            "end": "09:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Park, Taeyong"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70208",
+      "course_title": "Regression Analysis",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "04:00PM",
+            "end": "05:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Park, Taeyong"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70311",
+      "course_title": "Organizational Behavior",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Haan, Ki-Won"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70332",
+      "course_title": "Business, Society and Ethics",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Dimitriu, Cristian"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70340",
+      "course_title": "Business Communications",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Mcginnis, J"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "X",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Mcginnis, J"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70341",
+      "course_title": "Team Dynamics and Leadership",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "04:00PM",
+            "end": "05:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Haan, Ki-Won"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70371",
+      "course_title": "Operations Management",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Adeinat, Iman"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70381",
+      "course_title": "Marketing I",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Sharma, Varun"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70388",
+      "course_title": "Islamic Finance",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "04:00PM",
+            "end": "05:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Farooqi, Muhammad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70391",
+      "course_title": "Finance",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Farooqi, Muhammad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70394",
+      "course_title": "AI in Action",
+      "units": "3",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W2",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person + remote",
+            "instructor": [
+              "Ciollaro, Mattia"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70409",
+      "course_title": "Innovation and Entrepreneurship in Emerging Markets",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Hakim, Maher"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70415",
+      "course_title": "Introduction to Entrepreneurship",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "04:00PM",
+            "end": "05:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Hakim, Maher"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70433",
+      "course_title": "Leading Innovation",
+      "units": "3",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W2",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person + remote",
+            "instructor": [
+              "Rulke, Diane"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70440",
+      "course_title": "Corporate Strategy",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Fadlallah, Hussein"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70443",
+      "course_title": "Digital Marketing and Social Media Strategy",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Sharma, Varun"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70452",
+      "course_title": "Introduction to Product Management",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "08:30AM",
+            "end": "09:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Adeinat, Iman"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70455",
+      "course_title": "Data Management Fundamentals",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Mathur, Sameer"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70469",
+      "course_title": "End to End Business Analytics",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Castano Zuluaga, Andres"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70481",
+      "course_title": "Marketing Research",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Mathur, Sameer"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70493",
+      "course_title": "Valuation and Financial Modeling",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "08:30AM",
+            "end": "09:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Akguc, Serkan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70500",
+      "course_title": "Honors Thesis I",
+      "units": "3-18",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Farooqi, Muhammad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70501",
+      "course_title": "Honor Thesis II",
+      "units": "3-18",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Farooqi, Muhammad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70502",
+      "course_title": "Independent Study in Management",
+      "units": "3-18",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Farooqi, Muhammad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70503",
+      "course_title": "Independent Study in Marketing",
+      "units": "3-18",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Farooqi, Muhammad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70504",
+      "course_title": "Independent Study in Organizational Behavior",
+      "units": "3-18",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Farooqi, Muhammad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70505",
+      "course_title": "Independent Study in Finance",
+      "units": "3-18",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Farooqi, Muhammad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70506",
+      "course_title": "Independent Study in Business Analytics and Technology",
+      "units": "3-18",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Farooqi, Muhammad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70507",
+      "course_title": "Independent Study in Business Communications",
+      "units": "3-18",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Farooqi, Muhammad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70508",
+      "course_title": "Independent Study in International Management",
+      "units": "3-18",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Farooqi, Muhammad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70509",
+      "course_title": "Independent Study in Entrepreneurship",
+      "units": "3-18",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Farooqi, Muhammad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "99101",
+      "course_title": "Computing @ Carnegie Mellon",
+      "units": "3",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "U1",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Saliba, Reya"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "V1",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "08:45AM",
+            "end": "09:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Saliba, Reya"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "W1",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "04:00PM",
+            "end": "04:50PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Saliba, Reya"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "X1",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Saliba, Reya"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "99262",
+      "course_title": "ADDvocate: Anti-Discrimination Dialogue for Social Justice",
+      "units": "VAR",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W1",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "04:00PM",
+            "end": "05:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Moufid, Ezzohra"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "99410",
+      "course_title": "Internship",
+      "units": "3-12,18",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Reynolds, Dudley"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "99430",
+      "course_title": "General Studies Capstone Course",
+      "units": "VAR",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": []
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "09105",
+      "course_title": "Introduction to Modern Chemistry I",
+      "units": "10",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 3",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Murshid, Nimer"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Murshid, Nimer"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "09207",
+      "course_title": "Techniques in Quantitative Analysis",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 2",
+          "timings": {
+            "days": [
+              "U"
+            ],
+            "begin": "04:00PM",
+            "end": "04:50PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Faulkner, Simon"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TR"
+            ],
+            "begin": "02:30PM",
+            "end": "05:30PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person only",
+            "instructor": [
+              "Faulkner, Simon"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "09212",
+      "course_title": "Special Topics: Nanotechnology in Context : Nanotechnology in Context",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Murshid, Nimer"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "09217",
+      "course_title": "Organic Chemistry I",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UMTWR"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Faulkner, Simon"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "09445",
+      "course_title": "Undergraduate Research",
+      "units": "3-18",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Faulkner, Simon"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "X",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Murshid, Nimer"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15110",
+      "course_title": "Principles of Computing",
+      "units": "10",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 3",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "08:30AM",
+            "end": "09:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Di Caro, Gianni"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "R"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Di Caro, Gianni"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15112",
+      "course_title": "Fundamentals of Programming and Computer Science",
+      "units": "12",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Riley, Ryan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15121",
+      "course_title": "Introduction to Data Structures",
+      "units": "10",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 2",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "08:30AM",
+            "end": "09:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Riley, Ryan"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "R"
+            ],
+            "begin": "08:45AM",
+            "end": "09:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Riley, Ryan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15150",
+      "course_title": "Principles of Functional Programming",
+      "units": "12",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 3",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "08:30AM",
+            "end": "09:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Reis, Giselle"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "R"
+            ],
+            "begin": "08:30AM",
+            "end": "09:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Reis, Giselle"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15213",
+      "course_title": "Introduction to Computer Systems",
+      "units": "12",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 3",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "08:30AM",
+            "end": "09:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Harras, Khaled"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "R"
+            ],
+            "begin": "04:00PM",
+            "end": "04:50PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Harras, Khaled"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15281",
+      "course_title": "Artificial Intelligence: Representation and Problem Solving",
+      "units": "12",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 2",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "08:30AM",
+            "end": "09:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Di Caro, Gianni"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "T"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Di Caro, Gianni"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15282",
+      "course_title": "Artificial Intelligence for Medicine",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 1",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "08:30AM",
+            "end": "09:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": []
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "R"
+            ],
+            "begin": "04:00PM",
+            "end": "04:50PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Hammoud, Mohammad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15317",
+      "course_title": "Constructive Logic",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 2",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Reis, Giselle"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "R"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Reis, Giselle"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15440",
+      "course_title": "Distributed Systems",
+      "units": "12",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 3",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Hammoud, Mohammad"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "R"
+            ],
+            "begin": "08:45AM",
+            "end": "09:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Hammoud, Mohammad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15451",
+      "course_title": "Algorithm Design and Analysis",
+      "units": "12",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 2",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Kapoutsis, Christos"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UR"
+            ],
+            "begin": "02:30PM",
+            "end": "03:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Kapoutsis, Christos"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15455",
+      "course_title": "Undergraduate Complexity Theory",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "08:30AM",
+            "end": "09:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Kapoutsis, Christos"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15591",
+      "course_title": "Independent Study in Computer Science",
+      "units": "3-18",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Reis, Giselle",
+              "Riley, Ryan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "51205",
+      "course_title": "Social Media, Curation, and Personal Voice",
+      "units": "3",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W2",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person + remote",
+            "instructor": [
+              "Vitone, Dylan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "51207",
+      "course_title": "Creative Thinking with AI",
+      "units": "3",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W2",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person + remote",
+            "instructor": [
+              "Chapman, Jonathan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "73102",
+      "course_title": "Principles of Microeconomics",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Indaco, Agustin"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "73103",
+      "course_title": "Principles of Macroeconomics",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "04:00PM",
+            "end": "05:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Castano Zuluaga, Andres"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "73230",
+      "course_title": "Intermediate Microeconomics",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Safak, Veli"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "73265",
+      "course_title": "Economics and Data Science",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Indaco, Agustin"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "73336",
+      "course_title": "International Energy Market and Sustainable Development",
+      "units": "3",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W2",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person + remote",
+            "instructor": [
+              "Portnykh, Margarita"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "73369",
+      "course_title": "Islamic Economics",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "04:00PM",
+            "end": "05:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Safak, Veli"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "76100",
+      "course_title": "Reading and Writing in an Academic Context",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Squires, Jeffrey"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "X",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "08:45AM",
+            "end": "09:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Gomez Laich, Maria Pia"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "XX",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Gomez Laich, Maria Pia"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "Y",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "08:45AM",
+            "end": "09:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Reynolds, Dudley"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "Z",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "08:45AM",
+            "end": "09:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": []
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "ZZ",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": []
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "76101",
+      "course_title": "Interpretation and Argument",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "08:45AM",
+            "end": "09:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Pessoa, Silvia"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "76270",
+      "course_title": "Writing for the Professions",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Mitchell, Thomas"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "X",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "04:00PM",
+            "end": "05:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Dreher, Kira"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "76385",
+      "course_title": "Introduction to Discourse Analysis",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "04:00PM",
+            "end": "05:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Mitchell, Thomas"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "94410",
+      "course_title": "Telling Stories with Data",
+      "units": "3",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W2",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person + remote",
+            "instructor": [
+              "Goranson, Christopher"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "79104",
+      "course_title": "Global Histories",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "04:00PM",
+            "end": "05:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Reilly, Benjamin"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "79284",
+      "course_title": "Muslim Representation in the Media and Popular Culture",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Nair, Deepa"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "79367",
+      "course_title": "Disastrous Encounters",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Reilly, Benjamin"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "79378",
+      "course_title": "Gender in South Asia",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Nair, Deepa"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "79491",
+      "course_title": "Independent Study",
+      "units": "3-18",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Nair, Deepa"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "X",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Reilly, Benjamin"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "66501",
+      "course_title": "Dietrich College Senior Honors Thesis I",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Vatanasakdakul, Savanid  Nui"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "X",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Liginlal, Divakaran"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "Y",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": []
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "Z",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": []
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67100",
+      "course_title": "Information Systems First Year Colloquium",
+      "units": "1",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W1",
+          "timings": {
+            "days": [
+              "M"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Aoun, Chadi"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67135",
+      "course_title": "Discover, organize, and synthesize: Building your research toolkit beyond Google",
+      "units": "3",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W1",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person + remote",
+            "instructor": [
+              "Young, Sarah"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67220",
+      "course_title": "Digital Accessibility - Ensuring Universal Access to the Information Society",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "04:30PM",
+            "end": "05:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Liginlal, Divakaran"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67262",
+      "course_title": "Database Design and Development",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 4",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Charfi, Anis"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "M"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Charfi, Anis"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "X",
+          "timings": {
+            "days": [
+              "M"
+            ],
+            "begin": "08:30AM",
+            "end": "09:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Charfi, Anis"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67301",
+      "course_title": "Networks and Telecommunications",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Aazam, Mohammad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67323",
+      "course_title": "Enterprise Systems: Concepts and Practice",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "08:30AM",
+            "end": "09:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Charfi, Anis"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67354",
+      "course_title": "Sustainability in the Digital Age",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Aoun, Chadi"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67364",
+      "course_title": "Practical Data Science",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Liginlal, Divakaran"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67382",
+      "course_title": "Digital Transformation, Strategy and Management",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Vatanasakdakul, Savanid  Nui"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "X",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Vatanasakdakul, Savanid  Nui"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67390",
+      "course_title": "Independent Study in Information Systems",
+      "units": "1-12",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": []
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67404",
+      "course_title": "Blockchain Applications",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person only",
+            "instructor": [
+              "Aazam, Mohammad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67430",
+      "course_title": "AI and Emerging Economies",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TR"
+            ],
+            "begin": "06:00PM",
+            "end": "07:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "Remote only",
+            "instructor": [
+              "Mani, Ganesh"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67490",
+      "course_title": "Practicum in Information Systems",
+      "units": "6-18",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": []
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "82101",
+      "course_title": "Elementary French I",
+      "units": "12",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Moufid, Ezzohra"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "82111",
+      "course_title": "Elementary Arabic I",
+      "units": "12",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Nassif, Lama"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "82141",
+      "course_title": "Elementary Spanish I",
+      "units": "12",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Helin, Erik"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "X",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "02:30PM",
+            "end": "03:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Helin, Erik"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "82241",
+      "course_title": "Intermediate Spanish I",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Helin, Erik"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "82289",
+      "course_title": "Tutoring for Community Outreach - CMUQ",
+      "units": "9-18",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "M"
+            ],
+            "begin": "04:00PM",
+            "end": "05:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Helin, Erik"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "82314",
+      "course_title": "Literature of the Arabic-speaking World",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Moufid, Ezzohra"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "82414",
+      "course_title": "Arabic for the Professions I",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Nassif, Lama"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "38101",
+      "course_title": "EUREKA!: Discovery and Its Impact",
+      "units": "6",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "08:30AM",
+            "end": "09:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Faulkner, Simon",
+              "Naik, Adviti"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "38110",
+      "course_title": "ENGAGE in Service",
+      "units": "1",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Younis, Ihab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "38220",
+      "course_title": "ENGAGE in the Arts",
+      "units": "2",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Younis, Ihab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "38330",
+      "course_title": "ENGAGE in Wellness: Looking Outward",
+      "units": "1",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W1",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Younis, Ihab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "38430",
+      "course_title": "ENGAGE in Wellness: Looking Forward",
+      "units": "1",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W2",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Younis, Ihab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21108",
+      "course_title": "Introduction to Mathematical Concepts",
+      "units": "6",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W2",
+          "timings": {
+            "days": [
+              "UMTWR"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Yilma, Zelealem"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21111",
+      "course_title": "Calculus I",
+      "units": "10",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UMTWR"
+            ],
+            "begin": "02:30PM",
+            "end": "03:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Weston, Anthony Ross"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21120",
+      "course_title": "Differential and Integral Calculus",
+      "units": "10",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UMTWR"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Weston, Anthony Ross"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21124",
+      "course_title": "Calculus II for Biologists and Chemists",
+      "units": "10",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UMTWR"
+            ],
+            "begin": "08:45AM",
+            "end": "09:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Demirkoparan, Hasan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21127",
+      "course_title": "Concepts of Mathematics",
+      "units": "12",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UMTWR"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Demirkoparan, Hasan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21241",
+      "course_title": "Matrices and Linear Transformations",
+      "units": "11",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UMTWR"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "El Hajj, Layan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21256",
+      "course_title": "Multivariate Analysis",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UMTWR"
+            ],
+            "begin": "08:45AM",
+            "end": "09:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "El Hajj, Layan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21259",
+      "course_title": "Calculus in Three Dimensions",
+      "units": "10",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UMTWR"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Khare, Niraj"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21295",
+      "course_title": "Putnam Seminar",
+      "units": "3",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "M"
+            ],
+            "begin": "04:00PM",
+            "end": "04:50PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Yilma, Zelealem"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21484",
+      "course_title": "Graph Theory",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "04:00PM",
+            "end": "04:50PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Yilma, Zelealem"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "80210",
+      "course_title": "Logic and Proofs",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "02:30PM",
+            "end": "03:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Khare, Niraj"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "80334",
+      "course_title": "Social and Political Philosophy",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Dimitriu, Cristian"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "80495",
+      "course_title": "Independent Study",
+      "units": "3,6,9,12",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": []
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "33115",
+      "course_title": "Physics for Future Presidents",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "08:30AM",
+            "end": "09:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Zayed, Mohamed"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "33121",
+      "course_title": "Physics I for Science Students",
+      "units": "12",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Zayed, Mohamed"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "85221",
+      "course_title": "Principles of Child Development",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Belanger, Jocelyn"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "85370",
+      "course_title": "Perception",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Bruder, Jennifer Lynn"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "85377",
+      "course_title": "Attitudes and Persuasion",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Belanger, Jocelyn"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "85507",
+      "course_title": "Research in Psychology",
+      "units": "3-12",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "WW",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "Remote only",
+            "instructor": [
+              "Bruder, Jennifer Lynn"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "17313",
+      "course_title": "Foundations of Software Engineering",
+      "units": "12",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "04:00PM",
+            "end": "05:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Feo Flushing, Eduardo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "07129",
+      "course_title": "Freshmen Immigration Course",
+      "units": "3",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W1",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "02:30PM",
+            "end": "03:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Harras, Khaled"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "07599",
+      "course_title": "SCS Honors Undergraduate Research Thesis",
+      "units": "VAR",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Riley, Ryan",
+              "Reis, Giselle"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "36202",
+      "course_title": "Methods for Statistics & Data Science",
+      "units": "9",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Park, Taeyong"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "98000",
+      "course_title": "Student Taught Courses (StuCo): Teaching Practicum",
+      "units": "3",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TBA"
+            ],
+            "begin": "TBA",
+            "end": "TBA",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Helin, Erik"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "98041",
+      "course_title": "Student Taught Courses (StuCo): Sustainable Living",
+      "units": "3",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W2",
+          "timings": {
+            "days": [
+              "M"
+            ],
+            "begin": "05:30PM",
+            "end": "06:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Abayomi, Mayowa",
+              "Alaeddine, Nada"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "98059",
+      "course_title": "Student Taught Courses (StuCo): Chinese Charms-Unlocking the Secrets of Mandarin",
+      "units": "3",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W2",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "05:00PM",
+            "end": "05:50PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Gu, Antony"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "98060",
+      "course_title": "Student Taught Courses (StuCo): A Beginners\u00bf Guide to Chinese",
+      "units": "3",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W1",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "05:00PM",
+            "end": "05:50PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "In-person Expectation",
+            "instructor": [
+              "Gao, Jingxiang",
+              "Mina, Maria"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
