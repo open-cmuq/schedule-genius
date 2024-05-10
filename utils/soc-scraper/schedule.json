@@ -4,6 +4,9 @@
       "course_code": "03113",
       "course_title": "Biologies in Text and Film",
       "units": "9",
+      "description": "TBD",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -28,6 +31,9 @@
       "course_code": "03121",
       "course_title": "Modern Biology",
       "units": "9",
+      "description": "This is an introductory course that provides the basis for further studies in biochemistry, cell biology, genetics and molecular biology.  This course emphasizes the chemical principles underlying biological processes and cell structures as well as the analysis of genetics and heredity from a molecular perspective. This is the introductory biology course for all science and non-science majors.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -51,6 +57,9 @@
       "course_code": "03125",
       "course_title": "Evolution",
       "units": "9",
+      "description": "Evolutionary theory is the unifying principle of biology.  A good comprehension of the concepts that underlie this theory is therefore important to properly appreciate and understand any biological process. This course is designed for students intending to continue studies in biology so that they may gain an understanding of the evolutionary framework in their more advanced courses, and also non-biology majors who want to extend their knowledge of biology at an introductory level.  The lectures will include (i) an examination of the history and development of evolutionary theory, (ii) consideration of some of the facts that have established the theory, (iii) an introduction to the concepts of phylogenetics, (iv) discussion of the patterns and mechanism that lead to the diversity and origins of the groups of life, (v) an introduction to genetics and population genetic theory, and (vi) discussion of and how this applies to natural selection and speciation.  The course will also include some more specialist topics, including evolution of development, sexual selection, evolutionary applications to medicine and conservation biology, and genome evolution.  Assessment will be based on several in-class exams and quizzes, homework assignments, a written term paper, and a final exam.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -74,6 +83,9 @@
       "course_code": "03151",
       "course_title": "Honors Modern Biology",
       "units": "10",
+      "description": "Honors Modern Biology (03-151) is an honors introductory course. This course has been designed for freshman students with an interest in a major in the biological sciences who have had solid preparation in this field as indicated by the following examinations: SAT II Molecular Biology, AP, or IB Biology. This course will present the concepts and principles necessary for a general understanding of the processes occurring in living cells and is the basis for further study in cell biology, biochemistry, genetics, molecular and developmental biology. While similar core topics will be covered in all sections of Modern Biology, this section will be offered at an accelerated pace, requiring more independent learning. The extra class time this pacing provides will allow the exploration of the molecular basis of life to help students integrate and apply the core principles of biology covered in the course.  THIS SECTION IS RESERVED FOR INCOMING FIRST-YEAR MCS STUDENTS.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -113,6 +125,9 @@
       "course_code": "03201",
       "course_title": "Undergraduate Colloquium for Sophomores",
       "units": "1-3",
+      "description": "The purpose of this seminar series is to update biology undergraduates about university and departmental functions, seminars, etc. that are pertinent or useful. In addition, research talks by faculty and undergraduates will be used to introduce students to the research being conducted in faculty laboratories. Additional topics may include graduate and medical school applications, career options, topics in the press, and important scientific discoveries.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -136,6 +151,9 @@
       "course_code": "03210",
       "course_title": "Independent Study",
       "units": "1-12",
+      "description": "Students will read papers from the original literature under the direction of a faculty member. Students will be required to demonstrate mastery of the readings by discussions with the sponsoring faculty member, oral presentations, or writing of one or more papers summarizing and extending the information in the readings. If appropriate, students may write a program(s) to satisfy this last requirement. A student may take this course only once.  This is a mini format course.  Special permission required.   **Students MUST contact bio-ungrad@andrew.cmu.edu and complete the application form in order to participate & register.**",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -175,6 +193,9 @@
       "course_code": "03220",
       "course_title": "Genetics",
       "units": "9",
+      "description": "The mechanisms of transmission of inherited traits in viruses, bacteria, fungi, plants and animals are discussed. Molecular mechanisms of gene expression and gene regulation are analyzed. Recombinant DNA and its applications in genetic analysis, biotechnology, forensics, agriculture, medicine, and the pharmaceutical industry are presented. Special topics in human genetics are considered, such as the genetics of cancer. Principles and methods for the study of developmental genetics, population genetics and complex traits are also introduced.",
+      "prereqs": "03121 or 03151",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -214,6 +235,9 @@
       "course_code": "03343",
       "course_title": "Experimental Techniques in Molecular Biology",
       "units": "12",
+      "description": "This laboratory course is designed to teach experimental methods of modern biology. Experiments in microbial genetics, molecular biology and eukaryotic genetics are performed. Emphasis is placed on understanding and applying the biological principles of each experiment. This course is designed to be taken during the junior year and is intended to prepare students for undergraduate research. Experimentation using living organisms and/or their tissues, cells or molecules is an essential component of this course.",
+      "prereqs": "(03232 or 03231) and (09208 or 09222 or 09223 or QC211)",
+      "coreqs": "03220, 03330, 33121",
       "sections": [
         {
           "section_type": "Lecture",
@@ -249,6 +273,9 @@
       "course_code": "03350",
       "course_title": "Developmental Biology",
       "units": "9",
+      "description": "How does a complex, multicellular organism arise from a single cell? How do cells with identical genomes acquire distinctive properties? What are the medical consequences of abnormal embryonic development? How does regeneration occur? How has evolution modified developmental programs to produce different body plans? These are some of the central questions in the field of developmental biology. This course serves as an introduction to current concepts and experimental approaches in this rapidly advancing field. Topics in the course include genomics, differential gene expression, cell signaling, cell movements, tissue morphogenesis, stem cells, human development, and regeneration. The course examines the genes and signaling pathways that control development and the role that mis-regulation of these pathways plays in human disease.",
+      "prereqs": "03240 or 03320",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -272,6 +299,9 @@
       "course_code": "03410",
       "course_title": "Special Topics in Biological Sciences : Precision Medicine",
       "units": "9",
+      "description": "Special Topics in Biological Sciences. Topics will vary depending on the semester and instructor. Please read the individual section descriptions for more information.",
+      "prereqs": "03232 or 03231",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -295,6 +325,9 @@
       "course_code": "03411",
       "course_title": "Topics in Research",
       "units": "1-2",
+      "description": "During the year students attend weekly seminars given by outside speakers or members of the Biology Department on current research topics in modern biology; some seminars outside of the department may be substituted.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -318,6 +351,9 @@
       "course_code": "03435",
       "course_title": "Cancer Biology",
       "units": "9",
+      "description": "Cancer affects roughly 1 in 3 people worldwide, and originates from both hereditary as well as environmental causes. Its prevalence makes it practically inescapable. Its of great relevance from both scientific and sociocultural perspectives. This course aims to examine various hallmarks of the biology of cancer while exploring novel concepts that challenge our understanding of cell biology. From the perspective of a cancer cell, we will learn about basic concepts of cell division, DNA replication, cell signaling, cell cycle control, cell metabolism, the regulation of gene expression in human cells, oncogenes, tumor suppressor genes, mutations, the process of metastasis, cancer diagnosis, cancer treatments and ethical questions surrounding treating patients, the epidemiology of cancer including prevalence and historical trends in diagnosis, as well as social impacts of a cancer diagnosis. Students will also explore the primary literature and scientific review articles to better understand research and methods of investigation into the cellular and molecular processes of tumorigenesis. This course will include interactive lectures, guest speakers, and in class discussion exercises aimed at building class participation and association, as well as confidence in public speaking about the sciences. Given the well-documented link between stress and cancer, there will also be a small component aimed at making students aware of health and wellness, such as reducing stress and anxiety.",
+      "prereqs": "03330 or 03220 or 03221",
+      "coreqs": "03320, 03240",
       "sections": [
         {
           "section_type": "Lecture",
@@ -341,6 +377,9 @@
       "course_code": "03445",
       "course_title": "Undergraduate Research",
       "units": "1-18",
+      "description": "Students may investigate research problems under the supervision of members of the faculty. Permission of a faculty advisor required. **Students MUST contact bio-ungrad@andrew.cmu.edu and complete the application form in order to participate & register.**   BIO MAJORS: The Biology Undergraduate Office will send out the paperwork toyou on the first day of classes each semester. Paperwork and research mentor approval will be due the Friday before the add deadline. NON BIO MAJORS:Please contact the office (bio-ungrad@andrew.cmu.edu) to request the updated form.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -426,6 +465,9 @@
       "course_code": "70050",
       "course_title": "Study Abroad",
       "units": "VAR",
+      "description": "This course serve as a Fall semester placeholder for undergraduate Business Administration students who study abroad full-time. No course credit and no letter grade is associated with it. Special permission is required for this course to be used.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -449,6 +491,9 @@
       "course_code": "70110",
       "course_title": "Business Computing",
       "units": "9",
+      "description": "Students will learn how individuals and organizations use computing technologies to support and improve their businesses. At an individual level, students will build their skills with Microsoft Excel and other personal productivity tools. At an organizational level, the class looks at ways in which businesses of all sizes and types leverage computing technologies to run their businesses more efficiently, make better business decisions, and create new business opportunities. This course is reserved for first-year Business students; others may enroll by special permission from the UBA office only.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -472,6 +517,9 @@
       "course_code": "70122",
       "course_title": "Introduction to Accounting",
       "units": "9",
+      "description": "This course provides the knowledge and skills necessary for the student to understand financial statements and financial records and to make use of the information for management and investment decisions. Topics include: an overview of financial statements and business decisions; the balance sheet, the income statement, and the cash flow statement; sales revenue, receivables, and cash; cost of goods sold and inventory; long-lived assets and depreciation, and amortization; current and long-term liabilities; owners' equity; investments in other corporations; an introduction to financial statement analysis and international issues dealing with financial statements. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -495,6 +543,9 @@
       "course_code": "70207",
       "course_title": "Probability and Statistics for Business Applications",
       "units": "9",
+      "description": "Elementary ideas in probability, statistics, and data analysis are presented in the context of their importance to modern business management.  This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -518,6 +569,9 @@
       "course_code": "70208",
       "course_title": "Regression Analysis",
       "units": "9",
+      "description": "This class focuses on the statistical analysis of the relationship between two or more random variables. In particular, we examine the estimation of the conditional mean of the dependent variable as a function of independent variables using linear regression. We draw on statistical theory to determine the precision of our estimates and to conduct inference about the population, and we examine a number of applications to business, finance, and economics throughout the course.  This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+      "prereqs": "70207 or 36200 or 36201 or 36207 or 36220 or 36247 or 36218",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -541,6 +595,9 @@
       "course_code": "70311",
       "course_title": "Organizational Behavior",
       "units": "9",
+      "description": "This course examines the factors which influence individual, group and firm behavior in the context of the workplace. Topics covered include perception, group behavior, decision making, motivation, leadership and organizational design and change. This course uses course material that requires students to pay an additional course fee. The course material is secured by the Tepper School because it is otherwise unavailable and directly provided to each student. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+      "prereqs": "(76102) or (76101) or (76106 and 76107) or (76106 and 76108) or (76107 and 76108) or (76245) or (76331) or (76347) or (76327) or (76102)",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -564,6 +621,9 @@
       "course_code": "70332",
       "course_title": "Business, Society and Ethics",
       "units": "9",
+      "description": "What sorts of ethical obligations do businesses have towards their customers, employees, and the public? This course will explore ethical challenges faced by modern corporations, and frameworks which can be used to develop responsible corporate policy. The course is divided into four main units: (1) autonomy and consent, (2) the scope and locus of corporate responsibility, (3) fair treatment and outcomes, (4) the limits of labor and commodification. This course may use copyrighted material. If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided. The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+      "prereqs": "(76102) or (76101) or (76106 and 76107) or (76106 and 76108) or (76107 and 76108)",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -587,6 +647,9 @@
       "course_code": "70340",
       "course_title": "Business Communications",
       "units": "9",
+      "description": "Business Communications develops and sharpens your written, oral, and interpersonal communication, introducing you to common forms of professional writing and speaking in specific business situations. The course explores crucial rhetorical issues that impact your ability to communicate and achieve your objectives as a business leader. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+      "prereqs": "(76102) or (76101) or (76106 and 76107) or (76106 and 76108) or (76107 and 76108)",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -626,6 +689,9 @@
       "course_code": "70341",
       "course_title": "Team Dynamics and Leadership",
       "units": "9",
+      "description": "Organizations have greatly expanded their use of teams to accomplish a wide variety of objectives. Teams develop new products, provide professional services, and start new businesses. Temporary teams are frequently assembled to make difficult decisions, solve cross-functional problems, and generate new ideas. Advances in communication technology allow people dispersed across the globe to collaborate virtually, creating many new opportunities and challenges for leaders of such teams. This course will provide you the knowledge and skills to communicate in teams and to lead them effectively. It will help you better communicate in and lead teams and organizations. You will learn both effective leadership practices as well as how to avoid common leadership mistakes. Our readings reflect both the scientific and practice literatures and class exercises, cases, and projects provide the opportunity to apply what you learn. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+      "prereqs": "36200 or 36201 or 36207 or 36217 or 70207 or 36225 or 36247 or 36220",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -649,6 +715,9 @@
       "course_code": "70371",
       "course_title": "Operations Management",
       "units": "9",
+      "description": "This course is an introduction to production and operations management that covers both manufacturing and services. It deals with strategic issues (design of flexible supply), planning issues (capacity management), and operational issues (inventory management and information). The linkage between strategy and tactics will be emphasized. The students will learn concepts and tools that will help them to manage from the \"boardroom\" to the \"toolroom.\" This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+      "prereqs": "36220 or 36247 or 36225 or 36207 or 36200 or 36201 or 70207 or 36218",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -672,6 +741,9 @@
       "course_code": "70381",
       "course_title": "Marketing I",
       "units": "9",
+      "description": "An introduction to the nature and fundamentals of marketing and consumer behavior. Topics include an analysis of the economic and psychological factors influencing buyer behavior, marketing research, market segmentation, and the development of marketing programs (new product, price, advertising and distribution decisions). This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+      "prereqs": "(76102) or (76101) or (76106 and 76107) or (76106 and 76108) or (76107 and 76108)",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -695,6 +767,9 @@
       "course_code": "70388",
       "course_title": "Islamic Finance",
       "units": "9",
+      "description": "This course is designed to introduce students to the basics of Islamic Finance.  The course will start with an analysis of the Shariah rules that define Islamic Finance.  Students will then look at the main investment structures and map these against the traditional conventional banking products.  The course wraps up with a critique of complex project finance structures through a Shariah compliance lens to identify the gaps between theory and practice.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -718,6 +793,9 @@
       "course_code": "70391",
       "course_title": "Finance",
       "units": "9",
+      "description": "Firms create value by making good investment decisions. Finance is the field of management science tasked with making this happen. It is a set of tools with which firms identify good investments and decide how to pay for them. Paying for them ultimately involves getting money from households. Therefore, finance also describes the investment decisions of households and the resulting allocation of the economy's resources across firms and time. This course is the introductory finance course in the undergraduate business program. The main topics covered in the course are Financial Markets, Net Present Value, The Objective of the Firm, Discounted Cash Flow, Portfolio Theory and the Cost of Capital, The Efficient Markets Hypothesis, The Capital Structure of the Firm, and Business Valuation. Time permitting, the course will also provide an introduction to option markets and derivative securities. Upon completing the course a student will be able to consider a large and complex business problem, make some assumptions, structure the firms' cash flows in a spreadsheet, calculate the value of different solutions to the problem, and make a decision. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+      "prereqs": "(73102 or 73100 or 73104) and (36218 or 36207 or 70207 or 36200 or 36225 or 36201 or 36217)",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -741,6 +819,9 @@
       "course_code": "70394",
       "course_title": "AI in Action",
       "units": "3",
+      "description": "No course description provided.",
+      "prereqs": "70391",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -764,6 +845,9 @@
       "course_code": "70409",
       "course_title": "Innovation and Entrepreneurship in Emerging Markets",
       "units": "9",
+      "description": "This course focuses on the role that innovation-driven entrepreneurship and market-creating innovation play in the development of economies in emerging markets. The course will explore the potential economic development opportunities brought forward by market-creation innovations in emerging markets and will seek to understand the unique challenges and opportunities of innovation which face entrepreneurs in emerging markets.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -787,6 +871,9 @@
       "course_code": "70415",
       "course_title": "Introduction to Entrepreneurship",
       "units": "9",
+      "description": "This course is an introductory course designed to provide an overview of entrepreneurship, develop an entrepreneurial frame of mind and learn the fundamentals of lean startup development. Students, Sophomore year or higher, interested in founding or contributing to a start-up venture, regardless of areas of discipline (engineering, design, business, computer science, music, drama, and more), are welcome. Students can expect to gain a basic understanding of functional areas such as customer discovery, sales, business planning, risk management, venture funding, and more. This class also features \"The Sprint: An Entrepreneurship Competition,\" which affords the students the opportunity to gain experience selling their choice of product in a real-world and competitive environment. The class is a discussion- and project-based class. Class sections feature either a combination of lectures, class discussions, and activities or applied workshops in small groups. Students will be learning a mental framework for evaluating & developing any startup and then applying said framework and techniques to analyze and execute real-world business opportunities. Interdisciplinary teams will generate ideas and explore their potential as viable businesses. Numerous student teams have completed this class with real-world opportunities. Guest speakers, case studies, and exercises will also be integrated. This course may use third-party course material that is not available for individual purchase from the publisher. If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course. Students enrolled in the course will be required to pay the University the associated additional course materials fee for the third-party course material provided ($13 to $75)",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -810,6 +897,9 @@
       "course_code": "70433",
       "course_title": "Leading Innovation",
       "units": "3",
+      "description": "Organizations (startups and mature businesses alike) live in an age of constant change (i.e., technology evolution/revolution, globalization, deregulation). Over the past decades, breakthroughs such as artificial intelligence, machine learning, rapid computing, nano- and biotechnology have significantly accelerated the rate of innovation. The internet and digital connectivity have transformed information dissemination and global collaboration. The development cycle for new products and services have shortened, consumer demands becoming more dynamic and volatile. Organizations must innovate faster to stay relevant as the future becoming furthermore intelligent and dynamics.  Innovation is not merely about creating something entirely new. It can also involve incremental changes or adaptations that significantly improve existing products, processes, or services. It often requires creativity, critical thinking, problem-solving, and a willingness to challenge the status quo.  People are the agents of innovation. Managers of an organization are responsible for diagnosing challenges, analyzing applications, formulating strategies, building innovative teams, leveraging innovation for competitive advantages and sustained success. It is therefore essential for managers to develop necessary leadership skills that will enable them to successfully manage innovation. These skills are manifested through a firm understanding of the dynamics of innovation process.  Leading Innovation is an essential course for managers to develop the skills, knowledge, and strategic perspective required to foster innovation within their organizations, ensuring sustainable growth, competitiveness, and relevance in a rapidly changing business landscape.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -833,6 +923,9 @@
       "course_code": "70440",
       "course_title": "Corporate Strategy",
       "units": "9",
+      "description": "This course is designed to provide the student with a general management perspective and an understanding of the total business enterprise. It builds upon previous course work in functional areas and provides insights and analytical tools which a general manager should have in order to plan and implement successful business strategy. The student will analyze complex business problems and formulate realistic strategic solutions. Emphasis is placed on the practical application of business theory by the student in their business career.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -856,6 +949,9 @@
       "course_code": "70443",
       "course_title": "Digital Marketing and Social Media Strategy",
       "units": "9",
+      "description": "This course explores issues related to digital and social media marketing. This is a hands-on class where students utilize real world data. Specifically, we study the following topics: (a) Search Engine and Sponsored Search Optimization: how search engines, keyword auctions, retargeting, mobile marketing, social network marketing and search engine marketing work, and how to optimize pay per click advertisement efforts. (b) Econo-Mining: how firms are getting or can get useful information from user generated content using text mining and opinion mining capabilities to drive their product development, placement, and advertisement decisions. (c) Social Media/Viral Marketing: how to design a social media marketing campaign; the key ingredients that make such campaigns successful; how to run a campaign for a viral product; measuring the success of a social media campaign (d) Wisdom of the Crowds: how to design crowdsourcing contests; what and how to crowdsource; prediction markets and how to design them for success and the kinds of questions are best suited for prediction markets. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -879,6 +975,9 @@
       "course_code": "70452",
       "course_title": "Introduction to Product Management",
       "units": "9",
+      "description": "This course introduces the role and responsibilities of the Product Manager in a technology-intensive product or services company. The over-arching goal of the course is to give you the knowledge and tools you need to make good product decisions so that your team can ship the right product, to the right customers, through the right channels, at the right price. To that end, you will learn to apply tools and techniques for building and managing a product roadmap, prioritizing development requests, evaluating tradeoffs, and modeling the financial implications of different business models, operating models, pricing, and packaging options. Along the way, we will look at many of the core activities and tasks that an effective Product Manager needs to master, including:Understanding value propositions and customer priorities, Identifying and selecting customer and market segments, Packaging and bundling capabilities and benefits into a cohesive set of offerings, Selecting pricing models and setting specific prices, Estimating the likely benefits and costs of proposed product enhancements, Modeling and evaluating the financial implications of product choices, Managing the full product life cycle, from conception to sunsetting. This course may use third-party course material that is not available for individual purchase from the publisher. If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided. The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -902,6 +1001,9 @@
       "course_code": "70455",
       "course_title": "Data Management Fundamentals",
       "units": "9",
+      "description": "Data drives modern business. Transactional data systems keep the world's economy operating smoothly by tracking and processing the movement of bits, money, atoms, and attention across the planet. Analytic systems help managers understand and optimize their businesses. Robotic systems (both physical machines and software bots) are automating a tremendous amount of the work that has historically been done by people. In this course you will learn to use a set of data management tools to capture, manage, analyze, and understand data so to help your organization do business better, faster, and cheaper. This course was previously titled Modern Data Management. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+      "prereqs": "15110 or 70110 or 15112 or 15104",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -925,6 +1027,9 @@
       "course_code": "70469",
       "course_title": "End to End Business Analytics",
       "units": "9",
+      "description": "Deriving value from business data is an integrative process. It requires putting together the virtuous pipeline of using the data to derive descriptive and diagnostic inferences, building explainable predictive models and incorporating them in prescriptive decision making. This course charts this process end-to-end by describing and integrating common tools for modeling uncertainty, machine learning, and optimization in the context of common applications from finance, marketing and operations. The coursework is based on data-driven cases that will have students analyzing data from real business applications to derive their own insights, predictions and decisions and communicating them effectively. The course will prepare students for careers in consulting and any form of business data analysis in any functional area. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+      "prereqs": "(70207 or 36200 or 36220 or 36225) and (70257 or 21257 or 21292)",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -948,6 +1053,9 @@
       "course_code": "70481",
       "course_title": "Marketing Research",
       "units": "9",
+      "description": "The purpose of this course is to teach multiple research techniques used in marketing. This course is an applied marketing course that gives insight into how various techniques are used in marketing research firms. There are three projects and a final. The first project is designed to teach students about research survey methods. The second is an experiment in which the whole class is involved. The third, an individual project, is designed to teach quantitative research techniques. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+      "prereqs": "(36202 or 70208) and (70381)",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -971,6 +1079,9 @@
       "course_code": "70493",
       "course_title": "Valuation and Financial Modeling",
       "units": "9",
+      "description": "This course focuses on valuing companies. Students will learn theoretical valuation frameworks and then apply them practically. The class will cover a range of valuation approaches including discounted cash flow analyses, price multiples, real options and the venture capital method. The class will be very hands-on - we will be building valuation models in excel in-class and in case assignments using real-world data such as company financial statements and stock prices. This is particularly useful for students considering careers in investment banking and private equity. We will focus not just on learning valuation methods but also understanding the assumptions that underlie them. We will ask when such assumptions are trivial and when they can lead to large errors. We will value a variety of companies including Ferrari, WhatsApp and Snap Inc. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+      "prereqs": "70391",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -994,6 +1105,9 @@
       "course_code": "70500",
       "course_title": "Honors Thesis I",
       "units": "3-18",
+      "description": "Business students with outstanding academic records may undertake an Honors Thesis.  The topic is of the student's choice but must have some original aspect in the question being explored, the data set, or in the methods that are used.  It must also be of sufficient academic rigor to meet the approval of a faculty advisor with expertise in the project's area.  Students enroll each semester in a 9-unit independent study course with their faculty advisor for the project (70-500 in the fall and 70-501 in the spring).  Students and their faculty advisor develop a course description for the project and submit it for approval as two 9-unit courses to the BA department.  Enrollment by permission of the BA Program.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1017,6 +1131,9 @@
       "course_code": "70501",
       "course_title": "Honor Thesis II",
       "units": "3-18",
+      "description": "Business students with outstanding academic records may undertake an Honors Thesis.  The topic is of the student's choice but must have some original aspect in the question being explored, the data set, or in the methods that are used.  It must also be of sufficient academic rigor to meet the approval of a faculty advisor with expertise in the project's area.  Students enroll each semester in a 9-unit independent study course with their faculty advisor for the project (70-500 in the fall and 70-501 in the spring).  Students and their faculty advisor develop a course description for the project and submit it for approval as two 9-unit courses to the BA Director.  Enrollment by permission of the BA Program.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1040,6 +1157,9 @@
       "course_code": "70502",
       "course_title": "Independent Study in Management",
       "units": "3-18",
+      "description": "Students with a special interest in Management/Production not covered by a formal Business course may develop an Independent Study Course in that area.  Readings and work to be completed are by agreement between the student and an individual faculty member.  Enrollment by permission of the BA program. This course uses course material that requires students to pay an additional course fee. The course material is secured by the Tepper School because it is otherwise unavailable and directly provided to each student.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1063,6 +1183,9 @@
       "course_code": "70503",
       "course_title": "Independent Study in Marketing",
       "units": "3-18",
+      "description": "Students with a special interest in Marketing not covered by a formal Business course may develop an Independent Study Course in that area.  Readings and work to be completed are by agreement between the student and an individual faculty member.  Enrollment by permission of the BA Program.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1086,6 +1209,9 @@
       "course_code": "70504",
       "course_title": "Independent Study in Organizational Behavior",
       "units": "3-18",
+      "description": "Students with a special interest in Organizational Behavior not covered by a formal Business course may develop an Independent Study Course in that area.  Readings and work to be completed are by agreement between the student and an individual faculty member.  Enrollment by permission of the BA Program.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1109,6 +1235,9 @@
       "course_code": "70505",
       "course_title": "Independent Study in Finance",
       "units": "3-18",
+      "description": "Students with a special interest in Finance not covered by a formal Business course may develop an Independent Study Course in that area.  Readings and work to be completed are by agreement between the student and an individual faculty member.  Enrollment by permission of the BA Program.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1132,6 +1261,9 @@
       "course_code": "70506",
       "course_title": "Independent Study in Business Analytics and Technology",
       "units": "3-18",
+      "description": "Students with a special interest in Business Analytics and Technologies not covered by a formal Business course may develop an Independent Study Course in that area. Readings and work to be completed are by agreement between the student and an individual faculty member.  Enrollment by permission of the BA Program.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1155,6 +1287,9 @@
       "course_code": "70507",
       "course_title": "Independent Study in Business Communications",
       "units": "3-18",
+      "description": "Students with a special interest in Business Communications not covered by a formal Business course may develop an Independent Study Course in that area.  Readings and work to be completed are by agreement between the student and an individual faculty member.  Enrollment by permission of the BA Program.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1178,6 +1313,9 @@
       "course_code": "70508",
       "course_title": "Independent Study in International Management",
       "units": "3-18",
+      "description": "Missing Course Description - please contact the teaching department.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1201,6 +1339,9 @@
       "course_code": "70509",
       "course_title": "Independent Study in Entrepreneurship",
       "units": "3-18",
+      "description": "Students with a special interest in entrepreneurship and innovation not covered by a formal business course may develop an Independent Study Course in that area.  Readings and work to be completed are by agreement between the student and an individual faculty member.  Enrollment by permission of the BA Program.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1224,6 +1365,9 @@
       "course_code": "99101",
       "course_title": "Computing @ Carnegie Mellon",
       "units": "3",
+      "description": "Computing@Carnegie Mellon (C@CM) is a 3-unit, pass/fail mini course that will help you develop foundational computing and information literacy skills, focusing on the tools and technologies that are specific to Carnegie Mellon so you can be successful in your other academic courses. All undergraduate students are required to take the course.  C@CM is offered in a hybrid format through the Open Learning Initiative's (OLI) online course environment; meaning that you'll complete your coursework online and attend a face-to-face recitation session for review and supplemental instruction.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1295,6 +1439,9 @@
       "course_code": "99262",
       "course_title": "ADDvocate: Anti-Discrimination Dialogue for Social Justice",
       "units": "VAR",
+      "description": "The aim of this multidisciplinary course is to establish a firm, education-based understanding of Diversity, Equity, and Inclusion topics in Pittsburgh, Qatar and Worldwide to enhance their classroom and university experience. Through a series of lectures by subject experts, this course aims to educate and raise consciousness of discrimination, racism and bias in the real world. This course will also highlight strategies to become an active bystander and advocate for fair treatment in all our communities.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1318,6 +1465,9 @@
       "course_code": "99410",
       "course_title": "Internship",
       "units": "3-12,18",
+      "description": "This course allows students to engage in experiential learning that integrates knowledge and theories from their academic discipline within a relevant professional context. This should include a meaningful project at the internship site where practical application and skills development occurs relevant to the student's major. The internship can be at an internal (CMU) or external site. Students will need to complete a proposal and supervisor agreement form to be eligible. Students are responsible for finding internships. In addition to the time spent at the internship site, students will be expected to write a short paper explaining the application of knowledge and theories as well as skills developed at the internship site as they relate to professional career goals. The course is not eligible for CPT for international students; please contact the Office for International Education for more information. Enrollment in this Internship course is BY SPECIAL PERMISSION ONLY.  Variable units are decided on a case-by-case basis.  THIS COURSE CANNOT BE TAKEN PASS/NO PASS.  Please contact Dr. Korryn Mozisek, Director of Integrative Learning, Office of the Vice Provost for Education, to discuss your individual internship requirements at: kmozisek@andrew.cmu.edu; Phone: 412-268-3441 or Colleen Mollenauer, cmollena@andrew.cmu.edu; 412-268-3027.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1341,6 +1491,9 @@
       "course_code": "99430",
       "course_title": "General Studies Capstone Course",
       "units": "VAR",
+      "description": "This course is a series of modules with guided activities to enable students to reflect on and synthesize their academic course of study. The activities will include reflective exercises, feedback from faculty, mock interviews, and speakers from CPDC and recent graduates who have followed similar, successful academic paths. Under the guidance of a faculty advisor, a student may undertake a reflective project that synthesizes the student's academic coursework and educational experience at Carnegie Mellon. The project can be written, oral, visual, audio, or other means of artistic expression approved by the faculty advisor. The course will be offered through Canvas and in person. Each semester, the course will be facilitated by an instructor from the General Studies oversight committee in conjunction with the students' academic and project advisors. Additionally, students will regularly meet individually with the course instructor in person or through Zoom.  Registration by special permission.  This course is for students who have declared a general studies major. Students should contact the instructor(s) for permission to enroll.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1362,6 +1515,9 @@
       "course_code": "09105",
       "course_title": "Introduction to Modern Chemistry I",
       "units": "10",
+      "description": "This course first investigates the establishment of some fundamental principles of chemistry and then progresses through the presentation of chemically interesting applications and sophisticated problems.  It explores an understanding of matter and the energy changes associated with it, beginning with the atom.  It then overviews how atoms interact and react to form the more complicated structures of molecules and ionic compounds.  How the structure of elements and compounds affects their properties, function, and reactivity will then be explored.  Finally, the quantification of the changes during the reactivity of substances through bond breaking and forming will be investigated in single and multiple phase reactions, such as acid-base and redox reactions.  Topics will be presented to promote mastery of \"depth over breadth of topics\" and \"conceptual understanding before using applicable equations\".  The course covers the major principles of atomic structure, chemical bonding, , molecular structures of organic and inorganic compounds (including some transition metal complexes), interaction of substances, multiphase reaction stoichiometry, acid-base reactions, and redox reactions.  Relevant examples will be drawn from such areas as environmental, materials, and biological chemistry.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1401,6 +1557,9 @@
       "course_code": "09207",
       "course_title": "Techniques in Quantitative Analysis",
       "units": "9",
+      "description": "09-207 is the first of two chemistry lab courses required for the BS and BA degrees in biological sciences and the intercollege major in biological sciences and psychology. It is also suitable for fulfilling the requirement for two general chemistry labs for admission to programs in the health professions. The experimental work emphasizes the techniques of quantitative chemical analysis. Included are projects dealing with a variety of instrumental and wet chemical techniques. A mixture of individual and partner experiments are conducted during the semester. In addition to laboratory techniques, safety, and written communication skills are emphasized.",
+      "prereqs": "09106 or 09107",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1440,6 +1599,9 @@
       "course_code": "09212",
       "course_title": "Special Topics: Nanotechnology in Context : Nanotechnology in Context",
       "units": "9",
+      "description": "In the ever-evolving landscape of scientific advancement, nanotechnology stands at the forefront of groundbreaking discoveries that impact various sectors, from electronics and biomedicine to environmental sustainability and the economy. \"Nanotechnology in Context\" is an interdisciplinary course designed to explore the multifaceted world of nanotechnology and its dynamic role in our lives. By examining the synthesis and application of nanomaterials, students will gain a comprehensive understanding of science, its implications, and the broader contexts in which it operates. Through a combination of lectures, discussions, and case studies, students will gain a comprehensive perspective on nanotechnology and its applications.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1463,6 +1625,9 @@
       "course_code": "09217",
       "course_title": "Organic Chemistry I",
       "units": "9",
+      "description": "This course presents an overview of structure and bonding as it pertains to organic molecules. Selected topics include: introduction to functional group chemistry, stereochemistry, conformational analysis, reaction mechanisms and use of retrosynthetic analysis in the development of multistep syntheses. Methods for structure determination of organic compounds by modern spectroscopic techniques are introduced. 3 hrs. lec., 1 hr. rec.",
+      "prereqs": "09105 or 09107",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1486,6 +1651,9 @@
       "course_code": "09445",
       "course_title": "Undergraduate Research",
       "units": "3-18",
+      "description": "Properly qualified students may undertake research projects under the direction of members of the faculty, normally 6 to 12 hrs/week. A written, detailed report describing the project and results is required. Course may be taken only with the consent of a faculty research advisor in chemistry or on occasion in another department provided that the project is chemical in nature and with permission of the Director of Undergraduate Studies. The number of units taken generally corresponds to the actual number of hours the student actually spends in the lab doing research during the week. Maximum number of units taken per semester is 18.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1525,6 +1693,9 @@
       "course_code": "15110",
       "course_title": "Principles of Computing",
       "units": "10",
+      "description": "A course in fundamental computing principles for students with minimal or no  computing background. Programming constructs: sequencing, selection,  iteration, and recursion. Data organization: arrays and lists. Use of  abstraction in computing: data representation, computer organization,  computer networks, functional decomposition, and application programming  interfaces. Use of computational principles in problem-solving: divide and conquer, randomness, and concurrency. Classification of computational problems  based on complexity, non-computable functions, and using heuristics to  find reasonable solutions to complex problems. Social, ethical and legal  issues associated with the development of new computational artifacts will  also be discussed.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1564,6 +1735,9 @@
       "course_code": "15112",
       "course_title": "Fundamentals of Programming and Computer Science",
       "units": "12",
+      "description": "A technical introduction to the fundamentals of programming with an emphasis  on producing clear, robust, and reasonably efficient code using top-down  design, informal analysis, and effective testing and debugging. Starting  from first principles, we will cover a large subset of the Python  programming language, including its standard libraries and programming  paradigms.  We will also target numerous deployment scenarios, including  standalone programs, shell scripts, and web-based applications.  This course assumes no prior programming experience. Even so, it is a  fast-paced and rigorous preparation for 15-122.  Students seeking a more  gentle introduction to computer science should consider first taking 15-110.    NOTE: students must achieve a C or better in order to use   this course to satisfy the pre-requisite for any subsequent Computer   Science course.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1587,6 +1761,9 @@
       "course_code": "15121",
       "course_title": "Introduction to Data Structures",
       "units": "10",
+      "description": "A continuation of the process of program design and analysis for  students with some prior programming experience (functions, loops, and  arrays, not necessarily in Java). The course reinforces object-oriented  programming techniques in Java and covers data aggregates, data  structures (e.g., linked lists, stacks, queues, trees, and graphs), and  an introduction to the analysis of algorithms that operate on those data  structures.",
+      "prereqs": "15112",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1626,6 +1803,9 @@
       "course_code": "15150",
       "course_title": "Principles of Functional Programming",
       "units": "12",
+      "description": "An introduction to programming based on a \"functional\" model of computation.  The functional model is a natural generalization of algebra in which programs are formulas that describe the output of a computation in terms of its inputs---that is, as a function.  But instead of being confined to real- or complex-valued functions, the functional model extends the algebraic view to a very rich class of data types, including not only aggregates built up from other types, but also functions themselves as values.  This course is an introduction to programming that is focused on the central concepts of function and type.  One major theme is the interplay between inductive types, which are built up incrementally; recursive functions, which compute over inductive types by decomposition; and proof by structural induction, which is used to prove the correctness and time complexity of a recursive function.  Another major theme is the role of types in structuring large programs into separate modules, and the integration of imperative programming through the introduction of data types whose values may be altered during computation.    NOTE: students must achieve a C or better in order to use   this course to satisfy the pre-requisite for any subsequent Computer   Science course.",
+      "prereqs": "(15151 or 21127 or 21128) and (15112)",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1665,6 +1845,9 @@
       "course_code": "15213",
       "course_title": "Introduction to Computer Systems",
       "units": "12",
+      "description": "This course provides a programmer's view of how computer systems execute programs, store information, and communicate. It enables students to become more effective programmers, especially in dealing with issues of performance, portability and robustness. It also serves as a foundation for courses on compilers, networks, operating systems, and computer architecture, where a deeper understanding of systems-level issues is required. Topics covered include: machine-level code and its generation by optimizing compilers, performance evaluation and optimization, computer arithmetic, memory organization and management, networking technology and protocols, and supporting concurrent computation. NOTE FOR GRADUATE STUDENTS: This course is not open to graduate students beginning Spring 2015. Graduate students must register for 15-513 instead.",
+      "prereqs": "15122",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1704,6 +1887,9 @@
       "course_code": "15281",
       "course_title": "Artificial Intelligence: Representation and Problem Solving",
       "units": "12",
+      "description": "This course is about the theory and practice of Artificial Intelligence. We will study modern techniques for computers to represent task-relevant information and make intelligent (i.e. satisficing or optimal) decisions towards the achievement of goals. The search and problem solving methods are applicable throughout a large range of industrial, civil, medical, financial, robotic, and information systems.  We will investigate questions about AI systems such as: how to represent knowledge, how to effectively generate appropriate sequences of actions and how to search among alternatives to find optimal or near-optimal solutions.  We will also explore how to deal with uncertainty in the world, how to learn from experience, and how to learn decision rules from data.  We expect that by the end of the course students will have a thorough understanding of the algorithmic foundations of AI, how probability and AI are closely interrelated, and how automated agents learn.  We also expect students to acquire a strong appreciation of the big-picture aspects of developing fully autonomous intelligent agents.  Other lectures will introduce additional aspects of AI, including natural language processing, web-based search engines, industrial applications, autonomous robotics, and economic/game-theoretic decision making.",
+      "prereqs": "(15122) and (21240 or 21241 or 18202 or 21254) and (15151 or 21127 or 21128)",
+      "coreqs": "21122",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1743,6 +1929,9 @@
       "course_code": "15282",
       "course_title": "Artificial Intelligence for Medicine",
       "units": "9",
+      "description": "This course introduces Artificial Intelligence (AI) and its recent applications in medicine for students with only a little background in computer science. It starts by motivating and defining AI, before folding over to a survey of some of its newest applications to medicine, including diagnosis, prognosis, drug discovery, and recommendations of individualized treatments, to mention just a few. Afterwards, it provides a birds-eye view of some of the major AI techniques, including machine learning, deep neural networks, recommendation systems, ranked retrieval, and probabilistic graphical models. Finally, it concludes with a discussion on some of the concerns related to AI, including ethical issues, job security, society, and healthcare institutions, among others.  The course comprises a balance of lectures, case studies, live demonstrations of some medical AI applications, problem-solving & programming assignments, and research tasks. The students will be exposed to industry- and research-based perspectives on AI for medicine. In addition, they will learn through a course project the nuances of working with medical data and applying AI models to solve concrete problems in healthcare.",
+      "prereqs": "15112",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1780,6 +1969,9 @@
       "course_code": "15317",
       "course_title": "Constructive Logic",
       "units": "9",
+      "description": "This multidisciplinary junior-level course is designed to provide a thorough introduction to modern constructive logic, its roots in philosophy, its numerous applications in computer science, and its mathematical properties. Some of the topics to be covered are intuitionistic logic, inductive definitions, functional programming, type theory, realizability, connections between classical and constructive logic, decidable classes.",
+      "prereqs": "15150",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1819,6 +2011,9 @@
       "course_code": "15440",
       "course_title": "Distributed Systems",
       "units": "12",
+      "description": "The goals of this course are twofold: First, for students to gain an understanding of the principles and techniques behind the design of distributed systems, such as locking, concurrency, scheduling, and communication across the network. Second, for students to gain practical experience designing, implementing, and debugging real distributed systems.  The major themes this course will teach include scarcity, scheduling, concurrency and concurrent programming, naming, abstraction and modularity, imperfect communication and other types of failure, protection from accidental and malicious harm, optimism, and the use of instrumentation and monitoring and debugging tools in problem solving. As the creation and management of software systems is a fundamental goal of any undergraduate systems course, students will design, implement, and debug large programming projects.   As a consequence, competency in both the C and Java programming languages is required.",
+      "prereqs": "15213",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1858,6 +2053,9 @@
       "course_code": "15451",
       "course_title": "Algorithm Design and Analysis",
       "units": "12",
+      "description": "This course is about the design and analysis of algorithms. We study specific algorithms for a variety of problems, as well as general design and analysis techniques. Specific topics include searching, sorting, algorithms for graph problems, efficient data structures, lower bounds and NP-completeness. A variety of other topics may be covered at the discretion of the instructor. These include parallel algorithms, randomized algorithms, geometric algorithms, low level techniques for efficient programming, cryptography, and cryptographic protocols.",
+      "prereqs": "(15210) and (21241) and (15251 or 21228)",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1897,6 +2095,9 @@
       "course_code": "15455",
       "course_title": "Undergraduate Complexity Theory",
       "units": "9",
+      "description": "Complexity theory is the study of how much of a resource (such as time, space, parallelism, or randomness) is required to perform some of the computations that interest us the most. In a standard algorithms course, one concentrates on giving resource efficient methods to solve interesting problems. In this course, we concentrate on techniques that prove or suggest that there are no efficient methods to solve many important problems.  We will develop the theory of various complexity classes, such as P, NP, co-NP, PH, #P, PSPACE, NC, AC, L, NL, UP, RP, BPP, IP, and PCP. We will study techniques to classify problems according to our available taxonomy. By developing a subtle pattern of reductions between classes we will suggest an (as yet unproven!) picture of how by using limited amounts of various resources, we limit our computational power.",
+      "prereqs": "15251",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1920,6 +2121,9 @@
       "course_code": "15591",
       "course_title": "Independent Study in Computer Science",
       "units": "3-18",
+      "description": "The School of Computer Science offers Independent Study courses, which allow motivated students to work on projects under the supervision of a faculty advisor while receiving academic credit. Independent studies are usually one semester in duration and require prior approval from the faculty member and the School of Computer Science.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1944,6 +2148,9 @@
       "course_code": "51205",
       "course_title": "Social Media, Curation, and Personal Voice",
       "units": "3",
+      "description": "No course description provided.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1967,6 +2174,9 @@
       "course_code": "51207",
       "course_title": "Creative Thinking with AI",
       "units": "3",
+      "description": "Qatar Fall Micro Course",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -1990,6 +2200,9 @@
       "course_code": "73102",
       "course_title": "Principles of Microeconomics",
       "units": "9",
+      "description": "The course is an introduction to microeconomic principles and how to think like an economist. Market and policy outcomes are largely a function of individual decisions. These questions typically take the form: how much and what combination of things should I buy? When do we want businesses to go bust? Should the government fund student tuition?  It's my hope that you'll also start to think about everyday questions from an economic lens: why were bicycles so hard to find this past summer? Is Uber surge pricing just a rip-off? Is illegal streaming bad for consumers?  Throughout the semester, we will build a toolkit to allow us to understand how these decisions interact and explain market successes, market failures, and the role of government in the marketplace. Toward the end of the semester, we'll change a few underlying assumptions and address a variety of questions related to strategic interaction. Some of the topics we will begin to introduce include credible threats, commitment problems, and the strategic use of information.  Not open to students who have received credit for 73-100. While there are no calculus pre-requisites for this course, students are encouraged to enroll in 73-102 after they've passed 21-111.  (Lecture, 2 hours; Recitation, 1 hour).",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2013,6 +2226,9 @@
       "course_code": "73103",
       "course_title": "Principles of Macroeconomics",
       "units": "9",
+      "description": "A one-semester course that teaches the fundamentals of macroeconomics. Students will learn how macroeconomic analysis can explain national economic activity and how government intervention might stabilize an economy.  Topics include: defining and measuring national wealth, economic growth, credit markets, unemployment, interest rates, inflation, and the monetary system. Additional emphasis will be paid to:  long-term economic development, political economy, financial crises and topics that are central to contemporary macroeconomic debates such as the impact of technological change, migration, and trade on the macroeconomy. Students will access macroeconomic databases, and then use basic statistics to describe and isolate empirical patterns in macro-data. Not open to students who have received credit for 73-100. (Lecture, 2 hours; Recitation, 1 hour).",
+      "prereqs": "73102 or 73104",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2036,6 +2252,9 @@
       "course_code": "73230",
       "course_title": "Intermediate Microeconomics",
       "units": "9",
+      "description": "This course builds on the Principles of Economics course. It focuses on the following topics: theory of the consumer, theory of the producer, perfectly competitive market equilibrium, imperfect competition, and market failures due to asymmetric information such as adverse selection and moral hazard.  (Lecture, 3 hours; Recitation, 1 hour).",
+      "prereqs": "(21256 or 21259 or 21269 or 21268 or 21254) and (73100 or 73102 or 73104)",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2059,6 +2278,9 @@
       "course_code": "73265",
       "course_title": "Economics and Data Science",
       "units": "9",
+      "description": "This course is at the intersection of economic analysis, computing and statistics. It develops foundational skills in these areas and provides students with hands-on experience in identifying, analyzing and solving real-world data challenges in economics and business. Students will learn the basics of database and data manipulation, how to visualize, present and interpret data related to economic and business activity by employing statistics and statistical analysis, machine learning, visualization techniques. Students will also be taught a programming language suitable for data science/analysis. Databases will include leading economic indicators; emerging market country indicators; bond and equity returns; exchange rates; stock options; education and income by zip code; sales data; innovation diffusion; experimental and survey data and many others. Applications will include analyzing the effectiveness of different Internet pricing strategies on firm sales, the impact of taking online classes on a worker's earnings, the relationship between regional employment and trade policies; constructing investment risk indices for emerging markets; predicting employee productivity with machine learning tools; assessing health (sleep and exercise) improvements associated with wearable technologies (e.g. FitBit). Additionally, the course will provide students with communication skills to effectively describe their findings for technical and non-technical audiences. Minimum grade of \"C\" required in all economics pre-requisite courses.",
+      "prereqs": "(70207 or 15259 or 21325 or 36200 or 36201 or 36202 or 36207 or 36217 or 36218 or 36219 or 36220 or 36225 or 36247) and (73102 or 73104)",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2082,6 +2304,9 @@
       "course_code": "73336",
       "course_title": "International Energy Market and Sustainable Development",
       "units": "3",
+      "description": "This course teaches you about economics of the energy industry by looking at various energy markets. The global energy industry is now more than ever is pressured to be transformed by geopolitical tensions, concerns about climate change, and the mounting pressure for decarbonization. In this course we will discuss how economic decisions in the energy sector can align with principles of sustainability, ensuring that the industry's growth and practices do not compromise the well-being of future generations or harm the planet.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2105,6 +2330,9 @@
       "course_code": "73369",
       "course_title": "Islamic Economics",
       "units": "9",
+      "description": "This course is designed to introduce students to the basics of Islamic Finance.  The course will start with an analysis of the Shariah rules that define Islamic Finance.  Students will then look at the main investment structures and map these against the traditional conventional banking products.  The course wraps up with a critique of complex project finance structures through a Shariah compliance lens to identify the gaps between theory and practice.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2128,6 +2356,9 @@
       "course_code": "76100",
       "course_title": "Reading and Writing in an Academic Context",
       "units": "9",
+      "description": "76-100 is an academic reading and writing course for multilingual students, especially those who are not native speakers of English or who consider English to be their weaker language.  The course emphasizes reading comprehension strategies for reading a variety of text types in English (e.g., journalism, textbook selections, popular press arguments, and academic journal articles). Throughout the semester, students use these sources to write summaries and short position papers. The course introduces students to readers' expectations for North American rhetorical style at the sentence, paragraph, and whole text or genre levels.  Within the course we discuss explicit genre and linguistic norms for writing in academic English so that writers can connect with their readers.  Students who take this course qualify through an online placement test that is administered through the university prior to the fall semester. (All sections are offered MWF).  Each 76-100 course is structured by the reading and writing objectives of the course as well as a vocabulary for writing in English, but some courses present different themes (or content) in their readings.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2227,6 +2458,9 @@
       "course_code": "76101",
       "course_title": "Interpretation and Argument",
       "units": "9",
+      "description": "Interpretation and Argument is a foundational, inquiry-driven writing course that introduces students to a variety of strategies for making compositional decisions in writing and communication. Within the course, students learn genre-based skills applicable to a variety of different fields. Students use a comparative genre analysis method to learn how to use models to take on new writing tasks, including an academic research proposal and a research article that contributes to an ongoing academic conversation. Faculty who teach 76-101 typically select texts, ranging from scholarly texts, journalism, and film, about an issue so that students can identify interesting questions for their own research projects. Students should expect explicit, research-based instruction, practice, and reflection to build knowledge in controlling their writing processes and writing clear, well-supported, reader-oriented arguments. Because the course emphasizes the real stakes of communicating with readers and listeners, students share with their peers both low and high stakes written work within an interactive and collaborative classroom environment. Due to the limits of our schedule, we are unable to meet each student's individual preferences for course topics, but we do offer a wide variety from which to choose. Section descriptions are posted at the course URL below.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2250,6 +2484,9 @@
       "course_code": "76270",
       "course_title": "Writing for the Professions",
       "units": "9",
+      "description": "Writing in the Professions is a writing course specifically designed for mainly sophomores and juniors (although it is relevant for some freshmen and seniors) in all majors other than English. The course is appropriate for upper-level students in all CMU colleges and assumes that you may not have had much college-level writing instruction past your first year. The basic idea of the course is to give you experience in developing the writing skills you will be expected to have as you make the transition from student to professional. The course will cover some foundational principles of designing multimodal writing and communication within a variety of tasks including resume and cover letter writing, proposal writing and writing instructions. Students will discern the difference between writing for general and specific audiences, and analysis of visual aids in various texts. The course requires that students work both independently and in groups.",
+      "prereqs": "(76101) or (76102) or (76106 and 76107) or (76106 and 76108) or (76107 and 76108)",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2289,6 +2526,9 @@
       "course_code": "76385",
       "course_title": "Introduction to Discourse Analysis",
       "units": "9",
+      "description": "\"Discourse\" is language: people talking or signing or writing. Discourse analysts ask and answer a variety of questions about how and why people do the things they do with language. We study the structure of written texts  the semi-conscious rules people use to organize paragraphs, for example  as well as the unconscious rules that organize oral discourse such as spontaneous stories and arguments. We study how people signal their intended audience-interpretations of what they say as foreground or background information, a casual remark or solemn promise, more of the same or change of topic. We look at how grammar is influenced by what people need to do with language, and how discourse affects grammar over time. We ask how children and other language learners learn how to make things happen with talk and writing. We ask how people learn what language is for, from exchanging information to writing poetry to perpetuating systems of belief. We analyze the choices speakers and writers make that show how they see themselves and how they relate to others. (Choices about how to address other people, for example, both create and reflect relationships of power and solidarity). We study how people define social processes like disease, aging, and disability as they talk about them, and how language is used to mirror and establish social relations in institutional settings like law courts and schools as well as in families and among friends. This course touches on a selection of these topics and gives students practice in analyzing the complex nuances of language. The course is meant for anyone whose future work is likely to involve critical and/or productive work with language: writers and other communication designers, critics who work with written or spoken texts, historians, actors, sociologists, and so on.",
+      "prereqs": "(76101) or (76102) or (76106 and 76107) or (76107 and 76108) or (76106 and 76108)",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2312,6 +2552,9 @@
       "course_code": "94410",
       "course_title": "Telling Stories with Data",
       "units": "3",
+      "description": "Data are everywhere. For policy makers, the ability to tell the right story using data can make the difference between a successful initiative and one that fails. Part art, part science, visualizing data is a process that is both well established in existing disciplines and experimental and rapidly changing in others. In this course we\u00bfll explore both ends of the spectrum as we deconstruct and reconstruct data visualizations behind some of the world\u00bfs most powerful brands, dig into our own data in compelling ways to help our readers understand complex issues, and finally experiment with new ways to represent data about our work, our community, and even ourselves. This course will provide hands-on training and experimentation with a number of tools, and students will have some flexibility to concentrate on mediums that best match their desired outcomes for a final project deliverable (print, digital, interactive or immersive). By the end of this course, students will have an introduction to a number of different tools and techniques that will allow them to immediately start applying what they\u00bfve learned to both other coursework as well as on-the-job needs.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2335,6 +2578,9 @@
       "course_code": "79104",
       "course_title": "Global Histories",
       "units": "9",
+      "description": "Human activity transcends political, geographical, and cultural boundaries. From wars to social movements, technological innovations to environmental changes, our world has long been an interconnected one. Acquiring the ability to understand such transnational and even worldwide processes is an indispensable part of any college education. This course provides students with an opportunity to develop the skills and perspectives needed to understand the contemporary world through investigating its global history. All sections are comparable in their composition of lectures and recitations, required amounts of reading, and emphasis on written assignments as the central medium of assessment. The sections all aim to help students: (1) master knowledge through interaction with the instructors, reading material, and other students, (2) think critically about the context and purpose of any given information, (3) craft effective verbal and written arguments by combining evidence, logic, and creativity, and (4) appreciate the relevance of the past in the present and future.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2358,6 +2604,9 @@
       "course_code": "79284",
       "course_title": "Muslim Representation in the Media and Popular Culture",
       "units": "9",
+      "description": "This interdisciplinary course explores portrayals of Muslims across various media forms, including traditional oral and print media and contemporary outlets like music, television, news, art, and the Internet. This course examines the current creative endeavors of Muslim writers, actors, musicians, and comedians. In this course, we will pair films, television shows, music, and comics with scholarship on Islam and religion in the media, analyzing Muslim representation and storytelling in contemporary popular culture. A critical lens is applied to assess how gender and racial structures influence Muslim portrayal, exploring both the perpetuation and the challenge to the perception of Muslims as religious and political outsiders. This course encourages students to critically engage with modern media portrayals of Muslims, using examples such as the TV shows \"Ramy\" and \"Man Like Mobeen\" that attempt to counter anti-Muslim tropes. Through the use of survey data, quotes, and speeches like Riz Ahmed's address to the U.K. House of Commons, this course explores the significance of media representation and its impact on the lived experiences of marginalized groups. Through collaborative and individual learning activities, students will integrate diverse information sources, reflecting on the detrimental impact of stereotypes versus the empowering effect of accurate representation. The course aims to foster an understanding of the evolving media landscape and the importance of inclusive narratives that challenge the homogenization of Muslim identities.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2381,6 +2630,9 @@
       "course_code": "79367",
       "course_title": "Disastrous Encounters",
       "units": "9",
+      "description": "This course is ONLY offered at Carnegie Mellon in Qatar.  Disastrous Encounters explores the complex interaction between human beings and their environment by examining incidents in which those disasters have proven destructive or fatal to humankind. By the end of the class students will be able to:  Explain the scientific principles behind \"natural\" disasters, including cyclonic weather, global climate change, volcanoes, earthquakes, tsunamis, river flooding, famines, and diseases.  Analyze to what extent a given disaster is in fact \"natural\" at all, but rather was either caused by or exacerbated by human actions.    Draw connections between different types of disasters, recognizing that major disasters often produce predictable secondary disaster effects.  Read documents critically, especially in terms of the author's agenda and the author's likely biases.  Write strong analytical essays.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2404,6 +2656,9 @@
       "course_code": "79378",
       "course_title": "Gender in South Asia",
       "units": "9",
+      "description": "This course introduces students to women's position and gender relations in South Asia from a historical perspective.  Using gender as a lens of examining the past, we will examine how politics of race, class, caste and religion affected and continue to impact women in South Asian countries, primarily in India, Pakistan, Bangladesh and Sri Lanka. Attention is drawn to the processes by which gender is socially constructed, the prevalent forms of gender disparity and discrimination, as well as the factors of change to which these are subject. These themes are situated in the broader context of the region's history, society, and culture. We will reflect upon current debates within South Asian women's history in order to examine some of the issues and problems that arise in re-writing the past from a gendered perspective. The chronological focus of this course is on the condition of women in the subcontinent from the ancient times till the present day. Students are encouraged to make comparisons between women's position and gender relations in South Asia with the corresponding situations in their societies. Analysis and appreciation of the cross-cultural aspects of women's position and gender disparity constitute integral elements of the envisaged learning outcomes of this course. It would be of general interest to all students concerned about women's position and gender issues, as well those interested in South Asia. To help us evaluate the different historical and temporal experiences of South Asian women, this course will extensively use primary documents, secondary readings, films, and contemporary newspaper and Internet articles. Students will be required to actively engage and participate in class discussions and group debates, which will form a substantial part of individual evaluations.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2427,6 +2682,9 @@
       "course_code": "79491",
       "course_title": "Independent Study",
       "units": "3-18",
+      "description": "An Independent Study is meant for students with a special interest in an area not covered by a formal history course.  Readings and other work are negotiated between the student and an individual faculty member.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2466,6 +2724,9 @@
       "course_code": "66501",
       "course_title": "Dietrich College Senior Honors Thesis I",
       "units": "9",
+      "description": "This is the first semester of a two-semester sequence that culminates in an original, year-long independent research or creative project.  The course is open only to students who have been approved for entry into the Dietrich College Senior Honors Program. Thesis topics are selected by faculty and students, and reviewed and approved through the senior honors program application process. Dietrich College senior honors students are also required to participate in the annual Meeting of the Minds Undergraduate Research Symposium, offering either an oral presentation or poster session based on their senior honors thesis",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2533,6 +2794,9 @@
       "course_code": "67100",
       "course_title": "Information Systems First Year Colloquium",
       "units": "1",
+      "description": "This IS Colloquium will provide a broad introduction to the Information Systems Program, an exciting program newly joint between Carnegie Mellon's Dietrich College and Heinz College. The IS Colloquium is open only to first-year IS students and is led by an IS academic advisor who facilitates discussions on the field of IS, the program curriculum, and careers, in addition to co-curricular experiences such as internships and study abroad. Because the flexible nature of the IS program encourages students to explore their own interests, we place an emphasis on highlighting a variety of areas within the field of IS. Guest lecturers will include leaders in IS research including Dietrich and Heinz faculty and IS alumni. Additional speakers include the IS career consultant and various campus representatives. Discussions will include students' progress in their first semester, as well as guidance in course planning, creating student Spring semester class schedules, and their overall four-year plan.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2556,6 +2820,9 @@
       "course_code": "67135",
       "course_title": "Discover, organize, and synthesize: Building your research toolkit beyond Google",
       "units": "3",
+      "description": "The world of academic research literature is growing exponentially across all disciplines, leaving researchers and decision-makers with a conundrum: how do we effectively identify research gaps and how do we make sense of what we already know, given the millions of research articles published every year? This micro course will equip students with techniques and tools for a systematic approach to finding, assessing and making sense of research knowledge, applying principles from well-established synthesis methods. Students will explore the scholarly research in interdisciplinary topics and topics in their own subject areas. Students will gain skills they can apply to any research course, and will be able to use these techniques in their future careers as practitioners for making sound, evidence- and research-based decisions.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2579,6 +2846,9 @@
       "course_code": "67220",
       "course_title": "Digital Accessibility - Ensuring Universal Access to the Information Society",
       "units": "9",
+      "description": "Digital accessibility addresses a user's ability to easily access an electronic document, a website, or a computer application unhindered by visual, auditory, motor or cognitive impairments or temporal disabilities arising from age, illness etc. Students who takes this course will gain a deep understanding of the diverse problems faced by people with disabilities in their interactions in a digital space and how the use of assistive technologies help them surmount the related accessibility barriers (CT1 and CT3). They will learn about inclusive design principles and how to author content with consideration of design decisions that impact digital accessibility. Besides gaining an understanding of user-centered design principles, the students will learn how to apply Web Content Accessibility Guidelines (WCAG) to design and develop a website (CT2). To cap it, students will learn how to test, evaluate and report conformance of a website with usability principles and accessibility standards. (CT3)",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2602,6 +2872,9 @@
       "course_code": "67262",
       "course_title": "Database Design and Development",
       "units": "9",
+      "description": "Data driven decision making is a core process of organizations. In this class students will study the principles of database management systems, their design, and development. Recent alternatives to the classical relational model will also be examined.",
+      "prereqs": "15122 or 15112 or 15121",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2657,6 +2930,9 @@
       "course_code": "67301",
       "course_title": "Networks and Telecommunications",
       "units": "9",
+      "description": "This course will introduce students to the basics of computer networking with an emphasis on IEEE 802.XX standards (primarily 802.3 and 802.11) and popular RFCs. The course will also cover popular distance vector, path vector, and link-state routing protocols, primarily RIP, OSPF, and BGP. Students will be introduced to the concepts and terminology of networks, including layered network models, and to practical issues involved in designing, managing, and using networks and network applications. Learning will take place through assigned readings, exercises, labs, class participation, and homework assignments.  Grades will be based on examinations, labs, homework assignments, and contributions to classroom discussions. For Information Systems Juniors and Seniors.",
+      "prereqs": "67272",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2680,6 +2956,9 @@
       "course_code": "67323",
       "course_title": "Enterprise Systems: Concepts and Practice",
       "units": "9",
+      "description": "Most organizations including your future employers use enterprise systems to run their business processes such as sales, procurement, and production. This course discusses key business processes in organizations and the role, functions and technical foundations of enterprise systems such as Enterprise Resource Planning (ERP) systems and Customer Relationship Management (CRM) systems. Through hands-on use of enterprise systems in multiple case studies, the students will become familiar with the key concepts in such systems and demonstrate practical knowledge on how such systems allow organizations to run end-to-end business processes such as order-to-cash or make-to-order. The course also addresses the lifecycle of enterprise systems' projects and their various phases such as selection, implementation, operation and maintenance.",
+      "prereqs": "67272",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2703,6 +2982,9 @@
       "course_code": "67354",
       "course_title": "Sustainability in the Digital Age",
       "units": "9",
+      "description": "Environmental, economic, and societal challenges are affecting the sustainability of many communities around the globe. Given its multidisciplinary foundation, IS presents an important potential for enabling adaptation and mitigation to these challenges. IS innovation could also play a prominent role in transforming unsustainable problem spaces into sustainable and resilient systems. What is needed is sustainability minded IS professionals to lead such transformation. This course introduces students (future IS leaders) to the fundamentals of sustainability in the 21st century. It includes topics on Green IS, Smart Cities, and the Information Economy. The course invites students to proactively reflect on sustainability issues and their effects on policy and leadership. In such reflection, students are encouraged to consider various case-based scenarios where they evaluate challenges to sustainability and developed innovative, strategic, practical, and rigorously supported IS based solutions.",
+      "prereqs": "67250",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2726,6 +3008,9 @@
       "course_code": "67364",
       "course_title": "Practical Data Science",
       "units": "9",
+      "description": "From empirical, to theoretical, to computational science, we are at the dawn of a new revolution---a fourth paradigm of science driven by data.  Like archaeological remnants, data, by its very nature, is a marker of what happened in the past. How can data be used to better understand this past and what is happening in the present?  How can data be leveraged to forecast what will happen in the future? Better still, how can data be used to mold what should happen in the future? In this course we will study descriptive, predictive, and prescriptive methods by which data can be used to gain insight and inform actions of people and organizations.  The real excitement of data science is in the doing.  This is an application oriented course requiring skill in algorithmic problem solving. We will use Python based data science tools.  While prior programming experience with Python will be helpful the course will strive to be self-contained.  If you have not programmed in Python before, you need to be comfortable programming in some language (e.g., Ruby, R, Java, C++) and will need to come up to speed with the Pythonic way of problem solving.",
+      "prereqs": "(36200 or 36201) and (15112)",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2749,6 +3034,9 @@
       "course_code": "67382",
       "course_title": "Digital Transformation, Strategy and Management",
       "units": "9",
+      "description": "Our world is being transformed with a digital revolution spanning across all aspects of society, culture, and organizations. This transformation has provided many with the opportunity to innovate and prosper, while others have struggled to keep up and have eventually perished. What does it take to be successful in the digital revolution? How can we harness the potential of Information Systems to compete and prosper as organizations and communities? The aim of this course is to prepare students to be effective digital transformation strategists. Given the global aspects of the digital revolution, the course adopts a global perspective, where students explore multi-dimensional aspects of IS management, incorporating strategic leadership, cross cultural management and technology adoption and diffusion in different contexts. This course provides an understanding of IS enabled change in the business environment; the alignment between IS strategies and business objectives; and ways in which business could leverage IS to transform and create digital strategies for a sustained competitive advantage. Students will also be exposed to digital eco-systems in various industries and across cultural platforms.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2788,6 +3076,9 @@
       "course_code": "67390",
       "course_title": "Independent Study in Information Systems",
       "units": "1-12",
+      "description": "Independent studies are opportunities to engage in research with an IS faculty member to advance your learning in certain areas of interest. Information Systems students may enroll in independent study for 3, 6, 9, or 12 units of academic credit by obtaining an IS faculty sponsor who will oversee the academic component of the coursework, monitor progress, and assign a final grade. This is available by Special Permission.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2809,6 +3100,9 @@
       "course_code": "67404",
       "course_title": "Blockchain Applications",
       "units": "9",
+      "description": "In this course, we will dig into the blockchain technology. We will learn from the basic, single-purpose blockchain (such as for Bitcoin) to general purpose blockchain (which includes a range of use-cases). The course will cover a broad spectrum of blockchain technology, different consensus algorithms, its various real-world use-cases - with an eye on developing our own blockchain. We will also understand various challenges with this technology, and a case-study that covers implementation in Python. This would be an interactive course and the students are expected to share ideas and their thoughts.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2832,6 +3126,9 @@
       "course_code": "67430",
       "course_title": "AI and Emerging Economies",
       "units": "9",
+      "description": "In this course, we will explore the intersection of artificial intelligence (AI) with emerging economies. Our focus will extend beyond traditional AI research and development to address the unique challenges and opportunities faced by countries experiencing rapid economic growth. Through a combination of theoretical discussions, case studies, and practical projects, students will gain insights into how AI can drive positive change in diverse socio-economic contexts.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2855,6 +3152,9 @@
       "course_code": "67490",
       "course_title": "Practicum in Information Systems",
       "units": "6-18",
+      "description": "This course is offered only at Carnegie Mellon's campus in Qatar.  The practicum in information systems allows students interested in applying skills acquired in the field of information systems in the context of a working environment. Students will complete a project and be accountable to a stakeholder that is external to their program of study. They may shadow and observe practices in the field of information systems, and also perform tasks as assigned. A hands-on experience is expected.  By completing this course, students practice desirable skills for employability, such as time management, project management, team work, and professional development.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2876,6 +3176,9 @@
       "course_code": "82101",
       "course_title": "Elementary French I",
       "units": "12",
+      "description": "This course is for students with no prior experience in French. Using a proficiency-oriented approach, students will develop contextually appropriate interpersonal communication skills in both written and spoken French, develop reading and listening skills through the use of various media, understand fundamental grammar, acquire vocabulary, and gain a basic understanding of French and francophone cultures through class activities. Regular homework, quizzes, tests, presentations, and class participation are mandatory (four in-class hours per week). The elementary level is also designed to help students learn to reflect and draw upon strategies used by good language learners in their second language study. A student with prior experience in French must take the placement exam.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2899,6 +3202,9 @@
       "course_code": "82111",
       "course_title": "Elementary Arabic I",
       "units": "12",
+      "description": "This course introduces learners to Modern Standard Arabic (MSA) in its written and spoken forms to achieve communicative competence at the elementary level in all language skills (listening, speaking, reading, and writing). To this end the course follows a proficiency-oriented approach to language teaching. In addition to MSA, the course introduces students to one of the popular spoken dialects in the Arab world such as Egyptian, Levantine, or Moroccan (depending upon the instructor's background/expertise). Students will also study various cultural aspects of the Arab world through written, audio-visual and online-based materials.  Students with prior knowledge of Arabic must take the placement exam.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2922,6 +3228,9 @@
       "course_code": "82141",
       "course_title": "Elementary Spanish I",
       "units": "12",
+      "description": "Elementary Spanish I is for beginning students, emphasizing the development of communicative language and cultural competence. Students will work towards improving their writing, reading, listening and speaking abilities in Spanish, such that they become comfortable working with a variety of topics from Spanish-speaking cultural areas. Students will develop basic interactional and routine public communication patterns, frequently working in groups and pairs, and utilizing technologies that enhance learning opportunities and promote skill development. This course also provides extracurricular opportunities to interact with members of the Spanish-speaking community. Four hours of in-class instruction per week are required. A student with prior experience in Spanish must take the placement exam.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2961,6 +3270,9 @@
       "course_code": "82241",
       "course_title": "Intermediate Spanish I",
       "units": "9",
+      "description": "Intermediate Spanish I is the first part of a two-semester course sequence (82-241, 82-242) designed to familiarize students with the cultures and perspectives of the Spanish-speaking world. Students will develop self-expression across a range of culturally significant topics, improving their speaking, listening, reading, and writing skills while working with longer passages of language in context through reading, writing and listening/viewing (e.g. tv series, movies, short novels, plays) and frequently working in groups and pairs, and utilizing technologies that enhance learning opportunities and promote skill development. The course provides extracurricular opportunities to interact with members of the Spanish-speaking community.",
+      "prereqs": "82142 or 82144",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -2984,6 +3296,9 @@
       "course_code": "82289",
       "course_title": "Tutoring for Community Outreach - CMUQ",
       "units": "9-18",
+      "description": "TBA",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3007,6 +3322,9 @@
       "course_code": "82314",
       "course_title": "Literature of the Arabic-speaking World",
       "units": "9",
+      "description": "This repeatable introductory course explores the Arab world through a thematic  or conceptual focus.   In spring 2018, the theme will be 'Diversity in The Arab Culture'. Coursework will include reading short stories and novels to understand the cultural context that gave rise to specific literary works. Students will also continue to develop their abilities to express their ideas both in speaking and in writing, as well as their listening skills in Modern Standard Arabic. There is no prerequisite for this course but it is expected that your language proficiency in the Arabic language is good. **This is a content course in the Arabic language and not an Arabic language course.**",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3030,6 +3348,9 @@
       "course_code": "82414",
       "course_title": "Arabic for the Professions I",
       "units": "9",
+      "description": "This course is offered only at Carnegie Mellon's campus in Qatar. The aim of this course is to develop the students' linguistic abilities in Modern Standard Arabic (MSA) for professional  purposes through reading articles and documents, writing summaries, reports, memos and e-mails, and giving oral presentations of projects.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3053,6 +3374,9 @@
       "course_code": "38101",
       "course_title": "EUREKA!: Discovery and Its Impact",
       "units": "6",
+      "description": "The MCS first-year seminar \"EUREKA: Discovery and Its Impact\" will equip new students with foundational knowledge, skills and perspectives that will support their development as emerging scientists.  During the seminar, students will be presented with opportunities and experiences designed to help them frame how the MCS curriculum aspires to shape their evolving identities in the areas of scholar, person, professional and citizen, while also engendering a sense of excitement about science and scientific inquiry.  The seminar will offer information and strategies that are employed both by successful students and by successful scientists in optimizing their approach to work and life, with a key focus on areas such as cognitive learning skills, research, teamwork, goal setting, time management, innovation, community engagement, ethics, resources and assessment.  Additionally, the seminar will introduce first-year students to the learning outcomes and requirements associated with the MCS core curriculum, with a particular emphasis on the self-directed ENGAGE courses and the role of the e-portfolio system in documenting and framing student growth and development. Students who are enrolled in FADS are encouraged to enroll in a recitation section taught in the Mellon Institute.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3077,6 +3401,9 @@
       "course_code": "38110",
       "course_title": "ENGAGE in Service",
       "units": "1",
+      "description": "ENGAGE in Service is a 1-unit course (9 hours of work, minimum requirement for a passing grade) designed to promote MCS students' direct engagement with community development and service learning. To fulfill this requirement, students must engage in a minimum of 9 hours of work devoted to a non-profit organization or organizations of their choice, 3 of which must have a direct benefit to the local Pittsburgh community. Students may complete the requirements anytime during their undergraduate years, but must register for the class during the semester that they intend to complete it, no later than their penultimate semester. Coursework includes documentation of service via completion of a form for each eligible activity that includes a time log, a description of the activity, the name and contact information for their supervisor and the supervisor's signature. In addition, during the last semester of the project/course students will prepare a 1-2 page reflective paper on the lessons learned from their immersion in the organization(s) and its (their) work.  No pay or other compensation can be received, and, in special cases, students may petition for a waiver if they have completed another service-learning course at Carnegie Mellon.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3100,6 +3427,9 @@
       "course_code": "38220",
       "course_title": "ENGAGE in the Arts",
       "units": "2",
+      "description": "ENGAGE in the Arts is part of Mellon College of Science's Core Curriculum. In this 2-unit full-semester course, students will broaden their knowledge of the fine arts, extend their global and cultural awareness, and facilitate the further development of their self-identity. Coursework requires that students attend 8 distinct arts events, 2 of which must engage with a culture different from one's personal cultural background. In choosing events, students should be imbued with an attitude of openness to new ideas and a willingness to try something new. The course requires students to share, reflect, and document their participation in a variety of arts events by engaging with classmates and instructors through MyCORE, where they can upload coursework and find postings for events.  Coursework can be completed at any time during students' undergraduate years, but they must register for the class during the semester that they intend to complete it, no later than their penultimate semester.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3123,6 +3453,9 @@
       "course_code": "38330",
       "course_title": "ENGAGE in Wellness: Looking Outward",
       "units": "1",
+      "description": "ENGAGE in Wellness: Looking Outward is a 1-unit mini-course that MCS students will enroll in the fall of the junior year, designed to give students a holistic understanding of their own personal wellness. The course is structured around the concept of a Wellness Wheel, a model for personal wellness that is used to describe the various areas that students should reflect upon when describing, and ultimately improving, their overall wellness. The MCS Wellness Wheel has nine components: intellectual, physical, emotional, spiritual, environmental, institutional or community, financial, social, and occupational health. During this second course, taken in the first mini of the junior year, students will select one of three areas on which to focus: spiritual, environmental and institutional or community health. They will be asked to engage in a recursive, reflective process to assess their own level of wellness, participate in wellness activities on campus or develop short-term goals and longer-term goal in this area, and identify possible resources that promote this aspect of wellness. Students should expect to devote 9-14 hours to the development and articulation of their plan in order to earn a passing grade. These hours are tied to completion of the requested assessments and not to the activities students' elect to pursue in fulfillment of their wellness plan. THIS COURSE IS FOR JUNIORS ONLY.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3146,6 +3479,9 @@
       "course_code": "38430",
       "course_title": "ENGAGE in Wellness: Looking Forward",
       "units": "1",
+      "description": "ENGAGE in Wellness: Looking Forward is a 1-unit mini-course that MCS students will enroll in the fall of the senior year, designed to give students a holistic understanding of their own personal wellness. The course is structured around the concept of a Wellness Wheel, a model for personal wellness that is used to describe the various areas that students should reflect upon when describing, and ultimately improving, their overall wellness. The MCS Wellness Wheel has nine components: intellectual, physical, emotional, spiritual, environmental, institutional or community, financial, social, and occupational health. During this third course, taken in the first mini of the senior year, students will select one of three areas on which to focus: financial, social and occupational health. They will be asked to engage in a recursive, reflective process to assess their own level of wellness, participate in wellness activities on campus or develop short-term goals and longer-term goal in this area, and identify possible resources that promote this aspect of wellness. Students should expect to devote 9-14 hours to the development and articulation of their plan in order to earn a passing grade. These hours are tied to completion of the requested assessments and not to the activities students' elect to pursue in fulfillment of their wellness plan.  THIS COURSE IS FOR SENIORS ONLY.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3169,6 +3505,9 @@
       "course_code": "21108",
       "course_title": "Introduction to Mathematical Concepts",
       "units": "6",
+      "description": "This course is an introduction to the vocabulary necessary for understanding and proving mathematical statements.  The topics in this course include integers, rational numbers, polynomials, divisibility of numbers and polynomials, basic logic, sets, relations, functions, rule of sum, and rule of product.  (Three 50 minute lectures, two 50 minute recitations)",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3192,6 +3531,9 @@
       "course_code": "21111",
       "course_title": "Calculus I",
       "units": "10",
+      "description": "Review of basic algebra, functions, limits, derivatives of algebraic, exponential and logarithmic functions, curve sketching, maximum-minimum problems.  Successful completion of 21-111 and 21-112 entitles a student to enroll in any mathematics course for which 21-120 is a prerequisite. (Three 50 minute lectures, two 50 minute recitations)",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3215,6 +3557,9 @@
       "course_code": "21120",
       "course_title": "Differential and Integral Calculus",
       "units": "10",
+      "description": "Functions, limits, derivatives, logarithmic, exponential, and trigonometric functions, inverse functions; L'Hospital's Rule, curve sketching, Mean Value Theorem, related rates, linear and approximations, maximum-minimum problems, inverse functions, definite and indefinite integrals; integration by substitution and by parts. Applications of integration, as time permits. (Three 50 minute lectures, two 50 minute recitations)",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3238,6 +3583,9 @@
       "course_code": "21124",
       "course_title": "Calculus II for Biologists and Chemists",
       "units": "10",
+      "description": "This is intended as a second calculus course for biology and chemistry majors.  It uses a variety of computational techniques based around the use of MATLAB or a similar system. Topics to be covered include: Integration: techniques and numerical integration. Ordinary differential equations: techniques for solving ODEs and numerical methods. Modeling with ODEs (e.g., infection, population models). Linear algebra: matrices, complex numbers, eigenvalues, eigenvectors. Systems of ordinary differential equations (if time allows: stability of differential systems). Probability: discrete and continuum probability, conditional probability and independence, limit theorems, important distributions, probabilistic models.  (Three 50 minute lectures, two 50 minute recitations)",
+      "prereqs": "21112 or 21120",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3261,6 +3609,9 @@
       "course_code": "21127",
       "course_title": "Concepts of Mathematics",
       "units": "12",
+      "description": "This course introduces the basic concepts, ideas and tools involved in doing mathematics. As such, its main focus is on presenting informal logic, and the methods of mathematical proof. These subjects are closely related to the application of mathematics in many areas, particularly computer science. Topics discussed include a basic introduction to elementary number theory, induction, the algebra of sets, relations, equivalence relations, congruences, partitions, and functions, including injections, surjections, and bijections.  A basic introduction to the real numbers, rational and irrational numbers.  Supremum and infimum of a set.  (Three 50 minute lectures, two 50 minute recitations)",
+      "prereqs": "21120 or 21112 or 15112 or 21108",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3284,6 +3635,9 @@
       "course_code": "21241",
       "course_title": "Matrices and Linear Transformations",
       "units": "11",
+      "description": "A first course in linear algebra intended for scientists, engineers, mathematicians and computer scientists.  Students will be required to write some straightforward proofs.  Topics to be covered: complex numbers, real and complex vectors and matrices, rowspace and columnspace of a matrix, rank and nullity, solving linear systems by row reduction of a matrix, inverse matrices and determinants, change of basis, linear transformations, inner product of vectors, orthonormal bases and the Gram-Schmidt process, eigenvectors and eigenvalues, diagonalization of a matrix, symmetric and orthogonal matrices. 21-127 is strongly recommended. (Three 50 minute lectures, two 50 minute recitations)",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3307,6 +3661,9 @@
       "course_code": "21256",
       "course_title": "Multivariate Analysis",
       "units": "9",
+      "description": "This course is designed for students in Economics or Business Administration.  Matrix algebra: vectors, matrices, systems of equations, dot product, cross product, lines and planes. Optimization: partial derivatives, the chain rule, gradient, unconstrained optimization, constrained optimization (Lagrange multipliers and the Kuhn-Tucker Theorem). Improper integrals. Multiple integration: iterated integrals, probability applications, triple integrals, change of variables. (Three 50 minute lectures, one 50 minute recitation)",
+      "prereqs": "21112 or 21120",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3330,6 +3687,9 @@
       "course_code": "21259",
       "course_title": "Calculus in Three Dimensions",
       "units": "10",
+      "description": "Vectors, lines, planes, quadratic surfaces, polar, cylindrical and spherical coordinates, partial derivatives, directional derivatives, gradient, divergence, curl, chain rule, maximum-minimum problems, multiple integrals, parametric surfaces and curves, line integrals, surface integrals, Green-Gauss theorems. (Three 50 minute lectures, two 50 minute recitations)",
+      "prereqs": "21122",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3353,6 +3713,9 @@
       "course_code": "21295",
       "course_title": "Putnam Seminar",
       "units": "3",
+      "description": "A problem solving seminar designed to prepare students to participate in the annual William Lowell Putnam Mathematical Competition.  Students solve and present their solutions to problems posed.  (One 50 minute session)",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3376,6 +3739,9 @@
       "course_code": "21484",
       "course_title": "Graph Theory",
       "units": "9",
+      "description": "Graph theory uses basic concepts to approach a diversity of problems and nontrivial applications in operations research, computer science and other disciplines. It is one of the very few mathematical areas where one is always close to interesting unsolved problems. Topics include graphs and subgraphs, trees, connectivity, Euler tours and Hamilton cycles, matchings, graph colorings, planar graphs and Euler's Formula, directed graphs, network flows, counting arguments, and graph algorithms.  (Three 50 minute lectures)",
+      "prereqs": "(21228 or 15251) and (21241 or 21242)",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3399,6 +3765,9 @@
       "course_code": "80210",
       "course_title": "Logic and Proofs",
       "units": "9",
+      "description": "Logic & Proofs is a web-based course and introduces students to central issues in modern logic.  It is designed for individual learning with rich interactive environments and dynamic intelligent tutoring. The material is presented on-line, and most exercises are done on-line as well. Readings of historical and philosophical character complement the core content. This on-line course is supplemented, indeed given additional grounding, by weekly meetings in very small groups. There, we have collaborative reviews, substantive discussions and critical reflections.  The central question of the course is this:  How can we analyze the structure of rational discourse or, more specifically, the logical structure of argumentation?  An answer to this question requires: (i) uncovering the logical form of statements; (ii) defining the correctness of logical steps; (iii) formulating inference rules for the logical forms; (iv) designing strategies for argumentation with the inference rules. The course takes these steps for both sentential and quantificational logic.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3422,6 +3791,9 @@
       "course_code": "80334",
       "course_title": "Social and Political Philosophy",
       "units": "9",
+      "description": "Political philosophers are interested in whether, and to what extent, government use of coercion can be justified.  This question involves many facets, including what gives the government the legitimate authority (if any) to coercively enforce the rules, what limits there are (if any) to the legitimate kinds of rules the government can enforce (and why), what obligations (if any) the government has to the citizens that are governed by its rules, and what claims (if any) citizens of a state can make upon one another.  This course provides a systematic investigation of such questions as well as the concepts that are often appealed to in political theory, such as \"justice,\" \"equality,\" and \"fairness.\"  Readings will be comprised of classic and contemporary theorists from within the liberal political tradition as well as theorists critical of this tradition and its ability to live up to the lofty ideals it espouses.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3445,6 +3817,9 @@
       "course_code": "80495",
       "course_title": "Independent Study",
       "units": "3,6,9,12",
+      "description": "Undergraduate Independent Study Philosophy Department majors.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3466,6 +3841,9 @@
       "course_code": "33115",
       "course_title": "Physics for Future Presidents",
       "units": "9",
+      "description": "Countless topics of social and political importance are intimately related to science in general and physics in particular. Examples include energy production, global warming, radioactivity, terrorism, and space travel. This course aims to provide key bits of knowledge based on which such issues can be discussed in a meaningful way, i.e., on the level of arguments and not just vague beliefs. We will cover an unusually wide range of topics, including energy, heat, gravity, atoms, radioactivity, chain reactions, electricity, magnetism, waves, light, weather, and climate. The course is open for all students at CMU.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3489,6 +3867,9 @@
       "course_code": "33121",
       "course_title": "Physics I for Science Students",
       "units": "12",
+      "description": "This calculus-based course combines the basic principles of mechanics with some quantum physics and relativity to explain nature on both a microscopic and macroscopic scale. The course will build models to describe the universe based on a small number of fundamental physics principles. Some simple computer modeling will be done to develop insight into the solving of problems using Newton's laws. Topics covered will include vectors, momentum, force, gravitation, oscillations, energy, quantum physics, center of mass motion, rotation, angular momentum, statistical physics, and the laws of thermodynamics. No computer experience is needed.  Examples illustrating basic principles being presented will be taken from physics, chemistry, and biology. This course has a co-requisite of 21-120.",
+      "prereqs": "None",
+      "coreqs": "21120",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3512,6 +3893,9 @@
       "course_code": "85221",
       "course_title": "Principles of Child Development",
       "units": "9",
+      "description": "This course is about normal development from conception through adolescence. Topics include physical, perceptual, cognitive, emotional and social development. Students will learn facts about children at various points in development, theories about how development works, and research methods for studying development in infants and children. Students will be encouraged to relate the facts, theories and methods of developmental psychology to everyday problems, social issues and real world concerns.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3535,6 +3919,9 @@
       "course_code": "85370",
       "course_title": "Perception",
       "units": "9",
+      "description": "Perception, broadly defined, is the construction of a representation of the external world for purposes of thinking and acting.  Although we often think of perception as the processing of inputs to the sense organs, the world conveyed by the senses is ambiguous, and cognitive and sensory systems interact to interpret it.  In this course, we will examine the sensory-level mechanisms involved in perception by various sensory modalities, including vision, audition, and touch.  We will learn how sensory coding interacts with top-down processing based on context and prior knowledge and how perception changes with learning and development. We will look at methods of psychophysics, neuroscience, and cognitive psychology.  The goals include not only imparting basic knowledge about perception but also providing new insights into everyday experiences.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3558,6 +3945,9 @@
       "course_code": "85377",
       "course_title": "Attitudes and Persuasion",
       "units": "9",
+      "description": "This advanced undergraduate course will focus on the topic of attitude change and how various persuasive techniques are used to shape human response. The dynamics of propaganda and what makes the techniques effective on social and consumer decisions will be addressed.  The primary goals of the course are to 1) understand the dynamics of attitude change; 2) explore the mechanism by which attitude change techniques operate and 3) examine relevant theories and research in persuasion.  Examples of topics covered include the origins of attitudes, how attitudes influence judgments, social power and attitude change, and how individual decisions are influenced by the mass media.   Classic and contemporary research in the area of persuasion will be examined in the form of course readings and assignments.",
+      "prereqs": "85241",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3581,6 +3971,9 @@
       "course_code": "85507",
       "course_title": "Research in Psychology",
       "units": "3-12",
+      "description": "This course may include field study, applied work, or laboratory research. The student should have previous training in the basic research skills that will be used in his/her project, especially statistical methods and experimental design.  Independent Research Projects will be supervised by a faculty member and must result in a written paper. It is the students responsibility to make arrangements for independent study courses with individual faculty members. This should be done the semester before a student wishes to register for one of these courses. The course may be taken for any number of units up to 12, depending upon the amount of work to be done.  Please contact the CMU psychology faculty member you wish to work with to get approval to enroll then email Emilie Rendulic at emilier@andrew.cmu.edu in order to be registered for the course.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3604,6 +3997,9 @@
       "course_code": "17313",
       "course_title": "Foundations of Software Engineering",
       "units": "12",
+      "description": "Students gain exposure to the fundamental principles of software engineering. This includes both core CS technical knowledge and the means by which this knowledge can be applied in the practical engineering of complex software in real-world settings. Topics related to software artifacts include coding, software architecture, measurement, and quality assurance of various qualities (e.g., robustness, security, performance, maintainability) with static and dynamic analysis, testing, code review, and inspection. Topics related to software process include requirements engineering, process models and evaluation, personal and team development, and supply chain issues including outsourcing and open source. This course has a strong technical focus, a strong focus on developing team skills, and will include both written and programming assignments. Students will get experience with the latest software engineering tools and practices.",
+      "prereqs": "15122 or 15121",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3627,6 +4023,9 @@
       "course_code": "07129",
       "course_title": "Freshmen Immigration Course",
       "units": "3",
+      "description": "The Freshman Immigration Course is taken by first-semester Computer Science majors on the Doha campus. The course is designed to acquaint incoming majors with computer science at CMU. Talks range from historical perspectives in the field to descriptions of the cutting edge research being conducted in the School of Computer Science. Enrollment is limited to SCS Freshmen ONLY.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3650,6 +4049,9 @@
       "course_code": "07599",
       "course_title": "SCS Honors Undergraduate Research Thesis",
       "units": "VAR",
+      "description": "Available only to students registered in the CS Senior Research Thesis Program.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3674,6 +4076,9 @@
       "course_code": "36202",
       "course_title": "Methods for Statistics & Data Science",
       "units": "9",
+      "description": "This course builds on the principles and methods of statistical reasoning developed in 36-200 (or its equivalents). The course covers simple and multiple regression, basic analysis of variance methods, logistic regression, and introduction to data mining including classification and clustering. Students will also learn the principles of overfitting, training vs testing, ensemble methods, variable selection, and bootstrapping.   Course objectives include applying the basic principles and methods that underlie statistical practice and empirical research to real data sets and interdisciplinary problems. Learning the Data Analysis Pipeline is strongly emphasized through structured coding and data analysis projects. In addition to three lectures a week, students attend a computer lab once a week for \"hands-on\" practice of the material covered in lecture.  There is no programming language pre-requisite.  Students will learn the basics of R Markdown and related analytics tools.",
+      "prereqs": "36200 or 36247 or 36220 or 70207 or 36207",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3697,6 +4102,9 @@
       "course_code": "98000",
       "course_title": "Student Taught Courses (StuCo): Teaching Practicum",
       "units": "3",
+      "description": "All current StuCo instructors are enrolled in this course to receive credit for teaching their individual StuCo course(s). StuCo instructors are required to attend periodic meetings focused on course design and instructional strategies conducted by Dr. Hallinen or StuCo organizational meetings conducted by the StuCo Executive Committee in order to receive credit for this course. Please refer any StuCo-related issues regarding registration, application deadlines, co-instructors, room assignments, absences, no-shows, etc. to Kristin Lavery, StuCo Course Administrator, Cyert Hall A64A, 412-268-6819. Dr. Judith Hallinen serves as Advisor for StuCo.   Please Note: Kristin Lavery, StuCo Course Administrator must first be added as a proxy to a StuCo instructor's course before admission to 98000 will be granted. See StuCo website Teacher Information for more info.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3720,6 +4128,9 @@
       "course_code": "98041",
       "course_title": "Student Taught Courses (StuCo): Sustainable Living",
       "units": "3",
+      "description": "This course provides a chance for you to understand the importance of sustainability and to apply different ways of sustainability. You will undergo the concepts of sustainable living under the core themes of FEE EcoCampus. Sustainability focuses not only on human impact on climate change, waste management as well as equity. In addition, you will have opportunities to showcase your understanding of sustainability through various media. This course does not have any prerequisites and is open to all majors and years.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3744,6 +4155,9 @@
       "course_code": "98059",
       "course_title": "Student Taught Courses (StuCo): Chinese Charms-Unlocking the Secrets of Mandarin",
       "units": "3",
+      "description": "Welcome to \"Chinese Charms: Unlocking the Secrets of Mandarin,\" a captivating journey into the heart of the Chinese language.  In this course, you will embark on an exhilarating exploration of Mandarin, one of the world's most fascinating and influential languages. We've designed this program to make your learning experience both engaging and enriching.  What to Expect:  Dive deep into the beauty of Mandarin characters and their rich history. Master the art of pronunciation with native speakers as your guides. Explore the intricacies of Chinese calligraphy and the elegance of brushwork. Decode the mysteries of Chinese culture, traditions, and customs through language. Engage in real-world conversations and build your language skills from day one. Immerse yourself in the enchanting world of Chinese literature, poetry, and folktales. Gain valuable insights into the contemporary use of Mandarin in business and travel. Our goal is to make your journey into Mandarin not only informative but also captivating. Join us in this exhilarating adventure, and by the end of the course, you'll have not only learned a new language but also discovered the enchanting tapestry of Chinese culture and history through its language.  Get ready to unlock the secrets of Mandarin and embark on an unforgettable linguistic and cultural voyage!",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
@@ -3767,6 +4181,9 @@
       "course_code": "98060",
       "course_title": "Student Taught Courses (StuCo): A Beginners\u00bf Guide to Chinese",
       "units": "3",
+      "description": "This course will be guided using the HSK-1 textbook (HSK stands for Hanyu Shuiping Kaoshi, a standardized test of Chinese proficiency non-native speakers) as an introduction to the Chinese language. Learners will practice listening to, speaking, and reading in Chinese. As the course outcome, learners would recognize around 150 commonly used words and basic grammar patterns, be able to understand very simple daily communications, and possess the ability for taking the HSK-1 (Chinese Proficiency Test) and further studies.",
+      "prereqs": "None",
+      "coreqs": "None",
       "sections": [
         {
           "section_type": "Lecture",
