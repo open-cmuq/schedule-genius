@@ -9,6 +9,11 @@ a few benefits having it:
 - Contains the schedule as students see it
 - Also deals with multiple sections and lecture/recitation pairing
 
+Limitations:
+- Doesn't work for Jarrin's trial schedules
+- Prerequisite information doesn't include the minimum grade needed (Necessary?)
+- Not as in depth as the other scraper (Information may or not be needed anyways)
+
 It outputs a json which contains the schedule.json, which has the following format:
 ```
 "courses": [
