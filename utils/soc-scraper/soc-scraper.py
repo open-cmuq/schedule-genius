@@ -2,14 +2,43 @@ import json
 import time
 import requests
 import pandas as pd
+import os
 from bs4 import BeautifulSoup
 
 # Global header for any requests
-headers = {
+glob_headers = {
+    'Content-Type': 'application/x-www-form-urlencoded',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.118 Safari/537.36',
-    'Referer': 'https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/search',
-    'Content-Type': 'application/x-www-form-urlencoded'
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'Referer': 'https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/search'
 }
+
+"""
+Given a request return the cached version or make request and save 
+into cache if it isn't already present. This is a very naive approach
+as it doesn't consider the headers or payloads being different to the 
+same page.
+"""
+def cacheRequest(url, func_headers, payload, cache_name,method):
+    cache_name = cache_name + ".html"
+    cache_path = os.path.join(".cache",cache_name)
+    if os.path.exists(cache_path):
+        with open(cache_path, "r") as f:
+            return f.read()
+    else:
+        # Artificial rate limiting
+        time.sleep(0.3)
+        if method == "POST":
+            response = requests.post(url,headers=func_headers,data=payload)
+        else:
+            response = requests.get(url,headers=func_headers,data=payload)
+
+        if response.status_code == 200:
+            with open(cache_path,"w") as f:
+                f.write(response.text)
+            return response.text
+        
+        return None
 
 """
 Given the element containing requisites
@@ -33,14 +62,14 @@ Returns a dictionary containing these
 def getCourseData(course_number):
     course_url = f"https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE={course_number}&SEMESTER=F24"
 
-    response = requests.get(course_url, headers=headers, data={})
-    soup = BeautifulSoup(response.text, "html5lib")
+    response = cacheRequest(course_url, glob_headers,{}, f"{course_number}","GET")
+    soup = BeautifulSoup(response, "html5lib")
 
     description_elem = soup.find(id='course-detail-description')
     description = description_elem.find('p').text.strip().strip("\n")
 
     prerequisites_elem = soup.find('dt', string='Prerequisites').find_next_sibling('dd')
-    prerequisites = prerequisites_elem.text.strip()
+    prerequisites = prerequisites_elem.get_text(strip=True)
 
     corequisites_elem = soup.find('dt', string='Corequisites').find_next_sibling('dd')
     corequisites = sanitizeReqs(corequisites_elem)
@@ -73,10 +102,10 @@ def getCourseSchedule(semester):
         'SUBMIT': ''
     }
 
-    response = requests.post(schedule_url, headers=headers, data=payload)
+    response = cacheRequest(schedule_url,glob_headers,payload,"soc","POST")
     # The original SOC page has some rows which don't have open <tr> tags which 
     # requires a better parser or tidy
-    soup = BeautifulSoup(response.text,"html5lib")
+    soup = BeautifulSoup(response,"html5lib")
     department_titles = soup.find_all('h4', class_='department-title')
     tables = list()
 
@@ -98,8 +127,6 @@ def getCourseSchedule(semester):
             instructors_list = [instructor.text.strip() for instructor in instructors]
             row[-1] = instructors_list
             if row[0].isnumeric():
-                # Artificial rate limiting
-                time.sleep(0.5)
                 courseData = getCourseData(row[0])
                 row.append(courseData["description"])
                 row.append(courseData["prereqs"])
@@ -147,7 +174,6 @@ def convertScheduleToJson(df, path):
             courses[-1]["sections"].append(section)
         else:
             # New course
-            current_course = row["COURSE"]
             current_lecture = row["SEC"]
             course = {
                 "course_code": row["COURSE"],
