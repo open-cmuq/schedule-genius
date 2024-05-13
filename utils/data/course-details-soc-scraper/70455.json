@@ -1,0 +1,26 @@
+{
+  "course_code": "70455",
+  "course_title": "Data Management Fundamentals",
+  "units": "9",
+  "description": "Data drives modern business. Transactional data systems keep the world's economy operating smoothly by tracking and processing the movement of bits, money, atoms, and attention across the planet. Analytic systems help managers understand and optimize their businesses. Robotic systems (both physical machines and software bots) are automating a tremendous amount of the work that has historically been done by people. In this course you will learn to use a set of data management tools to capture, manage, analyze, and understand data so to help your organization do business better, faster, and cheaper. This course was previously titled Modern Data Management. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+  "prereqs": "15110 or 70110 or 15112 or 15104",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "10:00AM",
+        "end": "11:15AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Mathur, Sameer"
+        ]
+      }
+    }
+  ]
+}

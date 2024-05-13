@@ -1,0 +1,26 @@
+{
+  "course_code": "80210",
+  "course_title": "Logic and Proofs",
+  "units": "9",
+  "description": "Logic & Proofs is a web-based course and introduces students to central issues in modern logic.  It is designed for individual learning with rich interactive environments and dynamic intelligent tutoring. The material is presented on-line, and most exercises are done on-line as well. Readings of historical and philosophical character complement the core content. This on-line course is supplemented, indeed given additional grounding, by weekly meetings in very small groups. There, we have collaborative reviews, substantive discussions and critical reflections.  The central question of the course is this:  How can we analyze the structure of rational discourse or, more specifically, the logical structure of argumentation?  An answer to this question requires: (i) uncovering the logical form of statements; (ii) defining the correctness of logical steps; (iii) formulating inference rules for the logical forms; (iv) designing strategies for argumentation with the inference rules. The course takes these steps for both sentential and quantificational logic.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "02:30PM",
+        "end": "03:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Khare, Niraj"
+        ]
+      }
+    }
+  ]
+}

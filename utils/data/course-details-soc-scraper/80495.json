@@ -1,0 +1,24 @@
+{
+  "course_code": "80495",
+  "course_title": "Independent Study",
+  "units": "3,6,9,12",
+  "description": "Undergraduate Independent Study Philosophy Department majors.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": []
+      }
+    }
+  ]
+}

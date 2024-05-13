@@ -1,0 +1,26 @@
+{
+  "course_code": "82289",
+  "course_title": "Tutoring for Community Outreach - CMUQ",
+  "units": "9-18",
+  "description": "TBA",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "M"
+        ],
+        "begin": "04:00PM",
+        "end": "05:15PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Helin, Erik"
+        ]
+      }
+    }
+  ]
+}

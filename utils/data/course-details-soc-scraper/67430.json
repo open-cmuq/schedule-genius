@@ -1,0 +1,26 @@
+{
+  "course_code": "67430",
+  "course_title": "AI and Emerging Economies",
+  "units": "9",
+  "description": "In this course, we will explore the intersection of artificial intelligence (AI) with emerging economies. Our focus will extend beyond traditional AI research and development to address the unique challenges and opportunities faced by countries experiencing rapid economic growth. Through a combination of theoretical discussions, case studies, and practical projects, students will gain insights into how AI can drive positive change in diverse socio-economic contexts.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TR"
+        ],
+        "begin": "06:00PM",
+        "end": "07:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "Remote only",
+        "instructor": [
+          "Mani, Ganesh"
+        ]
+      }
+    }
+  ]
+}

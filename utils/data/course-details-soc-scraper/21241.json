@@ -1,0 +1,26 @@
+{
+  "course_code": "21241",
+  "course_title": "Matrices and Linear Transformations",
+  "units": "11",
+  "description": "A first course in linear algebra intended for scientists, engineers, mathematicians and computer scientists.  Students will be required to write some straightforward proofs.  Topics to be covered: complex numbers, real and complex vectors and matrices, rowspace and columnspace of a matrix, rank and nullity, solving linear systems by row reduction of a matrix, inverse matrices and determinants, change of basis, linear transformations, inner product of vectors, orthonormal bases and the Gram-Schmidt process, eigenvectors and eigenvalues, diagonalization of a matrix, symmetric and orthogonal matrices. 21-127 is strongly recommended. (Three 50 minute lectures, two 50 minute recitations)",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UMTWR"
+        ],
+        "begin": "11:30AM",
+        "end": "12:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "El Hajj, Layan"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "course_code": "09217",
+  "course_title": "Organic Chemistry I",
+  "units": "9",
+  "description": "This course presents an overview of structure and bonding as it pertains to organic molecules. Selected topics include: introduction to functional group chemistry, stereochemistry, conformational analysis, reaction mechanisms and use of retrosynthetic analysis in the development of multistep syntheses. Methods for structure determination of organic compounds by modern spectroscopic techniques are introduced. 3 hrs. lec., 1 hr. rec.",
+  "prereqs": "09105 or 09107",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UMTWR"
+        ],
+        "begin": "10:00AM",
+        "end": "10:50AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Faulkner, Simon"
+        ]
+      }
+    }
+  ]
+}

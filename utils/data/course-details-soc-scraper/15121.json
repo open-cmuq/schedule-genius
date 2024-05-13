@@ -1,0 +1,42 @@
+{
+  "course_code": "15121",
+  "course_title": "Introduction to Data Structures",
+  "units": "10",
+  "description": "A continuation of the process of program design and analysis for  students with some prior programming experience (functions, loops, and  arrays, not necessarily in Java). The course reinforces object-oriented  programming techniques in Java and covers data aggregates, data  structures (e.g., linked lists, stacks, queues, trees, and graphs), and  an introduction to the analysis of algorithms that operate on those data  structures.",
+  "prereqs": "15112",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "Lec 2",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "08:30AM",
+        "end": "09:45AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Riley, Ryan"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "R"
+        ],
+        "begin": "08:45AM",
+        "end": "09:35AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Riley, Ryan"
+        ]
+      }
+    }
+  ]
+}

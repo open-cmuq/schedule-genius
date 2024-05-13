@@ -1,0 +1,26 @@
+{
+  "course_code": "51205",
+  "course_title": "Social Media, Curation, and Personal Voice",
+  "units": "3",
+  "description": "No course description provided.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W2",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person + remote",
+        "instructor": [
+          "Vitone, Dylan"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "course_code": "67354",
+  "course_title": "Sustainability in the Digital Age",
+  "units": "9",
+  "description": "Environmental, economic, and societal challenges are affecting the sustainability of many communities around the globe. Given its multidisciplinary foundation, IS presents an important potential for enabling adaptation and mitigation to these challenges. IS innovation could also play a prominent role in transforming unsustainable problem spaces into sustainable and resilient systems. What is needed is sustainability minded IS professionals to lead such transformation. This course introduces students (future IS leaders) to the fundamentals of sustainability in the 21st century. It includes topics on Green IS, Smart Cities, and the Information Economy. The course invites students to proactively reflect on sustainability issues and their effects on policy and leadership. In such reflection, students are encouraged to consider various case-based scenarios where they evaluate challenges to sustainability and developed innovative, strategic, practical, and rigorously supported IS based solutions.",
+  "prereqs": "67250",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Aoun, Chadi"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "course_code": "70381",
+  "course_title": "Marketing I",
+  "units": "9",
+  "description": "An introduction to the nature and fundamentals of marketing and consumer behavior. Topics include an analysis of the economic and psychological factors influencing buyer behavior, marketing research, market segmentation, and the development of marketing programs (new product, price, advertising and distribution decisions). This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+  "prereqs": "(76102) or (76101) or (76106 and 76107) or (76106 and 76108) or (76107 and 76108)",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "02:30PM",
+        "end": "03:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Sharma, Varun"
+        ]
+      }
+    }
+  ]
+}

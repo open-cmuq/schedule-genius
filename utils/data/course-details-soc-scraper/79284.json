@@ -1,0 +1,26 @@
+{
+  "course_code": "79284",
+  "course_title": "Muslim Representation in the Media and Popular Culture",
+  "units": "9",
+  "description": "This interdisciplinary course explores portrayals of Muslims across various media forms, including traditional oral and print media and contemporary outlets like music, television, news, art, and the Internet. This course examines the current creative endeavors of Muslim writers, actors, musicians, and comedians. In this course, we will pair films, television shows, music, and comics with scholarship on Islam and religion in the media, analyzing Muslim representation and storytelling in contemporary popular culture. A critical lens is applied to assess how gender and racial structures influence Muslim portrayal, exploring both the perpetuation and the challenge to the perception of Muslims as religious and political outsiders. This course encourages students to critically engage with modern media portrayals of Muslims, using examples such as the TV shows \"Ramy\" and \"Man Like Mobeen\" that attempt to counter anti-Muslim tropes. Through the use of survey data, quotes, and speeches like Riz Ahmed's address to the U.K. House of Commons, this course explores the significance of media representation and its impact on the lived experiences of marginalized groups. Through collaborative and individual learning activities, students will integrate diverse information sources, reflecting on the detrimental impact of stereotypes versus the empowering effect of accurate representation. The course aims to foster an understanding of the evolving media landscape and the importance of inclusive narratives that challenge the homogenization of Muslim identities.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "10:00AM",
+        "end": "11:15AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Nair, Deepa"
+        ]
+      }
+    }
+  ]
+}

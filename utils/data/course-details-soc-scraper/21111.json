@@ -1,0 +1,26 @@
+{
+  "course_code": "21111",
+  "course_title": "Calculus I",
+  "units": "10",
+  "description": "Review of basic algebra, functions, limits, derivatives of algebraic, exponential and logarithmic functions, curve sketching, maximum-minimum problems.  Successful completion of 21-111 and 21-112 entitles a student to enroll in any mathematics course for which 21-120 is a prerequisite. (Three 50 minute lectures, two 50 minute recitations)",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UMTWR"
+        ],
+        "begin": "02:30PM",
+        "end": "03:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Weston, Anthony Ross"
+        ]
+      }
+    }
+  ]
+}

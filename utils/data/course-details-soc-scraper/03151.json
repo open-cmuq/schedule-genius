@@ -1,0 +1,42 @@
+{
+  "course_code": "03151",
+  "course_title": "Honors Modern Biology",
+  "units": "10",
+  "description": "Honors Modern Biology (03-151) is an honors introductory course. This course has been designed for freshman students with an interest in a major in the biological sciences who have had solid preparation in this field as indicated by the following examinations: SAT II Molecular Biology, AP, or IB Biology. This course will present the concepts and principles necessary for a general understanding of the processes occurring in living cells and is the basis for further study in cell biology, biochemistry, genetics, molecular and developmental biology. While similar core topics will be covered in all sections of Modern Biology, this section will be offered at an accelerated pace, requiring more independent learning. The extra class time this pacing provides will allow the exploration of the molecular basis of life to help students integrate and apply the core principles of biology covered in the course.  THIS SECTION IS RESERVED FOR INCOMING FIRST-YEAR MCS STUDENTS.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "Lec 2",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "10:00AM",
+        "end": "10:50AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Affara, Nesrine"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "R"
+        ],
+        "begin": "03:45PM",
+        "end": "05:35PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Affara, Nesrine"
+        ]
+      }
+    }
+  ]
+}

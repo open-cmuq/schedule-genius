@@ -1,0 +1,26 @@
+{
+  "course_code": "82101",
+  "course_title": "Elementary French I",
+  "units": "12",
+  "description": "This course is for students with no prior experience in French. Using a proficiency-oriented approach, students will develop contextually appropriate interpersonal communication skills in both written and spoken French, develop reading and listening skills through the use of various media, understand fundamental grammar, acquire vocabulary, and gain a basic understanding of French and francophone cultures through class activities. Regular homework, quizzes, tests, presentations, and class participation are mandatory (four in-class hours per week). The elementary level is also designed to help students learn to reflect and draw upon strategies used by good language learners in their second language study. A student with prior experience in French must take the placement exam.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "11:30AM",
+        "end": "12:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Moufid, Ezzohra"
+        ]
+      }
+    }
+  ]
+}

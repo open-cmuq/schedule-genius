@@ -1,0 +1,26 @@
+{
+  "course_code": "03410",
+  "course_title": "Special Topics in Biological Sciences : Precision Medicine",
+  "units": "9",
+  "description": "Special Topics in Biological Sciences. Topics will vary depending on the semester and instructor. Please read the individual section descriptions for more information.",
+  "prereqs": "03232 or 03231",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "11:30AM",
+        "end": "12:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Naik, Adviti"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "course_code": "70394",
+  "course_title": "AI in Action",
+  "units": "3",
+  "description": "No course description provided.",
+  "prereqs": "70391",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W2",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person + remote",
+        "instructor": [
+          "Ciollaro, Mattia"
+        ]
+      }
+    }
+  ]
+}

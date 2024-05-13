@@ -1,0 +1,26 @@
+{
+  "course_code": "99262",
+  "course_title": "ADDvocate: Anti-Discrimination Dialogue for Social Justice",
+  "units": "VAR",
+  "description": "The aim of this multidisciplinary course is to establish a firm, education-based understanding of Diversity, Equity, and Inclusion topics in Pittsburgh, Qatar and Worldwide to enhance their classroom and university experience. Through a series of lectures by subject experts, this course aims to educate and raise consciousness of discrimination, racism and bias in the real world. This course will also highlight strategies to become an active bystander and advocate for fair treatment in all our communities.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W1",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "04:00PM",
+        "end": "05:15PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Moufid, Ezzohra"
+        ]
+      }
+    }
+  ]
+}

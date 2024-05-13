@@ -1,0 +1,26 @@
+{
+  "course_code": "82314",
+  "course_title": "Literature of the Arabic-speaking World",
+  "units": "9",
+  "description": "This repeatable introductory course explores the Arab world through a thematic  or conceptual focus.   In spring 2018, the theme will be 'Diversity in The Arab Culture'. Coursework will include reading short stories and novels to understand the cultural context that gave rise to specific literary works. Students will also continue to develop their abilities to express their ideas both in speaking and in writing, as well as their listening skills in Modern Standard Arabic. There is no prerequisite for this course but it is expected that your language proficiency in the Arabic language is good. **This is a content course in the Arabic language and not an Arabic language course.**",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "02:30PM",
+        "end": "03:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Moufid, Ezzohra"
+        ]
+      }
+    }
+  ]
+}

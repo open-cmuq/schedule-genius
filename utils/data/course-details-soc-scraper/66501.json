@@ -1,0 +1,70 @@
+{
+  "course_code": "66501",
+  "course_title": "Dietrich College Senior Honors Thesis I",
+  "units": "9",
+  "description": "This is the first semester of a two-semester sequence that culminates in an original, year-long independent research or creative project.  The course is open only to students who have been approved for entry into the Dietrich College Senior Honors Program. Thesis topics are selected by faculty and students, and reviewed and approved through the senior honors program application process. Dietrich College senior honors students are also required to participate in the annual Meeting of the Minds Undergraduate Research Symposium, offering either an oral presentation or poster session based on their senior honors thesis",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Vatanasakdakul, Savanid  Nui"
+        ]
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "X",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Liginlal, Divakaran"
+        ]
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "Y",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": []
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "Z",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": []
+      }
+    }
+  ]
+}

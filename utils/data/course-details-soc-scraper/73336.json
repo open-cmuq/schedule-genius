@@ -1,0 +1,26 @@
+{
+  "course_code": "73336",
+  "course_title": "International Energy Market and Sustainable Development",
+  "units": "3",
+  "description": "This course teaches you about economics of the energy industry by looking at various energy markets. The global energy industry is now more than ever is pressured to be transformed by geopolitical tensions, concerns about climate change, and the mounting pressure for decarbonization. In this course we will discuss how economic decisions in the energy sector can align with principles of sustainability, ensuring that the industry's growth and practices do not compromise the well-being of future generations or harm the planet.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W2",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person + remote",
+        "instructor": [
+          "Portnykh, Margarita"
+        ]
+      }
+    }
+  ]
+}

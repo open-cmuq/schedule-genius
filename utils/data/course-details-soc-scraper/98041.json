@@ -1,0 +1,27 @@
+{
+  "course_code": "98041",
+  "course_title": "Student Taught Courses (StuCo): Sustainable Living",
+  "units": "3",
+  "description": "This course provides a chance for you to understand the importance of sustainability and to apply different ways of sustainability. You will undergo the concepts of sustainable living under the core themes of FEE EcoCampus. Sustainability focuses not only on human impact on climate change, waste management as well as equity. In addition, you will have opportunities to showcase your understanding of sustainability through various media. This course does not have any prerequisites and is open to all majors and years.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W2",
+      "timings": {
+        "days": [
+          "M"
+        ],
+        "begin": "05:30PM",
+        "end": "06:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Abayomi, Mayowa",
+          "Alaeddine, Nada"
+        ]
+      }
+    }
+  ]
+}

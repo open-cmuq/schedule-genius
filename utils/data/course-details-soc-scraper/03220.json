@@ -1,0 +1,42 @@
+{
+  "course_code": "03220",
+  "course_title": "Genetics",
+  "units": "9",
+  "description": "The mechanisms of transmission of inherited traits in viruses, bacteria, fungi, plants and animals are discussed. Molecular mechanisms of gene expression and gene regulation are analyzed. Recombinant DNA and its applications in genetic analysis, biotechnology, forensics, agriculture, medicine, and the pharmaceutical industry are presented. Special topics in human genetics are considered, such as the genetics of cancer. Principles and methods for the study of developmental genetics, population genetics and complex traits are also introduced.",
+  "prereqs": "03121 or 03151",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "Lec 2",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "11:30AM",
+        "end": "12:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Younis, Ihab"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "W"
+        ],
+        "begin": "11:30AM",
+        "end": "12:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Younis, Ihab"
+        ]
+      }
+    }
+  ]
+}

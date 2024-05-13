@@ -1,0 +1,26 @@
+{
+  "course_code": "79367",
+  "course_title": "Disastrous Encounters",
+  "units": "9",
+  "description": "This course is ONLY offered at Carnegie Mellon in Qatar.  Disastrous Encounters explores the complex interaction between human beings and their environment by examining incidents in which those disasters have proven destructive or fatal to humankind. By the end of the class students will be able to:  Explain the scientific principles behind \"natural\" disasters, including cyclonic weather, global climate change, volcanoes, earthquakes, tsunamis, river flooding, famines, and diseases.  Analyze to what extent a given disaster is in fact \"natural\" at all, but rather was either caused by or exacerbated by human actions.    Draw connections between different types of disasters, recognizing that major disasters often produce predictable secondary disaster effects.  Read documents critically, especially in terms of the author's agenda and the author's likely biases.  Write strong analytical essays.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Reilly, Benjamin"
+        ]
+      }
+    }
+  ]
+}

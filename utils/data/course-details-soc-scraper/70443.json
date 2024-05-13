@@ -1,0 +1,26 @@
+{
+  "course_code": "70443",
+  "course_title": "Digital Marketing and Social Media Strategy",
+  "units": "9",
+  "description": "This course explores issues related to digital and social media marketing. This is a hands-on class where students utilize real world data. Specifically, we study the following topics: (a) Search Engine and Sponsored Search Optimization: how search engines, keyword auctions, retargeting, mobile marketing, social network marketing and search engine marketing work, and how to optimize pay per click advertisement efforts. (b) Econo-Mining: how firms are getting or can get useful information from user generated content using text mining and opinion mining capabilities to drive their product development, placement, and advertisement decisions. (c) Social Media/Viral Marketing: how to design a social media marketing campaign; the key ingredients that make such campaigns successful; how to run a campaign for a viral product; measuring the success of a social media campaign (d) Wisdom of the Crowds: how to design crowdsourcing contests; what and how to crowdsource; prediction markets and how to design them for success and the kinds of questions are best suited for prediction markets. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "10:00AM",
+        "end": "11:15AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Sharma, Varun"
+        ]
+      }
+    }
+  ]
+}

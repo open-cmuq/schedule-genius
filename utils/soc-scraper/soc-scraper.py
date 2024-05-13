@@ -21,7 +21,8 @@ same page.
 """
 def cacheRequest(url, func_headers, payload, cache_name,method):
     cache_name = cache_name + ".html"
-    cache_path = os.path.join(".cache",cache_name)
+    cache_path = os.path.join("../.cache",cache_name)
+    os.path
     if os.path.exists(cache_path):
         with open(cache_path, "r") as f:
             return f.read()
@@ -145,7 +146,6 @@ Given a dataframe containing the course information, convert into a JSON
 """
 def convertScheduleToJson(df, path):
     courses = []
-    current_course = None
     current_lecture = None
 
     # In the conversion to a JSON we need to account for a course having multiple
@@ -197,9 +197,17 @@ def convertScheduleToJson(df, path):
             }
             courses.append(course)
 
+    # Save each course to its own JSON file
+    for course in courses:
+        course_number = course["course_code"]
+        file_path = os.path.join("../data/course-details-soc-scraper/", f"{course_number}.json")
+        json_data = json.dumps(course, indent=2)
+        with open(file_path, "w") as f:
+            f.write(json_data)
+
     json_data = json.dumps({"courses": courses}, indent=2)
     with open(path, "w") as f:
         f.write(json_data)
 
 df = getCourseSchedule("F24")
-convertScheduleToJson(df, "schedule.json")
+convertScheduleToJson(df, "../data/soc-schedule.json")

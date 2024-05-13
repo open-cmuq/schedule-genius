@@ -1,0 +1,26 @@
+{
+  "course_code": "70500",
+  "course_title": "Honors Thesis I",
+  "units": "3-18",
+  "description": "Business students with outstanding academic records may undertake an Honors Thesis.  The topic is of the student's choice but must have some original aspect in the question being explored, the data set, or in the methods that are used.  It must also be of sufficient academic rigor to meet the approval of a faculty advisor with expertise in the project's area.  Students enroll each semester in a 9-unit independent study course with their faculty advisor for the project (70-500 in the fall and 70-501 in the spring).  Students and their faculty advisor develop a course description for the project and submit it for approval as two 9-unit courses to the BA department.  Enrollment by permission of the BA Program.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Farooqi, Muhammad"
+        ]
+      }
+    }
+  ]
+}

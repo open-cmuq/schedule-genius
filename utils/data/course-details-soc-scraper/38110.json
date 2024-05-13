@@ -1,0 +1,26 @@
+{
+  "course_code": "38110",
+  "course_title": "ENGAGE in Service",
+  "units": "1",
+  "description": "ENGAGE in Service is a 1-unit course (9 hours of work, minimum requirement for a passing grade) designed to promote MCS students' direct engagement with community development and service learning. To fulfill this requirement, students must engage in a minimum of 9 hours of work devoted to a non-profit organization or organizations of their choice, 3 of which must have a direct benefit to the local Pittsburgh community. Students may complete the requirements anytime during their undergraduate years, but must register for the class during the semester that they intend to complete it, no later than their penultimate semester. Coursework includes documentation of service via completion of a form for each eligible activity that includes a time log, a description of the activity, the name and contact information for their supervisor and the supervisor's signature. In addition, during the last semester of the project/course students will prepare a 1-2 page reflective paper on the lessons learned from their immersion in the organization(s) and its (their) work.  No pay or other compensation can be received, and, in special cases, students may petition for a waiver if they have completed another service-learning course at Carnegie Mellon.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Younis, Ihab"
+        ]
+      }
+    }
+  ]
+}

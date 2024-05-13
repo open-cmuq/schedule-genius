@@ -1,0 +1,26 @@
+{
+  "course_code": "82111",
+  "course_title": "Elementary Arabic I",
+  "units": "12",
+  "description": "This course introduces learners to Modern Standard Arabic (MSA) in its written and spoken forms to achieve communicative competence at the elementary level in all language skills (listening, speaking, reading, and writing). To this end the course follows a proficiency-oriented approach to language teaching. In addition to MSA, the course introduces students to one of the popular spoken dialects in the Arab world such as Egyptian, Levantine, or Moroccan (depending upon the instructor's background/expertise). Students will also study various cultural aspects of the Arab world through written, audio-visual and online-based materials.  Students with prior knowledge of Arabic must take the placement exam.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "02:30PM",
+        "end": "03:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Nassif, Lama"
+        ]
+      }
+    }
+  ]
+}

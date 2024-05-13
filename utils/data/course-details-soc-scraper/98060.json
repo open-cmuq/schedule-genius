@@ -1,0 +1,27 @@
+{
+  "course_code": "98060",
+  "course_title": "Student Taught Courses (StuCo): A Beginners\u00bf Guide to Chinese",
+  "units": "3",
+  "description": "This course will be guided using the HSK-1 textbook (HSK stands for Hanyu Shuiping Kaoshi, a standardized test of Chinese proficiency non-native speakers) as an introduction to the Chinese language. Learners will practice listening to, speaking, and reading in Chinese. As the course outcome, learners would recognize around 150 commonly used words and basic grammar patterns, be able to understand very simple daily communications, and possess the ability for taking the HSK-1 (Chinese Proficiency Test) and further studies.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W1",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "05:00PM",
+        "end": "05:50PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Gao, Jingxiang",
+          "Mina, Maria"
+        ]
+      }
+    }
+  ]
+}

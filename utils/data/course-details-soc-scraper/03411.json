@@ -1,0 +1,26 @@
+{
+  "course_code": "03411",
+  "course_title": "Topics in Research",
+  "units": "1-2",
+  "description": "During the year students attend weekly seminars given by outside speakers or members of the Biology Department on current research topics in modern biology; some seminars outside of the department may be substituted.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "R"
+        ],
+        "begin": "08:30AM",
+        "end": "09:45AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Bouaouina, Mohamed"
+        ]
+      }
+    }
+  ]
+}

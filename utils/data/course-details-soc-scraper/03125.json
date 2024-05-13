@@ -1,0 +1,26 @@
+{
+  "course_code": "03125",
+  "course_title": "Evolution",
+  "units": "9",
+  "description": "Evolutionary theory is the unifying principle of biology.  A good comprehension of the concepts that underlie this theory is therefore important to properly appreciate and understand any biological process. This course is designed for students intending to continue studies in biology so that they may gain an understanding of the evolutionary framework in their more advanced courses, and also non-biology majors who want to extend their knowledge of biology at an introductory level.  The lectures will include (i) an examination of the history and development of evolutionary theory, (ii) consideration of some of the facts that have established the theory, (iii) an introduction to the concepts of phylogenetics, (iv) discussion of the patterns and mechanism that lead to the diversity and origins of the groups of life, (v) an introduction to genetics and population genetic theory, and (vi) discussion of and how this applies to natural selection and speciation.  The course will also include some more specialist topics, including evolution of development, sexual selection, evolutionary applications to medicine and conservation biology, and genome evolution.  Assessment will be based on several in-class exams and quizzes, homework assignments, a written term paper, and a final exam.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "04:00PM",
+        "end": "05:15PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Bouaouina, Mohamed"
+        ]
+      }
+    }
+  ]
+}

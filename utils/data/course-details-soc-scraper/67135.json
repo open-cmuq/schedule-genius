@@ -1,0 +1,26 @@
+{
+  "course_code": "67135",
+  "course_title": "Discover, organize, and synthesize: Building your research toolkit beyond Google",
+  "units": "3",
+  "description": "The world of academic research literature is growing exponentially across all disciplines, leaving researchers and decision-makers with a conundrum: how do we effectively identify research gaps and how do we make sense of what we already know, given the millions of research articles published every year? This micro course will equip students with techniques and tools for a systematic approach to finding, assessing and making sense of research knowledge, applying principles from well-established synthesis methods. Students will explore the scholarly research in interdisciplinary topics and topics in their own subject areas. Students will gain skills they can apply to any research course, and will be able to use these techniques in their future careers as practitioners for making sound, evidence- and research-based decisions.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W1",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person + remote",
+        "instructor": [
+          "Young, Sarah"
+        ]
+      }
+    }
+  ]
+}

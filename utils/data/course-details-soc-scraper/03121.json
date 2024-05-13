@@ -1,0 +1,26 @@
+{
+  "course_code": "03121",
+  "course_title": "Modern Biology",
+  "units": "9",
+  "description": "This is an introductory course that provides the basis for further studies in biochemistry, cell biology, genetics and molecular biology.  This course emphasizes the chemical principles underlying biological processes and cell structures as well as the analysis of genetics and heredity from a molecular perspective. This is the introductory biology course for all science and non-science majors.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "10:00AM",
+        "end": "10:50AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Affara, Nesrine"
+        ]
+      }
+    }
+  ]
+}

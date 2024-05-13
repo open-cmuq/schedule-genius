@@ -1,0 +1,88 @@
+{
+  "course_code": "03445",
+  "course_title": "Undergraduate Research",
+  "units": "1-18",
+  "description": "Students may investigate research problems under the supervision of members of the faculty. Permission of a faculty advisor required. **Students MUST contact bio-ungrad@andrew.cmu.edu and complete the application form in order to participate & register.**   BIO MAJORS: The Biology Undergraduate Office will send out the paperwork toyou on the first day of classes each semester. Paperwork and research mentor approval will be due the Friday before the add deadline. NON BIO MAJORS:Please contact the office (bio-ungrad@andrew.cmu.edu) to request the updated form.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Younis, Ihab"
+        ]
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "X",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Bouaouina, Mohamed"
+        ]
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "Y",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Naik, Adviti"
+        ]
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "YY",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": []
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "Z",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Affara, Nesrine"
+        ]
+      }
+    }
+  ]
+}

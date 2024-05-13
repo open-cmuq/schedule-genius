@@ -1,0 +1,26 @@
+{
+  "course_code": "21259",
+  "course_title": "Calculus in Three Dimensions",
+  "units": "10",
+  "description": "Vectors, lines, planes, quadratic surfaces, polar, cylindrical and spherical coordinates, partial derivatives, directional derivatives, gradient, divergence, curl, chain rule, maximum-minimum problems, multiple integrals, parametric surfaces and curves, line integrals, surface integrals, Green-Gauss theorems. (Three 50 minute lectures, two 50 minute recitations)",
+  "prereqs": "21122",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UMTWR"
+        ],
+        "begin": "11:30AM",
+        "end": "12:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Khare, Niraj"
+        ]
+      }
+    }
+  ]
+}

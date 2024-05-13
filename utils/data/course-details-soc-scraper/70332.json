@@ -1,0 +1,26 @@
+{
+  "course_code": "70332",
+  "course_title": "Business, Society and Ethics",
+  "units": "9",
+  "description": "What sorts of ethical obligations do businesses have towards their customers, employees, and the public? This course will explore ethical challenges faced by modern corporations, and frameworks which can be used to develop responsible corporate policy. The course is divided into four main units: (1) autonomy and consent, (2) the scope and locus of corporate responsibility, (3) fair treatment and outcomes, (4) the limits of labor and commodification. This course may use copyrighted material. If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided. The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+  "prereqs": "(76102) or (76101) or (76106 and 76107) or (76106 and 76108) or (76107 and 76108)",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "10:00AM",
+        "end": "11:15AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Dimitriu, Cristian"
+        ]
+      }
+    }
+  ]
+}

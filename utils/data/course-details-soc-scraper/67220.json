@@ -1,0 +1,26 @@
+{
+  "course_code": "67220",
+  "course_title": "Digital Accessibility - Ensuring Universal Access to the Information Society",
+  "units": "9",
+  "description": "Digital accessibility addresses a user's ability to easily access an electronic document, a website, or a computer application unhindered by visual, auditory, motor or cognitive impairments or temporal disabilities arising from age, illness etc. Students who takes this course will gain a deep understanding of the diverse problems faced by people with disabilities in their interactions in a digital space and how the use of assistive technologies help them surmount the related accessibility barriers (CT1 and CT3). They will learn about inclusive design principles and how to author content with consideration of design decisions that impact digital accessibility. Besides gaining an understanding of user-centered design principles, the students will learn how to apply Web Content Accessibility Guidelines (WCAG) to design and develop a website (CT2). To cap it, students will learn how to test, evaluate and report conformance of a website with usability principles and accessibility standards. (CT3)",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "04:30PM",
+        "end": "05:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Liginlal, Divakaran"
+        ]
+      }
+    }
+  ]
+}

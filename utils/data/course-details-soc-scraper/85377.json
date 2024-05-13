@@ -1,0 +1,26 @@
+{
+  "course_code": "85377",
+  "course_title": "Attitudes and Persuasion",
+  "units": "9",
+  "description": "This advanced undergraduate course will focus on the topic of attitude change and how various persuasive techniques are used to shape human response. The dynamics of propaganda and what makes the techniques effective on social and consumer decisions will be addressed.  The primary goals of the course are to 1) understand the dynamics of attitude change; 2) explore the mechanism by which attitude change techniques operate and 3) examine relevant theories and research in persuasion.  Examples of topics covered include the origins of attitudes, how attitudes influence judgments, social power and attitude change, and how individual decisions are influenced by the mass media.   Classic and contemporary research in the area of persuasion will be examined in the form of course readings and assignments.",
+  "prereqs": "85241",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "02:30PM",
+        "end": "03:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Belanger, Jocelyn"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "course_code": "73103",
+  "course_title": "Principles of Macroeconomics",
+  "units": "9",
+  "description": "A one-semester course that teaches the fundamentals of macroeconomics. Students will learn how macroeconomic analysis can explain national economic activity and how government intervention might stabilize an economy.  Topics include: defining and measuring national wealth, economic growth, credit markets, unemployment, interest rates, inflation, and the monetary system. Additional emphasis will be paid to:  long-term economic development, political economy, financial crises and topics that are central to contemporary macroeconomic debates such as the impact of technological change, migration, and trade on the macroeconomy. Students will access macroeconomic databases, and then use basic statistics to describe and isolate empirical patterns in macro-data. Not open to students who have received credit for 73-100. (Lecture, 2 hours; Recitation, 1 hour).",
+  "prereqs": "73102 or 73104",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "04:00PM",
+        "end": "05:15PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Castano Zuluaga, Andres"
+        ]
+      }
+    }
+  ]
+}

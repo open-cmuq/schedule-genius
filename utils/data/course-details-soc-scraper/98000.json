@@ -1,0 +1,26 @@
+{
+  "course_code": "98000",
+  "course_title": "Student Taught Courses (StuCo): Teaching Practicum",
+  "units": "3",
+  "description": "All current StuCo instructors are enrolled in this course to receive credit for teaching their individual StuCo course(s). StuCo instructors are required to attend periodic meetings focused on course design and instructional strategies conducted by Dr. Hallinen or StuCo organizational meetings conducted by the StuCo Executive Committee in order to receive credit for this course. Please refer any StuCo-related issues regarding registration, application deadlines, co-instructors, room assignments, absences, no-shows, etc. to Kristin Lavery, StuCo Course Administrator, Cyert Hall A64A, 412-268-6819. Dr. Judith Hallinen serves as Advisor for StuCo.   Please Note: Kristin Lavery, StuCo Course Administrator must first be added as a proxy to a StuCo instructor's course before admission to 98000 will be granted. See StuCo website Teacher Information for more info.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Helin, Erik"
+        ]
+      }
+    }
+  ]
+}

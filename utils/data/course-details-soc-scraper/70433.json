@@ -1,0 +1,26 @@
+{
+  "course_code": "70433",
+  "course_title": "Leading Innovation",
+  "units": "3",
+  "description": "Organizations (startups and mature businesses alike) live in an age of constant change (i.e., technology evolution/revolution, globalization, deregulation). Over the past decades, breakthroughs such as artificial intelligence, machine learning, rapid computing, nano- and biotechnology have significantly accelerated the rate of innovation. The internet and digital connectivity have transformed information dissemination and global collaboration. The development cycle for new products and services have shortened, consumer demands becoming more dynamic and volatile. Organizations must innovate faster to stay relevant as the future becoming furthermore intelligent and dynamics.  Innovation is not merely about creating something entirely new. It can also involve incremental changes or adaptations that significantly improve existing products, processes, or services. It often requires creativity, critical thinking, problem-solving, and a willingness to challenge the status quo.  People are the agents of innovation. Managers of an organization are responsible for diagnosing challenges, analyzing applications, formulating strategies, building innovative teams, leveraging innovation for competitive advantages and sustained success. It is therefore essential for managers to develop necessary leadership skills that will enable them to successfully manage innovation. These skills are manifested through a firm understanding of the dynamics of innovation process.  Leading Innovation is an essential course for managers to develop the skills, knowledge, and strategic perspective required to foster innovation within their organizations, ensuring sustainable growth, competitiveness, and relevance in a rapidly changing business landscape.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W2",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person + remote",
+        "instructor": [
+          "Rulke, Diane"
+        ]
+      }
+    }
+  ]
+}

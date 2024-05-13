@@ -1,0 +1,26 @@
+{
+  "course_code": "70508",
+  "course_title": "Independent Study in International Management",
+  "units": "3-18",
+  "description": "Missing Course Description - please contact the teaching department.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Farooqi, Muhammad"
+        ]
+      }
+    }
+  ]
+}

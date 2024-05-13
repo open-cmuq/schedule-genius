@@ -1,0 +1,24 @@
+{
+  "course_code": "67390",
+  "course_title": "Independent Study in Information Systems",
+  "units": "1-12",
+  "description": "Independent studies are opportunities to engage in research with an IS faculty member to advance your learning in certain areas of interest. Information Systems students may enroll in independent study for 3, 6, 9, or 12 units of academic credit by obtaining an IS faculty sponsor who will oversee the academic component of the coursework, monitor progress, and assign a final grade. This is available by Special Permission.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": []
+      }
+    }
+  ]
+}

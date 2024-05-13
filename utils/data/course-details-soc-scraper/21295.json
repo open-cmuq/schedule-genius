@@ -1,0 +1,26 @@
+{
+  "course_code": "21295",
+  "course_title": "Putnam Seminar",
+  "units": "3",
+  "description": "A problem solving seminar designed to prepare students to participate in the annual William Lowell Putnam Mathematical Competition.  Students solve and present their solutions to problems posed.  (One 50 minute session)",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "M"
+        ],
+        "begin": "04:00PM",
+        "end": "04:50PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Yilma, Zelealem"
+        ]
+      }
+    }
+  ]
+}

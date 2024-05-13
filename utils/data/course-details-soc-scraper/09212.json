@@ -1,0 +1,26 @@
+{
+  "course_code": "09212",
+  "course_title": "Special Topics: Nanotechnology in Context : Nanotechnology in Context",
+  "units": "9",
+  "description": "In the ever-evolving landscape of scientific advancement, nanotechnology stands at the forefront of groundbreaking discoveries that impact various sectors, from electronics and biomedicine to environmental sustainability and the economy. \"Nanotechnology in Context\" is an interdisciplinary course designed to explore the multifaceted world of nanotechnology and its dynamic role in our lives. By examining the synthesis and application of nanomaterials, students will gain a comprehensive understanding of science, its implications, and the broader contexts in which it operates. Through a combination of lectures, discussions, and case studies, students will gain a comprehensive perspective on nanotechnology and its applications.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "02:30PM",
+        "end": "03:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Murshid, Nimer"
+        ]
+      }
+    }
+  ]
+}

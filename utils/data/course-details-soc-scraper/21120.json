@@ -1,0 +1,26 @@
+{
+  "course_code": "21120",
+  "course_title": "Differential and Integral Calculus",
+  "units": "10",
+  "description": "Functions, limits, derivatives, logarithmic, exponential, and trigonometric functions, inverse functions; L'Hospital's Rule, curve sketching, Mean Value Theorem, related rates, linear and approximations, maximum-minimum problems, inverse functions, definite and indefinite integrals; integration by substitution and by parts. Applications of integration, as time permits. (Three 50 minute lectures, two 50 minute recitations)",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UMTWR"
+        ],
+        "begin": "11:30AM",
+        "end": "12:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Weston, Anthony Ross"
+        ]
+      }
+    }
+  ]
+}

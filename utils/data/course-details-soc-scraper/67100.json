@@ -1,0 +1,26 @@
+{
+  "course_code": "67100",
+  "course_title": "Information Systems First Year Colloquium",
+  "units": "1",
+  "description": "This IS Colloquium will provide a broad introduction to the Information Systems Program, an exciting program newly joint between Carnegie Mellon's Dietrich College and Heinz College. The IS Colloquium is open only to first-year IS students and is led by an IS academic advisor who facilitates discussions on the field of IS, the program curriculum, and careers, in addition to co-curricular experiences such as internships and study abroad. Because the flexible nature of the IS program encourages students to explore their own interests, we place an emphasis on highlighting a variety of areas within the field of IS. Guest lecturers will include leaders in IS research including Dietrich and Heinz faculty and IS alumni. Additional speakers include the IS career consultant and various campus representatives. Discussions will include students' progress in their first semester, as well as guidance in course planning, creating student Spring semester class schedules, and their overall four-year plan.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W1",
+      "timings": {
+        "days": [
+          "M"
+        ],
+        "begin": "02:30PM",
+        "end": "03:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Aoun, Chadi"
+        ]
+      }
+    }
+  ]
+}

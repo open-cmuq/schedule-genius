@@ -1,0 +1,58 @@
+{
+  "course_code": "67262",
+  "course_title": "Database Design and Development",
+  "units": "9",
+  "description": "Data driven decision making is a core process of organizations. In this class students will study the principles of database management systems, their design, and development. Recent alternatives to the classical relational model will also be examined.",
+  "prereqs": "15122 or 15112 or 15121",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "Lec 4",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "10:00AM",
+        "end": "11:15AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Charfi, Anis"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "M"
+        ],
+        "begin": "10:00AM",
+        "end": "11:15AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Charfi, Anis"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "X",
+      "timings": {
+        "days": [
+          "M"
+        ],
+        "begin": "08:30AM",
+        "end": "09:45AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Charfi, Anis"
+        ]
+      }
+    }
+  ]
+}

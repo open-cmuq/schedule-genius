@@ -1,0 +1,26 @@
+{
+  "course_code": "70440",
+  "course_title": "Corporate Strategy",
+  "units": "9",
+  "description": "This course is designed to provide the student with a general management perspective and an understanding of the total business enterprise. It builds upon previous course work in functional areas and provides insights and analytical tools which a general manager should have in order to plan and implement successful business strategy. The student will analyze complex business problems and formulate realistic strategic solutions. Emphasis is placed on the practical application of business theory by the student in their business career.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Fadlallah, Hussein"
+        ]
+      }
+    }
+  ]
+}

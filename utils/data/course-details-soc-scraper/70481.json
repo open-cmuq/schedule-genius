@@ -1,0 +1,26 @@
+{
+  "course_code": "70481",
+  "course_title": "Marketing Research",
+  "units": "9",
+  "description": "The purpose of this course is to teach multiple research techniques used in marketing. This course is an applied marketing course that gives insight into how various techniques are used in marketing research firms. There are three projects and a final. The first project is designed to teach students about research survey methods. The second is an experiment in which the whole class is involved. The third, an individual project, is designed to teach quantitative research techniques. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+  "prereqs": "(36202 or 70208) and (70381)",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Mathur, Sameer"
+        ]
+      }
+    }
+  ]
+}

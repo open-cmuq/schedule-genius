@@ -1,0 +1,26 @@
+{
+  "course_code": "21484",
+  "course_title": "Graph Theory",
+  "units": "9",
+  "description": "Graph theory uses basic concepts to approach a diversity of problems and nontrivial applications in operations research, computer science and other disciplines. It is one of the very few mathematical areas where one is always close to interesting unsolved problems. Topics include graphs and subgraphs, trees, connectivity, Euler tours and Hamilton cycles, matchings, graph colorings, planar graphs and Euler's Formula, directed graphs, network flows, counting arguments, and graph algorithms.  (Three 50 minute lectures)",
+  "prereqs": "(21228 or 15251) and (21241 or 21242)",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "04:00PM",
+        "end": "04:50PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Yilma, Zelealem"
+        ]
+      }
+    }
+  ]
+}

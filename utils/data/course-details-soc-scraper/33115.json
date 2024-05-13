@@ -1,0 +1,26 @@
+{
+  "course_code": "33115",
+  "course_title": "Physics for Future Presidents",
+  "units": "9",
+  "description": "Countless topics of social and political importance are intimately related to science in general and physics in particular. Examples include energy production, global warming, radioactivity, terrorism, and space travel. This course aims to provide key bits of knowledge based on which such issues can be discussed in a meaningful way, i.e., on the level of arguments and not just vague beliefs. We will cover an unusually wide range of topics, including energy, heat, gravity, atoms, radioactivity, chain reactions, electricity, magnetism, waves, light, weather, and climate. The course is open for all students at CMU.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "08:30AM",
+        "end": "09:45AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Zayed, Mohamed"
+        ]
+      }
+    }
+  ]
+}

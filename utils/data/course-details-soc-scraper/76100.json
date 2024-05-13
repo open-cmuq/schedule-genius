@@ -1,0 +1,102 @@
+{
+  "course_code": "76100",
+  "course_title": "Reading and Writing in an Academic Context",
+  "units": "9",
+  "description": "76-100 is an academic reading and writing course for multilingual students, especially those who are not native speakers of English or who consider English to be their weaker language.  The course emphasizes reading comprehension strategies for reading a variety of text types in English (e.g., journalism, textbook selections, popular press arguments, and academic journal articles). Throughout the semester, students use these sources to write summaries and short position papers. The course introduces students to readers' expectations for North American rhetorical style at the sentence, paragraph, and whole text or genre levels.  Within the course we discuss explicit genre and linguistic norms for writing in academic English so that writers can connect with their readers.  Students who take this course qualify through an online placement test that is administered through the university prior to the fall semester. (All sections are offered MWF).  Each 76-100 course is structured by the reading and writing objectives of the course as well as a vocabulary for writing in English, but some courses present different themes (or content) in their readings.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "10:00AM",
+        "end": "10:50AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Squires, Jeffrey"
+        ]
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "X",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "08:45AM",
+        "end": "09:35AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Gomez Laich, Maria Pia"
+        ]
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "XX",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "10:00AM",
+        "end": "10:50AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Gomez Laich, Maria Pia"
+        ]
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "Y",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "08:45AM",
+        "end": "09:35AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Reynolds, Dudley"
+        ]
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "Z",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "08:45AM",
+        "end": "09:35AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": []
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "ZZ",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "10:00AM",
+        "end": "10:50AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": []
+      }
+    }
+  ]
+}

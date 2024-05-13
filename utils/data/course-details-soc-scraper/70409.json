@@ -1,0 +1,26 @@
+{
+  "course_code": "70409",
+  "course_title": "Innovation and Entrepreneurship in Emerging Markets",
+  "units": "9",
+  "description": "This course focuses on the role that innovation-driven entrepreneurship and market-creating innovation play in the development of economies in emerging markets. The course will explore the potential economic development opportunities brought forward by market-creation innovations in emerging markets and will seek to understand the unique challenges and opportunities of innovation which face entrepreneurs in emerging markets.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "02:30PM",
+        "end": "03:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Hakim, Maher"
+        ]
+      }
+    }
+  ]
+}

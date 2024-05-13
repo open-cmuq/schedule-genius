@@ -1,0 +1,27 @@
+{
+  "course_code": "03113",
+  "course_title": "Biologies in Text and Film",
+  "units": "9",
+  "description": "TBD",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "04:00PM",
+        "end": "05:15PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Affara, Nesrine",
+          "Squires, Jeffrey"
+        ]
+      }
+    }
+  ]
+}

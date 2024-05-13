@@ -1,0 +1,24 @@
+{
+  "course_code": "99430",
+  "course_title": "General Studies Capstone Course",
+  "units": "VAR",
+  "description": "This course is a series of modules with guided activities to enable students to reflect on and synthesize their academic course of study. The activities will include reflective exercises, feedback from faculty, mock interviews, and speakers from CPDC and recent graduates who have followed similar, successful academic paths. Under the guidance of a faculty advisor, a student may undertake a reflective project that synthesizes the student's academic coursework and educational experience at Carnegie Mellon. The project can be written, oral, visual, audio, or other means of artistic expression approved by the faculty advisor. The course will be offered through Canvas and in person. Each semester, the course will be facilitated by an instructor from the General Studies oversight committee in conjunction with the students' academic and project advisors. Additionally, students will regularly meet individually with the course instructor in person or through Zoom.  Registration by special permission.  This course is for students who have declared a general studies major. Students should contact the instructor(s) for permission to enroll.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": []
+      }
+    }
+  ]
+}

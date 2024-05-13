@@ -1,0 +1,42 @@
+{
+  "course_code": "79491",
+  "course_title": "Independent Study",
+  "units": "3-18",
+  "description": "An Independent Study is meant for students with a special interest in an area not covered by a formal history course.  Readings and other work are negotiated between the student and an individual faculty member.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Nair, Deepa"
+        ]
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "X",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Reilly, Benjamin"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "course_code": "38220",
+  "course_title": "ENGAGE in the Arts",
+  "units": "2",
+  "description": "ENGAGE in the Arts is part of Mellon College of Science's Core Curriculum. In this 2-unit full-semester course, students will broaden their knowledge of the fine arts, extend their global and cultural awareness, and facilitate the further development of their self-identity. Coursework requires that students attend 8 distinct arts events, 2 of which must engage with a culture different from one's personal cultural background. In choosing events, students should be imbued with an attitude of openness to new ideas and a willingness to try something new. The course requires students to share, reflect, and document their participation in a variety of arts events by engaging with classmates and instructors through MyCORE, where they can upload coursework and find postings for events.  Coursework can be completed at any time during students' undergraduate years, but they must register for the class during the semester that they intend to complete it, no later than their penultimate semester.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Younis, Ihab"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "course_code": "82141",
+  "course_title": "Elementary Spanish I",
+  "units": "12",
+  "description": "Elementary Spanish I is for beginning students, emphasizing the development of communicative language and cultural competence. Students will work towards improving their writing, reading, listening and speaking abilities in Spanish, such that they become comfortable working with a variety of topics from Spanish-speaking cultural areas. Students will develop basic interactional and routine public communication patterns, frequently working in groups and pairs, and utilizing technologies that enhance learning opportunities and promote skill development. This course also provides extracurricular opportunities to interact with members of the Spanish-speaking community. Four hours of in-class instruction per week are required. A student with prior experience in Spanish must take the placement exam.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "11:30AM",
+        "end": "12:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Helin, Erik"
+        ]
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "X",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "02:30PM",
+        "end": "03:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Helin, Erik"
+        ]
+      }
+    }
+  ]
+}

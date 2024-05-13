@@ -1,0 +1,26 @@
+{
+  "course_code": "21108",
+  "course_title": "Introduction to Mathematical Concepts",
+  "units": "6",
+  "description": "This course is an introduction to the vocabulary necessary for understanding and proving mathematical statements.  The topics in this course include integers, rational numbers, polynomials, divisibility of numbers and polynomials, basic logic, sets, relations, functions, rule of sum, and rule of product.  (Three 50 minute lectures, two 50 minute recitations)",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W2",
+      "timings": {
+        "days": [
+          "UMTWR"
+        ],
+        "begin": "10:00AM",
+        "end": "10:50AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Yilma, Zelealem"
+        ]
+      }
+    }
+  ]
+}

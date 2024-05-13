@@ -1,0 +1,38 @@
+{
+  "course_code": "03343",
+  "course_title": "Experimental Techniques in Molecular Biology",
+  "units": "12",
+  "description": "This laboratory course is designed to teach experimental methods of modern biology. Experiments in microbial genetics, molecular biology and eukaryotic genetics are performed. Emphasis is placed on understanding and applying the biological principles of each experiment. This course is designed to be taken during the junior year and is intended to prepare students for undergraduate research. Experimentation using living organisms and/or their tissues, cells or molecules is an essential component of this course.",
+  "prereqs": "(03232 or 03231) and (09208 or 09222 or 09223 or QC211)",
+  "coreqs": "03220, 03330, 33121",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "Lec 2",
+      "timings": {
+        "days": [
+          "U"
+        ],
+        "begin": "10:00AM",
+        "end": "10:50AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": []
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "09:00AM",
+        "end": "01:00PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": []
+      }
+    }
+  ]
+}

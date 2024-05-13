@@ -1,0 +1,26 @@
+{
+  "course_code": "76385",
+  "course_title": "Introduction to Discourse Analysis",
+  "units": "9",
+  "description": "\"Discourse\" is language: people talking or signing or writing. Discourse analysts ask and answer a variety of questions about how and why people do the things they do with language. We study the structure of written texts  the semi-conscious rules people use to organize paragraphs, for example  as well as the unconscious rules that organize oral discourse such as spontaneous stories and arguments. We study how people signal their intended audience-interpretations of what they say as foreground or background information, a casual remark or solemn promise, more of the same or change of topic. We look at how grammar is influenced by what people need to do with language, and how discourse affects grammar over time. We ask how children and other language learners learn how to make things happen with talk and writing. We ask how people learn what language is for, from exchanging information to writing poetry to perpetuating systems of belief. We analyze the choices speakers and writers make that show how they see themselves and how they relate to others. (Choices about how to address other people, for example, both create and reflect relationships of power and solidarity). We study how people define social processes like disease, aging, and disability as they talk about them, and how language is used to mirror and establish social relations in institutional settings like law courts and schools as well as in families and among friends. This course touches on a selection of these topics and gives students practice in analyzing the complex nuances of language. The course is meant for anyone whose future work is likely to involve critical and/or productive work with language: writers and other communication designers, critics who work with written or spoken texts, historians, actors, sociologists, and so on.",
+  "prereqs": "(76101) or (76102) or (76106 and 76107) or (76107 and 76108) or (76106 and 76108)",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "04:00PM",
+        "end": "05:15PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Mitchell, Thomas"
+        ]
+      }
+    }
+  ]
+}

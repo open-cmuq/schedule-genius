@@ -1,0 +1,26 @@
+{
+  "course_code": "70388",
+  "course_title": "Islamic Finance",
+  "units": "9",
+  "description": "This course is designed to introduce students to the basics of Islamic Finance.  The course will start with an analysis of the Shariah rules that define Islamic Finance.  Students will then look at the main investment structures and map these against the traditional conventional banking products.  The course wraps up with a critique of complex project finance structures through a Shariah compliance lens to identify the gaps between theory and practice.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "04:00PM",
+        "end": "05:15PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Farooqi, Muhammad"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "course_code": "21256",
+  "course_title": "Multivariate Analysis",
+  "units": "9",
+  "description": "This course is designed for students in Economics or Business Administration.  Matrix algebra: vectors, matrices, systems of equations, dot product, cross product, lines and planes. Optimization: partial derivatives, the chain rule, gradient, unconstrained optimization, constrained optimization (Lagrange multipliers and the Kuhn-Tucker Theorem). Improper integrals. Multiple integration: iterated integrals, probability applications, triple integrals, change of variables. (Three 50 minute lectures, one 50 minute recitation)",
+  "prereqs": "21112 or 21120",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UMTWR"
+        ],
+        "begin": "08:45AM",
+        "end": "09:35AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "El Hajj, Layan"
+        ]
+      }
+    }
+  ]
+}

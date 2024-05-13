@@ -1,0 +1,26 @@
+{
+  "course_code": "21127",
+  "course_title": "Concepts of Mathematics",
+  "units": "12",
+  "description": "This course introduces the basic concepts, ideas and tools involved in doing mathematics. As such, its main focus is on presenting informal logic, and the methods of mathematical proof. These subjects are closely related to the application of mathematics in many areas, particularly computer science. Topics discussed include a basic introduction to elementary number theory, induction, the algebra of sets, relations, equivalence relations, congruences, partitions, and functions, including injections, surjections, and bijections.  A basic introduction to the real numbers, rational and irrational numbers.  Supremum and infimum of a set.  (Three 50 minute lectures, two 50 minute recitations)",
+  "prereqs": "21120 or 21112 or 15112 or 21108",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UMTWR"
+        ],
+        "begin": "10:00AM",
+        "end": "10:50AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Demirkoparan, Hasan"
+        ]
+      }
+    }
+  ]
+}

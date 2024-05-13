@@ -1,0 +1,27 @@
+{
+  "course_code": "07599",
+  "course_title": "SCS Honors Undergraduate Research Thesis",
+  "units": "VAR",
+  "description": "Available only to students registered in the CS Senior Research Thesis Program.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Riley, Ryan",
+          "Reis, Giselle"
+        ]
+      }
+    }
+  ]
+}

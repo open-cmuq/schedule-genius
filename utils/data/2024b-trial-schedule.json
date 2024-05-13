@@ -1,0 +1,3210 @@
+{
+  "courses": [
+    {
+      "course_code": "03-113",
+      "course_title": "Biologies in Text and Film",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TU"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Squires",
+              "Affara"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03-121",
+      "course_title": "Modern Biology",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "URT"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Affara"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03-125",
+      "course_title": "Evolution",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "4:00PM",
+            "end": "5:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Bouaouina"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03-151",
+      "course_title": "Honors Modern Biology",
+      "units": 10.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "R"
+            ],
+            "begin": "3:30PM",
+            "end": "5:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Affara"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 2",
+          "timings": {
+            "days": [
+              "URT"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Affara"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03-201",
+      "course_title": "Undergraduate Colloquium for Sophomores",
+      "units": 2.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "M"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Younis"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03-220",
+      "course_title": "Genetics",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(03-151 at least D) or (03-121 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 2",
+          "timings": {
+            "days": [
+              "TRU"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Younis"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "W"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Younis"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03-343",
+      "course_title": "Experimental Techniques in Molecular Biology",
+      "units": 12.0,
+      "description": "UNK",
+      "prereqs": "((03-232 at least D) or (03-231 at least D)) and ((QC-211 at least D) or (09-222 at least D) or (09-208 at least D) or (09-223 at least D))",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 2",
+          "timings": {
+            "days": [
+              "U"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": []
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "9:00AM",
+            "end": "1:00PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": []
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03-350",
+      "course_title": "Developmental Biology",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(03-320 at least D) or (03-240 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Bouaouina"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03-410",
+      "course_title": "Special Topics in Biological Sciences",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(03-231 at least D) or (03-232 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TRU"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Naik"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03-411",
+      "course_title": "Topics in Research",
+      "units": 1.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "R"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Bouaouina"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "03-435",
+      "course_title": "Cancer Biology",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(03-221 at least D) or (03-220 at least D) or (03-330 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "4:00PM",
+            "end": "5:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Younis"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "07-129",
+      "course_title": "Freshmen Immigration Course",
+      "units": 3.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W1",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Harras"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "09-105",
+      "course_title": "Introduction to Modern Chemistry I",
+      "units": 10.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 3",
+          "timings": {
+            "days": [
+              "MTWRU"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Murshid"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "4:00PM",
+            "end": "4:50PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Murshid"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "09-207",
+      "course_title": "Techniques in Quantitative Analysis",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(09-106 at least D) or (09-107 at least A)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "2:30PM",
+            "end": "5:30PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Faulkner"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 2",
+          "timings": {
+            "days": [
+              "M"
+            ],
+            "begin": "4:00PM",
+            "end": "4:50PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Faulkner"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "09-217",
+      "course_title": "Organic Chemistry I",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(09-107 at least D) or (09-105 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "RUTMW"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Faulkner"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15-110",
+      "course_title": "Principles of Computing",
+      "units": 10.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "R"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Di Caro"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 3",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Di Caro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15-112",
+      "course_title": "Fundamentals of Programming and Computer Science",
+      "units": 12.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "RUT"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Riley"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15-121",
+      "course_title": "Introduction to Data Structures",
+      "units": 10.0,
+      "description": "UNK",
+      "prereqs": "(15-112 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 2",
+          "timings": {
+            "days": [
+              "TU"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Riley"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "R"
+            ],
+            "begin": "8:45AM",
+            "end": "9:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Riley"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15-150",
+      "course_title": "Principles of Functional Programming",
+      "units": 10.0,
+      "description": "UNK",
+      "prereqs": "((15-151 at least C) or (21-127 at least C) or (21-128 at least C)) and (15-112 at least C)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "T"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Reis"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 3",
+          "timings": {
+            "days": [
+              "TU"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Reis"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15-213",
+      "course_title": "Introduction to Computer Systems",
+      "units": 12.0,
+      "description": "UNK",
+      "prereqs": "(15-122 at least C)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 3",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Harras"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "R"
+            ],
+            "begin": "4:00PM",
+            "end": "4:50PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Harras"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15-281",
+      "course_title": "Artificial Intelligence: Representation and Problem Solving",
+      "units": 12.0,
+      "description": "UNK",
+      "prereqs": "(15-122 at least C) and ((21-240 at least C) or (21-241 at least C) or (18-202 at least C)) and ((15-151 at least C) or (21-127 at least C) or (21-128 at least C))",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 2",
+          "timings": {
+            "days": [
+              "TU"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Di Caro"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "T"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Di Caro"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15-282",
+      "course_title": "Artificial Intelligence for Medicine",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(15-112 at least C)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Hammoud"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15-317",
+      "course_title": "Constructive Logic",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(15-150 at least C)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 2",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Reis"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "R"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Reis"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15-440",
+      "course_title": "Distributed Systems",
+      "units": 12.0,
+      "description": "UNK",
+      "prereqs": "(15-213 at least C)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "R"
+            ],
+            "begin": "8:45AM",
+            "end": "9:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Hammoud"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 3",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Hammoud"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15-451",
+      "course_title": "Algorithm Design and Analysis",
+      "units": 12.0,
+      "description": "UNK",
+      "prereqs": "(15-210 at least C) and (21-241 at least C) and ((15-251 at least C) or (21-228 at least C))",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "RU"
+            ],
+            "begin": "2:30PM",
+            "end": "3:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Katpoutsis"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 2",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Katpoutsis"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "15-455",
+      "course_title": "Undergraduate Complexity Theory",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(15-251 at least C)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Katpoutsis"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "17-313",
+      "course_title": "Foundations of Software Engineering",
+      "units": 12.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TRU"
+            ],
+            "begin": "4:00PM",
+            "end": "5:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Feo Flushing"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21-108",
+      "course_title": "Introduction to Mathematical Concepts",
+      "units": 6.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W2",
+          "timings": {
+            "days": [
+              "MWRUT"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Yilma"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21-111",
+      "course_title": "Calculus I",
+      "units": 10.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TMRUW"
+            ],
+            "begin": "2:30PM",
+            "end": "3:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Weston"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21-120",
+      "course_title": "Differential and Integral Calculus",
+      "units": 10.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UWTMR"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Weston"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21-124",
+      "course_title": "Calculus II for Biologists and Chemists",
+      "units": 10.0,
+      "description": "UNK",
+      "prereqs": "(21-120 at least D) or (21-112 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "WUTRM"
+            ],
+            "begin": "8:45AM",
+            "end": "9:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Demirkoparan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21-127",
+      "course_title": "Concepts of Mathematics",
+      "units": 12.0,
+      "description": "UNK",
+      "prereqs": "(15-112 at least C) or (21-120 at least C) or (21-112 at least C) or (21-108 at least C)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MWRUT"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Demirkoparan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21-241",
+      "course_title": "Matrices and Linear Transformations",
+      "units": 10.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UWTMR"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "El Hajj"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21-256",
+      "course_title": "Multivariate Analysis",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(21-120 at least D) or (21-112 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MWRTU"
+            ],
+            "begin": "8:45AM",
+            "end": "9:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "El Hajj"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21-259",
+      "course_title": "Calculus in Three Dimensions",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(21-122 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UWTMR"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Khare"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21-295",
+      "course_title": "Putnam Seminar",
+      "units": 3.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "M"
+            ],
+            "begin": "4:00PM",
+            "end": "4:50PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Yilma"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "21-484",
+      "course_title": "Graph Theory",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "((15-251 at least D) or (21-228 at least D)) and ((21-241 at least D) or (21-242 at least D))",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TUR"
+            ],
+            "begin": "4:00PM",
+            "end": "4:50PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Yilma"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "33-115",
+      "course_title": "Physics for Future Presidents",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TUR"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Zayed"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "33-121",
+      "course_title": "Physics I for Science Students",
+      "units": 12.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "RTU"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Zayed"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "36-202",
+      "course_title": "Methods for Statistics & Data Science",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(36-247 at least D) or (36-220 at least D) or (36-207 at least D) or (70-207 at least D) or (36-200 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TUR"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Park"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "38-101",
+      "course_title": "EUREKA!: Discovery and Its Impact",
+      "units": 6.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Faulkner",
+              "Naik"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67-100",
+      "course_title": "Information Systems First Year Colloquium",
+      "units": 1.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W1",
+          "timings": {
+            "days": [
+              "M"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": []
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67-220",
+      "course_title": "Digital Accessibility - Ensuring Universal Access to the Information Society",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Liginlal"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67-262",
+      "course_title": "Database Design and Development",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(15-112 at least D) or (15-121 at least D) or (15-122 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "Lec 4",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Charfi"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "M"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Charfi"
+            ]
+          }
+        },
+        {
+          "section_type": "Recitation",
+          "section_id": "X",
+          "timings": {
+            "days": [
+              "M"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Charfi"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67-301",
+      "course_title": "Networks and Telecommunications",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(67-272 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Aazam"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67-323",
+      "course_title": "Enterprise Systems: Concepts and Practice",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(67-272 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TU"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Charfi"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67-354",
+      "course_title": "Sustainability in the Digital Age",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(67-250 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Aoun"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67-364",
+      "course_title": "Practical Data Science",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "((36-200 at least C) or (36-201 at least C)) and (15-112 at least C)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Liginlal"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67-379",
+      "course_title": "Principles of Geographic Information Systems",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(67-262 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TU"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Aoun"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67-382",
+      "course_title": "Digital Transformation, Strategy and Management",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Vatanasakdakul"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "X",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Vatanasakdakul"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "67-404",
+      "course_title": "Blockchain Applications",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Aazam"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-110",
+      "course_title": "Business Computing",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "4:00PM",
+            "end": "5:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Fadlallah"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-122",
+      "course_title": "Introduction to Accounting",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TU"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Akguc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-207",
+      "course_title": "Probability and Statistics for Business Applications",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Park"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-208",
+      "course_title": "Regression Analysis",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(70-207 at least D) or (36-200 at least D) or (36-201 at least D) or (36-218 at least D) or (36-220 at least D) or (36-247 at least D) or (36-207 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TU"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Park"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-311",
+      "course_title": "Organizational Behavior",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(76-102 at least D) or (76-101 at least D) or ((76-106 at least D) and (76-107 at least D)) or ((76-106 at least D) and (76-108 at least D)) or ((76-107 at least D) and (76-108 at least D)) or (76-245 at least D) or (76-331 at least D) or (76-347 at least D) or (76-327 at least D) or (76-102 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Haan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-332",
+      "course_title": "Business, Society and Ethics",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(76-102 at least D) or (76-101 at least D) or ((76-106 at least D) and (76-107 at least D)) or ((76-108 at least D) and (76-106 at least D)) or ((76-108 at least D) and (76-107 at least D))",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "URT"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Dimitriu"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-340",
+      "course_title": "Business Communications",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(76-102 at least D) or (76-101 at least D) or ((76-106 at least D) and (76-107 at least D)) or ((76-106 at least D) and (76-108 at least D)) or ((76-107 at least D) and (76-108 at least D))",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "McGinnis"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "X",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "McGinnis"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-341",
+      "course_title": "Team Dynamics and Leadership",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(36-200 [] at least D) or (36-201 [] at least D) or (36-207 [] at least D) or (36-220 [] at least D) or (70-207 [] at least D) or (36-225 [] at least D) or (36-247 [] at least D) or (36-217 [] at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "4:00PM",
+            "end": "5:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Haan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-371",
+      "course_title": "Operations Management",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(36-220 at least D) or (36-247 at least D) or (36-225 at least D) or (36-218 at least D) or (36-200 at least D) or (36-201 at least D) or (70-207 at least D) or (36-207 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Adeinat"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-381",
+      "course_title": "Marketing I",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(76-102 at least D) or (76-101 at least D) or ((76-106 at least D) and (76-107 at least D)) or ((76-108 at least D) and (76-106 at least D)) or ((76-108 at least D) and (76-107 at least D))",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TU"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Sharma"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-388",
+      "course_title": "Islamic Finance",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "RT"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Farooqi"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-391",
+      "course_title": "Finance",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "((73-102 at least D) or (73-100 at least D)) and ((36-218 at least D) or (36-207 at least D) or (70-207 at least D) or (36-200 at least D) or (36-225 at least D) or (36-201 at least D) or (36-217 at least D))",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TU"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Farooqi"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-394",
+      "course_title": "AI in Action",
+      "units": 3.0,
+      "description": "UNK",
+      "prereqs": "(70-391 [] at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W2",
+          "timings": {
+            "days": [
+              ""
+            ],
+            "begin": "NAN",
+            "end": "NAN",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": []
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-409",
+      "course_title": "Innovation and Entrepreneurship in Emerging Markets",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Hakim"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-415",
+      "course_title": "Introduction to Entrepreneurship",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "RU"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Hakim"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-433",
+      "course_title": "Leading Innovation",
+      "units": 3.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W2",
+          "timings": {
+            "days": [
+              ""
+            ],
+            "begin": "NAN",
+            "end": "NAN",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Rulke"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-440",
+      "course_title": "Corporate Strategy",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TU"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Fadlallah"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-443",
+      "course_title": "Digital Marketing and Social Media Strategy",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Sharma"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-452",
+      "course_title": "Introduction to Product Management",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Adeinat"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-455",
+      "course_title": "Data Management Fundamentals",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(15-110 at least D) or (15-104 at least D) or (15-112 at least D) or (70-110 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Mathur"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-469",
+      "course_title": "End to End Business Analytics",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "((36-200 at least D) or (36-220 at least D) or (36-225 at least D) or (70-207 at least D)) and ((70-257 at least D) or (21-257 at least D) or (21-292 at least D))",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TU"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Castano Zuluaga"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-471",
+      "course_title": "Supply Chain Management",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(70-371 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              ""
+            ],
+            "begin": "NAN",
+            "end": "NAN",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Adeinat"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-481",
+      "course_title": "Marketing Research",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "((36-202 at least D) or (70-208 at least D)) and (70-381 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Mathur"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-482",
+      "course_title": "Pricing Strategy",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              ""
+            ],
+            "begin": "NAN",
+            "end": "NAN",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Veli"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "70-493",
+      "course_title": "Valuation and Financial Modeling",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(70-391 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Akguc"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "73-102",
+      "course_title": "Principles of Microeconomics",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TU"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Indaco"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "73-103",
+      "course_title": "Principles of Macroeconomics",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(73-102 at least C)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "4:00PM",
+            "end": "5:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Castano Zuluaga"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "73-230",
+      "course_title": "Intermediate Microeconomics",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "((21-259 at least D) or (21-256 at least D) or (21-269 at least D) or (21-268 at least D)) and ((73-100 at least C) or (73-102 at least C))",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TU"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Veli"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "73-265",
+      "course_title": "Economics and Data Science",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "((70-207 at least D) or (15-259 at least D) or (21-325 at least D) or (36-200 at least D) or (36-201 at least D) or (36-202 at least D) or (36-207 at least D) or (36-217 at least D) or (36-218 at least D) or (36-219 at least D) or (36-220 at least D) or (36-225 at least D) or (36-247 at least D)) and (73-102 at least C)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Indaco"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "73-369",
+      "course_title": "Islamic Economics",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "RT"
+            ],
+            "begin": "4:00PM",
+            "end": "5:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Veli"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "76-100",
+      "course_title": "Reading and Writing in an Academic Context",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "ZZ",
+          "timings": {
+            "days": [
+              "URT"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": []
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "YY",
+          "timings": {
+            "days": [
+              "URT"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Dreher"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "Y",
+          "timings": {
+            "days": [
+              "URT"
+            ],
+            "begin": "8:45AM",
+            "end": "9:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Reynolds"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "URT"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Squires"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "Z",
+          "timings": {
+            "days": [
+              "URT"
+            ],
+            "begin": "8:45AM",
+            "end": "9:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": []
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "XX",
+          "timings": {
+            "days": [
+              "URT"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Gomez Laich"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "X",
+          "timings": {
+            "days": [
+              "URT"
+            ],
+            "begin": "8:45AM",
+            "end": "9:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Gomez Laich"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "76-101",
+      "course_title": "Interpretation and Argument",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "URT"
+            ],
+            "begin": "8:45AM",
+            "end": "9:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Pessoa"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "76-270",
+      "course_title": "Writing for the Professions",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(76-101 at least D) or (76-102 at least D) or ((76-106 at least D) and (76-107 at least D)) or ((76-108 at least D) and (76-106 at least D)) or ((76-108 at least D) and (76-107 at least D))",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "X",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "4:00PM",
+            "end": "5:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Dreher"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Mitchell"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "76-385",
+      "course_title": "Introduction to Discourse Analysis",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(76-101 at least D) or (76-102 at least D) or ((76-106 at least D) and (76-107 at least D)) or ((76-107 at least D) and (76-108 at least D)) or ((76-106 at least D) and (76-108 at least D))",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Mitchell"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "79-104",
+      "course_title": "Global Histories",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TUR"
+            ],
+            "begin": "4:00PM",
+            "end": "4:50PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Reilly"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "79-284",
+      "course_title": "Muslim Representation in the Media and Popular Culture",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "10:00AM",
+            "end": "11:15AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Nair"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "79-367",
+      "course_title": "Disastrous Encounters",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Reilly"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "79-378",
+      "course_title": "Gender in South Asia",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Nair"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "79-491",
+      "course_title": "Independent Study",
+      "units": 3.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              ""
+            ],
+            "begin": "NAN",
+            "end": "NAN",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Nair"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "X",
+          "timings": {
+            "days": [
+              ""
+            ],
+            "begin": "NAN",
+            "end": "NAN",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Reilly"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "80-210",
+      "course_title": "Logic and Proofs",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "RTU"
+            ],
+            "begin": "8:45AM",
+            "end": "9:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Khare"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "80-334",
+      "course_title": "Social and Political Philosophy",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Dimitriu"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "82-101",
+      "course_title": "Elementary French I",
+      "units": 12.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TRU"
+            ],
+            "begin": "11:30AM",
+            "end": "12:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Moufid"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "82-111",
+      "course_title": "Elementary Arabic I",
+      "units": 12.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "RUT"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Nassif"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "82-141",
+      "course_title": "Elementary Spanish I",
+      "units": 12.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "URT"
+            ],
+            "begin": "8:45AM",
+            "end": "9:35AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Helin"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "X",
+          "timings": {
+            "days": [
+              "UTR"
+            ],
+            "begin": "2:30PM",
+            "end": "3:20PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Helin"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "82-241",
+      "course_title": "Intermediate Spanish I",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(82-144 at least D) or (82-142 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TUR"
+            ],
+            "begin": "4:00PM",
+            "end": "4:50PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Helin"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "82-314",
+      "course_title": "Literature of the Arabic-speaking World",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Moufid"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "82-414",
+      "course_title": "Arabic for the Professions I",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "TU"
+            ],
+            "begin": "11:30AM",
+            "end": "12:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Nassif"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "85-219",
+      "course_title": "Biological Foundations of Behavior",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Bruder"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "85-221",
+      "course_title": "Principles of Child Development",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Belanger"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "85-370",
+      "course_title": "Perception",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "8:30AM",
+            "end": "9:45AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Bruder"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "85-377",
+      "course_title": "Attitudes and Persuasion",
+      "units": 9.0,
+      "description": "UNK",
+      "prereqs": "(85-241 at least D)",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W",
+          "timings": {
+            "days": [
+              "UT"
+            ],
+            "begin": "2:30PM",
+            "end": "3:45PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Belanger"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "98-041",
+      "course_title": "Student Taught Courses (StuCo): Sustainable Living",
+      "units": 3.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W2",
+          "timings": {
+            "days": [
+              ""
+            ],
+            "begin": "NAN",
+            "end": "NAN",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Alaeddine",
+              "Abayomi"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "98-059",
+      "course_title": "Student Taught Courses (StuCo): Chinese Charms-Unlocking the Secrets of Mandarin",
+      "units": 3.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W2",
+          "timings": {
+            "days": [
+              ""
+            ],
+            "begin": "NAN",
+            "end": "NAN",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Gu"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "98-060",
+      "course_title": "Student Taught Courses (StuCo): A Beginners\u00bf Guide to Chinese",
+      "units": 3.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W1",
+          "timings": {
+            "days": [
+              ""
+            ],
+            "begin": "NAN",
+            "end": "NAN",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Gao",
+              "Mina"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "99-101",
+      "course_title": "Computing @ Carnegie Mellon",
+      "units": 3.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "X1",
+          "timings": {
+            "days": [
+              "WM"
+            ],
+            "begin": "10:00AM",
+            "end": "10:50AM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Saliba"
+            ]
+          }
+        },
+        {
+          "section_type": "Lecture",
+          "section_id": "W1",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "4:00PM",
+            "end": "4:50PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Saliba"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "99-262",
+      "course_title": "ADDvocate: Anti-Discrimination Dialogue for Social Justice course at CMU-Q",
+      "units": 6.0,
+      "description": "UNK",
+      "prereqs": "",
+      "coreqs": "UNK",
+      "sections": [
+        {
+          "section_type": "Lecture",
+          "section_id": "W1",
+          "timings": {
+            "days": [
+              "MW"
+            ],
+            "begin": "4:00PM",
+            "end": "5:15PM",
+            "teaching_location": "Doha, Qatar",
+            "delivery_mode": "UNK",
+            "instructor": [
+              "Moufid"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

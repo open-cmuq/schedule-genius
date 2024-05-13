@@ -1,0 +1,26 @@
+{
+  "course_code": "73230",
+  "course_title": "Intermediate Microeconomics",
+  "units": "9",
+  "description": "This course builds on the Principles of Economics course. It focuses on the following topics: theory of the consumer, theory of the producer, perfectly competitive market equilibrium, imperfect competition, and market failures due to asymmetric information such as adverse selection and moral hazard.  (Lecture, 3 hours; Recitation, 1 hour).",
+  "prereqs": "(21256 or 21259 or 21269 or 21268 or 21254) and (73100 or 73102 or 73104)",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "02:30PM",
+        "end": "03:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Safak, Veli"
+        ]
+      }
+    }
+  ]
+}

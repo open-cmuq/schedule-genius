@@ -1,0 +1,42 @@
+{
+  "course_code": "15110",
+  "course_title": "Principles of Computing",
+  "units": "10",
+  "description": "A course in fundamental computing principles for students with minimal or no  computing background. Programming constructs: sequencing, selection,  iteration, and recursion. Data organization: arrays and lists. Use of  abstraction in computing: data representation, computer organization,  computer networks, functional decomposition, and application programming  interfaces. Use of computational principles in problem-solving: divide and conquer, randomness, and concurrency. Classification of computational problems  based on complexity, non-computable functions, and using heuristics to  find reasonable solutions to complex problems. Social, ethical and legal  issues associated with the development of new computational artifacts will  also be discussed.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "Lec 3",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "08:30AM",
+        "end": "09:45AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Di Caro, Gianni"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "R"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Di Caro, Gianni"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "course_code": "70110",
+  "course_title": "Business Computing",
+  "units": "9",
+  "description": "Students will learn how individuals and organizations use computing technologies to support and improve their businesses. At an individual level, students will build their skills with Microsoft Excel and other personal productivity tools. At an organizational level, the class looks at ways in which businesses of all sizes and types leverage computing technologies to run their businesses more efficiently, make better business decisions, and create new business opportunities. This course is reserved for first-year Business students; others may enroll by special permission from the UBA office only.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "04:00PM",
+        "end": "05:15PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Fadlallah, Hussein"
+        ]
+      }
+    }
+  ]
+}

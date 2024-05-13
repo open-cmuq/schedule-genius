@@ -1,0 +1,26 @@
+{
+  "course_code": "70050",
+  "course_title": "Study Abroad",
+  "units": "VAR",
+  "description": "This course serve as a Fall semester placeholder for undergraduate Business Administration students who study abroad full-time. No course credit and no letter grade is associated with it. Special permission is required for this course to be used.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Farooqi, Muhammad"
+        ]
+      }
+    }
+  ]
+}
