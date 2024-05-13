@@ -8,7 +8,7 @@ time conflicts. In addition to this, it also serves Professors in trialing
 a schedule and testing possible course sets to ensure that students can 
 complete their degree and requirements on time. 
 
-# The Probelematic System
+# The Problematic System
 ## Students Perspective
 During a typical semester, students utilize Stellic to find out what courses
 count for what in their degree. Stellic isn't so stellar at this as it requires
