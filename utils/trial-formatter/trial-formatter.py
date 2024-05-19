@@ -459,7 +459,7 @@ def stdIns(instructors):
 def stdReqs(requirements):
     return requirements.replace("-","")
 
-def convertScheduleToJson (df: pd.DataFrame, path: str):
+def convertScheduleToJson (df: pd.DataFrame, semName: str, semCode: str, path: str):
     courses = []
     prev_section = ""
     prev_course = ""
@@ -506,10 +506,22 @@ def convertScheduleToJson (df: pd.DataFrame, path: str):
                 }]
             }
             courses.append(course)
+    
+    import datetime
+    # Get the current date and time with timezone info
+    now = datetime.datetime.now(datetime.timezone.utc)
+    # Format the date and time as a string in ISO 8601 format with timezone
+    formatted_now = now.isoformat()
 
-    json_data = json.dumps({"courses": courses}, indent=2)
+    schedule_json = {
+            "semester_name": semName,
+            "semester_shortcode": semCode,
+            "last_update": formatted_now, 
+            "courses": courses
+            }
+    json_data = json.dumps(schedule_json, indent=2)
     with open(path, "w") as f:
         f.write(json_data)
 
 schedule, audit = read_infosilem_format("../data/schedules/2024b-fall-trial-mar15.xlsx")
-convertScheduleToJson(schedule,"../data/2024b-trial-schedule.json")
+convertScheduleToJson(schedule,"Fall 2024b Trial","F24","../data/2024b-trial-schedule.json")

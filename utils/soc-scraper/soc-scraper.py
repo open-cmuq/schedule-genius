@@ -3,6 +3,7 @@ import time
 import requests
 import pandas as pd
 import os
+import datetime
 from bs4 import BeautifulSoup
 
 # Global header for any requests
@@ -144,7 +145,7 @@ def getCourseSchedule(semester):
 """
 Given a dataframe containing the course information, convert into a JSON
 """
-def convertScheduleToJson(df, path):
+def convertScheduleToJson(df, semCode, semName, path):
     courses = []
     current_lecture = None
 
@@ -204,10 +205,19 @@ def convertScheduleToJson(df, path):
         json_data = json.dumps(course, indent=2)
         with open(file_path, "w") as f:
             f.write(json_data)
-
-    json_data = json.dumps({"courses": courses}, indent=2)
+    
+    # Get the current date and time with timezone info
+    now = datetime.datetime.now(datetime.timezone.utc)
+    # Format the date and time as a string in ISO 8601 format with timezone
+    formatted_now = now.isoformat()
+    schedule_json = {"semester_name": semName, 
+                "semester_shortcode": semCode,
+                "last_update": formatted_now,
+                "courses": courses
+                }
+    json_data = json.dumps(schedule_json, indent=2)
     with open(path, "w") as f:
         f.write(json_data)
 
 df = getCourseSchedule("F24")
-convertScheduleToJson(df, "../data/soc-schedule.json")
+convertScheduleToJson(df,"F24","Fall 2024 Students", "../data/soc-schedule.json")
