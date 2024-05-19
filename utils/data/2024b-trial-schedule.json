@@ -152,7 +152,7 @@
       "course_title": "Genetics",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(03-151 at least D) or (03-121 at least D)",
+      "prereqs": "(03151 at least D) or (03121 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -194,7 +194,7 @@
       "course_title": "Experimental Techniques in Molecular Biology",
       "units": 12.0,
       "description": "UNK",
-      "prereqs": "((03-232 at least D) or (03-231 at least D)) and ((QC-211 at least D) or (09-222 at least D) or (09-208 at least D) or (09-223 at least D))",
+      "prereqs": "((03232 at least D) or (03231 at least D)) and ((QC211 at least D) or (09222 at least D) or (09208 at least D) or (09223 at least D))",
       "coreqs": "UNK",
       "sections": [
         {
@@ -232,7 +232,7 @@
       "course_title": "Developmental Biology",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(03-320 at least D) or (03-240 at least D)",
+      "prereqs": "(03320 at least D) or (03240 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -258,7 +258,7 @@
       "course_title": "Special Topics in Biological Sciences",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(03-231 at least D) or (03-232 at least D)",
+      "prereqs": "(03231 at least D) or (03232 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -310,7 +310,7 @@
       "course_title": "Cancer Biology",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(03-221 at least D) or (03-220 at least D) or (03-330 at least D)",
+      "prereqs": "(03221 at least D) or (03220 at least D) or (03330 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -404,7 +404,7 @@
       "course_title": "Techniques in Quantitative Analysis",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(09-106 at least D) or (09-107 at least A)",
+      "prereqs": "(09106 at least D) or (09107 at least A)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -446,7 +446,7 @@
       "course_title": "Organic Chemistry I",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(09-107 at least D) or (09-105 at least D)",
+      "prereqs": "(09107 at least D) or (09105 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -540,7 +540,7 @@
       "course_title": "Introduction to Data Structures",
       "units": 10.0,
       "description": "UNK",
-      "prereqs": "(15-112 at least D)",
+      "prereqs": "(15112 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -582,7 +582,7 @@
       "course_title": "Principles of Functional Programming",
       "units": 10.0,
       "description": "UNK",
-      "prereqs": "((15-151 at least C) or (21-127 at least C) or (21-128 at least C)) and (15-112 at least C)",
+      "prereqs": "((15151 at least C) or (21127 at least C) or (21128 at least C)) and (15112 at least C)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -624,7 +624,7 @@
       "course_title": "Introduction to Computer Systems",
       "units": 12.0,
       "description": "UNK",
-      "prereqs": "(15-122 at least C)",
+      "prereqs": "(15122 at least C)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -666,7 +666,7 @@
       "course_title": "Artificial Intelligence: Representation and Problem Solving",
       "units": 12.0,
       "description": "UNK",
-      "prereqs": "(15-122 at least C) and ((21-240 at least C) or (21-241 at least C) or (18-202 at least C)) and ((15-151 at least C) or (21-127 at least C) or (21-128 at least C))",
+      "prereqs": "(15122 at least C) and ((21240 at least C) or (21241 at least C) or (18202 at least C)) and ((15151 at least C) or (21127 at least C) or (21128 at least C))",
       "coreqs": "UNK",
       "sections": [
         {
@@ -708,7 +708,7 @@
       "course_title": "Artificial Intelligence for Medicine",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(15-112 at least C)",
+      "prereqs": "(15112 at least C)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -734,7 +734,7 @@
       "course_title": "Constructive Logic",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(15-150 at least C)",
+      "prereqs": "(15150 at least C)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -776,7 +776,7 @@
       "course_title": "Distributed Systems",
       "units": 12.0,
       "description": "UNK",
-      "prereqs": "(15-213 at least C)",
+      "prereqs": "(15213 at least C)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -818,7 +818,7 @@
       "course_title": "Algorithm Design and Analysis",
       "units": 12.0,
       "description": "UNK",
-      "prereqs": "(15-210 at least C) and (21-241 at least C) and ((15-251 at least C) or (21-228 at least C))",
+      "prereqs": "(15210 at least C) and (21241 at least C) and ((15251 at least C) or (21228 at least C))",
       "coreqs": "UNK",
       "sections": [
         {
@@ -860,7 +860,7 @@
       "course_title": "Undergraduate Complexity Theory",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(15-251 at least C)",
+      "prereqs": "(15251 at least C)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -990,7 +990,7 @@
       "course_title": "Calculus II for Biologists and Chemists",
       "units": 10.0,
       "description": "UNK",
-      "prereqs": "(21-120 at least D) or (21-112 at least D)",
+      "prereqs": "(21120 at least D) or (21112 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1016,7 +1016,7 @@
       "course_title": "Concepts of Mathematics",
       "units": 12.0,
       "description": "UNK",
-      "prereqs": "(15-112 at least C) or (21-120 at least C) or (21-112 at least C) or (21-108 at least C)",
+      "prereqs": "(15112 at least C) or (21120 at least C) or (21112 at least C) or (21108 at least C)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1068,7 +1068,7 @@
       "course_title": "Multivariate Analysis",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(21-120 at least D) or (21-112 at least D)",
+      "prereqs": "(21120 at least D) or (21112 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1094,7 +1094,7 @@
       "course_title": "Calculus in Three Dimensions",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(21-122 at least D)",
+      "prereqs": "(21122 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1146,7 +1146,7 @@
       "course_title": "Graph Theory",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "((15-251 at least D) or (21-228 at least D)) and ((21-241 at least D) or (21-242 at least D))",
+      "prereqs": "((15251 at least D) or (21228 at least D)) and ((21241 at least D) or (21242 at least D))",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1224,7 +1224,7 @@
       "course_title": "Methods for Statistics & Data Science",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(36-247 at least D) or (36-220 at least D) or (36-207 at least D) or (70-207 at least D) or (36-200 at least D)",
+      "prereqs": "(36247 at least D) or (36220 at least D) or (36207 at least D) or (70207 at least D) or (36200 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1327,7 +1327,7 @@
       "course_title": "Database Design and Development",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(15-112 at least D) or (15-121 at least D) or (15-122 at least D)",
+      "prereqs": "(15112 at least D) or (15121 at least D) or (15122 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1385,7 +1385,7 @@
       "course_title": "Networks and Telecommunications",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(67-272 at least D)",
+      "prereqs": "(67272 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1411,7 +1411,7 @@
       "course_title": "Enterprise Systems: Concepts and Practice",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(67-272 at least D)",
+      "prereqs": "(67272 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1437,7 +1437,7 @@
       "course_title": "Sustainability in the Digital Age",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(67-250 at least D)",
+      "prereqs": "(67250 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1463,7 +1463,7 @@
       "course_title": "Practical Data Science",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "((36-200 at least C) or (36-201 at least C)) and (15-112 at least C)",
+      "prereqs": "((36200 at least C) or (36201 at least C)) and (15112 at least C)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1489,7 +1489,7 @@
       "course_title": "Principles of Geographic Information Systems",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(67-262 at least D)",
+      "prereqs": "(67262 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1661,7 +1661,7 @@
       "course_title": "Regression Analysis",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(70-207 at least D) or (36-200 at least D) or (36-201 at least D) or (36-218 at least D) or (36-220 at least D) or (36-247 at least D) or (36-207 at least D)",
+      "prereqs": "(70207 at least D) or (36200 at least D) or (36201 at least D) or (36218 at least D) or (36220 at least D) or (36247 at least D) or (36207 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1687,7 +1687,7 @@
       "course_title": "Organizational Behavior",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(76-102 at least D) or (76-101 at least D) or ((76-106 at least D) and (76-107 at least D)) or ((76-106 at least D) and (76-108 at least D)) or ((76-107 at least D) and (76-108 at least D)) or (76-245 at least D) or (76-331 at least D) or (76-347 at least D) or (76-327 at least D) or (76-102 at least D)",
+      "prereqs": "(76102 at least D) or (76101 at least D) or ((76106 at least D) and (76107 at least D)) or ((76106 at least D) and (76108 at least D)) or ((76107 at least D) and (76108 at least D)) or (76245 at least D) or (76331 at least D) or (76347 at least D) or (76327 at least D) or (76102 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1713,7 +1713,7 @@
       "course_title": "Business, Society and Ethics",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(76-102 at least D) or (76-101 at least D) or ((76-106 at least D) and (76-107 at least D)) or ((76-108 at least D) and (76-106 at least D)) or ((76-108 at least D) and (76-107 at least D))",
+      "prereqs": "(76102 at least D) or (76101 at least D) or ((76106 at least D) and (76107 at least D)) or ((76108 at least D) and (76106 at least D)) or ((76108 at least D) and (76107 at least D))",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1739,7 +1739,7 @@
       "course_title": "Business Communications",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(76-102 at least D) or (76-101 at least D) or ((76-106 at least D) and (76-107 at least D)) or ((76-106 at least D) and (76-108 at least D)) or ((76-107 at least D) and (76-108 at least D))",
+      "prereqs": "(76102 at least D) or (76101 at least D) or ((76106 at least D) and (76107 at least D)) or ((76106 at least D) and (76108 at least D)) or ((76107 at least D) and (76108 at least D))",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1781,7 +1781,7 @@
       "course_title": "Team Dynamics and Leadership",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(36-200 [] at least D) or (36-201 [] at least D) or (36-207 [] at least D) or (36-220 [] at least D) or (70-207 [] at least D) or (36-225 [] at least D) or (36-247 [] at least D) or (36-217 [] at least D)",
+      "prereqs": "(36200 [] at least D) or (36201 [] at least D) or (36207 [] at least D) or (36220 [] at least D) or (70207 [] at least D) or (36225 [] at least D) or (36247 [] at least D) or (36217 [] at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1807,7 +1807,7 @@
       "course_title": "Operations Management",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(36-220 at least D) or (36-247 at least D) or (36-225 at least D) or (36-218 at least D) or (36-200 at least D) or (36-201 at least D) or (70-207 at least D) or (36-207 at least D)",
+      "prereqs": "(36220 at least D) or (36247 at least D) or (36225 at least D) or (36218 at least D) or (36200 at least D) or (36201 at least D) or (70207 at least D) or (36207 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1833,7 +1833,7 @@
       "course_title": "Marketing I",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(76-102 at least D) or (76-101 at least D) or ((76-106 at least D) and (76-107 at least D)) or ((76-108 at least D) and (76-106 at least D)) or ((76-108 at least D) and (76-107 at least D))",
+      "prereqs": "(76102 at least D) or (76101 at least D) or ((76106 at least D) and (76107 at least D)) or ((76108 at least D) and (76106 at least D)) or ((76108 at least D) and (76107 at least D))",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1885,7 +1885,7 @@
       "course_title": "Finance",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "((73-102 at least D) or (73-100 at least D)) and ((36-218 at least D) or (36-207 at least D) or (70-207 at least D) or (36-200 at least D) or (36-225 at least D) or (36-201 at least D) or (36-217 at least D))",
+      "prereqs": "((73102 at least D) or (73100 at least D)) and ((36218 at least D) or (36207 at least D) or (70207 at least D) or (36200 at least D) or (36225 at least D) or (36201 at least D) or (36217 at least D))",
       "coreqs": "UNK",
       "sections": [
         {
@@ -1911,7 +1911,7 @@
       "course_title": "AI in Action",
       "units": 3.0,
       "description": "UNK",
-      "prereqs": "(70-391 [] at least D)",
+      "prereqs": "(70391 [] at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -2091,7 +2091,7 @@
       "course_title": "Data Management Fundamentals",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(15-110 at least D) or (15-104 at least D) or (15-112 at least D) or (70-110 at least D)",
+      "prereqs": "(15110 at least D) or (15104 at least D) or (15112 at least D) or (70110 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -2117,7 +2117,7 @@
       "course_title": "End to End Business Analytics",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "((36-200 at least D) or (36-220 at least D) or (36-225 at least D) or (70-207 at least D)) and ((70-257 at least D) or (21-257 at least D) or (21-292 at least D))",
+      "prereqs": "((36200 at least D) or (36220 at least D) or (36225 at least D) or (70207 at least D)) and ((70257 at least D) or (21257 at least D) or (21292 at least D))",
       "coreqs": "UNK",
       "sections": [
         {
@@ -2143,7 +2143,7 @@
       "course_title": "Supply Chain Management",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(70-371 at least D)",
+      "prereqs": "(70371 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -2169,7 +2169,7 @@
       "course_title": "Marketing Research",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "((36-202 at least D) or (70-208 at least D)) and (70-381 at least D)",
+      "prereqs": "((36202 at least D) or (70208 at least D)) and (70381 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -2221,7 +2221,7 @@
       "course_title": "Valuation and Financial Modeling",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(70-391 at least D)",
+      "prereqs": "(70391 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -2273,7 +2273,7 @@
       "course_title": "Principles of Macroeconomics",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(73-102 at least C)",
+      "prereqs": "(73102 at least C)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -2299,7 +2299,7 @@
       "course_title": "Intermediate Microeconomics",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "((21-259 at least D) or (21-256 at least D) or (21-269 at least D) or (21-268 at least D)) and ((73-100 at least C) or (73-102 at least C))",
+      "prereqs": "((21259 at least D) or (21256 at least D) or (21269 at least D) or (21268 at least D)) and ((73100 at least C) or (73102 at least C))",
       "coreqs": "UNK",
       "sections": [
         {
@@ -2325,7 +2325,7 @@
       "course_title": "Economics and Data Science",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "((70-207 at least D) or (15-259 at least D) or (21-325 at least D) or (36-200 at least D) or (36-201 at least D) or (36-202 at least D) or (36-207 at least D) or (36-217 at least D) or (36-218 at least D) or (36-219 at least D) or (36-220 at least D) or (36-225 at least D) or (36-247 at least D)) and (73-102 at least C)",
+      "prereqs": "((70207 at least D) or (15259 at least D) or (21325 at least D) or (36200 at least D) or (36201 at least D) or (36202 at least D) or (36207 at least D) or (36217 at least D) or (36218 at least D) or (36219 at least D) or (36220 at least D) or (36225 at least D) or (36247 at least D)) and (73102 at least C)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -2521,7 +2521,7 @@
       "course_title": "Writing for the Professions",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(76-101 at least D) or (76-102 at least D) or ((76-106 at least D) and (76-107 at least D)) or ((76-108 at least D) and (76-106 at least D)) or ((76-108 at least D) and (76-107 at least D))",
+      "prereqs": "(76101 at least D) or (76102 at least D) or ((76106 at least D) and (76107 at least D)) or ((76108 at least D) and (76106 at least D)) or ((76108 at least D) and (76107 at least D))",
       "coreqs": "UNK",
       "sections": [
         {
@@ -2563,7 +2563,7 @@
       "course_title": "Introduction to Discourse Analysis",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(76-101 at least D) or (76-102 at least D) or ((76-106 at least D) and (76-107 at least D)) or ((76-107 at least D) and (76-108 at least D)) or ((76-106 at least D) and (76-108 at least D))",
+      "prereqs": "(76101 at least D) or (76102 at least D) or ((76106 at least D) and (76107 at least D)) or ((76107 at least D) and (76108 at least D)) or ((76106 at least D) and (76108 at least D))",
       "coreqs": "UNK",
       "sections": [
         {
@@ -2881,7 +2881,7 @@
       "course_title": "Intermediate Spanish I",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(82-144 at least D) or (82-142 at least D)",
+      "prereqs": "(82144 at least D) or (82142 at least D)",
       "coreqs": "UNK",
       "sections": [
         {
@@ -3037,7 +3037,7 @@
       "course_title": "Attitudes and Persuasion",
       "units": 9.0,
       "description": "UNK",
-      "prereqs": "(85-241 at least D)",
+      "prereqs": "(85241 at least D)",
       "coreqs": "UNK",
       "sections": [
         {

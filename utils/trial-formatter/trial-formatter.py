@@ -456,6 +456,9 @@ def stdSec(section):
 def stdIns(instructors):
     return instructors.split("\n") if isinstance(instructors, str) else []
 
+def stdReqs(requirements):
+    return requirements.replace("-","")
+
 def convertScheduleToJson (df: pd.DataFrame, path: str):
     courses = []
     prev_section = ""
@@ -487,7 +490,7 @@ def convertScheduleToJson (df: pd.DataFrame, path: str):
                 "course_title": row["COURSE TITLE"],
                 "units": row["UNITS"],
                 "description": "UNK",
-                "prereqs": row["Pre-reqs"],
+                "prereqs": stdReqs(row["Pre-reqs"]),
                 "coreqs": "UNK",
                 "sections": [{
                     "section_type": "Lecture",

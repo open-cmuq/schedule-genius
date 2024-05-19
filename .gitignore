@@ -1,0 +1,6 @@
+# Ignore the .vscode folder (Visual Studio Code settings)
+.vscode/
+
+# Ignore Python cache directories
+__pycache__/
+*.py[cod]
