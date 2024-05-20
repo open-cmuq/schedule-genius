@@ -4,6 +4,8 @@ import requests
 import pandas as pd
 import os
 import datetime
+import hashlib
+import base64
 from bs4 import BeautifulSoup
 
 # Global header for any requests
@@ -41,6 +43,22 @@ def cacheRequest(url, func_headers, payload, cache_name,method):
             return response.text
         
         return None
+    
+"""
+  Generates a short ID based on a name and a Python list.
+
+  Args:
+      name: The name to use for generating the ID (string).
+      data_list: The list to include in the ID generation (any list).
+
+  Returns:
+      A short string representing a unique ID.
+  """
+def generateShortID(data_str):
+  hashed_data = hashlib.sha1(str(data_str).encode("utf-8")).hexdigest()
+  # Shorten the hash by taking the first few characters.
+  short_id = hashed_data[:5]
+  return short_id
 
 """
 Given the element containing requisites
@@ -210,9 +228,11 @@ def convertScheduleToJson(df, semCode, semName, path):
     now = datetime.datetime.now(datetime.timezone.utc)
     # Format the date and time as a string in ISO 8601 format with timezone
     formatted_now = now.isoformat()
-    schedule_json = {"semester_name": semName, 
+    schedule_json = {
+                "semester_name": semName, 
                 "semester_shortcode": semCode,
                 "last_update": formatted_now,
+                "ID": generateShortID(semName+str(courses)+formatted_now),
                 "courses": courses
                 }
     json_data = json.dumps(schedule_json, indent=2)

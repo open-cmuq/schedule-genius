@@ -4,7 +4,7 @@
 # Ryan Riley <rileyrd@cmu.edu>
 # The only addition I've made is converting it to conform to the proposed schedule.json format
 
-############### ACK #################
+import hashlib
 import pandas as pd
 import json
 from typing import *
@@ -12,6 +12,7 @@ from pandas.io.excel._openpyxl import OpenpyxlReader
 from pandas._typing import Scalar
 from datetime import datetime
 
+############### ACK #################
 
 def formatCourseNumber (n: int) -> str:
     """
@@ -459,6 +460,22 @@ def stdIns(instructors):
 def stdReqs(requirements):
     return requirements.replace("-","")
 
+"""
+  Generates a short ID based on a name and a Python list.
+
+  Args:
+      name: The name to use for generating the ID (string).
+      data_list: The list to include in the ID generation (any list).
+
+  Returns:
+      A short string representing a unique ID.
+  """
+def generateShortID(data_str):
+  hashed_data = hashlib.sha1(str(data_str).encode("utf-8")).hexdigest()
+  # Shorten the hash by taking the first few characters.
+  short_id = hashed_data[:5]
+  return short_id
+
 def convertScheduleToJson (df: pd.DataFrame, semName: str, semCode: str, path: str):
     courses = []
     prev_section = ""
@@ -514,11 +531,12 @@ def convertScheduleToJson (df: pd.DataFrame, semName: str, semCode: str, path: s
     formatted_now = now.isoformat()
 
     schedule_json = {
-            "semester_name": semName,
-            "semester_shortcode": semCode,
-            "last_update": formatted_now, 
-            "courses": courses
-            }
+                "semester_name": semName, 
+                "semester_shortcode": semCode,
+                "last_update": formatted_now,
+                "ID": generateShortID(semName+str(courses)+formatted_now),
+                "courses": courses
+                }
     json_data = json.dumps(schedule_json, indent=2)
     with open(path, "w") as f:
         f.write(json_data)
