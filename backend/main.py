@@ -1,8 +1,17 @@
-from fastapi import FastAPI, File, UploadFile, HTTPException
+from fastapi import FastAPI, Form, File, UploadFile, HTTPException
 from pathlib import Path
 import json
 import os
+import sys
 import mimetypes
+# Get the excel json converter
+sys.path.append("../utils/")
+from utils.trial_formatter import trial_formatter
+# To temporarily deal with uploads 
+import tempfile
+import shutil
+
+"""
 import importlib
 
 # Load the Excel utils, this isn't the most ideal code
@@ -14,7 +23,7 @@ module_name = os.path.splitext(os.path.basename(module_path))[0]
 # Load the module
 spec = importlib.util.spec_from_file_location(module_name, module_path)
 module = importlib.util.module_from_spec(spec)
-
+"""
 app = FastAPI()
 
 # Utility function to load JSON data
@@ -37,7 +46,7 @@ async def getAllSchedules():
         raise HTTPException(status_code=500, detail="Error fetching schedules")
 
 @app.get("/schedule/{ID}")
-async def getSchedule(ID):
+async def getSchedule(ID: str):
     sched_files = [file.name for file in Path("./data/schedules").glob("*.json")]
     for schedule in sched_files:
         path = os.path.join("./data/schedules/", schedule)
@@ -48,7 +57,7 @@ async def getSchedule(ID):
     raise HTTPException(status_code=404, detail="Schedule not found")
 
 @app.get("/audit/{major}/{entry_year}")
-async def getAudit(major, entry_year):
+async def getAudit(major: str, entry_year: str):
     try:
         audit_data = loadJson(f"./data/audits/EY{entry_year}-{major}.json")
         return audit_data
@@ -56,13 +65,29 @@ async def getAudit(major, entry_year):
         raise HTTPException(status_code=500, detail="Audit file note found")
 
 
+# FIXME: Critical issue, add maximum file size limit
+# this should be controlled by the webserver
 @app.post("/upload")
-async def upload_schedule(file: UploadFile = File(...)):
+async def upload_schedule(
+        file: UploadFile = File(...),
+        sched_name: str = Form(...)):
     mime_type,_ = mimetypes.guess_type(file.filename)
     # User input is one of the trickiest things, the least we can do is 
     # verify that any uploaded documents are excel sheets and that 
     # code injection shouldn't be possible
     if mime_type != "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet":
-        raise HTTPException(status_code=400, detail="Invalid file type. Only Excel files are allowed.")
-    
-    return {"NotImplemented": True}
+        raise HTTPException(status_code=415, detail="Invalid file type. Only Excel files are allowed.")
+
+    with tempfile.TemporaryDirectory() as temp_dir:
+        temp_file_path = os.path.join(temp_dir, file.filename)
+        # Save the uploaded file to the temporary directory
+        with open(temp_file_path, "wb") as temp_file:
+            shutil.copyfileobj(file.file, temp_file)
+       
+        try:
+            # Call the read_infosilem_format function with the file path
+            schedule,_ = trial_formatter.read_infosilem_format(temp_file_path)
+            sched_json = trial_formatter.convertScheduleToJson(schedule,sched_name,"U24",None)
+        except:
+            raise HTTPException(status_code=400, detail="Invalid Excel file")
+    return sched_json
