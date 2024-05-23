@@ -1,4 +1,5 @@
 from fastapi import FastAPI, Form, File, UploadFile, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pathlib import Path
 import json
 import os
@@ -10,6 +11,8 @@ from utils.trial_formatter import trial_formatter
 # To temporarily deal with uploads 
 import tempfile
 import shutil
+
+
 
 """
 import importlib
@@ -25,6 +28,19 @@ spec = importlib.util.spec_from_file_location(module_name, module_path)
 module = importlib.util.module_from_spec(spec)
 """
 app = FastAPI()
+
+origins = [
+    "http://localhost:5173",
+    "http://localhost:8080",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Utility function to load JSON data
 def loadJson(file_path):
