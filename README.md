@@ -17,5 +17,5 @@ through every single requirement or a number of courses that are listed on the S
 to see if you can take it while accounting for time conflicts. 
 
 ## Professors Perspective
-Jarrin releases a schedule which professors then have to manually sift and consider
+The registrar's office releases a schedule which professors then have to manually sift and consider
 different sets of courses which their advisees might take.
