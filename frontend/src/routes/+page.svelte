@@ -1,11 +1,21 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<Navbar />
+
+
+{#if supportIndexedDB}
+This window supports indexedDB
+{:else}
+This window does not support indexedDB, please contact X
+{/if}
+
 
 <script>
-	import { fetchSchedule, fetchSchedules } from '$lib/db';
+	import { fetchSchedules } from '$lib/db';
   import { onMount } from 'svelte';
+  import Navbar from '$lib/Navbar.svelte';
   
+  let supportIndexedDB = false;
   onMount(async () => {
-    await fetchSchedules("http://127.0.0.1:8000/schedules");
+    await fetchSchedules();
+    supportIndexedDB = 'indexedDB' in window;
   })
 </script>
