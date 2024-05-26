@@ -4,7 +4,8 @@ const db = new Dexie("schedule-genius");
 
 db.version(1).stores({
   schedules: 'ID, semester_shortcode, last_update'
-});
+  },
+);
 
 // Given a schedule object from the server we 
 // save it to the schedules store
