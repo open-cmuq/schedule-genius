@@ -19,3 +19,15 @@ to see if you can take it while accounting for time conflicts.
 ## Professors Perspective
 The registrar's office releases a schedule which professors then have to manually sift and consider
 different sets of courses which their advisees might take.
+
+# Running (development)
+- Frontend
+```
+$ cd frontend
+$ npm run dev 
+```
+- Backend 
+```
+$ cd backend 
+$ fastapi dev main.py
+```
