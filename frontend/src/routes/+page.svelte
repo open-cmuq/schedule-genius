@@ -26,6 +26,9 @@
     await createScheduleCard();
     console.log("Created card");
     scheduleCards = await getAllScheduleCards();
+    window.ScrollTo({
+      
+    })
   }
   
   onMount(async () => {

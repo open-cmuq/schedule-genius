@@ -8,6 +8,8 @@ db.version(1).stores({
   },
 );
 
+let schedules_counter = -1;
+
 // Given a schedule object from the server we 
 // save it to the schedules store
 export const saveSchedule = async (schedule) => {
@@ -94,19 +96,31 @@ export const getAllScheduleCards = async () => {
   return await db.scheduleCards.toArray();
 }
 
+// Generate the next cards name
+function generatePlanName() {
+  schedules_counter++;
+  return "Plan " + String.fromCharCode('A'.charCodeAt() + schedules_counter % 25);
+}
+
+// Create a new scheduleCard, it should inherit the properties 
+// of the previous card for usability. Professors will have to change it 
+// but it doesn't require too much effort.
 export const createScheduleCard = async () => {
   const cards = await getAllScheduleCards();
   const lastCard = cards[cards.length - 1];
+  schedules_counter = (cards.length - 1);
   if (lastCard){
     // Inherits the information from the previous card but removes 
     // selections
-    const newCard = {...lastCard, id: undefined, courses: []};
+    const newCard = {...lastCard, id: undefined, name: generatePlanName(), courses: []};
     await saveScheduleCard(newCard);
   } else {
-    await saveScheduleCard({major: '', entry_year: '', courses:[] });
+    // This is the first card so nothing to inherit from
+    await saveScheduleCard({name: generatePlanName(), major: '', entry_year: '', courses:[] });
   }
 }
 
+// Given the ID of a scheduleCard get rid of it
 export const deleteScheduleCard = async (id) => {
   await db.scheduleCards.delete(id);
 }
