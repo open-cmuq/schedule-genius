@@ -116,7 +116,7 @@ export const createScheduleCard = async () => {
     await saveScheduleCard(newCard);
   } else {
     // This is the first card so nothing to inherit from
-    await saveScheduleCard({name: generatePlanName(), major: '', entry_year: '', courses:[] });
+    await saveScheduleCard({name: generatePlanName(), major: '', entry_year: '', courses:[], courses_taken: ["15210","02251"]});
   }
 }
 

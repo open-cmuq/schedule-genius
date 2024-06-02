@@ -20,11 +20,11 @@ to see if you can take it while accounting for time conflicts.
 The registrar's office releases a schedule which professors then have to manually sift and consider
 different sets of courses which their advisees might take.
 
-# Pre-Requisites
+# System Requirements
 - npm 
 - conda
 
-# Setting up
+# Dependencies Setup
 - Frontend
 ```
 $ cd frontend

@@ -3,17 +3,16 @@
   {#each scheduleCards as card (card.id) }
     <ScheduleCard {card} />
   {/each}
-  <div class="flex items-center justify-center p-5">
-    
-  <button class="rounded-full border border-gray-700 bg-white hover:bg-gray-200 text-black font-bold py-2 px-4 focus:outline-none focus:shadow-outline  flex items-center justify-center" on:click={addScheduleCard}>
+  <div class="flex items-center justify-center p-2">
+    <button class="rounded-full border border-gray-700 bg-white hover:bg-gray-200 text-black font-bold py-2 px-4 focus:outline-none focus:shadow-outline  flex items-center justify-center" on:click={addScheduleCard}>
     Create a plan
-  </button>
+    </button>
   </div>
 
 </div>
   
 <script>
-	import { fetchSchedules, getAllScheduleCards, createScheduleCard } from '$lib/db';
+	import { fetchSchedules, getAllScheduleCards, createScheduleCard, } from '$lib/db';
   import { onMount } from 'svelte';
   import Navbar from '$lib/Navbar.svelte';
   import ScheduleCard from '$lib/ScheduleCard.svelte';
@@ -26,9 +25,6 @@
     await createScheduleCard();
     console.log("Created card");
     scheduleCards = await getAllScheduleCards();
-    window.ScrollTo({
-      
-    })
   }
   
   onMount(async () => {

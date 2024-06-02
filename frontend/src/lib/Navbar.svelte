@@ -4,6 +4,7 @@
   import { onMount } from 'svelte';
 
   let schedules = [];
+  let isLoading = true;
   
   const handleSelectChange = async (event) => {
     if (event.target.value === 'upload') {
