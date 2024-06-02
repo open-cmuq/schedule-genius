@@ -20,6 +20,21 @@ to see if you can take it while accounting for time conflicts.
 The registrar's office releases a schedule which professors then have to manually sift and consider
 different sets of courses which their advisees might take.
 
+# Pre-Requisites
+- npm 
+- conda
+
+# Setting up
+- Frontend
+```
+$ cd frontend
+$ npm ci
+```
+- Backend
+```
+$ conda env create -f environment.yml
+```
+
 # Running (development)
 - Frontend
 ```
@@ -29,5 +44,6 @@ $ npm run dev
 - Backend 
 ```
 $ cd backend 
+$ conda activate schedule-genius
 $ fastapi dev main.py
 ```
