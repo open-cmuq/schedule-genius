@@ -23,6 +23,8 @@
       schedules = await uploadSchedule(file);
       selectedScheduleID.set(schedules[schedules.length - 1].ID); // Select the newly uploaded schedule
     } catch (error) {
+      localStorage.setItem('selectedScheduleID','');
+      selectedScheduleID.set('');
       console.error('Error uploading file:', error);
     }
   };
@@ -37,6 +39,7 @@
       selectedScheduleID.set(storedScheduleID);
     } else {
       selectedScheduleID.set("");
+      localStorage.setItem('selectedScheduleID','');
     }
   });
 
