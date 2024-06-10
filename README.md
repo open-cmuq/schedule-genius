@@ -8,6 +8,9 @@ time conflicts. In addition to this, it also serves Professors in trialing
 a schedule and testing possible course sets to ensure that students can 
 complete their degree and requirements on time. 
 
+# Demo
+https://github.com/open-cmuq/schedule-genius/assets/22998573/a00890f6-27db-4beb-81ee-d50758d54ffb
+
 # The Problematic System
 ## Students Perspective
 During a typical semester, students utilize Stellic to find out what courses
