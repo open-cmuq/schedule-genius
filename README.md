@@ -9,7 +9,7 @@ a schedule and testing possible course sets to ensure that students can
 complete their degree and requirements on time. 
 
 # Demo
-https://github.com/open-cmuq/schedule-genius/assets/22998573/a00890f6-27db-4beb-81ee-d50758d54ffb
+https://github.com/open-cmuq/schedule-genius/assets/22998573/5d2db955-8dce-4ab3-8f62-b564ca8aab37
 
 # The Problematic System
 ## Students Perspective
