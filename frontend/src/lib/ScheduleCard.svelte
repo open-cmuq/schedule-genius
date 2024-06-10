@@ -75,7 +75,6 @@
   let entryOptions = [2021,2022,2023,2024,2025];
 
   async function deleteCourseTaken(course) {
-    event.target.remove();
     card.courses_taken = card.courses_taken.filter(item => course !== item);
     await saveScheduleCard(card);
   }
