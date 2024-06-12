@@ -11,17 +11,31 @@
       />
     </div>
 
-    {#if filteredCourses.length > 0}
-      <!-- This section is for showing all the courses with filters applied -->
-      <ul class="w-full">
-        {#each orderedCourses(filteredCourses,card.courses) as course (course.course_code) }
-          <li animate:flip={{ duration: 300 }}>
-            <CourseCard {course} {selectCourse} 
-              isSelected={card.courses.find(c => c.course_code === course.course_code)}/>
-          </li>    
-        {/each}  
-      </ul>
-    {/if}
+  {#if filteredCourses.length > 0}
+    <!-- This section is for showing all the courses with filters applied -->
+    <table class="w-full border-collapse border border-gray-300">
+      <thead>
+        <tr class="bg-gray-200">
+          <th class="border border-gray-300 p-2">Course Code</th>
+          <th class="border border-gray-300 p-2">Title</th>
+          <th class="border border-gray-300 p-2">Units</th>
+          <th class="border border-gray-300 p-2">Section</th>
+          <th class="border border-gray-300 p-2">Day</th>
+          <th class="border border-gray-300 p-2">Begin</th>
+          <th class="border border-gray-300 p-2">End</th>
+          <th class="border border-gray-300 p-2">Room</th>
+          <th class="border border-gray-300 p-2">Instructor</th>
+        </tr>
+      </thead>
+      <tbody>
+        {#each orderedCourses(filteredCourses, card.courses) as course (course.course_code)}
+          <!-- Render CourseCard as table rows -->
+          <CourseCard {course} {selectCourse} 
+            isSelected={card.courses.find(c => c.course_code === course.course_code)} />
+        {/each}
+      </tbody>
+    </table>
+  {/if}
   {:else} 
     Please select a schedule before proceeding...
   {/if}
@@ -36,6 +50,7 @@
   
   export let selectCourse;
   export let card;
+  export let audit;
   let schedule = null; // Initialize schedule to null
   let courses = null;
   let filteredCourses = [];
@@ -89,3 +104,10 @@
   
   $: loadSchedule($selectedScheduleID); 
 </script>
+
+<style>
+	.test {
+ 		display: contents; 
+	}
+	
+</style>
