@@ -10,40 +10,26 @@
 
   {#if filteredCourses.length > 0}
     <!-- This section is for showing all the courses with filters applied -->
-  <div class="w-full grid grid-cols-9 gap-0">
-    <!-- HEADER - Use proper grid column spans for headers -->
-    <div class="bg-gray-200 border border-gray-300 p-2">Course Code</div>
-    <div class="bg-gray-200 border border-gray-300 p-2">Title</div>
-    <div class="bg-gray-200 border border-gray-300 p-2">Units</div>
-    <div class="bg-gray-200 border border-gray-300 p-2">Section</div>
-    <div class="bg-gray-200 border border-gray-300 p-2">Day</div>
-    <div class="bg-gray-200 border border-gray-300 p-2">Begin</div>
-    <div class="bg-gray-200 border border-gray-300 p-2">End</div>
-    <div class="bg-gray-200 border border-gray-300 p-2">Room</div>
-    <div class="bg-gray-200 border border-gray-300 p-2">Instructor</div>
+    <div class="header bg-gray-200">
+      <div>Course Code</div>
+      <div>Title</div>
+      <div>Units</div>
+      <div>Section</div>
+      <div>Day</div>
+      <div>Begin</div>
+      <div>End</div>
+      <div>Room</div>
+      <div>Instructor</div>
+    </div>
 
     {#each orderedCourses(filteredCourses, card.courses) as course (course.course_code)}
-        <div on:click={() => selectCourse(course)} class="course-card {card.courses.find(c => c.course_code === course.course_code) ? 'selected' : ''}" animate:flip={{duration: 300}}>
-            {#each course.sections as section, i (section)}
-                {#if i === 0}
-                    <div class="border border-gray-300 p-2">{course.course_code}</div>
-                    <div class="border border-gray-300 p-2">{course.course_title}</div>
-                    <div class="border border-gray-300 p-2">{course.units}</div>
-                {:else }
-                    <div class="border border-gray-300 p-2"></div>
-                    <div class="border border-gray-300 p-2"></div>
-                    <div class="border border-gray-300 p-2"></div>
-                {/if}
-                <div class="border border-gray-300 p-2">{section.section_id}</div>
-                <div class="border border-gray-300 p-2">{section.timings.days.join(', ')}</div>
-                <div class="border border-gray-300 p-2">{section.timings.begin}</div>
-                <div class="border border-gray-300 p-2">{section.timings.end}</div>
-                <div class="border border-gray-300 p-2">{section.timings.teaching_location}</div>
-                <div class="border border-gray-300 p-2">{section.timings.instructor.join(', ')}</div>
-            {/each}
+        <div class="course-card-wrapper mt-3 {card.courses.find(c => c.course_code === course.course_code) ? 'selected' : ''}" 
+          animate:flip={{ duration: 300 }}>
+          <CourseCard {course} {selectCourse} 
+            isSelected={card.courses.find(c => c.course_code === course.course_code)} />
         </div>
-    {/each}
-</div>
+    {/each} 
+
   {/if}
   {:else} 
     Please select a schedule before proceeding...
@@ -115,13 +101,19 @@
 </script>
 
 <style>
-.course-card {
-    display: contents; 
-    cursor: pointer;
-}
+  .header, .course-card-wrapper {
+      display: grid;
+      grid-template-columns: repeat(9, 1fr);
+      gap: 0;
+      width: 100%;
+  }
 
-.course-card.selected > * {
-    /* background-color: var(--tw-bg-opacity, 1) var(--tw-bg-color, #3b82f6); */
-    background-color: #3b82f6;
-}
+  .header > div {
+      border: 1px solid #ccc;
+      padding: 8px;
+  }
+
+  .selected {
+      background-color: #3b82f6;
+  }
 </style>
