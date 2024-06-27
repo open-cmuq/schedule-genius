@@ -8,7 +8,7 @@
     <div class="flex flex-col space-y-2"> 
       <div class="flex items-center">
         <label class="text-gray-700 mr-2">Major:</label>
-        <select name="major-select" id="major-select" bind:value={card.major} on:change={() => saveScheduleCard(card)} class="rounded p-1">
+        <select name="major-select" id="major-select" bind:value={card.major} on:change={() => updateCard(card)} class="rounded p-1">
           {#each majorOptions as majorOption}
             <option value={majorOption.id}>{majorOption.name}</option> 
           {/each} 
@@ -17,7 +17,7 @@
       
       <div class="flex items-center">
         <label class="text-gray-700 mr-2">Entry Year:</label>
-        <select name="entry-select" id="entry-select" bind:value={card.entry_year} on:change={() => saveScheduleCard(card)} class="rounded p-1">
+        <select name="entry-select" id="entry-select" bind:value={card.entry_year} on:change={() => updateCard(card)} class="rounded p-1">
           {#each entryOptions as entryOption}
             <option value={entryOption}>{entryOption}</option> 
           {/each} 
@@ -35,8 +35,8 @@
   </div>
 
   <div class="grid grid-cols-5 gap-4 mb-3">
-    <div class="col-span-3 border border-gray-300 rounded p-4">
-      <p>Calendar Box</p>
+    <div class="col-span-3 border border-gray-300 rounded p-4 max-h-96">
+      <Timetable />
       <!-- Calendar component will go here -->
     </div>
     <div class="col-span-2 border border-gray-300 rounded p-4">
@@ -54,19 +54,26 @@
       {showSearch ? 'Hide Search' : 'Search Courses'}
     </button>
     {#if showSearch }
-      <Search {selectCourse} {card} />
+      <Search {selectCourse} {card} {audit} {courses} {loadSchedule}/>
     {/if}
   </div>
 </div>
 
 <script>
-  import {deleteScheduleCard, saveScheduleCard} from "$lib/db";
+  import {deleteScheduleCard, saveScheduleCard, fetchAudit } from "$lib/db";
   import { fly } from 'svelte/transition';
   import Search from '$lib/Search.svelte';
+	import { onMount } from "svelte";
+  import { getScheduleByID } from "./db";
+  import Timetable from "./Timetable.svelte";
+
   export let card;
   export let onRemove;
 
   let showSearch = false;
+  let audit = null;
+  let schedule = null;
+  let courses = null;
  
   // TODO Ideally we don't want this to be hardcoded, it should 
   // dynamically be fetched from the server
@@ -88,10 +95,18 @@
     if (selectedCourseCodes.has(course.course_code)){
       card.courses = card.courses.filter(c => c.course_code !== course.course_code);
     } else {
-      card.courses.push(course);
+      let course_select = {...course, selection: 0};
+      card.courses.push(course_select);
     }
     await saveScheduleCard(card);
     card.courses = card.courses;
+  }
+
+  async function updateCard(card) {
+    await saveScheduleCard(card);
+    if (card.major && card.entry_year){
+      audit = fetchAudit(card.major, card.entry_year); 
+    }
   }
  
   // Delete a schedule card 
@@ -103,4 +118,23 @@
     onRemove(card.id);
   }
 
+  // Load all courses on the schedule
+  async function loadSchedule(selectedScheduleID) {
+    try {
+      // Fetch the schedule object using the selectedScheduleID
+      schedule = await getScheduleByID(selectedScheduleID);
+      courses = schedule.courses;
+    } catch (error) {
+      console.error("Error fetching schedule:", error);
+    }
+  }
+
+  onMount(async () => {
+    // Fixes bug where user deletes data and audit is only fetched 
+    // once the user changes card selection
+    if (card.major && card.entry_year){
+      audit = fetchAudit(card.major, card.entry_year); 
+    } 
+  });
+  
 </script>
