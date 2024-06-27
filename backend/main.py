@@ -75,7 +75,8 @@ async def getSchedule(ID: str):
 @app.get("/audit/{major}/{entry_year}")
 async def getAudit(major: str, entry_year: str):
     try:
-        audit_data = loadJson(f"./data/audits/EY{entry_year}-{major}.json")
+        #audit_data = loadJson(f"./data/audits/EY{entry_year}-{major}.json")
+        audit_data = loadJson(f"./data/audits/{major}-audit.json")
         return audit_data
     except:
         raise HTTPException(status_code=500, detail="Audit file note found")
