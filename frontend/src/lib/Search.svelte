@@ -1,43 +1,40 @@
 <div class="search-component flex flex-col items-center w-full m-2"> 
-  {#if schedule} 
+  {#if courses} 
     <div class="filter-controls m-2"> <input type="text" id="search-field" placeholder="Keywords, title, etc..." 
 				 autocomplete="off"
-         bind:value={searchTerm}
-         on:input={searchCourses} 
+         on:input={handleSearch} 
          class="border p-2 rounded-md"
       />
     </div>
 
-  {#if filteredCourses.length > 0}
-    <!-- This section is for showing all the courses with filters applied -->
-    <div class="header bg-gray-200">
-      <div>Course Code</div>
-      <div>Title</div>
-      <div>Units</div>
-      <div>Section</div>
-      <div>Day</div>
-      <div>Begin</div>
-      <div>End</div>
-      <div>Room</div>
-      <div>Instructor</div>
-    </div>
-
-    {#each orderedCourses(filteredCourses, card.courses) as course (course.course_code)}
-        <div class="course-card-wrapper mt-3 {card.courses.find(c => c.course_code === course.course_code) ? 'selected' : ''}" 
-          animate:flip={{ duration: 300 }}>
-          <CourseCard {course} {selectCourse} 
-            isSelected={card.courses.find(c => c.course_code === course.course_code)} />
-        </div>
-    {/each} 
-
-  {/if}
+    {#if filteredCourses.length > 0}
+      <!-- This section is for showing all the courses with filters applied -->
+      <div class="header bg-gray-200">
+        <div>Course Code</div>
+        <div>Title</div>
+        <div>Units</div>
+        <div>Section</div>
+        <div>Day</div>
+        <div>Begin</div>
+        <div>End</div>
+        <div>Room</div>
+        <div>Instructor</div>
+      </div>
+      {console.log(card.courses)}
+      {#each orderedCourses(filteredCourses, card.courses) as course (course.course_code)}
+          <div class="course-card-wrapper mt-3 {courseSelected(course.course_code) ? 'selected' : ''}" 
+            animate:flip={{ duration: 300 }}>
+            <CourseCard {course} {selectCourse} 
+              isSelected={card.courses.find(c => c.course_code === course.course_code)} />
+          </div>
+      {/each} 
+    {/if}
   {:else} 
     Please select a schedule before proceeding...
   {/if}
 </div>
 
 <script>
-	import { getScheduleByID } from "./db";
   import { selectedScheduleID } from "../store.js";
   import {flip} from 'svelte/animate';
 	import CourseCard from "./CourseCard.svelte";
@@ -46,11 +43,16 @@
   export let selectCourse;
   export let card;
   export let audit;
-  let schedule = null; // Initialize schedule to null
-  let courses = null;
+  export let courses;
+  export let loadSchedule;
+
+
+  // let schedule = null; // Initialize schedule to null
+  // let courses = null;
   let filteredCourses = [];
 
   let searchTerm = "";
+  let searchTimeout;
   // We need a way to support multiple filters for more refined searching
   let filters = {
     keyword: [],
@@ -62,18 +64,19 @@
     noConflicts: false
   };
   
-  async function loadSchedule(selectedScheduleID) {
+  // Refresh the courses displayed each time we change the selected schedule
+  async function refilterSchedule(selectedScheduleID) {
     try {
-      // Fetch the schedule object using the selectedScheduleID
-      schedule = await getScheduleByID(selectedScheduleID);
-      courses = schedule.courses;
+      courses = null;
+      await loadSchedule(selectedScheduleID);
       filteredCourses = filterCourses(courses,filters);
     } catch (error) {
       console.error("Error fetching schedule:", error);
     }
   }
 
-
+  // Reorder a set of courses or search results so that selected courses 
+  // appear on the top
   function orderedCourses(allCourses, selectedCourses) {
     // Create a set of selected course codes for quick lookup
     const selectedCourseCodes = new Set(selectedCourses.map(course => course.course_code));
@@ -87,17 +90,35 @@
     return [...selected, ...unselected];
   }
   
+  // When searching courses we'd only like to search after the user has stopped 
+  // typing for efficiency
   function searchCourses() {
-    if (filters.keyword.length > 0){
-      filters.keyword[0] = searchTerm;
-    } else {
-      filters.keyword.push(searchTerm);
-    }
+    clearTimeout(searchTimeout);
 
-    filteredCourses = filterCourses(courses,filters);
+    searchTimeout = setTimeout(() => {
+      if (filters.keyword.length > 0){
+        filters.keyword[0] = searchTerm;
+      } else {
+        filters.keyword.push(searchTerm);
+      }
+      filteredCourses = filterCourses(courses,filters);
+    }, 100); 
+    
+  }
+
+  function courseSelected(course_code) {
+    return card.courses.find(c => c.course_code === course_code); 
   }
   
-  $: loadSchedule($selectedScheduleID); 
+  // FIX Lag when entering search input
+  function handleSearch(event) {
+    searchTerm = event.target.value;
+
+    // Call the debounced search function
+    searchCourses();
+  }
+  
+  $: refilterSchedule($selectedScheduleID); 
 </script>
 
 <style>

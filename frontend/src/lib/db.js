@@ -4,7 +4,8 @@ const db = new Dexie("schedule-genius");
 
 db.version(1).stores({
   schedules: 'ID, semester_shortcode, last_update',
-  scheduleCards: '++id, major, entry_year,courses'
+  scheduleCards: '++id, major, entry_year,courses', 
+  audits: '++id, major, entry_year' 
   },
 );
 
@@ -21,6 +22,7 @@ export const saveSchedule = async (schedule) => {
     (new Date(schedule.last_update) > new Date(existingShortcode.last_update))){
     // Delete the old version
     await db.schedules.delete(existingShortcode.ID); 
+    console.log("Deleted schedule with ID",existingShortcode.ID);
   } else if (existingShortcode){
     // We already have latest one return
     return;
@@ -124,3 +126,27 @@ export const createScheduleCard = async () => {
 export const deleteScheduleCard = async (id) => {
   await db.scheduleCards.delete(id);
 }
+
+
+export const fetchAudit  =  async (major,entry_year) => {
+  // Check if the audit data is already in the database
+  let existingAudit = await db.audits
+    .where({ major: major, entry_year: entry_year })
+    .first();
+
+
+  if (existingAudit) {
+    return existingAudit;
+  } else {
+    // If not found, fetch the data from the server
+    let url = `http://localhost:8000/audit/${major}/${entry_year}`;
+    const response = await fetch(url);
+    const audit = await response.json();
+    
+    // Save the fetched data in the database
+    await db.audits.add({ ...audit, major: major, entry_year: entry_year });
+    
+    return audit;
+  }
+}
+
