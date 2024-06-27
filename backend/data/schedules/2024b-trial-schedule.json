@@ -1,8 +1,8 @@
 {
   "semester_name": "Fall 2024b Trial",
   "semester_shortcode": "T24",
-  "last_update": "2024-06-24T11:39:39.103238+00:00",
-  "ID": "caca1",
+  "last_update": "2024-06-27T15:01:34.218864+00:00",
+  "ID": "eb683",
   "courses": [
     {
       "course_code": "03113",
@@ -17,7 +17,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TU"
+              "UT"
             ],
             "begin": "8:30AM",
             "end": "9:45AM",
@@ -44,7 +44,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "URT"
+              "UTR"
             ],
             "begin": "10:00AM",
             "end": "10:50AM",
@@ -70,7 +70,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "4:00PM",
             "end": "5:15PM",
@@ -93,13 +93,13 @@
       "sections": [
         {
           "section_type": "Lecture",
-          "section_id": "W",
+          "section_id": "Lec 2",
           "timings": {
             "days": [
-              "R"
+              "UTR"
             ],
-            "begin": "3:30PM",
-            "end": "5:20PM",
+            "begin": "10:00AM",
+            "end": "10:50AM",
             "teaching_location": "Doha, Qatar",
             "delivery_mode": "UNK",
             "instructor": [
@@ -108,14 +108,14 @@
           }
         },
         {
-          "section_type": "Lecture",
-          "section_id": "Lec 2",
+          "section_type": "Recitation",
+          "section_id": "W",
           "timings": {
             "days": [
-              "URT"
+              "R"
             ],
-            "begin": "10:00AM",
-            "end": "10:50AM",
+            "begin": "3:30PM",
+            "end": "5:20PM",
             "teaching_location": "Doha, Qatar",
             "delivery_mode": "UNK",
             "instructor": [
@@ -164,7 +164,7 @@
           "section_id": "Lec 2",
           "timings": {
             "days": [
-              "TRU"
+              "UTR"
             ],
             "begin": "11:30AM",
             "end": "12:20PM",
@@ -220,7 +220,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "9:00AM",
             "end": "1:00PM",
@@ -244,7 +244,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "8:30AM",
             "end": "9:45AM",
@@ -270,7 +270,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TRU"
+              "UTR"
             ],
             "begin": "11:30AM",
             "end": "12:20PM",
@@ -374,7 +374,7 @@
           "section_id": "Lec 3",
           "timings": {
             "days": [
-              "MTWRU"
+              "UMTWR"
             ],
             "begin": "11:30AM",
             "end": "12:20PM",
@@ -413,13 +413,13 @@
       "sections": [
         {
           "section_type": "Lecture",
-          "section_id": "W",
+          "section_id": "Lec 2",
           "timings": {
             "days": [
-              "UT"
+              "M"
             ],
-            "begin": "2:30PM",
-            "end": "5:30PM",
+            "begin": "4:00PM",
+            "end": "4:50PM",
             "teaching_location": "Doha, Qatar",
             "delivery_mode": "UNK",
             "instructor": [
@@ -428,14 +428,14 @@
           }
         },
         {
-          "section_type": "Lecture",
-          "section_id": "Lec 2",
+          "section_type": "Recitation",
+          "section_id": "W",
           "timings": {
             "days": [
-              "M"
+              "UT"
             ],
-            "begin": "4:00PM",
-            "end": "4:50PM",
+            "begin": "2:30PM",
+            "end": "5:30PM",
             "teaching_location": "Doha, Qatar",
             "delivery_mode": "UNK",
             "instructor": [
@@ -458,7 +458,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "RUTMW"
+              "UMTWR"
             ],
             "begin": "10:00AM",
             "end": "10:50AM",
@@ -481,13 +481,13 @@
       "sections": [
         {
           "section_type": "Lecture",
-          "section_id": "W",
+          "section_id": "Lec 3",
           "timings": {
             "days": [
-              "R"
+              "MW"
             ],
-            "begin": "11:30AM",
-            "end": "12:45PM",
+            "begin": "8:30AM",
+            "end": "9:45AM",
             "teaching_location": "Doha, Qatar",
             "delivery_mode": "UNK",
             "instructor": [
@@ -496,14 +496,14 @@
           }
         },
         {
-          "section_type": "Lecture",
-          "section_id": "Lec 3",
+          "section_type": "Recitation",
+          "section_id": "W",
           "timings": {
             "days": [
-              "WM"
+              "R"
             ],
-            "begin": "8:30AM",
-            "end": "9:45AM",
+            "begin": "11:30AM",
+            "end": "12:45PM",
             "teaching_location": "Doha, Qatar",
             "delivery_mode": "UNK",
             "instructor": [
@@ -526,7 +526,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "RUT"
+              "UTR"
             ],
             "begin": "2:30PM",
             "end": "3:45PM",
@@ -552,7 +552,7 @@
           "section_id": "Lec 2",
           "timings": {
             "days": [
-              "TU"
+              "UT"
             ],
             "begin": "8:30AM",
             "end": "9:45AM",
@@ -591,13 +591,13 @@
       "sections": [
         {
           "section_type": "Lecture",
-          "section_id": "W",
+          "section_id": "Lec 3",
           "timings": {
             "days": [
-              "T"
+              "UT"
             ],
-            "begin": "2:30PM",
-            "end": "3:45PM",
+            "begin": "8:30AM",
+            "end": "9:45AM",
             "teaching_location": "Doha, Qatar",
             "delivery_mode": "UNK",
             "instructor": [
@@ -606,14 +606,14 @@
           }
         },
         {
-          "section_type": "Lecture",
-          "section_id": "Lec 3",
+          "section_type": "Recitation",
+          "section_id": "W",
           "timings": {
             "days": [
-              "TU"
+              "T"
             ],
-            "begin": "8:30AM",
-            "end": "9:45AM",
+            "begin": "2:30PM",
+            "end": "3:45PM",
             "teaching_location": "Doha, Qatar",
             "delivery_mode": "UNK",
             "instructor": [
@@ -636,7 +636,7 @@
           "section_id": "Lec 3",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "8:30AM",
             "end": "9:45AM",
@@ -678,7 +678,7 @@
           "section_id": "Lec 2",
           "timings": {
             "days": [
-              "TU"
+              "UT"
             ],
             "begin": "8:30AM",
             "end": "9:45AM",
@@ -720,7 +720,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "8:30AM",
             "end": "9:45AM",
@@ -746,7 +746,7 @@
           "section_id": "Lec 2",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "10:00AM",
             "end": "11:15AM",
@@ -785,13 +785,13 @@
       "sections": [
         {
           "section_type": "Lecture",
-          "section_id": "W",
+          "section_id": "Lec 3",
           "timings": {
             "days": [
-              "R"
+              "UT"
             ],
-            "begin": "8:45AM",
-            "end": "9:35AM",
+            "begin": "10:00AM",
+            "end": "11:15AM",
             "teaching_location": "Doha, Qatar",
             "delivery_mode": "UNK",
             "instructor": [
@@ -800,14 +800,14 @@
           }
         },
         {
-          "section_type": "Lecture",
-          "section_id": "Lec 3",
+          "section_type": "Recitation",
+          "section_id": "W",
           "timings": {
             "days": [
-              "UT"
+              "R"
             ],
-            "begin": "10:00AM",
-            "end": "11:15AM",
+            "begin": "8:45AM",
+            "end": "9:35AM",
             "teaching_location": "Doha, Qatar",
             "delivery_mode": "UNK",
             "instructor": [
@@ -827,13 +827,13 @@
       "sections": [
         {
           "section_type": "Lecture",
-          "section_id": "W",
+          "section_id": "Lec 2",
           "timings": {
             "days": [
-              "RU"
+              "MW"
             ],
             "begin": "2:30PM",
-            "end": "3:20PM",
+            "end": "3:45PM",
             "teaching_location": "Doha, Qatar",
             "delivery_mode": "UNK",
             "instructor": [
@@ -842,14 +842,14 @@
           }
         },
         {
-          "section_type": "Lecture",
-          "section_id": "Lec 2",
+          "section_type": "Recitation",
+          "section_id": "W",
           "timings": {
             "days": [
-              "MW"
+              "UR"
             ],
             "begin": "2:30PM",
-            "end": "3:45PM",
+            "end": "3:20PM",
             "teaching_location": "Doha, Qatar",
             "delivery_mode": "UNK",
             "instructor": [
@@ -872,7 +872,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "8:30AM",
             "end": "9:45AM",
@@ -898,7 +898,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TRU"
+              "UTR"
             ],
             "begin": "4:00PM",
             "end": "5:15PM",
@@ -924,7 +924,7 @@
           "section_id": "W2",
           "timings": {
             "days": [
-              "MWRUT"
+              "UMTWR"
             ],
             "begin": "10:00AM",
             "end": "10:50AM",
@@ -950,7 +950,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TMRUW"
+              "UMTWR"
             ],
             "begin": "2:30PM",
             "end": "3:20PM",
@@ -976,7 +976,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "UWTMR"
+              "UMTWR"
             ],
             "begin": "11:30AM",
             "end": "12:20PM",
@@ -1002,7 +1002,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "WUTRM"
+              "UMTWR"
             ],
             "begin": "8:45AM",
             "end": "9:35AM",
@@ -1028,7 +1028,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "MWRUT"
+              "UMTWR"
             ],
             "begin": "10:00AM",
             "end": "10:50AM",
@@ -1054,7 +1054,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "UWTMR"
+              "UMTWR"
             ],
             "begin": "11:30AM",
             "end": "12:20PM",
@@ -1080,7 +1080,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "MWRTU"
+              "UMTWR"
             ],
             "begin": "8:45AM",
             "end": "9:35AM",
@@ -1106,7 +1106,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "UWTMR"
+              "UMTWR"
             ],
             "begin": "11:30AM",
             "end": "12:20PM",
@@ -1158,7 +1158,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TUR"
+              "UTR"
             ],
             "begin": "4:00PM",
             "end": "4:50PM",
@@ -1184,7 +1184,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TUR"
+              "UTR"
             ],
             "begin": "8:30AM",
             "end": "9:45AM",
@@ -1210,7 +1210,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "RTU"
+              "UTR"
             ],
             "begin": "2:30PM",
             "end": "3:45PM",
@@ -1236,7 +1236,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TUR"
+              "UTR"
             ],
             "begin": "10:00AM",
             "end": "11:15AM",
@@ -1262,7 +1262,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "8:30AM",
             "end": "9:45AM",
@@ -1313,7 +1313,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "8:30AM",
             "end": "9:45AM",
@@ -1423,7 +1423,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TU"
+              "UT"
             ],
             "begin": "8:30AM",
             "end": "9:45AM",
@@ -1501,7 +1501,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TU"
+              "UT"
             ],
             "begin": "11:30AM",
             "end": "12:45PM",
@@ -1543,7 +1543,7 @@
           "section_id": "X",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "10:00AM",
             "end": "11:15AM",
@@ -1621,7 +1621,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TU"
+              "UT"
             ],
             "begin": "11:30AM",
             "end": "12:45PM",
@@ -1673,7 +1673,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TU"
+              "UT"
             ],
             "begin": "11:30AM",
             "end": "12:45PM",
@@ -1699,7 +1699,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "10:00AM",
             "end": "11:15AM",
@@ -1725,7 +1725,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "URT"
+              "UTR"
             ],
             "begin": "10:00AM",
             "end": "10:50AM",
@@ -1751,7 +1751,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "10:00AM",
             "end": "11:15AM",
@@ -1819,7 +1819,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "10:00AM",
             "end": "11:15AM",
@@ -1845,7 +1845,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TU"
+              "UT"
             ],
             "begin": "2:30PM",
             "end": "3:45PM",
@@ -1871,7 +1871,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "RT"
+              "TR"
             ],
             "begin": "2:30PM",
             "end": "3:45PM",
@@ -1897,7 +1897,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TU"
+              "UT"
             ],
             "begin": "11:30AM",
             "end": "12:45PM",
@@ -1973,7 +1973,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "RU"
+              "UR"
             ],
             "begin": "2:30PM",
             "end": "3:45PM",
@@ -2025,7 +2025,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TU"
+              "UT"
             ],
             "begin": "11:30AM",
             "end": "12:45PM",
@@ -2051,7 +2051,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "10:00AM",
             "end": "11:15AM",
@@ -2077,7 +2077,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "8:30AM",
             "end": "9:45AM",
@@ -2103,7 +2103,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "10:00AM",
             "end": "11:15AM",
@@ -2129,7 +2129,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TU"
+              "UT"
             ],
             "begin": "11:30AM",
             "end": "12:45PM",
@@ -2259,7 +2259,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TU"
+              "UT"
             ],
             "begin": "11:30AM",
             "end": "12:45PM",
@@ -2311,7 +2311,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TU"
+              "UT"
             ],
             "begin": "8:30AM",
             "end": "9:45AM",
@@ -2363,7 +2363,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "RT"
+              "TR"
             ],
             "begin": "4:00PM",
             "end": "5:15PM",
@@ -2389,7 +2389,7 @@
           "section_id": "ZZ",
           "timings": {
             "days": [
-              "URT"
+              "UTR"
             ],
             "begin": "10:00AM",
             "end": "10:50AM",
@@ -2403,7 +2403,7 @@
           "section_id": "YY",
           "timings": {
             "days": [
-              "URT"
+              "UTR"
             ],
             "begin": "10:00AM",
             "end": "10:50AM",
@@ -2419,7 +2419,7 @@
           "section_id": "Y",
           "timings": {
             "days": [
-              "URT"
+              "UTR"
             ],
             "begin": "8:45AM",
             "end": "9:35AM",
@@ -2435,7 +2435,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "URT"
+              "UTR"
             ],
             "begin": "10:00AM",
             "end": "10:50AM",
@@ -2451,7 +2451,7 @@
           "section_id": "Z",
           "timings": {
             "days": [
-              "URT"
+              "UTR"
             ],
             "begin": "8:45AM",
             "end": "9:35AM",
@@ -2465,7 +2465,7 @@
           "section_id": "XX",
           "timings": {
             "days": [
-              "URT"
+              "UTR"
             ],
             "begin": "10:00AM",
             "end": "10:50AM",
@@ -2481,7 +2481,7 @@
           "section_id": "X",
           "timings": {
             "days": [
-              "URT"
+              "UTR"
             ],
             "begin": "8:45AM",
             "end": "9:35AM",
@@ -2507,7 +2507,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "URT"
+              "UTR"
             ],
             "begin": "8:45AM",
             "end": "9:35AM",
@@ -2601,7 +2601,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TUR"
+              "UTR"
             ],
             "begin": "4:00PM",
             "end": "4:50PM",
@@ -2747,7 +2747,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "RTU"
+              "UTR"
             ],
             "begin": "8:45AM",
             "end": "9:35AM",
@@ -2799,7 +2799,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TRU"
+              "UTR"
             ],
             "begin": "11:30AM",
             "end": "12:20PM",
@@ -2825,7 +2825,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "RUT"
+              "UTR"
             ],
             "begin": "2:30PM",
             "end": "3:45PM",
@@ -2851,7 +2851,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "URT"
+              "UTR"
             ],
             "begin": "8:45AM",
             "end": "9:35AM",
@@ -2893,7 +2893,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TUR"
+              "UTR"
             ],
             "begin": "4:00PM",
             "end": "4:50PM",
@@ -2945,7 +2945,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "TU"
+              "UT"
             ],
             "begin": "11:30AM",
             "end": "12:45PM",
@@ -3023,7 +3023,7 @@
           "section_id": "W",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "8:30AM",
             "end": "9:45AM",
@@ -3155,7 +3155,7 @@
           "section_id": "X1",
           "timings": {
             "days": [
-              "WM"
+              "MW"
             ],
             "begin": "10:00AM",
             "end": "10:50AM",

@@ -441,6 +441,16 @@ def read_infosilem_format(filename: str):
     return schedule, audit
 ############### ACK #################
 
+def stdCode(s):
+    if isinstance(s,str):
+        department = s[:2]
+        course = s[3:]
+        return department + course
+
+    else:
+        print("Got an invalid course number at conversion!")
+        return "Invalid Course Number"
+
 def stdTime(s):
     s_type = type(s)
     if s_type == str:
@@ -466,6 +476,19 @@ def stdIns(instructors):
 
 def stdReqs(requirements):
     return requirements.replace("-","")
+
+def stdDays(days):
+    order = {
+        'U': 0,
+        'M': 1,
+        'T': 2,
+        'W': 3,
+        'R': 4,
+        'F': 5,
+        'S': 6
+    }
+    
+    return ''.join(sorted(days, key=lambda day: order[day]))
 
 """
   Generates a short ID based on a name and a Python list.
@@ -496,7 +519,7 @@ def convertScheduleToJson (df: pd.DataFrame, semName: str, semCode: str, path: s
                 "section_type": "Recitation" if "Lec" in prev_section else "Lecture",
                 "section_id": stdSec(row["SECTION"]),
                 "timings": {
-                    "days": [row["DAY"]],
+                    "days": [stdDays(row["DAY"])],
                     "begin": stdTime(row["BEGIN TIME"]),
                     "end": stdTime(row["END TIME"]),
                     "teaching_location": "Doha, Qatar",
@@ -504,13 +527,17 @@ def convertScheduleToJson (df: pd.DataFrame, semName: str, semCode: str, path: s
                     "instructor": stdIns(row["INSTRUCTORS"])
                 }
             }
-            courses[-1]["sections"].append(section)
+            if  isinstance(row["SECTION"],int) and ("Lec" not in prev_section):
+                courses[-1]["sections"][-1]["section_type"] = "Recitation"
+                courses[-1]["sections"].insert(-1,section)
+            else: 
+                courses[-1]["sections"].append(section)
         else:
             # New course
             prev_section = stdSec(row["SECTION"])
             prev_course = row["COURSE"]
             course = {
-                "course_code": row["COURSE"],
+                "course_code": stdCode(row["COURSE"]),
                 "course_title": row["COURSE TITLE"],
                 "units": row["UNITS"],
                 "description": "UNK",
@@ -520,7 +547,7 @@ def convertScheduleToJson (df: pd.DataFrame, semName: str, semCode: str, path: s
                     "section_type": "Lecture",
                     "section_id": stdSec(row["SECTION"]),
                     "timings": {
-                        "days": [row["DAY"]],
+                        "days": [stdDays(row["DAY"])],
                         "begin": stdTime(row["BEGIN TIME"]),
                         "end": stdTime(row["END TIME"]),
                         "teaching_location": "Doha, Qatar",
