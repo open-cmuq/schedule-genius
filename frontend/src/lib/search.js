@@ -57,27 +57,59 @@ function daysOverlap(days1, days2) {
 function filterConflictingCourses(courses, coursesTaken) {
   const selectedTimings = [];
 
+  // Collect timings of selected courses
   coursesTaken.forEach(courseTaken => {
     courseTaken.selected.forEach(index => {
       selectedTimings.push(courseTaken.sections[index].timings);
     });
   });
 
-
   return courses.filter(course => {
-    return course.sections.every(section => {
-      if (section.timings.begin === 'TBA' || section.timings.days[0] === 'TBA') {
-        return true;
-      }
+    // Group sections by consecutive lecture and recitation
+    const groupedSections = groupSections(course.sections);
 
-      return !selectedTimings.some(takenTiming => {
-        if (takenTiming.begin === 'TBA' || takenTiming.days[0] === 'TBA') {
-          return false;
+    // Check if there is at least one group of sections that does not conflict
+    return groupedSections.some(group => {
+      return group.every(section => {
+        if (section.timings.begin === 'TBA' || section.timings.days[0] === 'TBA') {
+          return true;
         }
-        return daysOverlap(section.timings.days, takenTiming.days) && hasConflict(section.timings, takenTiming);
+
+        return !selectedTimings.some(takenTiming => {
+          if (takenTiming.begin === 'TBA' || takenTiming.days[0] === 'TBA') {
+            return false;
+          }
+          return daysOverlap(section.timings.days, takenTiming.days) && hasConflict(section.timings, takenTiming);
+        });
       });
     });
   });
+}
+
+// Group consecutive lecture and recitation sections
+function groupSections(sections) {
+  const grouped = [];
+  let currentGroup = [];
+
+  sections.forEach(section => {
+    if (currentGroup.length > 0) {
+      const lastSection = currentGroup[currentGroup.length - 1];
+      if (lastSection.section_type === 'Lecture' && section.section_type === 'Recitation') {
+        currentGroup.push(section);
+      } else {
+        grouped.push(currentGroup);
+        currentGroup = [section];
+      }
+    } else {
+      currentGroup.push(section);
+    }
+  });
+
+  if (currentGroup.length > 0) {
+    grouped.push(currentGroup);
+  }
+
+  return grouped;
 }
 
 export const filterCourses = (courses, filters,audit,coursesTaken) => {
