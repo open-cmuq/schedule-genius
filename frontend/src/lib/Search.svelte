@@ -20,11 +20,10 @@
         <div>Room</div>
         <div>Instructor</div>
       </div>
-      {console.log(card.courses)}
       {#each orderedCourses(filteredCourses, card.courses) as course (course.course_code)}
           <div class="course-card-wrapper mt-3 {courseSelected(course.course_code) ? 'selected' : ''}" 
             animate:flip={{ duration: 300 }}>
-            <CourseCard {course} {selectCourse} 
+            <CourseCard {course} {selectCourseSearch} 
               isSelected={card.courses.find(c => c.course_code === course.course_code)} />
           </div>
       {/each} 
@@ -61,7 +60,7 @@
     department: [],
     units: [1,18],
     clearedPreReqs: false,
-    noConflicts: false
+    noConflicts: true // TODO Enabled for testing purposes only
   };
   
   // Refresh the courses displayed each time we change the selected schedule
@@ -69,7 +68,7 @@
     try {
       courses = null;
       await loadSchedule(selectedScheduleID);
-      filteredCourses = filterCourses(courses,filters);
+      filteredCourses = filterCourses(courses,filters,audit,card.courses);
     } catch (error) {
       console.error("Error fetching schedule:", error);
     }
@@ -77,9 +76,9 @@
 
   // Reorder a set of courses or search results so that selected courses 
   // appear on the top
-  function orderedCourses(allCourses, selectedCourses) {
+  function orderedCourses(allCourses) {
     // Create a set of selected course codes for quick lookup
-    const selectedCourseCodes = new Set(selectedCourses.map(course => course.course_code));
+    const selectedCourseCodes = getSelectedCourse();
     
     // Separate the selected courses from the rest
     // Note that for selected courses we look at the entire schedule not the filtered ones
@@ -88,6 +87,11 @@
     
     // Combine the selected courses at the top followed by the unselected courses
     return [...selected, ...unselected];
+  }
+
+  function selectCourseSearch(course){
+    selectCourse(course);
+    filteredCourses = filterCourses(courses,filters,audit,card.courses);
   }
   
   // When searching courses we'd only like to search after the user has stopped 
@@ -101,9 +105,13 @@
       } else {
         filters.keyword.push(searchTerm);
       }
-      filteredCourses = filterCourses(courses,filters);
+      filteredCourses = filterCourses(courses,filters,audit,card.courses);
     }, 100); 
     
+  }
+  
+  function getSelectedCourse() {
+    return new Set(card.courses.map(course => course.course_code));
   }
 
   function courseSelected(course_code) {
