@@ -20,7 +20,6 @@
   // TODO Ensure that IndexedDB is supported 
   let supportIndexedDB = false;
   let scheduleCards = [];
-  let newCardRef = null;
   
   async function addScheduleCard() {
     await createScheduleCard();
