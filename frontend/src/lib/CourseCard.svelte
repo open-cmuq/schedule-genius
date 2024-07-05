@@ -1,9 +1,9 @@
 <script>
   export let course;
-  export let selectCourse;
+  export let selectCourseSearch;
 </script>
 
-<div on:click={() => selectCourse(course)} class="course-card">
+<div on:click={() => selectCourseSearch(course)} class="course-card">
   <!-- We have this each block since we're generating each section, we only include  -->
   <!-- the course code and name information for the first row  -->
   {#each course.sections as section, i (section)}

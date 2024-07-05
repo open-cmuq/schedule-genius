@@ -3,8 +3,19 @@
       <h5 class="text-2xl font-bold underline tracking-tight text-gray-900">{card.name}</h5>
       <button class="ml-2 bg-red-700 text-white p-2 rounded-full w-5 h-5 flex items-center justify-center mb-5" on:click={removeCard}>X</button>
   </div>
-    
-  <div class="flex justify-between items-center mb-4"> 
+  
+  <div class="flex justify-between items-center mb-4">
+    <button class="expand-button bg-gray-200 pl-1 pr-1 rounded-md" on:click={() => (expanded = !expanded)}>
+      {#if expanded}
+        Collapse
+      {:else}
+        Student Information
+      {/if}
+    </button>
+  </div>
+
+  {#if expanded}
+  <div class="flex justify-between items-center mb-4" transition:slide> 
     <div class="flex flex-col space-y-2"> 
       <div class="flex items-center">
         <label class="text-gray-700 mr-2">Major:</label>
@@ -33,17 +44,19 @@
       </div>
     </div>  
   </div>
+  {/if}
 
   <div class="grid grid-cols-5 gap-4 mb-3">
     <div class="col-span-3 border border-gray-300 rounded p-4 max-h-96">
-      <Timetable />
-      <!-- Calendar component will go here -->
+    {#key timetableCount}
+      <Timetable {card} count={timetableCount} schedule={courses} />
+    {/key}
     </div>
-    <div class="col-span-2 border border-gray-300 rounded p-4">
+    <div class="col-span-2 border border-gray-300 rounded p-4 max-h-96 overflow-auto">
       <p>Selected Courses:</p>
       <ul>
         {#each card.courses as course}
-          <li>{course.course_code} - {course.course_title}</li>
+          <SelectCard {courses} {course} {updateTimetable} {selectCourse}/>
         {/each}
       </ul>
     </div>
@@ -61,11 +74,11 @@
 
 <script>
   import {deleteScheduleCard, saveScheduleCard, fetchAudit } from "$lib/db";
-  import { fly } from 'svelte/transition';
+  import { fly, slide } from 'svelte/transition';
   import Search from '$lib/Search.svelte';
 	import { onMount } from "svelte";
   import { getScheduleByID } from "./db";
-  import Timetable from "./Timetable.svelte";
+  import Timetable from "./Timetable.svelte"; import SelectCard from "./SelectCard.svelte";
 
   export let card;
   export let onRemove;
@@ -74,7 +87,8 @@
   let audit = null;
   let schedule = null;
   let courses = null;
- 
+  let timetableCount = 0; 
+  let expanded = true;
   // TODO Ideally we don't want this to be hardcoded, it should 
   // dynamically be fetched from the server
   let majorOptions = [{id: "CS", name: "Computer Science"},
@@ -91,15 +105,27 @@
   // and I'm not sure why that is.
   async function selectCourse(course){
     const selectedCourseCodes = new Set(card.courses.map(course => course.course_code));
-
+    
     if (selectedCourseCodes.has(course.course_code)){
       card.courses = card.courses.filter(c => c.course_code !== course.course_code);
     } else {
-      let course_select = {...course, selection: 0};
+      let course_select;
+      if (course.sections.length > 1 && 
+          course.sections[1].section_type === "Recitation"){
+          course_select = {...course, selected: [0,1]};
+      } else {
+      course_select = {...course, selected: [0]};
+      }
       card.courses.push(course_select);
     }
     await saveScheduleCard(card);
     card.courses = card.courses;
+    // This ensures that the timetable component gets rerendered
+    updateTimetable();
+  }
+
+  async function updateTimetable(){
+    timetableCount++;
   }
 
   async function updateCard(card) {
@@ -120,6 +146,7 @@
 
   // Load all courses on the schedule
   async function loadSchedule(selectedScheduleID) {
+    updateTimetable();
     try {
       // Fetch the schedule object using the selectedScheduleID
       schedule = await getScheduleByID(selectedScheduleID);
@@ -138,3 +165,9 @@
   });
   
 </script>
+
+<style>
+  .expand-button {
+    cursor: pointer;
+  }
+</style>
