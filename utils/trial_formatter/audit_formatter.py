@@ -4,12 +4,20 @@ import os
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
-path = os.path.join(base_dir, "../data/audits-xlsx/is-audit.xlsx")
+path = os.path.join(base_dir, "../data/audits-xlsx/cs-audit.xlsx")
 audit = pd.read_excel(path, dtype={"Course or code": str})
 
-audit_json = audit.to_json(orient='records')
+# Process the 'Requirement' column to extract the last part after '---'
+audit['Requirement'] = audit['Requirement'].apply(lambda x: x.split('---')[-1] if isinstance(x, str) else x)
 
-json_path = os.path.join(base_dir, "./is-audit.json")
+audit_records = audit.to_dict(orient='records')
+unique_requirements = list(audit['Requirement'].unique())
+
+final_json_data = [unique_requirements] + audit_records
+audit_json = json.dumps(final_json_data)
+
+json_path = os.path.join(base_dir, "./cs-audit.json")
+
 with open(json_path, 'w') as f:
     f.write(audit_json)
 
