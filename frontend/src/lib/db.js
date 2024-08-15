@@ -139,14 +139,26 @@ export const fetchAudit  =  async (major,entry_year) => {
     return existingAudit;
   } else {
     // If not found, fetch the data from the server
-    let url = `http://localhost:8000/audit/${major}/${entry_year}`;
-    const response = await fetch(url);
-    const audit = await response.json();
+    let response;
+    let audit = null;
     
-    // Save the fetched data in the database
-    await db.audits.add({ ...audit, major: major, entry_year: entry_year });
+    let url = `http://localhost:8000/audit/${major}/${entry_year}`;
+    // Catches error if backend is down
+    try {
+      response = await fetch(url);
+    } catch (error) {
+      throw error;
+    }
+    
+    // Check if the response is ok (status code 200-299) 
+    if (!response.ok) {
+      throw new Error(`${response.status} ${response.statusText}`);
+    } else {
+      audit = await response.json();
+      // Save the fetched data in the database
+      await db.audits.add({ ...audit, major: major, entry_year: entry_year });
+    }
     
     return audit;
   }
 }
-
