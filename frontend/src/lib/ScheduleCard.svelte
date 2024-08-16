@@ -67,7 +67,15 @@
       {showSearch ? 'Hide Search' : 'Search Courses'}
     </button>
     {#if showSearch }
-      <Search {selectCourse} {card} {audit} {courses} {loadSchedule}/>
+      {#if card.major && card.entry_year && audit }
+        <Search {selectCourse} {card} {audit} {courses} {loadSchedule}/> 
+      {:else if card.major}
+        Please fill out your entry year
+      {:else if card.entry_year}
+        Please fill out your major
+      {:else} 
+        Please fill out your major and entry year
+      {/if}
     {/if}
   </div>
 </div>
@@ -79,6 +87,7 @@
 	import { onMount } from "svelte";
   import { getScheduleByID } from "./db";
   import Timetable from "./Timetable.svelte"; import SelectCard from "./SelectCard.svelte";
+	import { countsFor } from "./audit";
 
   export let card;
   export let onRemove;
@@ -131,7 +140,12 @@
   async function updateCard(card) {
     await saveScheduleCard(card);
     if (card.major && card.entry_year){
-      audit = fetchAudit(card.major, card.entry_year); 
+      try {
+        audit = await fetchAudit(card.major, card.entry_year);
+      } catch (error){
+        console.error("Failed to fetch audit data:",error); 
+        audit = null;
+      }
     }
   }
  
@@ -160,7 +174,7 @@
     // Fixes bug where user deletes data and audit is only fetched 
     // once the user changes card selection
     if (card.major && card.entry_year){
-      audit = fetchAudit(card.major, card.entry_year); 
+      audit = await fetchAudit(card.major, card.entry_year); 
     } 
   });
   

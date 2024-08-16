@@ -136,11 +136,11 @@ export const fetchAudit  =  async (major,entry_year) => {
 
 
   if (existingAudit) {
-    return existingAudit;
+    return existingAudit.audit;
   } else {
     // If not found, fetch the data from the server
     let response;
-    let audit = null;
+    let fetchedAudit = null;
     
     let url = `http://localhost:8000/audit/${major}/${entry_year}`;
     // Catches error if backend is down
@@ -154,11 +154,13 @@ export const fetchAudit  =  async (major,entry_year) => {
     if (!response.ok) {
       throw new Error(`${response.status} ${response.statusText}`);
     } else {
-      audit = await response.json();
-      // Save the fetched data in the database
-      await db.audits.add({ ...audit, major: major, entry_year: entry_year });
+      fetchedAudit = await response.json();
+      // Save the fetched data in the database as received,
+      // the reader script can only parse the original response 
+      // and we need to get rid of the metadata and new object properties
+      await db.audits.add({ audit: fetchedAudit, major: major, entry_year: entry_year });
     }
     
-    return audit;
+    return fetchedAudit;
   }
 }

@@ -1,16 +1,22 @@
 <div class="search-component flex flex-col items-center w-full m-2"> 
   {#if courses} 
-    <div class="filter-controls m-2"> <input type="text" id="search-field" placeholder="Keywords, title, etc..." 
+    <div class="filter-controls m-2"> 
+      <input type="text" id="search-field" placeholder="Keywords, title, etc..." 
 				 autocomplete="off"
          on:input={handleSearch} 
          class="border p-2 rounded-md"
       />
+      <br/> 
+      <label>
+        <input type="checkbox" on:change={toggleNoConflicts}/>
+        Hide courses which conflict with current schedule
+      </label>
     </div>
 
     {#if filteredCourses.length > 0}
       <!-- This section is for showing all the courses with filters applied -->
-      <div class="header bg-gray-200">
-        <div>Course Code</div>
+      <div class="header bg-gray-600">
+        <div class="text-center">Course Code</div>
         <div>Title</div>
         <div>Units</div>
         <div>Section</div>
@@ -20,10 +26,11 @@
         <div>Room</div>
         <div>Instructor</div>
       </div>
-      {#each orderedCourses(filteredCourses, card.courses) as course (course.course_code)}
-          <div class="course-card-wrapper mt-3 {courseSelected(course.course_code) ? 'selected' : ''}" 
+      {#each orderedCourses(filteredCourses, card.courses) as course, index (course.course_code)}
+          <div class="course-card-wrapper mt-3 {courseSelected(course.course_code) ? 'selected' : ''}
+          {index % 2 === 0 ? 'bg-gray-300' : 'bg-white'}" 
             animate:flip={{ duration: 300 }}>
-            <CourseCard {course} {selectCourseSearch} 
+            <CourseCard {course} {selectCourseSearch} {audit} 
               isSelected={card.courses.find(c => c.course_code === course.course_code)} />
           </div>
       {/each} 
@@ -60,7 +67,7 @@
     department: [],
     units: [1,18],
     clearedPreReqs: false,
-    noConflicts: true // TODO Enabled for testing purposes only
+    noConflicts: false // TODO Enabled for testing purposes only
   };
   
   // Refresh the courses displayed each time we change the selected schedule
@@ -93,12 +100,16 @@
     selectCourse(course);
     filteredCourses = filterCourses(courses,filters,audit,card.courses);
   }
+
+  function toggleNoConflicts() {
+    filters.noConflicts = !filters.noConflicts;
+    filteredCourses = filterCourses(courses,filters,audit,card.courses);
+  }
   
   // When searching courses we'd only like to search after the user has stopped 
   // typing for efficiency
   function searchCourses() {
     clearTimeout(searchTimeout);
-
     searchTimeout = setTimeout(() => {
       if (filters.keyword.length > 0){
         filters.keyword[0] = searchTerm;
@@ -135,6 +146,9 @@
       grid-template-columns: repeat(9, 1fr);
       gap: 0;
       width: 100%;
+      border: 1px solid black; 
+      border-radius: 8px; 
+      overflow: hidden; 
   }
 
   .header > div {

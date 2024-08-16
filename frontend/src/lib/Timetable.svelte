@@ -69,7 +69,6 @@
         }
       });
     });
-    console.log(events);
     return events;
   }
 

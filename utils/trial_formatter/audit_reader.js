@@ -61,6 +61,6 @@ function countsForCS(course_number, audit) {
     return new_set;
 }
 
-let course_number = "15-316";
+let course_number = "73-102";
 let result = countsForCS(course_number, auditData);
 console.log(result);

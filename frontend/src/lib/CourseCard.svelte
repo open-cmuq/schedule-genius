@@ -1,6 +1,8 @@
 <script>
+	import { countsFor } from "./audit";
   export let course;
   export let selectCourseSearch;
+  export let audit
 </script>
 
 <div on:click={() => selectCourseSearch(course)} class="course-card">
@@ -8,7 +10,7 @@
   <!-- the course code and name information for the first row  -->
   {#each course.sections as section, i (section)}
       {#if i === 0}
-          <div>{course.course_code}</div>
+          <div class="text-center">{course.course_code}</div>
           <div>{course.course_title}</div>
           <div>{course.units}</div>
       {:else }
@@ -23,6 +25,14 @@
       <div>{section.timings.teaching_location}</div>
       <div>{section.timings.instructor.join(', ')}</div>
   {/each}
+  <div class="col-span-full">
+    <label class="text-gray-700 mr-2">Counts for:</label> 
+    {#each countsFor(course.course_code, audit) as count (count)}
+        <button class="text-black bg-yellow-100 rounded-full ml-2 p-1 px-2 hover:bg-red-200">
+            {count}
+        </button>
+    {/each}
+  </div>
 </div>
 
 
@@ -32,7 +42,7 @@
   }
 
   .course-card > div {
-      border: 1px solid #ccc;
+      /* border: 1px solid #ccc; */
       padding: 8px;
   }
 
@@ -52,4 +62,7 @@
   .course-card > div:last-child {
       border-bottom-right-radius: 8px; /* Bottom right corner */
   }
+  
 </style>
+
+
