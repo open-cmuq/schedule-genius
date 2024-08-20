@@ -45,11 +45,13 @@
 
 </script>
   
-<nav class="bg-gray-100 flex items-center justify-between p-1 shadow">
-  <div class="text-xl font-semibold">Schedule Genius</div>
-  <div class="flex-grow flex justify-center">
-    <!-- TODO this should include a delete button for uploaded schedules and possibly a rename one  -->
-    <select name="schedule-select" id="schedule-select" bind:value={$selectedScheduleID} on:change={handleSelectChange} class="rounded p-1">
+<nav class="bg-gray-100 grid grid-cols-3 items-center p-1 shadow">
+  <div class="text-xl font-semibold">
+    Schedule Genius
+  </div>
+  <div class="flex justify-center">
+    <!-- TODO: this should include a delete button for uploaded schedules and possibly a rename one  -->
+    <select name="schedule-select" id="schedule-select" bind:value={$selectedScheduleID} on:change={handleSelectChange} class="rounded p-1 text-center">
       <option value="">--Please select a semester--</option>
       {#each schedules as schedule }
         <option value={schedule.ID}>
@@ -59,7 +61,7 @@
       <option value="upload">Upload</option>
     </select>
   </div>
-  <div class="ml-4">
+  <div class="ml-auto">
     Last Update: 
     {#if $selectedScheduleID != ""} 
       {#await getScheduleByID($selectedScheduleID)}
@@ -74,10 +76,6 @@
   <input id="file-input" type="file" accept=".xlsx" style="display: none;" on:change={handleFileUpload}/>
 </nav>
 
+
 <slot/>
 
-<style>
-  nav {
-    justify-content: space-between;
-  }
-</style>
