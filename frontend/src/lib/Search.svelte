@@ -1,50 +1,8 @@
-<div class="search-component flex flex-col items-center w-full m-2"> 
-  {#if courses} 
-    <div class="filter-controls m-2"> 
-      <input type="text" id="search-field" placeholder="Keywords, title, etc..." 
-				 autocomplete="off"
-         on:input={handleSearch} 
-         class="border p-2 rounded-md"
-      />
-      <br/> 
-      <label>
-        <input type="checkbox" on:change={toggleNoConflicts}/>
-        Hide courses which conflict with current schedule
-      </label>
-    </div>
-
-    {#if filteredCourses.length > 0}
-      <!-- This section is for showing all the courses with filters applied -->
-      <div class="header bg-gray-600">
-        <div class="text-center">Course Code</div>
-        <div>Title</div>
-        <div>Units</div>
-        <div>Section</div>
-        <div>Day</div>
-        <div>Begin</div>
-        <div>End</div>
-        <div>Room</div>
-        <div>Instructor</div>
-      </div>
-      {#each orderedCourses(filteredCourses, card.courses) as course, index (course.course_code)}
-          <div class="course-card-wrapper mt-3 {courseSelected(course.course_code) ? 'selected' : ''}
-          {index % 2 === 0 ? 'bg-gray-300' : 'bg-white'}" 
-            animate:flip={{ duration: 300 }}>
-            <CourseCard {course} {selectCourseSearch} {audit} 
-              isSelected={card.courses.find(c => c.course_code === course.course_code)} />
-          </div>
-      {/each} 
-    {/if}
-  {:else} 
-    Please select a schedule before proceeding...
-  {/if}
-</div>
-
 <script>
-  import { selectedScheduleID } from "../store.js";
   import {flip} from 'svelte/animate';
-	import CourseCard from "./CourseCard.svelte";
-	import { filterCourses } from "./search";
+  import { selectedScheduleID } from "../store.js";
+	import CourseCard from "$lib/CourseCard.svelte";
+	import { filterCourses } from "$lib/search";
   
   export let selectCourse;
   export let card;
@@ -65,6 +23,7 @@
     countsFor: [],
     instructor: [],
     department: [],
+    coursesTaken: [],
     units: [1,18],
     clearedPreReqs: false,
     noConflicts: false // TODO Enabled for testing purposes only
@@ -140,6 +99,48 @@
   $: refilterSchedule($selectedScheduleID); 
 </script>
 
+<div class="search-component flex flex-col items-center w-full m-2"> 
+  {#if courses} 
+    <div class="filter-controls m-2"> 
+      <input type="text" id="search-field" placeholder="Keywords, title, etc..." 
+				 autocomplete="off"
+         on:input={handleSearch} 
+         class="border p-2 rounded-md"
+      />
+      <br/> 
+      <label>
+        <input type="checkbox" on:change={toggleNoConflicts}/>
+        Hide courses which conflict with current schedule
+      </label>
+    </div>
+
+    {#if filteredCourses.length > 0}
+      <!-- This section is for showing all the courses with filters applied -->
+      <div class="header bg-rose-300">
+        <div class="text-center">Course Code</div>
+        <div>Title</div>
+        <div>Units</div>
+        <div>Section</div>
+        <div>Day</div>
+        <div>Begin</div>
+        <div>End</div>
+        <div>Room</div>
+        <div>Instructor</div>
+      </div>
+      {#each orderedCourses(filteredCourses, card.courses) as course, index (course.course_code)}
+          <div class="course-card-wrapper mt-3 {courseSelected(course.course_code) ? 'selected' : ''}
+          {index % 2 === 0 ? 'bg-gray-300' : 'bg-white'}" 
+            animate:flip={{ duration: 300 }}>
+            <CourseCard {course} {selectCourseSearch} {audit} 
+              isSelected={card.courses.find(c => c.course_code === course.course_code)} />
+          </div>
+      {/each} 
+    {/if}
+  {:else} 
+    Please select a schedule before proceeding...
+  {/if}
+</div>
+
 <style>
   .header, .course-card-wrapper {
       display: grid;
@@ -149,6 +150,7 @@
       border: 1px solid black; 
       border-radius: 8px; 
       overflow: hidden; 
+      font-size: 0.85em;
   }
 
   .header > div {

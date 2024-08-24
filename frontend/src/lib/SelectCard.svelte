@@ -30,28 +30,15 @@
       c.selected = c.selected.filter(i =>  i !== index);
     } else {
       c.selected.push(index);
+      if (index < c.sections.length - 1 && 
+        c.sections[index + 1].section_type === "Recitation"){
+        c.selected.push(index + 1);
+      }
       c.selected = c.selected;
     }
     updateTimetable();
   }
 </script>
-
-<style>
-  .expandable-content {
-    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
-    overflow: hidden;
-  }
-
-  .expanded {
-    max-height: 1000px; /* TODO Adjust */
-    opacity: 1;
-  }
-
-  .collapsed {
-    max-height: 0;
-    opacity: 0;
-  }
-</style>
 
 <div class={`p-4 rounded shadow`}  style={`background-color: ${generateColor()};`}>
   <div class="flex justify-between items-center">
@@ -73,7 +60,7 @@
       <table class="mt-4 w-full text-left table-fixed">
         <thead>
           <tr>
-            <th class="w-1/12">Select</th>
+            <th class="w-2/12">Select</th>
             <th class="w-2/12">Section Code</th>
             <th class="w-3/12">Instructor</th>
             <th class="w-3/12">Time</th>
@@ -83,7 +70,12 @@
         <tbody>
           {#each course.sections as section, index}
             <tr>
-              {#if course.sections.length > 1}
+              <!-- We need to ensure that you can't unselect a recitation  -->
+              <!-- TODO: WE have a bug where the select for the recitation doesn't update and if we unselect a  -->
+              <!-- recitation/lecture pair it doesn't remove the whole pair. -->
+              {#if (course.sections.length === 2 && course.sections[1].section_type !== "Recitation") 
+                  || (course.sections.length >= 3)
+              }
                 <td>
                   <input type="checkbox" checked={isSectionSelected(index)} 
                     on:change={() => handleCheckboxChange(course,index)}/>
@@ -102,3 +94,20 @@
     </div>
   {/if}
 </div>
+
+<style>
+  .expandable-content {
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    overflow: hidden;
+  }
+
+  .expanded {
+    max-height: 1000px; /* TODO Adjust */
+    opacity: 1;
+  }
+
+  .collapsed {
+    max-height: 0;
+    opacity: 0;
+  }
+</style>

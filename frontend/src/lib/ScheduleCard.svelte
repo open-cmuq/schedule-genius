@@ -1,93 +1,10 @@
-<div class="schedule-card flex flex-col p-5 m-4 bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700" in:fly={{x: 100, y: -200, duration: 300}} out:fly={{ x: -200, duration: 300 }}>
-  <div class="flex justify-between">
-      <h5 class="text-2xl font-bold underline tracking-tight text-gray-900">{card.name}</h5>
-      <button class="ml-2 bg-red-700 text-white p-2 rounded-full w-5 h-5 flex items-center justify-center mb-5" on:click={removeCard}>X</button>
-  </div>
-  
-  <div class="flex justify-between items-center mb-4">
-    <button class="expand-button bg-gray-200 pl-1 pr-1 rounded-md" on:click={() => (expanded = !expanded)}>
-      {#if expanded}
-        Collapse
-      {:else}
-        Student Information
-      {/if}
-    </button>
-  </div>
-
-  {#if expanded}
-  <div class="flex justify-between items-center mb-4" transition:slide> 
-    <div class="flex flex-col space-y-2"> 
-      <div class="flex items-center">
-        <label class="text-gray-700 mr-2">Major:</label>
-        <select name="major-select" id="major-select" bind:value={card.major} on:change={() => updateCard(card)} class="rounded p-1">
-          {#each majorOptions as majorOption}
-            <option value={majorOption.id}>{majorOption.name}</option> 
-          {/each} 
-        </select>
-      </div>
-      
-      <div class="flex items-center">
-        <label class="text-gray-700 mr-2">Entry Year:</label>
-        <select name="entry-select" id="entry-select" bind:value={card.entry_year} on:change={() => updateCard(card)} class="rounded p-1">
-          {#each entryOptions as entryOption}
-            <option value={entryOption}>{entryOption}</option> 
-          {/each} 
-        </select>
-      </div>
-    
-      <div class="flex flex-wrap items-center">
-        <label class="text-gray-700 mr-2">Courses Taken:</label>
-          {#each card.courses_taken as course}
-            <button class="text-black bg-gray-100 rounded-full ml-2 p-1 px-2 hover:bg-red-200" on:click={deleteCourseTaken(course)}>{course}</button> 
-          {/each}
-          <button class="ml-2 bg-gray-400 text-white p-2 rounded-full w-5 h-5 flex items-center justify-center" on:click={() => {/* TODO Open course addition menu */}}>+</button>
-      </div>
-    </div>  
-  </div>
-  {/if}
-
-  <div class="grid grid-cols-5 gap-4 mb-3">
-    <div class="col-span-3 border border-gray-300 rounded p-4 max-h-96">
-    {#key timetableCount}
-      <Timetable {card} count={timetableCount} schedule={courses} />
-    {/key}
-    </div>
-    <div class="col-span-2 border border-gray-300 rounded p-4 max-h-96 overflow-auto">
-      <p>Selected Courses:</p>
-      <ul>
-        {#each card.courses as course}
-          <SelectCard {courses} {course} {updateTimetable} {selectCourse}/>
-        {/each}
-      </ul>
-    </div>
-  </div>
-
-  <div class="flex flex-col items-center justify-center">
-    <button class="rounded-full border border-gray-200 bg-white hover:bg-gray-200 text-black font-bold py-1 px-4 focus:outline-none focus:shadow-outline  flex items-center justify-center" on:click={() => showSearch = !showSearch}>
-      {showSearch ? 'Hide Search' : 'Search Courses'}
-    </button>
-    {#if showSearch }
-      {#if card.major && card.entry_year && audit }
-        <Search {selectCourse} {card} {audit} {courses} {loadSchedule}/> 
-      {:else if card.major}
-        Please fill out your entry year
-      {:else if card.entry_year}
-        Please fill out your major
-      {:else} 
-        Please fill out your major and entry year
-      {/if}
-    {/if}
-  </div>
-</div>
-
 <script>
-  import {deleteScheduleCard, saveScheduleCard, fetchAudit } from "$lib/db";
-  import { fly, slide } from 'svelte/transition';
-  import Search from '$lib/Search.svelte';
 	import { onMount } from "svelte";
-  import { getScheduleByID } from "./db";
-  import Timetable from "./Timetable.svelte"; import SelectCard from "./SelectCard.svelte";
-	import { countsFor } from "./audit";
+  import { fly, slide } from 'svelte/transition';
+  import {deleteScheduleCard, saveScheduleCard, fetchAudit, getScheduleByID } from "$lib/db";
+  import Search from '$lib/Search.svelte';
+  import Timetable from "$lib/Timetable.svelte"; 
+  import SelectCard from "$lib/SelectCard.svelte";
 
   export let card;
   export let onRemove;
@@ -102,7 +19,7 @@
   // dynamically be fetched from the server
   let majorOptions = [{id: "CS", name: "Computer Science"},
     {id: "BA", name: "Business Administration"}];
-  let entryOptions = [2021,2022,2023,2024,2025];
+  let entryOptions = [2021,2022,2023,2024];
 
   async function deleteCourseTaken(course) {
     card.courses_taken = card.courses_taken.filter(item => course !== item);
@@ -179,6 +96,117 @@
   });
   
 </script>
+
+<div 
+  class="schedule-card flex flex-col p-5 m-4 bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700" 
+  in:fly={{x: 100, y: -200, duration: 300}} 
+  out:fly={{ x: -200, duration: 300 }}>
+  <div class="flex justify-between">
+    <h5 class="text-2xl font-bold underline tracking-tight text-gray-900">
+      {card.name}
+    </h5>
+    <button 
+      class="p-2 mb-5 ml-2 w-5 h-5 bg-red-700 text-white rounded-full flex items-center justify-center" 
+      on:click={removeCard}>
+      X
+    </button>
+  </div>
+  
+  <div class="flex justify-between items-center mb-4">
+    <button 
+      class="expand-button bg-gray-200 pl-1 pr-1 rounded-md" 
+      on:click={() => (expanded = !expanded)}>
+      {#if expanded}
+        Collapse
+      {:else}
+        Student Information
+      {/if}
+    </button>
+  </div>
+
+  {#if expanded}
+  <div class="flex justify-between items-center mb-4" transition:slide> 
+    <div class="flex flex-col space-y-2 text-sm"> 
+      <div class="flex items-center">
+        <label class="text-gray-700 mr-2">Major:</label>
+        <select name="major-select" id="major-select" 
+            class="rounded p-1"
+            bind:value={card.major} 
+            on:change={() => updateCard(card)}>
+          {#each majorOptions as majorOption}
+            <option value={majorOption.id}>{majorOption.name}</option> 
+          {/each} 
+        </select>
+      </div>
+      
+      <div class="flex items-center">
+        <label class="text-gray-700 mr-2">Entry Year:</label>
+        <select name="entry-select" id="entry-select" 
+            class="rounded p-1"
+            bind:value={card.entry_year} 
+            on:change={() => updateCard(card)}>
+          {#each entryOptions as entryOption}
+            <option value={entryOption}>{entryOption}</option> 
+          {/each} 
+        </select>
+      </div>
+    
+      <div class="flex flex-wrap items-center">
+        <label class="text-gray-700 mr-2">Courses Taken:</label>
+          {#each card.courses_taken as course}
+            <button 
+              class="text-black bg-gray-100 rounded-full ml-2 p-1 px-2 hover:bg-red-200" 
+              on:click={deleteCourseTaken(course)}>
+              {course}
+            </button> 
+          {/each}
+          <button 
+            class="ml-2 bg-gray-400 text-white p-2 rounded-full w-5 h-5 flex items-center justify-center" 
+            on:click={() => {/* TODO Open course addition menu */}}>
+            +
+          </button>
+      </div>
+    </div>  
+  </div>
+  {/if}
+
+  <div class="grid grid-cols-5 gap-4 mb-3">
+    <div class="col-span-3 border border-gray-300 rounded p-4 max-h-96">
+    {#key timetableCount}
+      <Timetable {card} count={timetableCount} schedule={courses} />
+    {/key}
+    </div>
+    <div class="col-span-2 border border-gray-300 rounded p-4 max-h-96 overflow-auto">
+      <p>Selected Courses:</p>
+      <ul>
+        <!-- TODO Account for what happens if the course isn't actually offered this semester -->
+        {#each card.courses as course}
+          <SelectCard {courses} {course} {updateTimetable} {selectCourse}/>
+        {/each}
+      </ul>
+    </div>
+  </div>
+
+  <div class="flex flex-col items-center justify-center">
+    <button 
+      class="px-4 py-1 flex items-center justify-center text-black font-bold bg-white     
+      rounded-full border border-gray-200 hover:bg-gray-200 focus:outline-none focus:shadow-outline" 
+      on:click={() => showSearch = !showSearch}>
+      {showSearch ? 'Hide Search' : 'Search Courses'}
+    </button>
+    {#if showSearch }
+      {#if card.major && card.entry_year && audit }
+        <Search {selectCourse} {card} {audit} {courses} {loadSchedule}/> 
+      {:else if card.major}
+        Please fill out your entry year
+      {:else if card.entry_year}
+        Please fill out your major
+      {:else} 
+        Please fill out your major and entry year
+      {/if}
+    {/if}
+  </div>
+</div>
 
 <style>
   .expand-button {

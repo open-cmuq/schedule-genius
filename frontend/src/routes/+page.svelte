@@ -1,26 +1,14 @@
-{#if fetchResult}
-  <Navbar />
-  <div class="p-1">
-    {#each scheduleCards as card (card.id) }
-      <ScheduleCard {card} onRemove={handleRemoveCard} />
-    {/each}
-    <div class="flex items-center justify-center p-2">
-      <button class="rounded-full border border-gray-700 bg-white hover:bg-gray-200 text-black font-bold py-2 px-4 focus:outline-none focus:shadow-outline  flex items-center justify-center" on:click={addScheduleCard}>
-      Create a plan
-      </button>
-    </div>
+<!-- This is the initial entry point to our application, we introduce the concept of  -->
+<!-- a schedule card which is a semester plan. It has associated student information  -->
+<!-- such as student major and entry year, in addition to this it also contains the  -->
+<!-- courses which were taken and selected for this schedule. The schedule card is  -->
+<!-- agnostic to the selected schedule so changing the schedule automatically would  -->
+<!-- change the timings and preserve the previous selection. If a course doesn't exist -->
+<!-- we display it to the user.  -->
 
-  </div>
-{:else if fetchResult === false }
-  <p class="text-red-500">Failed to fetch the latest schedule. Please try again later.</p>
-{:else}
-  Please wait as we fetch the latest schedule...  
-{/if}
-
-  
 <script>
-	import { fetchSchedules, getAllScheduleCards, createScheduleCard, } from '$lib/db';
   import { onMount, afterUpdate } from 'svelte';
+	import { fetchSchedules, getAllScheduleCards, createScheduleCard, } from '$lib/db';
   import Navbar from '$lib/Navbar.svelte';
   import ScheduleCard from '$lib/ScheduleCard.svelte';
   
@@ -41,9 +29,6 @@
 
   onMount(async () => {
     fetchResult = await fetchSchedules();
-    // TODO There's a bug here where if it fails to fetch schedules the cards 
-    // don't render and we don't run what's below, the backend being down shouldn't 
-    // nuke the students data
     scheduleCards = await getAllScheduleCards();
     supportIndexedDB = 'indexedDB' in window;
   })
@@ -55,3 +40,26 @@
     window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
   });
 </script>
+
+{#if fetchResult}
+  <Navbar />
+  <div class="p-1">
+    <!-- Generate existing cards  -->
+    {#each scheduleCards as card (card.id) }
+      <ScheduleCard {card} onRemove={handleRemoveCard} />
+    {/each}
+     
+    <div class="flex items-center justify-center p-2">
+      <button 
+        class="px-4 py-2 flex items-center justify-center text-black font-bold bg-white
+        rounded-full border border-gray-700 hover:bg-gray-200 focus:outline-none focus:shadow-outline " 
+        on:click={addScheduleCard}>
+        Create a plan
+      </button>
+    </div>
+  </div>
+{:else if fetchResult === false }
+  <p class="text-red-500">Failed to fetch the latest schedule. Please try again later.</p>
+{:else}
+  Please wait as we fetch the latest schedule...  
+{/if}

@@ -32,6 +32,7 @@
         // but if the schedule is non-selected for whatever reason we go with 
         // whatever timings were saved. This allows us to update the timings
         // reactively when a schedule is changed while still preserving the same "section"
+        // TODO We need to account for what happens if the course is not in the new schedule 
         if (schedule){
           const courseSched = schedule.find(c => c.course_code === course.course_code);
           section = courseSched.sections[index];
