@@ -1,3 +1,9 @@
+/**
+ * @typedef {import('./types').Schedule} Schedule
+ * @typedef {import('./types').ScheduleCard} ScheduleCard
+ * @typedef {import('./types').Audit} Audit
+ */
+
 import Dexie from 'dexie';
 
 const db = new Dexie("schedule-genius");
@@ -11,8 +17,13 @@ db.version(1).stores({
 
 let schedules_counter = -1;
 
-// Given a schedule object from the server we 
-// save it to the schedules store
+/**  
+ * Given a schedule object from the server we save it to the schedules 
+ * store
+ *
+ * @param {Schedule} schedule  
+ * @returns {boolean} - true if succesful, false otherwise
+ */
 export const saveSchedule = async (schedule) => {
   try {
     const existingShortcode = 
@@ -26,16 +37,23 @@ export const saveSchedule = async (schedule) => {
       console.log("Deleted schedule with ID",existingShortcode.ID);
     } else if (existingShortcode){
       // We already have latest one return
-      return;
+      return true;
     }
     await db.schedules.put(schedule);
+    return true;
   } catch(error) {
     console.error("Failed to save schedule:",error);
+    return false;
   }
 }
 
-// Given a URL we fetch that specific schedule 
-// and save it to the schedules store
+/**  
+ * Given a URL we fetch that specific schedule json and save it to 
+ * our indexedDB store.
+ *
+ * @param {string} url  
+ * @returns {boolean} - true if succesful, false otherwise
+ */
 export const fetchSchedule = async (url) => {
   try {
     const response = await fetch(url);
@@ -44,13 +62,20 @@ export const fetchSchedule = async (url) => {
     }
     const schedule = await response.json();
     await saveSchedule(schedule);
+    return true;
   } catch (error) {
     console.error("Failed to fetch or save schedule:", error);
+    return false;
   }
 }
 
-// Given a URL if specified we get all schedules 
-// from the server
+/**  
+ * Given a URL we fetch all schedules that the endpoint
+ * has. We then save them to our indexedDB store.
+ *
+ * @param {string} url  
+ * @returns {boolean} - true if succesful, false otherwise
+ */
 export const fetchSchedules = async (url = "http://127.0.0.1:8000/schedules") => {
   try {
     const response = await fetch(url);
@@ -77,8 +102,14 @@ export const fetchSchedules = async (url = "http://127.0.0.1:8000/schedules") =>
 };
 
 
-// Given an uploaded excel file upload it to the server 
-// to be processed
+/**  
+ * Given an uploaded Excel file upload it to the server 
+ * to be processed and receive back a schedule json
+ *
+ * @param {TODO} file  
+ * @returns {Array.<Schedule>} all Schedules 
+ * @throws {Error} If the upload fails or the response is not ok.
+ */
 export const uploadSchedule = async (file) => {
   const formData = new FormData();
   formData.append('file', file);
@@ -103,8 +134,17 @@ export const uploadSchedule = async (file) => {
   }
 }
 
-// Returns all schedule ID's and its associated 
-// name and update date from what is saved in the browser
+/**  
+ * We get all schedules in the indexedDB store and it's 
+ * associated name, last_update and ID. We exclude the 
+ * courses information.
+ * @typedef {Object} ScheduleSummary
+ * @property {string} ID - The unique identifier for the schedule.
+ * @property {string} semester_name - The name of the semester.
+ * @property {Date} last_update - The last time the schedule was updated.
+ *
+ * @returns {Array.<ScheduleSummary>} all Schedules 
+ */
 export const getAllSchedules = async () => {
   try {
     const schedules = await db.schedules.toArray();
@@ -119,6 +159,12 @@ export const getAllSchedules = async () => {
   }
 }
 
+/**  
+ * Given an ID we get the schedule from store
+ *
+ * @param {string} ID 
+ * @returns {(Schedule | null) Return the specified schedule to caller 
+ */
 export const getScheduleByID = async (ID) => {
   try {
     const schedule = await db.schedules.where("ID").equals(ID).first();
@@ -129,7 +175,12 @@ export const getScheduleByID = async (ID) => {
   }
 }
 
-// Save or update a schedule card
+/**  
+ * Save or update a schedule card to the indexedDB store
+ *
+ * @param {ScheduleCard} card 
+ * @returns {boolean} true if succesful, false otherwise 
+ */
 export const saveScheduleCard = async (card) => {
   try {
     if (card.id) {
@@ -137,12 +188,18 @@ export const saveScheduleCard = async (card) => {
     } else {
       await db.scheduleCards.add(card);
     }
+    return true;
   } catch (error) {
     console.error("Failed to save schedule card:", error);
+    return false;
   }
 }
 
-// Get all Schedule Cards
+/**
+ * Get all ScheduleCards in the indexedDB store 
+ * 
+ * @returns {Array.<ScheduleCard>} 
+ */
 export const getAllScheduleCards = async () => {
   try {
     return await db.scheduleCards.toArray();
@@ -152,15 +209,23 @@ export const getAllScheduleCards = async () => {
   }
 }
 
-// Generate the next cards name
+/**
+  * Genereate the next cards name 
+  *
+  * @returns {string} The plan name
+  */
 function generatePlanName() {
   schedules_counter++;
   return "Plan " + String.fromCharCode('A'.charCodeAt() + schedules_counter % 25);
 }
 
-// Create a new scheduleCard, it should inherit the properties 
-// of the previous card for usability. Professors will have to change it 
-// but it doesn't require too much effort.
+/**
+ * Create a new scheduleCard, it should inherit the properties of the 
+ * previous card as most students plans will be incremental. It gets 
+ * saved to the indexedDB store
+ *
+ * @returns {boolean} true if succesful, false otherwise
+ */
 export const createScheduleCard = async () => {
   try {
     const cards = await getAllScheduleCards();
@@ -175,22 +240,43 @@ export const createScheduleCard = async () => {
       // This is the first card so nothing to inherit from
       await saveScheduleCard({name: generatePlanName(), major: '', entry_year: '', courses: [], courses_taken: ["15210","02251"]});
     }
+    return true;
   } catch (error) {
     console.error("Failed to create schedule card:", error);
+    return false;
   }
 }
 
-// Given the ID of a scheduleCard get rid of it
+/**
+ * Given the ID of a schedulecard, get rid of it from the 
+ * local store
+ * 
+ * returns {boolean} true if succesful, false otherwise
+ */
 export const deleteScheduleCard = async (id) => {
   try {
     await db.scheduleCards.delete(id);
+    return true;
   } catch (error) {
     console.error(`Failed to delete schedule card with ID ${id}:`, error);
+    return false;
   }
 }
 
 
-
+/**
+ * Fetch a specific audit for a specific major and entry year 
+ * from the backend server or from cache if it's in the local 
+ * indexedDB store. We save the fetched version to the local store 
+ * upon fetching.
+ * 
+ * TODO We need to have a mechanisim to update the audit for any changes 
+ * but for the most part once made, it's absolutely stable.
+ *
+ * @param {string} major 
+ * @param {string} entry_year
+ * @returns {Audit} Inclusion/Exclusion Audit
+ */
 export const fetchAudit  =  async (major,entry_year) => {
   // Check if the audit data is already in the database
   let existingAudit = await db.audits

@@ -1,3 +1,15 @@
+/**
+ * @typedef {import('./types').RequirementAndCourseArray} RequirementAndCourseArray
+ */
+
+/**  
+ * Extract what requirements a course satisfies
+ *
+ * @param {string} course_number
+ * @param {RequirementAndCourseArray} audit 
+ * @returns {Set} - Containing all the requirements that it satisfies for 
+ * the given audit
+ */
 export function countsFor(course_number, audit) {
     let include_course = new Set(
         audit.filter(

@@ -1,3 +1,9 @@
+/**  
+ * Given a course code we generate a consistent color 
+ *
+ * @param {string} str
+ * @returns {Int} - A hexcode without the # 
+ */
 export function hashStringToColor(str) {
     // Simple hash function
     let hash = 0;

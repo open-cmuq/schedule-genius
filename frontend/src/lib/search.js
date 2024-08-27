@@ -1,10 +1,18 @@
-// This function implements the filtering ability for the search.
-// It notably has a ranking system as we would like to order courses in terms 
-// of their score. When filtering by a search term for example, we have to 
-// prioritize matches with a title before the description.
-// TODO Consider ranking to also prioritize the students deparment
-// also if you enter 15 for example it doesn't show course codes which have 15 
-// so this also needs fixing
+import { countsFor } from "./audit";
+
+/**
+  * This function implements the filtering ability for the search.
+  * It notably has a ranking system as we would like to order courses in terms 
+  * of their score. When filtering by a search term for example, we have to 
+  * prioritize matches with a title before the description.
+  *
+  * TODO Consider ranking to also prioritize the students deparment 
+  * also if you enter 15 for example it doesn't show course codes which have 15 
+  * so this also needs fixing
+  *
+  * @param {*} courses
+  * @param {*} keyword 
+  */
 function filterKeywords(courses,keyword) {
   return courses
     .map(course => {
@@ -63,7 +71,7 @@ function filterConflictingCourses(courses, coursesTaken) {
       selectedTimings.push(courseTaken.sections[index].timings);
     });
   });
-
+  
   return courses.filter(course => {
     // Group sections by consecutive lecture and recitation
     const groupedSections = groupSections(course.sections);
@@ -77,8 +85,7 @@ function filterConflictingCourses(courses, coursesTaken) {
 
         return !selectedTimings.some(takenTiming => {
           if (takenTiming.begin === 'TBA' || takenTiming.days[0] === 'TBA') {
-            return false;
-          }
+            return false; }
           return daysOverlap(section.timings.days, takenTiming.days) && hasConflict(section.timings, takenTiming);
         });
       });
@@ -112,11 +119,25 @@ function groupSections(sections) {
   return grouped;
 }
 
+function filterCountsFor(courses,reqs,audit){
+  return courses.filter(course => {
+    const courseReqs = countsFor(course.course_code, audit); // Get the set of requirements this course can count for
+    return reqs.some(req => courseReqs.has(req)); // Check if any of the required reqs are in the set
+  });
+}
+
 export const filterCourses = (courses, filters,audit,coursesTaken) => {
   let results = filterKeywords(courses,filters.keyword);
+  
   if (filters.noConflicts){
     results = filterConflictingCourses(results,coursesTaken);
   }
+  
+  if (filters.countsFor.length > 0){
+    results = filterCountsFor(results,filters.countsFor,audit);
+  }
+
+  
   return results;
 }
 
