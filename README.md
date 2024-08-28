@@ -50,3 +50,5 @@ $ cd backend
 $ conda activate schedule-genius
 $ fastapi dev main.py
 ```
+# License 
+This project is licensed under the [MIT License](LICENSE).
