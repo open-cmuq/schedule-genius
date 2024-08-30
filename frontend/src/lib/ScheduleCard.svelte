@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from "svelte";
   import { fly, slide } from 'svelte/transition';
+  import { selectedScheduleID } from "../store.js";
   import {deleteScheduleCard, saveScheduleCard, fetchAudit, getScheduleByID } from "$lib/db";
   import Search from '$lib/Search.svelte';
   import Timetable from "$lib/Timetable.svelte"; 
@@ -77,11 +78,11 @@
 
   // Load all courses on the schedule
   async function loadSchedule(selectedScheduleID) {
-    updateTimetable();
     try {
       // Fetch the schedule object using the selectedScheduleID
       schedule = await getScheduleByID(selectedScheduleID);
       courses = schedule.courses;
+      updateTimetable();
     } catch (error) {
       console.error("Error fetching schedule:", error);
     }
@@ -95,6 +96,7 @@
     } 
   });
   
+  $: loadSchedule($selectedScheduleID);
 </script>
 
 <div 
@@ -173,15 +175,14 @@
   <div class="grid grid-cols-5 gap-4 mb-3">
     <div class="col-span-3 border border-gray-300 rounded p-4 max-h-96">
     {#key timetableCount}
-      <Timetable {card} count={timetableCount} schedule={courses} />
+      <Timetable {card} schedule={courses} />
     {/key}
     </div>
     <div class="col-span-2 border border-gray-300 rounded p-4 max-h-96 overflow-auto">
       <p>Selected Courses:</p>
       <ul>
-        <!-- TODO Account for what happens if the course isn't actually offered this semester -->
-        {#each card.courses as course}
-          <SelectCard {courses} {course} {updateTimetable} {selectCourse}/>
+        {#each card.courses as course (`${course.course_code}-${course.sections.map(s => s.section_code).join('-')}`) }
+          <SelectCard {schedule} {course} {updateTimetable} {selectCourse}/>
         {/each}
       </ul>
     </div>

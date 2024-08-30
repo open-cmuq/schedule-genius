@@ -131,8 +131,7 @@
           <div class="course-card-wrapper mt-3 {courseSelected(course.course_code) ? 'selected' : ''}
           {index % 2 === 0 ? 'bg-gray-300' : 'bg-white'}" 
             animate:flip={{ duration: 300 }}>
-            <CourseCard {course} {selectCourseSearch} {audit} 
-              isSelected={card.courses.find(c => c.course_code === course.course_code)} />
+            <CourseCard {course} {selectCourseSearch} {audit} />
           </div>
       {/each} 
     {/if}

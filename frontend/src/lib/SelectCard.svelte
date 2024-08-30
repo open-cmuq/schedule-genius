@@ -1,15 +1,18 @@
 <script>
-	import { hashStringToColor } from "./colors";
+  import { onMount } from "svelte";
   import { slide } from 'svelte/transition';
+  import { selectedScheduleID } from "../store.js";
+	import { hashStringToColor } from "$lib/colors";
 
 
   export let course;
   // TODO This is for checking that the course is in the 
   // current schedule
-  //export let courses;
+  export let schedule;
   export let updateTimetable;
   export let selectCourse;
 
+  let inSched;
   let isExpanded = false;
 
   function toggleExpand() {
@@ -38,9 +41,60 @@
     }
     updateTimetable();
   }
+
+  /** 
+   * Everytime the schedule changes we need to account for the updated 
+   * timings and ensure that if the course isn't reflected in the newly 
+   * selectedSchedule that we show this to the user in some form or 
+   * another. Due to a race condition on when the schedule reflects and the 
+   * ID is shown we have a timeout of 1s which should be reasonable. TODO we 
+   * should possibly indicate an error if there was a timeout but it should be 
+   * subtle and not affect the user. The only case where it fails is if the 
+   * users computer is really slow which is unlikely.
+   */
+  async function refreshCard(selectedScheduleID) {
+    await waitForSchedule(selectedScheduleID, 1000); // waits up to 1 second due to race
+
+    if (schedule) {
+        console.log("Updating select color");
+        inSched = schedule.courses.find(c => c.course_code === course.course_code);
+        course = inSched ? inSched : course;
+    } else {
+        inSched = true;
+    }
+}
+  
+  /** 
+   * We wait until the timeout to check whether the schedule and the selectedScheduleID
+   * are actually matching or not. After the timeout we simply resolve, regardless if 
+   * it matches or not. 
+   */
+  function waitForSchedule(selectedScheduleID, timeout) {
+      return new Promise((resolve, reject) => {
+          const startTime = Date.now();
+
+          (function checkCondition() {
+              if (schedule.ID === selectedScheduleID) {
+                  resolve();
+              } else if (Date.now() - startTime >= timeout) {
+                  resolve(); // resolve even if the condition isn't met after timeout
+              } else {
+                  requestAnimationFrame(checkCondition);
+              }
+          })();
+      });
+  }
+
+  onMount(async () => {
+    refreshCard(selectedScheduleID);  
+  });
+
+  $: refreshCard($selectedScheduleID);
 </script>
 
-<div class={`p-4 rounded shadow`}  style={`background-color: ${generateColor()};`}>
+<div 
+  class={`p-4 rounded shadow`}  
+  style={`background-color: ${inSched ? generateColor() : 'gray'};`}>
   <div class="flex justify-between items-center">
     <div class="flex items-center">
       <button on:click={toggleExpand} class="text-gray-500">
