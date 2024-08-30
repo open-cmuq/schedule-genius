@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
+		"jsdoc": "jsdoc -c jsdoc.json",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -22,6 +23,8 @@
 		"eslint": "^8.56.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.35.1",
+		"jsdoc": "^4.0.3",
+		"jsdoc-tsimport-plugin": "^1.0.5",
 		"postcss": "^8.4.38",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",

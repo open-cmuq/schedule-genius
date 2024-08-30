@@ -1,5 +1,5 @@
 # Schedule Genius
-Schedule Genius is an attempt at making course planning easier for students
+Schedule Genius aims to make course planning easier for students
 and for professors, by providing an interface in which students can at a 
 glance see what courses count for what requirement and to provide an advanced
 way of filtering possible course paths for a given semester while maintaining
