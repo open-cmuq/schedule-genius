@@ -279,14 +279,18 @@ export const deleteScheduleCard = async (id) => {
  */
 export const fetchAudit  =  async (major,entry_year) => {
   // Check if the audit data is already in the database
-  let existingAudit = await db.audits
-    .where({ major: major, entry_year: entry_year })
-    .first();
+  // let existingAudit = await db.audits
+  //   .where({ major: major, entry_year: entry_year })
+  //   .first();
 
-
-  if (existingAudit) {
-    return existingAudit.audit;
-  } else {
+  // This code is temporarily modified such that we always replace the audit 
+  // with the latest one. This is in place until a mechanisim is implemented to 
+  // forcefully remove audits from the client if there was an update to it.
+  // Typically the audits are stable.
+  // TODO Implement server side removal of audits from clients
+  // if (existingAudit) {
+  //   return existingAudit.audit;
+  // } else {
     // If not found, fetch the data from the server
     let response;
     let fetchedAudit = null;
@@ -311,5 +315,5 @@ export const fetchAudit  =  async (major,entry_year) => {
     }
     
     return fetchedAudit;
-  }
+  //}
 }

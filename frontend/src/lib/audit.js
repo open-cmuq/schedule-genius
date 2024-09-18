@@ -11,6 +11,11 @@
  * the given audit
  */
 export function countsFor(course_number, audit) {
+    // In the event that an audit isn't loaded, we should just return an empty set 
+    if (!audit){
+      return new Set([]);
+    }
+  
     let include_course = new Set(
         audit.filter(
             row => row.Type === "Course" && row["Course or code"] === course_number && row["Inclusion/Exclusion"] === "Inclusion"
