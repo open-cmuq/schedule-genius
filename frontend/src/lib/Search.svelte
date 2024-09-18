@@ -23,7 +23,7 @@
     countsFor: [],
     instructor: [],
     department: [],
-    coursesTaken: [],
+    coursesTaken: new Set(card.courses_taken),
     units: [1,18],
     clearedPreReqs: false,
     noConflicts: false // TODO Enabled for testing purposes only

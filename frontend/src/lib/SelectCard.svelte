@@ -6,8 +6,6 @@
 
 
   export let course;
-  // TODO This is for checking that the course is in the 
-  // current schedule
   export let schedule;
   export let updateTimetable;
   export let selectCourse;

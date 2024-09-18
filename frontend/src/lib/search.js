@@ -62,13 +62,13 @@ function daysOverlap(days1, days2) {
   return days1.some(day => days2.includes(day));
 }
 
-function filterConflictingCourses(courses, coursesTaken) {
+function filterConflictingCourses(courses, coursesSelected) {
   const selectedTimings = [];
 
   // Collect timings of selected courses
-  coursesTaken.forEach(courseTaken => {
-    courseTaken.selected.forEach(index => {
-      selectedTimings.push(courseTaken.sections[index].timings);
+  coursesSelected.forEach(courseSelected => {
+    courseSelected.selected.forEach(index => {
+      selectedTimings.push(courseSelected.sections[index].timings);
     });
   });
   
@@ -126,17 +126,33 @@ function filterCountsFor(courses,reqs,audit){
   });
 }
 
-export const filterCourses = (courses, filters,audit,coursesTaken) => {
+/**
+  * Given a list of courses, we filter out those which are taken 
+  *
+  * @param {?} courses 
+  * @param {Set} taken 
+  */
+function filterCoursesCleared(courses,taken){
+  return courses.filter(course => {
+    return !taken.has(course.course_code);
+  });
+}
+
+export const filterCourses = (courses, filters,audit,coursesSelected) => {
   let results = filterKeywords(courses,filters.keyword);
   
   if (filters.noConflicts){
-    results = filterConflictingCourses(results,coursesTaken);
+    results = filterConflictingCourses(results,coursesSelected);
   }
   
   if (filters.countsFor.length > 0){
     results = filterCountsFor(results,filters.countsFor,audit);
   }
 
+  // By default we filter our courses which are already cleared
+  if (filters.coursesTaken.size > 0){
+    results = filterCoursesCleared(results,filters.coursesTaken); 
+  }
   
   return results;
 }

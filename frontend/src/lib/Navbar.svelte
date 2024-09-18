@@ -52,7 +52,7 @@
   <div class="flex justify-center">
     <!-- TODO: this should include a delete button for uploaded schedules and possibly a rename one  -->
     <select name="schedule-select" id="schedule-select" bind:value={$selectedScheduleID} on:change={handleSelectChange} class="rounded p-1 text-center">
-      <option value="">--Please select a semester--</option>
+      <option disabled selected value="">--Please select a semester--</option>
       {#each schedules as schedule }
         <option value={schedule.ID}>
           {schedule.semester_name}
@@ -75,7 +75,6 @@
   </div>
   <input id="file-input" type="file" accept=".xlsx" style="display: none;" on:change={handleFileUpload}/>
 </nav>
-
 
 <slot/>
 
