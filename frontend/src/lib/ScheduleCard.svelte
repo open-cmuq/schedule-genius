@@ -16,6 +16,7 @@
   let courses = null;
   let timetableCount = 0; 
   let expanded = true;
+  let editingName = false;
   // TODO Ideally we don't want this to be hardcoded, it should 
   // dynamically be fetched from the server
   let majorOptions = [{id: "CS", name: "Computer Science"},
@@ -104,14 +105,28 @@
   in:fly={{x: 100, y: -200, duration: 300}} 
   out:fly={{ x: -200, duration: 300 }}>
   <div class="flex justify-between">
-    <h5 class="text-2xl font-bold underline tracking-tight text-gray-900">
-      {card.name}
-    </h5>
+    {#if editingName}
+      <input 
+        type="text" 
+        class="input input-bordered w-full max-w-xs"
+        bind:value={card.name} 
+        on:blur={() => { editingName = false; updateCard(card); }} 
+        on:keyup={(e) => { if (e.key === 'Enter') { editingName = false; updateCard(card); } }} 
+        autofocus 
+      />
+    {:else}
+      <h5 
+        class="text-2xl font-bold underline tracking-tight text-gray-900 cursor-pointer"
+        on:click={() => (editingName = true)}>
+        {card.name} ✎ 
+      </h5>
+    {/if}
     <button 
-      class="p-2 mb-5 ml-2 w-5 h-5 bg-red-700 text-white rounded-full flex items-center justify-center" 
+      class="btn btn-xs btn-circle btn-error text-white mb-5 ml-2" 
       on:click={removeCard}>
-      X
+     X
     </button>
+
   </div>
   
   <div class="flex justify-between items-center mb-4">
@@ -190,11 +205,11 @@
 
   <div class="flex flex-col items-center justify-center">
     <button 
-      class="px-4 py-1 flex items-center justify-center text-black font-bold bg-white     
-      rounded-full border border-gray-200 hover:bg-gray-200 focus:outline-none focus:shadow-outline" 
+      class="btn btn-outline rounded-full border-gray-200 text-black min-h-2 h-9 text-bold text-base" 
       on:click={() => showSearch = !showSearch}>
       {showSearch ? 'Hide Search' : 'Search Courses'}
     </button>
+
     {#if showSearch }
       {#if card.major && card.entry_year && audit }
         <Search {selectCourse} {card} {audit} {courses} {loadSchedule}/> 

@@ -11,6 +11,7 @@
 	import { fetchSchedules, getAllScheduleCards, createScheduleCard, } from '$lib/db';
   import Navbar from '$lib/Navbar.svelte';
   import ScheduleCard from '$lib/ScheduleCard.svelte';
+	import LoadingOverlay from '$lib/LoadingOverlay.svelte';
   
   // TODO Ensure that IndexedDB is supported 
   let supportIndexedDB = false;
@@ -43,6 +44,7 @@
 
 {#if fetchResult}
   <Navbar />
+  <div class="pt-10">
   <div class="p-1">
     <!-- Generate existing cards  -->
     {#each scheduleCards as card (card.id) }
@@ -51,11 +53,11 @@
      
     <div class="flex items-center justify-center p-2">
       <button 
-        class="px-4 py-2 flex items-center justify-center text-black font-bold bg-white
-        rounded-full border border-gray-700 hover:bg-gray-200 focus:outline-none focus:shadow-outline " 
+        class="btn btn-outline rounded-full border-gray-700 px-7 text-black font-bold" 
         on:click={addScheduleCard}>
         Create a plan
-      </button>
+    </button>
+
     </div>
   </div>
   <footer class="text-center py-4 text-gray-500 text-sm">
@@ -69,8 +71,9 @@
       </a>
     </p>
   </footer>
+  </div>
 {:else if fetchResult === false }
   <p class="text-red-500">Failed to fetch the latest schedule. Please try again later.</p>
 {:else}
-  Please wait as we fetch the latest schedule...  
+  <LoadingOverlay isLoading={true} message={"Please wait as we fetch the latest data..."}/>
 {/if}

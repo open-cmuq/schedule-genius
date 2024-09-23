@@ -539,7 +539,7 @@ def convertScheduleToJson (df: pd.DataFrame, semName: str, semCode: str, path: s
             course = {
                 "course_code": stdCode(row["COURSE"]),
                 "course_title": row["COURSE TITLE"],
-                "units": row["UNITS"],
+                "units": str(row["UNITS"]),
                 "description": "UNK",
                 "prereqs": stdReqs(row["Pre-reqs"]),
                 "coreqs": "UNK",

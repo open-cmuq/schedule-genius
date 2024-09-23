@@ -26,26 +26,44 @@ let schedules_counter = -1;
  */
 export const saveSchedule = async (schedule) => {
   try {
-    const existingShortcode = 
-      await db.schedules.where('semester_shortcode').equals(schedule.semester_shortcode).first();
-    
-    // We have a semester with the same shortcode, get the latest one
-    if (existingShortcode && 
-      (new Date(schedule.last_update) > new Date(existingShortcode.last_update))){
-      // Delete the old version
-      await db.schedules.delete(existingShortcode.ID); 
-      console.log("Deleted schedule with ID",existingShortcode.ID);
-    } else if (existingShortcode){
-      // We already have latest one return
-      return true;
+    // Check if a schedule with the same semester_shortcode exists
+    const existingShortcode = await db.schedules
+      .where('semester_shortcode')
+      .equals(schedule.semester_shortcode)
+      .first();
+
+    // Check if the exact schedule ID already exists
+    const existingID = await db.schedules.where('ID').equals(schedule.ID).first();
+
+    // If the shortcode matches, only keep the latest one
+    if (existingShortcode && !((schedule.semester_shortcode[0] === 'T' || 
+      schedule.semester_shortcode[0] === 'U'))) {
+      if (new Date(schedule.last_update) > new Date(existingShortcode.last_update)) {
+        // Delete the old version
+        await db.schedules.delete(existingShortcode.ID);
+        console.log("Deleted schedule with ID:", existingShortcode.ID);
+      } else {
+        console.log("Existing schedule is already the latest.");
+        return true; // If existing one is newer or equal, skip saving
+      }
     }
+
+    // If a schedule with the same ID exists, dismiss saving it
+    if (existingID) {
+      console.log("Schedule with ID already exists:", schedule.ID);
+      return true; // Dismiss saving
+    }
+    // Save the new schedule
     await db.schedules.put(schedule);
+    console.log("Saved new schedule:", schedule.ID);
     return true;
-  } catch(error) {
-    console.error("Failed to save schedule:",error);
+
+  } catch (error) {
+    console.error("Failed to save schedule:", error);
     return false;
   }
-}
+};
+
 
 /**  
  * Given a URL we fetch that specific schedule json and save it to 
@@ -93,7 +111,7 @@ export const fetchSchedules = async (url = "http://127.0.0.1:8000/schedules") =>
         console.error("Failed to save schedule:", error);
       }
     }));
-
+    console.log("Fetched all schedules succesfuly");
     return true;
   } catch (error) {
     console.error("Failed to fetch schedules:", error);
@@ -113,7 +131,7 @@ export const fetchSchedules = async (url = "http://127.0.0.1:8000/schedules") =>
 export const uploadSchedule = async (file) => {
   const formData = new FormData();
   formData.append('file', file);
-  formData.append('sched_name', 'Test');
+  formData.append('sched_name', file.name);
 
   try {
     const response = await fetch("http://127.0.0.1:8000/upload", {
@@ -137,27 +155,30 @@ export const uploadSchedule = async (file) => {
 /**  
  * We get all schedules in the indexedDB store and it's 
  * associated name, last_update and ID. We exclude the 
- * courses information.
+ * courses information and sort by last update.
  * @typedef {Object} ScheduleSummary
  * @property {string} ID - The unique identifier for the schedule.
  * @property {string} semester_name - The name of the semester.
  * @property {Date} last_update - The last time the schedule was updated.
  *
- * @returns {Array.<ScheduleSummary>} all Schedules 
+ * @returns {Array.<ScheduleSummary>} all Schedules in sorted order 
  */
 export const getAllSchedules = async () => {
   try {
     const schedules = await db.schedules.toArray();
-    return schedules.map(schedule => ({
-      ID: schedule.ID,
-      semester_name: schedule.semester_name,
-      last_update: schedule.last_update,
-    }));
+    return schedules
+      .map(schedule => ({
+        ID: schedule.ID,
+        semester_name: schedule.semester_name,
+        last_update: schedule.last_update,
+      }))
+      .sort((a, b) => new Date(a.last_update) - new Date(b.last_update)); // Sort by last_update
   } catch (error) {
     console.error("Failed to retrieve all schedules:", error);
     return [];
   }
-}
+};
+
 
 /**  
  * Given an ID we get the schedule from store
@@ -260,6 +281,22 @@ export const deleteScheduleCard = async (id) => {
   } catch (error) {
     console.error(`Failed to delete schedule card with ID ${id}:`, error);
     return false;
+  }
+}
+
+/**
+ * Given the ID of a schedulecard, get rid of it from the 
+ * local store
+ * 
+ * returns {boolean} true if succesful, false otherwise
+ */
+export const deleteSchedule = async (id) => {
+  try {
+    await db.schedules.delete(id);
+    console.log("Succesfully deleted schedule");
+    return true;
+  } catch (error) {
+    console.error(`Failed to delete schedule with ID ${id}:`, error);
   }
 }
 
