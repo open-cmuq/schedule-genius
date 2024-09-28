@@ -89,6 +89,10 @@
     }
   }
 
+  function checkBoxUpdate(){
+    saveScheduleCard(card);
+  }
+
   onMount(async () => {
     // Fixes bug where user deletes data and audit is only fetched 
     // once the user changes card selection
@@ -197,22 +201,16 @@
       <p>Selected Courses:</p>
       <ul>
         {#each card.courses as course (`${course.course_code}-${course.sections.map(s => s.section_code).join('-')}`) }
-          <SelectCard {schedule} {course} {updateTimetable} {selectCourse}/>
+          <SelectCard {checkBoxUpdate} {schedule} {course} {updateTimetable} {selectCourse}/>
         {/each}
       </ul>
     </div>
   </div>
 
   <div class="flex flex-col items-center justify-center">
-    <button 
-      class="btn btn-outline rounded-full border-gray-200 text-black min-h-2 h-9 text-bold text-base" 
-      on:click={() => showSearch = !showSearch}>
-      {showSearch ? 'Hide Search' : 'Search Courses'}
-    </button>
 
-    {#if showSearch }
       {#if card.major && card.entry_year && audit }
-        <Search {selectCourse} {card} {audit} {courses} {loadSchedule}/> 
+        <Search {selectCourse} {card} {audit} {courses} {showSearch} {loadSchedule}/> 
       {:else if card.major}
         Please fill out your entry year
       {:else if card.entry_year}
@@ -220,7 +218,6 @@
       {:else} 
         Please fill out your major and entry year
       {/if}
-    {/if}
   </div>
 </div>
 
