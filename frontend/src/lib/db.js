@@ -5,6 +5,7 @@
  */
 
 import Dexie from 'dexie';
+const BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const db = new Dexie("schedule-genius");
 
@@ -74,7 +75,7 @@ export const saveSchedule = async (schedule) => {
  */
 export const fetchSchedule = async (url) => {
   try {
-    const response = await fetch(url);
+    const response = await fetch(`${BASE_URL}${url}`);
     if (!response.ok) {
       throw new Error(`Failed to fetch schedule from ${url}: ${response.statusText}`);
     }
@@ -94,9 +95,9 @@ export const fetchSchedule = async (url) => {
  * @param {string} url  
  * @returns {boolean} - true if succesful, false otherwise
  */
-export const fetchSchedules = async (url = "http://127.0.0.1:8000/schedules") => {
+export const fetchSchedules = async (url = "/schedules") => {
   try {
-    const response = await fetch(url);
+    const response = await fetch(`${BASE_URL}${url}`);
     if (!response.ok) {
       throw new Error(`Failed to fetch schedules from ${url}: ${response.statusText}`);
     }
@@ -134,7 +135,7 @@ export const uploadSchedule = async (file) => {
   formData.append('sched_name', file.name);
 
   try {
-    const response = await fetch("http://127.0.0.1:8000/upload", {
+    const response = await fetch(`${BASE_URL}/upload`, {
       method: 'POST',
       body: formData,
     });
@@ -259,7 +260,7 @@ export const createScheduleCard = async () => {
       await saveScheduleCard(newCard);
     } else {
       // This is the first card so nothing to inherit from
-      await saveScheduleCard({name: generatePlanName(), major: '', entry_year: '', courses: [], courses_taken: ["15210","02251"]});
+      await saveScheduleCard({name: generatePlanName(), major: '', entry_year: '', courses: [], courses_taken: []});
     }
     return true;
   } catch (error) {
@@ -332,7 +333,7 @@ export const fetchAudit  =  async (major,entry_year) => {
     let response;
     let fetchedAudit = null;
     
-    let url = `http://localhost:8000/audit/${major}/${entry_year}`;
+    let url = `${BASE_URL}/audit/${major}/${entry_year}`;
     // Catches error if backend is down
     try {
       response = await fetch(url);

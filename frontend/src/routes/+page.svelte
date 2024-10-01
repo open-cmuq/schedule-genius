@@ -42,7 +42,7 @@
   });
 </script>
 
-{#if fetchResult}
+{#if fetchResult && supportIndexedDB}
   <Navbar />
   <div class="pt-10">
   <div class="p-1">

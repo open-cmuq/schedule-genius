@@ -20,7 +20,8 @@
   // TODO Ideally we don't want this to be hardcoded, it should 
   // dynamically be fetched from the server
   let majorOptions = [{id: "CS", name: "Computer Science"},
-    {id: "BA", name: "Business Administration"}];
+    {id: "BA", name: "Business Administration"},{id: "BS", name: "Biological Sciences"}, 
+    {id: "IS", name: "Information Systems"}];
   let entryOptions = [2021,2022,2023,2024];
 
   async function deleteCourseTaken(course) {

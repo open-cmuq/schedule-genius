@@ -80,12 +80,18 @@
     searchCourses();
   }
 
+  function clearSearch(){
+    searchTerm = "";
+    searchCourses();
+    showOverlay = true;
+  }
+
   $: refilterSchedule($selectedScheduleID);
 </script>
 
 <button 
   class="btn btn-outline rounded-full border-gray-200 text-black min-h-2 h-9 text-bold text-base" 
-  on:click={() => showOverlay = true}>
+  on:click={clearSearch}>
   Search Courses
 </button>
 
