@@ -5,13 +5,22 @@ import json
 import os
 import sys
 import mimetypes
-# Get the excel json converter
-sys.path.append("../utils/")
-from utils.trial_formatter import trial_formatter
 # To temporarily deal with uploads 
 import tempfile
 import shutil
 
+# Get the excel json converter
+# Check if the application is running in Docker
+def is_running_in_docker():
+    try:
+        with open("/proc/self/cgroup", "rt") as f:
+            return any("docker" in line for line in f)
+    except Exception as e:
+        return False
+running_in_docker = is_running_in_docker()
+if (not running_in_docker):    
+    sys.path.append("../utils/")
+from utils.trial_formatter import trial_formatter
 
 
 """
@@ -32,6 +41,7 @@ app = FastAPI()
 origins = [
     "http://localhost:5173",
     "http://localhost:8080",
+    "https://schedule-genius.vercel.app"
 ]
 
 app.add_middleware(
@@ -52,6 +62,7 @@ async def getAllSchedules():
     sched_files = [file.name for file in Path("./data/schedules").glob("*.json")]
     schedules = []
     try:
+        print("test")
         for filename in sched_files:
             path = os.path.join("./data/schedules/", filename)
             with open(path,"r") as file:
@@ -108,3 +119,5 @@ async def upload_schedule(
         except:
             raise HTTPException(status_code=400, detail="Invalid Excel file")
     return sched_json
+
+
