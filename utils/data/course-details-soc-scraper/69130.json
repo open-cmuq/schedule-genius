@@ -1,0 +1,26 @@
+{
+  "course_code": "69130",
+  "course_title": "Beginning Tennis",
+  "units": "3",
+  "description": "This course is designed to familiarize the student with the rules of tennis and to develop the skills needed to become proficient for recreational play.  During the first half of the course, all tennis strokes will be covered and reviewed in detail.  The second half of the course will focus mostly on competitive games and match-play.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W3",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Nevel, Jarrin"
+        ]
+      }
+    }
+  ]
+}

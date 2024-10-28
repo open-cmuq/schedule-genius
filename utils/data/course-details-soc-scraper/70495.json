@@ -1,0 +1,26 @@
+{
+  "course_code": "70495",
+  "course_title": "Corporate Finance",
+  "units": "9",
+  "description": "Students develop an advanced financial perspective on how firms make investment, financing, and management decisions.  The course starts with simple net present value rules and builds the theoretical framework to address more sophisticated issues and problems including risk management, mergers, acquisitions, executive compensation, corporate governance, and dividend payout policies. \u00a0Theory is supplemented with numerous case study examples. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+  "prereqs": "21370 or 70391",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "04:00PM",
+        "end": "05:15PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Farooqi, Muhammad"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "course_code": "98029",
+  "course_title": "Student Taught Courses (StuCo): Sports Analytics in a Nutshell",
+  "units": "3",
+  "description": "Sports analytics has become an essential tool in modern sports, driving decisions in player performance, team strategies, and business operations. This course provides an introduction to the key concepts, techniques, and applications of sports analytics, designed for students with minimal experience in data analysis. Using examples from popular sports such as football, basketball, soccer, and racing, students will explore how data is transforming the way teams and athletes compete and succeed.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W3",
+      "timings": {
+        "days": [
+          "TW"
+        ],
+        "begin": "05:00PM",
+        "end": "06:15PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "El Ghali, Mohamad",
+          "Dounis, Filippos"
+        ]
+      }
+    }
+  ]
+}

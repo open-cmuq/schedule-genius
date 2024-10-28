@@ -1,0 +1,27 @@
+{
+  "course_code": "03412",
+  "course_title": "Topics in Research",
+  "units": "1-2",
+  "description": "Students attend weekly seminars by scientists from other universities who  have been invited by the Department of Biological Sciences to present their research to our faculty, postdoctoral scientists, graduate students, and staff.  A written response to questions about the seminar is prepared by each student during the seminar and turned in to the instructor at the end of the seminar.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "U"
+        ],
+        "begin": "10:00AM",
+        "end": "11:15AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Bouaouina, Mohamed",
+          "Majeed, Yasser"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "course_code": "82511",
+  "course_title": "Special Topics in Arabic Studies",
+  "units": "3-18",
+  "description": "This repeatable course explores the Arabic language and culture through a thematic or conceptual focus. Students critically analyze authentic documents through, for example, historical, biographical, filmic, artistic, literary, musical, and theoretical perspectives, while improving and expanding their language skills.",
+  "prereqs": "82412",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Moufid, Ezzohra"
+        ]
+      }
+    }
+  ]
+}

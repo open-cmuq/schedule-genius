@@ -1,0 +1,42 @@
+{
+  "course_code": "03344",
+  "course_title": "Experimental Biochemistry",
+  "units": "12",
+  "description": "This course is designed to be taken as a sequel to 03-343. Experiments cover a variety of methods for investigating the structure and function of biological molecules. Experimental methods with proteins, enzyme kinetics, lipids, spectroscopy, and isolation and quantization of biological molecules are covered. During several experiments, students design their own projects. Experimentation using living organisms and/or their tissues, cells or molecules is an essential component of this course.",
+  "prereqs": "(03231 or 03232) and 03343",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "Lec 2",
+      "timings": {
+        "days": [
+          "U"
+        ],
+        "begin": "04:00PM",
+        "end": "04:50PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Naik, Adviti"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "09:00AM",
+        "end": "01:00PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Naik, Adviti"
+        ]
+      }
+    }
+  ]
+}

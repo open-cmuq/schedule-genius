@@ -13,7 +13,7 @@ import { countsFor } from "./audit";
   * @param {*} courses
   * @param {*} keyword 
   */
-function filterKeywords(courses,keyword) {
+function filterKeywords(courses,keyword,audit) {
   return courses
     .map(course => {
       let score = 0;
@@ -22,14 +22,22 @@ function filterKeywords(courses,keyword) {
         const keywords = keyword.map(k => k.toLowerCase());
         const matchesCode = keywords.some(keyword => course.course_code.toLowerCase().includes(keyword));
         const matchesTitle = keywords.some(keyword => course.course_title.toLowerCase().includes(keyword));
+        console.log(matchesTitle);
+        const matchesCountsFor = keywords.some(keyword => {
+          const lowerKeyword = keyword.toLowerCase();
+          return Array.from(countsFor(course.course_code, audit)).some(entry =>
+            entry.toLowerCase().includes(lowerKeyword)
+          );
+        });
         const matchesDescription = keywords.some(keyword => course.description.toLowerCase().includes(keyword));
 
-        if (matchesCode) score += 3;
-        if (matchesTitle) score += 2;
+        if (matchesCode) score += 4;
+        if (matchesTitle) score += 3;
+        if (matchesCountsFor) score += 2;
         if (matchesDescription) score += 1;
 
         // If no match at all, return null (we'll filter these out later)
-        if (!matchesCode && !matchesTitle && !matchesDescription) return null;
+        if (!matchesCode && !matchesTitle && !matchesCountsFor && !matchesDescription) return null;
       }
 
       return { course, score };
@@ -139,7 +147,7 @@ function filterCoursesCleared(courses,taken){
 }
 
 export const filterCourses = (courses, filters,audit,coursesSelected) => {
-  let results = filterKeywords(courses,filters.keyword);
+  let results = filterKeywords(courses,filters.keyword,audit);
   
   if (filters.noConflicts){
     results = filterConflictingCourses(results,coursesSelected);

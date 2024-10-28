@@ -1,0 +1,26 @@
+{
+  "course_code": "03362",
+  "course_title": "Cellular Neuroscience",
+  "units": "9",
+  "description": "Modern neuroscience is an interdisciplinary field that seeks to understand the function of the brain and nervous system. This course provides a comprehensive survey of cellular and molecular neuroscience ranging from molecules to simple neural circuits. Topics covered will include the properties of biological membranes, the electrical properties of neurons, neural communication and synaptic transmission, mechanisms of brain plasticity and the analysis of simple neural circuits. In addition to providing information the lectures will describe how discoveries were made and will develop students' abilities to design experiments and interpret data.",
+  "prereqs": "03161 or 03320 or 03230 or 42202 or 85219",
+  "coreqs": "03240",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TR"
+        ],
+        "begin": "10:00AM",
+        "end": "11:15AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Affara, Nesrine"
+        ]
+      }
+    }
+  ]
+}

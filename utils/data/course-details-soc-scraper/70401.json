@@ -1,0 +1,26 @@
+{
+  "course_code": "70401",
+  "course_title": "Management Game",
+  "units": "12",
+  "description": "This course is designed to integrate the managerial concepts and techniques studied earlier in the curriculum and to focus on elements of organizational structure and behavior. Student teams assume the role of top management of firms competing in an international economy simulated by the Carnegie Mellon University Management Game. Each team is responsible to a Board of Directors comprised of alumni of the MBA program and business masters students. Emphasis is placed on the development and implementation of sound organizational decision structures as well as the formulation of effective competitive strategies. The course is for senior-year business majors (including business additional majors). Other students who meet the course prerequisites may enroll only with permission of the instructor. This course may use third-party course material that is not available for individual purchase from the publisher. If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided. The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+  "prereqs": "70122 and 70371 and 70381 and 70391",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TR"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Fadlallah, Hussein"
+        ]
+      }
+    }
+  ]
+}

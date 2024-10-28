@@ -1,0 +1,26 @@
+{
+  "course_code": "70471",
+  "course_title": "Supply Chain Management",
+  "units": "9",
+  "description": "This course will discuss basic issues in supply chain management to answer how a company should design its supply chain and how a company should administer its operations policy to satisfy the company's business strategy. We will also examine how firms interact with other entities within the supply chain, and how one can turn the system/network of entities across the supply chain to its own advantage by capturing economic surplus effectively. Special attention will be paid to analyzing the strengths and weaknesses of supply chains from a strategic, qualitative level. At the same time, we will also learn how to make effective trade-offs in operational decisions from a tactical, quantitative level. This course uses course material that requires students to pay an additional course fee. The course material is secured by the Tepper School because it is otherwise unavailable and directly provided to each student.",
+  "prereqs": "70371",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "08:30AM",
+        "end": "09:45AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Adeinat, Iman"
+        ]
+      }
+    }
+  ]
+}

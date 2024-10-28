@@ -1,0 +1,26 @@
+{
+  "course_code": "03390",
+  "course_title": "Molecular and Cellular Immunology",
+  "units": "9",
+  "description": "This is a course that covers the fundamentals of cellular and molecular immunology in a comprehensive manner. The objective of this course is to introduce the students to the immune system, the cells that constitute it, their ontogeny, their structure, activities and responses to stimuli and the systems/signals that integrate these cells into a coherent functional entity. Additionally, the course will demonstrate where, when, and how, the immune system responds in pathologic states, how its cells can themselves become the causes of pathologies, and how medical science targets and uses the immune system to prevent and treat a wide range of diseases.",
+  "prereqs": "(03231 or 03232) and (03240 or 03320)",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "11:30AM",
+        "end": "12:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Majeed, Yasser"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "course_code": "03230",
+  "course_title": "Intro to Mammalian Physiology",
+  "units": "9",
+  "description": "This course has been designed to explore human physiology at an introductory level. Emphasis will be placed on the physiological processes in an organ system framework and focus on a wide range of pertinent clinical topics. Our aim is to instill in you a deeper appreciation for the complexity and beauty of the human body, and most importantly, to motivate you to carry away physiological principles that you may need later in your profession or simply may be relevant to a real-world situation.",
+  "prereqs": "03121 or 03151",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "Lec 2",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "08:45AM",
+        "end": "09:35AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Affara, Nesrine"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "U"
+        ],
+        "begin": "02:30PM",
+        "end": "03:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Affara, Nesrine"
+        ]
+      }
+    }
+  ]
+}

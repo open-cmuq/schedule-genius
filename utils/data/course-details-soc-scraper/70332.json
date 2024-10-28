@@ -2,7 +2,7 @@
   "course_code": "70332",
   "course_title": "Business, Society and Ethics",
   "units": "9",
-  "description": "What sorts of ethical obligations do businesses have towards their customers, employees, and the public? This course will explore ethical challenges faced by modern corporations, and frameworks which can be used to develop responsible corporate policy. The course is divided into four main units: (1) autonomy and consent, (2) the scope and locus of corporate responsibility, (3) fair treatment and outcomes, (4) the limits of labor and commodification. This course may use copyrighted material. If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided. The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+  "description": "The course draws upon actual cases to explore fundamental questions faced by businesses operating in the United States and elsewhere in the world. \u00a0What justifies governmental regulation of your business? What are the rights of employers and employees? How does the law protect consumers? \u00a0What laws protect the environment? \u00a0How do you choose the best legal form for your business? \u00a0What are the lines of power within a corporation? \u00a0What protections are available to shareholders? \u00a0How do the antitrust laws protect competition? \u00a0What responsibilities does a business have to the community in which it operates? What is the ethical foundation on which business ought to be conducted? \u00a0The course puts businesses in their legal and ethical context. This course may use third-party course material that is not available for individual purchase from the publisher. If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided. The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
   "prereqs": "(76102) or (76101) or (76106 and 76107) or (76106 and 76108) or (76107 and 76108)",
   "coreqs": "None",
   "sections": [
@@ -11,10 +11,10 @@
       "section_id": "W",
       "timings": {
         "days": [
-          "UT"
+          "MW"
         ],
-        "begin": "10:00AM",
-        "end": "11:15AM",
+        "begin": "11:30AM",
+        "end": "12:45PM",
         "teaching_location": "Doha, Qatar",
         "delivery_mode": "In-person Expectation",
         "instructor": [

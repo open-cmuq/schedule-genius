@@ -1,0 +1,26 @@
+{
+  "course_code": "70257",
+  "course_title": "Optimization for Business",
+  "units": "9",
+  "description": "This course provides a mathematical foundation for the application of optimization techniques to business problems, as well as the practical implementation of these methods. Mathematical optimization techniques have been applied for decades in the context of logistics, supply chain management, and strategic planning, with great success. In this course, the most important methods and techniques underlying mathematical optimization are studied. These include linear programming, integer programming, and nonlinear programming as basic mathematical methodologies. Based on these, we also consider methodologies for particular problem classes such as network models and traveling salesman problems. During the course we will emphasize mathematical modeling, that is, creating a mathematical description that reflects a given practical problem described in words. Motivated by these mathematical models, we then discuss the necessary mathematical techniques for finding optimal solutions. Lastly, we consider the solution of these problems using optimization software, i.e., we represent the mathematical models in Excel and use Excel Solver to compute an optimal solution. This course may use third-party course material that is not available for individual purchase from the publisher. If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided. The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+  "prereqs": "21259 or 21256 or 21254",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UMTW"
+        ],
+        "begin": "08:45AM",
+        "end": "09:35AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Yilma, Zelealem"
+        ]
+      }
+    }
+  ]
+}

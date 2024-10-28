@@ -1,0 +1,46 @@
+{
+  "course_code": "03545",
+  "course_title": "Honors Research",
+  "units": "9",
+  "description": "This semester of research consists primarily of research and preparation of an acceptable written thesis. Oral presentation and defense of the thesis research will be required. This course ordinarily will be taken in the second semester of the senior year. Permission of the research advisor required. **Students MUST contact bio-ungrad@andrew.cmu.edu and complete the application form in order to participate & register.**",
+  "prereqs": "03445",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "Lec 2",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Younis, Ihab"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Faulkner, Simon",
+          "Younis, Ihab",
+          "Bouaouina, Mohamed",
+          "Naik, Adviti",
+          "Affara, Nesrine"
+        ]
+      }
+    }
+  ]
+}

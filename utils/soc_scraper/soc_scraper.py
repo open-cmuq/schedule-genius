@@ -24,7 +24,6 @@ same page.
 def cacheRequest(url, func_headers, payload, cache_name,method):
     cache_name = cache_name + ".html"
     cache_path = os.path.join("../.cache",cache_name)
-    os.path
     if os.path.exists(cache_path):
         with open(cache_path, "r") as f:
             return f.read()
@@ -42,6 +41,18 @@ def cacheRequest(url, func_headers, payload, cache_name,method):
             return response.text
         
         return None
+
+def request(url, func_headers, payload,method):
+    time.sleep(0.3)
+    if method == "POST":
+        response = requests.post(url,headers=func_headers,data=payload)
+    else:
+        response = requests.get(url,headers=func_headers,data=payload)
+
+    if response.status_code == 200:
+        return response.text
+    
+    return None
     
 """
   Generates a short ID based on a name and a Python list.
@@ -79,7 +90,7 @@ Given a course number get its prereqs/coreqs and the course description.
 Returns a dictionary containing these
 """
 def getCourseData(course_number):
-    course_url = f"https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE={course_number}&SEMESTER=F24"
+    course_url = f"https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE={course_number}&SEMESTER=S25"
 
     response = cacheRequest(course_url, glob_headers,{}, f"{course_number}","GET")
     soup = BeautifulSoup(response, "html5lib")
@@ -121,7 +132,7 @@ def getCourseSchedule(semester):
         'SUBMIT': ''
     }
 
-    response = cacheRequest(schedule_url,glob_headers,payload,"soc","POST")
+    response = request(schedule_url,glob_headers,payload,"POST")
     # The original SOC page has some rows which don't have open <tr> tags which 
     # requires a better parser or tidy
     soup = BeautifulSoup(response,"html5lib")
@@ -241,5 +252,5 @@ def convertScheduleToJson(df, semCode, semName, path):
     return schedule_json
 
 if __name__ == "__main__":
-    df = getCourseSchedule("F24")
-    convertScheduleToJson(df,"F24","Fall 2024 Students", "../data/soc-schedule.json")
+    df = getCourseSchedule("S25")
+    convertScheduleToJson(df,"S25","Spring 2025 Students", "../data/soc-schedule.json")

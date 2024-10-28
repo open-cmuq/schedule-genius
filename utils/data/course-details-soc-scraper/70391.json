@@ -2,7 +2,7 @@
   "course_code": "70391",
   "course_title": "Finance",
   "units": "9",
-  "description": "Firms create value by making good investment decisions. Finance is the field of management science tasked with making this happen. It is a set of tools with which firms identify good investments and decide how to pay for them. Paying for them ultimately involves getting money from households. Therefore, finance also describes the investment decisions of households and the resulting allocation of the economy's resources across firms and time. This course is the introductory finance course in the undergraduate business program. The main topics covered in the course are Financial Markets, Net Present Value, The Objective of the Firm, Discounted Cash Flow, Portfolio Theory and the Cost of Capital, The Efficient Markets Hypothesis, The Capital Structure of the Firm, and Business Valuation. Time permitting, the course will also provide an introduction to option markets and derivative securities. Upon completing the course a student will be able to consider a large and complex business problem, make some assumptions, structure the firms' cash flows in a spreadsheet, calculate the value of different solutions to the problem, and make a decision. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+  "description": "This course is the introductory finance course in the undergraduate business program. The main topics covered in the course are financial markets, net present value, discounted cash flow, portfolio theory, the cost of capital, the capital asset pricing model, the efficient markets hypothesis, corporate capital structure, and business valuation. Upon completing the course a student will be able to consider a large and complex business problem, make some assumptions, structure the firms' cash flows in a spreadsheet, calculate the value of different solutions to the problem, and make an investment decision. This course may use third-party course material that is not available for individual purchase from the publisher. If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided. The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
   "prereqs": "(73102 or 73100 or 73104) and (36218 or 36207 or 70207 or 36200 or 36225 or 36201 or 36217)",
   "coreqs": "None",
   "sections": [
@@ -11,10 +11,10 @@
       "section_id": "W",
       "timings": {
         "days": [
-          "UT"
+          "MW"
         ],
-        "begin": "11:30AM",
-        "end": "12:45PM",
+        "begin": "10:00AM",
+        "end": "11:15AM",
         "teaching_location": "Doha, Qatar",
         "delivery_mode": "In-person Expectation",
         "instructor": [

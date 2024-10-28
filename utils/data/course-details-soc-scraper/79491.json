@@ -18,13 +18,13 @@
         "teaching_location": "Doha, Qatar",
         "delivery_mode": "In-person Expectation",
         "instructor": [
-          "Nair, Deepa"
+          "Reilly, Benjamin"
         ]
       }
     },
     {
       "section_type": "Lecture",
-      "section_id": "X",
+      "section_id": "WW",
       "timings": {
         "days": [
           "TBA"
@@ -34,7 +34,7 @@
         "teaching_location": "Doha, Qatar",
         "delivery_mode": "In-person Expectation",
         "instructor": [
-          "Reilly, Benjamin"
+          "Nair, Deepa"
         ]
       }
     }

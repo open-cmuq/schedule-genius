@@ -1,0 +1,26 @@
+{
+  "course_code": "03290",
+  "course_title": "Applied Cell Biology",
+  "units": "3",
+  "description": "No course description provided.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W4",
+      "timings": {
+        "days": [
+          "R"
+        ],
+        "begin": "02:30PM",
+        "end": "05:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Bouaouina, Mohamed"
+        ]
+      }
+    }
+  ]
+}

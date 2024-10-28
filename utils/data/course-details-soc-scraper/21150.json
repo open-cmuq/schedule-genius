@@ -1,0 +1,26 @@
+{
+  "course_code": "21150",
+  "course_title": "Mathematics and the Arts",
+  "units": "9",
+  "description": "Mathematics and the creative arts have long, interlinked histories.  This course touches upon a broad range of mathematical ideas and the writers, artists, and art movements that were influenced and inspired by them. Topics include the use of geometric patterns in Islamic art, the influence of non-Euclidean geometry on Cubism, the constrained writing experiments of the Oulipo, and literary works exploring the concept of infinity.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Yilma, Zelealem"
+        ]
+      }
+    }
+  ]
+}

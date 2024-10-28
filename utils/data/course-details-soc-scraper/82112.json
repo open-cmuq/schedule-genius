@@ -1,0 +1,26 @@
+{
+  "course_code": "82112",
+  "course_title": "Elementary Arabic II",
+  "units": "12",
+  "description": "This course builds on Elementary Arabic I to continue introducing students to Modern Standard Arabic (MSA) to achieve communicative competence at the Novice-High/Intermediate-Low level in all language skills (listening, speaking, reading, and writing). To this end, the course follows a proficiency-oriented approach to language teaching. In addition to MSA, the course continues to introduce students to one of the popular spoken dialects in the Arab world such as Egyptian, Levantine, or Moroccan (depending upon the instructor's background/expertise). Students will continue to explore various cultural aspects of the Arab world through written, audio-visual and online materials.",
+  "prereqs": "82111",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Nassif, Lama"
+        ]
+      }
+    }
+  ]
+}

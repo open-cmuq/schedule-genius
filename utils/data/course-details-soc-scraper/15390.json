@@ -1,0 +1,42 @@
+{
+  "course_code": "15390",
+  "course_title": "Entrepreneurship for Computer Science",
+  "units": "9",
+  "description": "This course is designed to develop skills related to entrepreneurship and innovation for non-business undergraduate and graduate students in the School of Computer Science.  The course assumes no background courses in business and is appropriate for those who are interested in bringing innovations to market either through new companies or existing companies.   The course provides an overview of entrepreneurship and innovation, develops an entrepreneurial frame of mind, and provides a framework for learning the rudiments of how to generate ideas.  Students come up with or are presented with potential ideas and learn how to develop these ideas into opportunities, and to explore their potential for becoming viable businesses.  They learn how to do market research, to develop go-to-market strategies, value propositions and to differentiate their products or services from potential competitors.  The focus is on understanding and developing strategies for approaching the key elements of the entrepreneurial process...opportunity, resources and team. The course consists of a balance of lectures, case studies and encounters with entrepreneurs, investors and business professionals.  The students are exposed to financial and intellectual property issues, and encounter a real world perspective on entrepreneurship, innovation and leadership.  The output of the course is a mini-business plan or venture opportunity screening document that can be developed into a business plan in a subsequent course entitled New Venture Creation or through independent study.",
+  "prereqs": "15112",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "Lec 1",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Hammoud, Mohammad"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "R"
+        ],
+        "begin": "11:30AM",
+        "end": "12:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Hammoud, Mohammad"
+        ]
+      }
+    }
+  ]
+}

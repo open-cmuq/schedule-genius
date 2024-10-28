@@ -1,0 +1,26 @@
+{
+  "course_code": "85310",
+  "course_title": "Research Methods in Cognitive Psychology",
+  "units": "9",
+  "description": "This is a course in which students develop the research skills associated with cognitive psychology and cognitive science. Students learn how to design and conduct experiments, and analyze and interpret the data they collect. The course covers a variety of experimental designs, e.g., factorial, Latin Squares. Analyses of response times, qualitative data, and signal detection are also covered. Cognitive modeling will also be discussed. Topics include mental imagery, memory, and perception. The class format consists of lectures, discussions and student presentations.",
+  "prereqs": "(85211 and 36309) or (36309 and 85213) or (85309 and 85211) or (85309 and 85213)",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "10:00AM",
+        "end": "11:15AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Belanger, Jocelyn"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "course_code": "15330",
+  "course_title": "Introduction to Computer Security",
+  "units": "12",
+  "description": "Security is becoming one of the core requirements in the design of critical systems. This course will introduce students to the intro-level fundamental knowledge of computer security and applied cryptography. Students will learn the basic concepts in computer security including software vulnerability analysis and defense, networking and wireless security, and applied cryptography. Students will also learn the fundamental methodology for how to design and analyze security critical systems.",
+  "prereqs": "15213",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "Lec 1",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Riley, Ryan"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "W"
+        ],
+        "begin": "10:00AM",
+        "end": "11:15AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Riley, Ryan"
+        ]
+      }
+    }
+  ]
+}

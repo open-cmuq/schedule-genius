@@ -1,0 +1,26 @@
+{
+  "course_code": "67427",
+  "course_title": "Privacy and Security Capstone",
+  "units": "9",
+  "description": "This course is the capstone course for the Privacy and Security concentration in Information Systems.  It requires students to engage in a substantive project related to Privacy and/or Security that will be primarily independent but guided by faculty.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "10:00AM",
+        "end": "11:15AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Mohanty, Manoranjan"
+        ]
+      }
+    }
+  ]
+}

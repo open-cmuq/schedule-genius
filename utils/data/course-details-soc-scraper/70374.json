@@ -1,0 +1,26 @@
+{
+  "course_code": "70374",
+  "course_title": "Data Mining & Business Analytics",
+  "units": "9",
+  "description": "Interest in big data analytics has skyrocketed recently. The recent explosion in large-scale high-resolution data enables managers to ask and answer questions regarding businesses and consumers at a whole new level. Managers are faced with data about businesses and consumers that are growing faster than they can be utilized. Data mining enables business to extract useful consumer behavior and preferences from seemingly tremendous and unorganized data, which then can be utilized for data-driven decision-making and competitive advantage. Applications can be found in e-commerce, sales, marketing, finance, operations, etc. In this hands-on introductory class, you will learn the basic concepts and techniques of data mining in addition to when and how they can be applied to improve many aspects of business and consumers' welfare. Throughout the course, we will use R, a powerful open-source statistical language and one of the main tools in data mining and business analytics, fast becoming a mainstream tool. With this tool, you will learn about variety of exploratory and predictive data analytics techniques such as Na\u00efve Bayes classifier, nearest neighbor approaches, decision trees, clustering algorithms, etc. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+  "prereqs": "36202 or 36208 or 70208 or 36225",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "02:30PM",
+        "end": "03:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Safak, Veli"
+        ]
+      }
+    }
+  ]
+}

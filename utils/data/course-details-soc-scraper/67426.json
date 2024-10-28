@@ -1,0 +1,26 @@
+{
+  "course_code": "67426",
+  "course_title": "Special Topics - Capstone course in Data Science",
+  "units": "9",
+  "description": "TBA",
+  "prereqs": "(67364) and (36200 or 36201 or 70208)",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "10:00AM",
+        "end": "11:15AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Bouamor, Houda"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "course_code": "02250",
+  "course_title": "Introduction to Computational Biology",
+  "units": "12",
+  "description": "This class provides a general introduction to computational tools for biology. The course is divided into two halves. The first half covers computational molecular biology and genomics. It examines important sources of biological data, how they are archived and made available to researchers, and what computational tools are available to use them effectively in research. In the process, it covers basic concepts in statistics, mathematics, and computer science needed to effectively use these resources and understand their results. Specific topics covered include sequence data, searching and alignment, structural data, genome sequencing, genome analysis, genetic variation, gene and protein expression, and biological networks and pathways. The second half covers computational cell biology, including biological modeling and image analysis. It includes homework requiring modification of scripts to perform computational analyses. The modeling component includes computer models of population dynamics, biochemical kinetics, cell pathways, and neuron behavior. The imaging component includes the basics of machine vision, morphological image analysis, image classification and image-derived models. The course is taught under two different numbers.  The lectures are the same for both but recitations and examinations are separate. 02-250 is intended primarily for computational biology, computer science, statistics or engineering majors at the undergraduate or graduate level who have had prior experience with computer science or programming. 03-250 is intended primarily for biological sciences or biomedical engineering majors who have had limited prior experience with computer science or programming. Students may not take both 02-250 and 03-250 for credit. Prerequisite: (02-201 or 15-110 or 15-112), or permission of the instructors.",
+  "prereqs": "(15112 or 15110 or 02201) and (03121 or 03131 or 03151)",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "Lec 2",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "02:30PM",
+        "end": "03:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": []
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "R"
+        ],
+        "begin": "02:30PM",
+        "end": "03:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": []
+      }
+    }
+  ]
+}

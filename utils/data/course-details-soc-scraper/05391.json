@@ -1,0 +1,26 @@
+{
+  "course_code": "05391",
+  "course_title": "Designing Human Centered Software",
+  "units": "12",
+  "description": "Why are things so hard to use these days? Why doesn't this thing I just bought work? Why is this web site so hard to use? These are frustrations that we have all faced from systems not designed with people in mind. The question this course will focus on is: how can we design human-centered systems that people find useful and usable? This course is an introduction to designing, prototyping, and evaluating user interfaces. If you take only one course in Human-Computer Interaction, this is the course for you. This class is a core course for undergrads in the HCI Minor but open to all undergrads and grad students, with either technical or non-technical backgrounds. We will cover theory as well as practical application of ideas from Human-Computer Interaction. Course work includes lectures, class discussion, homework, class presentations, and group project. Students will need a prerequisite of a fundamental computer programming course. This course can only be taken synchronously. Students in the HCI Minor and SCS concentration have priority registration for this course for graduation requirement purposes. When registering for this course, undergraduate students are automatically placed the wait list.",
+  "prereqs": "15112 or 15110 or 15104 or 15122",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Melniczuk, Amy"
+        ]
+      }
+    }
+  ]
+}

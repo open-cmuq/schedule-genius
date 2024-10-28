@@ -1,0 +1,24 @@
+{
+  "course_code": "67384",
+  "course_title": "Digital and Cybercrime",
+  "units": "9",
+  "description": "This course will discuss various types of cybercrime and ways to deal with them. Students will learn who are doing this cybercrime, and how the technology and people's psychology can be manipulated by them to do a cybercrime. Taking multimedia-based cybercrime as an example, the course, will then discuss how to deal with such cybercrime. To that end, students will be introduced various multimedia-based cybercrime tools, and they will develop their practical digital investigation skills through the use of computer laboratory classes. Cybercrime involving the advanced technologies, such as deepfake, LLM, etc. will also be introduced.",
+  "prereqs": "15112",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": []
+      }
+    }
+  ]
+}

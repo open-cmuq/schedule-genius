@@ -1,0 +1,87 @@
+{
+  "course_code": "67373",
+  "course_title": "Information Systems Consulting Project",
+  "units": "12",
+  "description": "Information Systems (IS) Consulting Project is a junior level team-based course that focuses on working as a team to build a solution to meet the needs of a client. With your teammates, you will work with an actual client to design, build, and deliver an information system solution while following a disciplined software project life cycle approach. By term's end, your team must provide a sustainable solution that fits the client's objectives, organization constraints and capabilities",
+  "prereqs": "67272",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "Lec 2",
+      "timings": {
+        "days": [
+          "U"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Liginlal, Divakaran",
+          "Aazam, Mohammad"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "M"
+        ],
+        "begin": "02:30PM",
+        "end": "03:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Liginlal, Divakaran"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "X",
+      "timings": {
+        "days": [
+          "M"
+        ],
+        "begin": "02:30PM",
+        "end": "03:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Aazam, Mohammad"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "Y",
+      "timings": {
+        "days": [
+          "M"
+        ],
+        "begin": "02:30PM",
+        "end": "03:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": []
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "Z",
+      "timings": {
+        "days": [
+          "M"
+        ],
+        "begin": "04:00PM",
+        "end": "05:15PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": []
+      }
+    }
+  ]
+}

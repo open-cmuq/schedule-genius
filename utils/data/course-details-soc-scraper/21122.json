@@ -1,0 +1,26 @@
+{
+  "course_code": "21122",
+  "course_title": "Integration and Approximation",
+  "units": "10",
+  "description": "Integration by trigonometric substitution and partial fractions; arclength; improper integrals; Simpson's and Trapezoidal Rules for numerical integration; separable differential equations, Newton's method, Euler's method, Taylor's Theorem including a discussion of the remainder, sequences, series, power series. Parametric curves, polar coordinates, vectors, dot product. (Three 50 minute lectures, two 50 minute recitations)",
+  "prereqs": "21112 or 21120",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UMTWR"
+        ],
+        "begin": "08:45AM",
+        "end": "09:35AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Weston, Anthony Ross"
+        ]
+      }
+    }
+  ]
+}

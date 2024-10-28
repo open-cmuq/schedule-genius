@@ -1,0 +1,26 @@
+{
+  "course_code": "03442",
+  "course_title": "Molecular Biology",
+  "units": "9",
+  "description": "The structure and expression of eukaryotic genes are discussed, focusing on model systems from a variety of organisms including yeast, flies, worms, mice, humans, and plants. Topics discussed include (1) genomics, proteomics, and functional proteomics and (2) control of gene expression at the level of transcription of mRNA from DNA, splicing of pre-mRNA, export of spliced mRNA from the nucleus to the cytoplasm, and translation of mRNA.",
+  "prereqs": "03330 or 03220 or 03221",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TR"
+        ],
+        "begin": "10:00AM",
+        "end": "11:15AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Younis, Ihab"
+        ]
+      }
+    }
+  ]
+}

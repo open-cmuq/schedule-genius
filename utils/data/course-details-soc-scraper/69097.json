@@ -1,0 +1,26 @@
+{
+  "course_code": "69097",
+  "course_title": "Introduction to Horseback Riding",
+  "units": "3",
+  "description": "This 7-week mini course is designed for beginners who want to learn the fundamentals of horseback riding. Through hands-on experience and instruction, students will develop basic riding skills, gain an understanding of horse care, and build confidence in their ability to work with horses. The course covers safety, grooming, tacking up, mounting, and basic riding techniques, including walking, trotting, and basic steering.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Nevel, Jarrin"
+        ]
+      }
+    }
+  ]
+}

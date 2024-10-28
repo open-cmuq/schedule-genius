@@ -2,7 +2,7 @@
   "course_code": "76270",
   "course_title": "Writing for the Professions",
   "units": "9",
-  "description": "Writing in the Professions is a writing course specifically designed for mainly sophomores and juniors (although it is relevant for some freshmen and seniors) in all majors other than English. The course is appropriate for upper-level students in all CMU colleges and assumes that you may not have had much college-level writing instruction past your first year. The basic idea of the course is to give you experience in developing the writing skills you will be expected to have as you make the transition from student to professional. The course will cover some foundational principles of designing multimodal writing and communication within a variety of tasks including resume and cover letter writing, proposal writing and writing instructions. Students will discern the difference between writing for general and specific audiences, and analysis of visual aids in various texts. The course requires that students work both independently and in groups.",
+  "description": "Workplace communicators use words and images to connect people with information and to structure experiences for audiences to take action. To be effective, they must learn to design communications across genres and media, and with a keen sense of audience, purpose, contexts, and constraints. In this course, you will sharpen your abilities to communicate information effectively, ethically, and responsibly to people with different needs. Our assignments and conversations will take us through a wide range of genres and rhetorical situations (oral and written) that you can expect to encounter in the workplace. A high-level goal for the course is to combine theory, methods, and known best practices for putting our readers at the center of our writing, with a strong emphasis on building a communication design toolkit for reaching non-expert audiences and navigating novel situations. By the end of the course, through writing, feedback, analysis, reflection, and revision, you will leave with a set of polished examples of your ability to communicate nimbly across genres.",
   "prereqs": "(76101) or (76102) or (76106 and 76107) or (76106 and 76108) or (76107 and 76108)",
   "coreqs": "None",
   "sections": [
@@ -11,7 +11,7 @@
       "section_id": "W",
       "timings": {
         "days": [
-          "MW"
+          "UT"
         ],
         "begin": "02:30PM",
         "end": "03:45PM",
@@ -29,12 +29,12 @@
         "days": [
           "UT"
         ],
-        "begin": "04:00PM",
-        "end": "05:15PM",
+        "begin": "10:00AM",
+        "end": "11:15AM",
         "teaching_location": "Doha, Qatar",
         "delivery_mode": "In-person Expectation",
         "instructor": [
-          "Dreher, Kira"
+          "Pessoa, Silvia"
         ]
       }
     }

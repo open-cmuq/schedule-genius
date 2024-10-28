@@ -1,0 +1,28 @@
+{
+  "course_code": "82299",
+  "course_title": "Global Minorities: Stories of Diversity, Resistance and Survivance",
+  "units": "9",
+  "description": "TBA",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Brockmann, Stephen",
+          "Abraham, Nevine",
+          "Lambright, Anne"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "course_code": "03202",
+  "course_title": "Undergraduate Colloquium for Sophomores",
+  "units": "1-3",
+  "description": "Missing Course Description - please contact the teaching department.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "M"
+        ],
+        "begin": "11:30AM",
+        "end": "12:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Younis, Ihab"
+        ]
+      }
+    }
+  ]
+}

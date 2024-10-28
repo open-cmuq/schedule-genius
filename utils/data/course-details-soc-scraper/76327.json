@@ -1,0 +1,26 @@
+{
+  "course_code": "76327",
+  "course_title": "Equity & Communication: Strategies for Institutional Change",
+  "units": "9",
+  "description": "Communication is always embedded in power relationships with unstated social rules that govern who is able to say what when. But communication also offers us a tool for rewriting oppressive social scripts. In this class, we will look both at inequities built into our communication and strategies for overturning these inequities. The focus will be on practical actions that you can take to improve your school, workplace, or extracurricular groups. Our readings will come from diverse sources and fields, including sociolinguistics, psychology, education, organizational communication, and writing studies. While our readings might occasionally depress (or enrage) you, the overall focus of the course will be optimistic, challenging you to imagine solutions to the problems we discuss.",
+  "prereqs": "(76101) or (76102) or (76106 and 76107) or (76106 and 76108) or (76107 and 76108)",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Yousuf, Eskender"
+        ]
+      }
+    }
+  ]
+}

@@ -13,12 +13,12 @@
         "days": [
           "MW"
         ],
-        "begin": "08:30AM",
-        "end": "09:45AM",
+        "begin": "02:30PM",
+        "end": "03:45PM",
         "teaching_location": "Doha, Qatar",
         "delivery_mode": "In-person Expectation",
         "instructor": [
-          "Di Caro, Gianni"
+          "Gedawy, Hend"
         ]
       }
     },
@@ -29,12 +29,12 @@
         "days": [
           "R"
         ],
-        "begin": "11:30AM",
-        "end": "12:45PM",
+        "begin": "02:30PM",
+        "end": "03:45PM",
         "teaching_location": "Doha, Qatar",
         "delivery_mode": "In-person Expectation",
         "instructor": [
-          "Di Caro, Gianni"
+          "Gedawy, Hend"
         ]
       }
     }

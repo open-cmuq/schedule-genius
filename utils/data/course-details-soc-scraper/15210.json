@@ -1,0 +1,26 @@
+{
+  "course_code": "15210",
+  "course_title": "Parallel and Sequential Data Structures and Algorithms",
+  "units": "12",
+  "description": "Teaches students about how to design, analyze, and program algorithms and data structures.  The course emphasizes parallel algorithms and analysis, and how sequential algorithms can be considered a special case.  The course goes into more theoretical content on algorithm analysis than 15-122 and 15-150 while still including a significant programming component and covering a variety of practical applications such as problems in data analysis, graphics, text processing, and the computational sciences.  NOTE: students must achieve a C or better in order to use this course to satisfy the pre-requisite for any subsequent Computer  Science course.",
+  "prereqs": "15122 and 15150",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "02:30PM",
+        "end": "03:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Reis, Giselle"
+        ]
+      }
+    }
+  ]
+}

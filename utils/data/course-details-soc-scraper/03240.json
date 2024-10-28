@@ -1,0 +1,42 @@
+{
+  "course_code": "03240",
+  "course_title": "Cell Biology",
+  "units": "9",
+  "description": "The course provides descriptive information and mechanistic details concerning key cellular processes in six areas: membrane function, protein targeting, signaling, cytoskeleton, cell division, and cell interaction. An attempt will be made to introduce the methodology that was used to obtain this information and to discuss how our understanding of these processes relates to human diseases. In this course, we will use different pedagogical tools (In-class activities, props, online modules, lecture slides...) to keep students engaged and to make the concepts easy to understand. In addition we will have various assessment types (weekly quizzes, problem sets, tests...) to gage students' proper understanding of the taught science. This course builds on previous knowledge that students have acquired in other courses (prerequisite courses like Honors modern Biology and Biochemistry) to give them a deeper and more detailed understanding of how the cell works. Finally, this course will require from you, beside some memorization effort, to think critically about scientific data and experimental procedures and to work collaboratively with other students (e.g. end-of-semester cell bio fair project). These are important skills that will empower your growth as a scientist inside and outside the lab.",
+  "prereqs": "(03121 or 03120 or 03151) and (03232 or 03233 or 03231)",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "Lec 2",
+      "timings": {
+        "days": [
+          "UTW"
+        ],
+        "begin": "11:30AM",
+        "end": "12:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Bouaouina, Mohamed"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "R"
+        ],
+        "begin": "11:30AM",
+        "end": "12:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Bouaouina, Mohamed"
+        ]
+      }
+    }
+  ]
+}

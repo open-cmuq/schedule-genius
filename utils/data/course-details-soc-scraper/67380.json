@@ -1,0 +1,26 @@
+{
+  "course_code": "67380",
+  "course_title": "Information Systems Security",
+  "units": "9",
+  "description": "This course is an introduction to information systems security for the IS student.  The course will introduce the student to fundamental concepts in information system security, including operational issues, planning, and design.  Topics will include confidentiality, integrity, and availability; risk; access controls and access control frameworks; security policies; authentication strategies and issues; auditing; using cryptography; security design issues; controlling information flows; malicious logic; and applying security principles",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Mohanty, Manoranjan"
+        ]
+      }
+    }
+  ]
+}

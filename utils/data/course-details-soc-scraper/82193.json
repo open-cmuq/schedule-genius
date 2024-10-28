@@ -1,0 +1,58 @@
+{
+  "course_code": "82193",
+  "course_title": "Global Minorities: Stories of Diversity, Resistance and Survivance : Stories of Multiculturalism, Ethnic Diversity, and Debates",
+  "units": "3",
+  "description": "TBD",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W3",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person + remote",
+        "instructor": [
+          "Brockmann, Stephen"
+        ]
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "W4",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person + remote",
+        "instructor": [
+          "Abraham, Nevine"
+        ]
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "X3",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person + remote",
+        "instructor": [
+          "Lambright, Anne"
+        ]
+      }
+    }
+  ]
+}

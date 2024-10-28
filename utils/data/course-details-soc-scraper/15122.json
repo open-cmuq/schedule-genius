@@ -1,0 +1,42 @@
+{
+  "course_code": "15122",
+  "course_title": "Principles of Imperative Computation",
+  "units": "12",
+  "description": "For students with a basic understanding of programming (variables, expressions, loops, arrays, functions). Teaches imperative programming and methods for ensuring the correctness of programs.  Students will learn the process and concepts needed to go from high-level descriptions of algorithms to correct imperative implementations, with specific application to basic data structures and algorithms.  Much of the course will be conducted in a subset of C amenable to verification, with a transition to full C near the end. This course prepares students for 15-213 and 15-210.  NOTE: students must achieve a C or better in order to use  this course to satisfy the pre-requisite for any subsequent Computer Science course. (GHC Clusters are the 3 labs on on Gates floor 5, 5207, 5208, and 5210)",
+  "prereqs": "15112",
+  "coreqs": "15151, 21127, 21128",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "Lec 3",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "10:00AM",
+        "end": "11:15AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Feo Flushing, Eduardo"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TR"
+        ],
+        "begin": "04:00PM",
+        "end": "04:50PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Feo Flushing, Eduardo"
+        ]
+      }
+    }
+  ]
+}

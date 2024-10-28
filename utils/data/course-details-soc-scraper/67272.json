@@ -1,0 +1,58 @@
+{
+  "course_code": "67272",
+  "course_title": "Application Design and Development",
+  "units": "12",
+  "description": "This course provides students with the concepts and techniques to design and develop software applications, and to understand the design process. Students will learn the importance of user-centered design and will develop a prototype of a web application as a course project. In the process of developing the application, students will learn how to design and create relational databases, how to acquire competency in new programming languages quickly, how to use the Model-View-Controller pattern to develop software applications, how to ensure technical quality in software development, and how to apply principles of user-centered design. This course is a required professional core course and is open only to sophomores and juniors in the IS major.",
+  "prereqs": "(15122 or 15121) and (67262)",
+  "coreqs": "67250",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "Lec 4",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "08:30AM",
+        "end": "09:45AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Bouamor, Houda"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "R"
+        ],
+        "begin": "08:30AM",
+        "end": "10:20AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Bouamor, Houda"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "X",
+      "timings": {
+        "days": [
+          "R"
+        ],
+        "begin": "10:30AM",
+        "end": "12:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Bouamor, Houda"
+        ]
+      }
+    }
+  ]
+}

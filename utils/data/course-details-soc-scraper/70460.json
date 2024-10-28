@@ -1,0 +1,26 @@
+{
+  "course_code": "70460",
+  "course_title": "Mathematical Models for Consulting",
+  "units": "9",
+  "description": "This course will cover a wide variety of mathematical models and techniques that are used by consultants and lie at the heart of modern decision-support systems. We will discuss the benefits and limitations of different models and follow a practical spreadsheet-based approach to provide hands-on experience with Excel Solver. The course will build on the knowledge you have gained from the prerequisite courses; we will develop your model-building skills, explore some technique-oriented skills such as linear, integer, and nonlinear programming, and experiment with heuristic solution methods. While going through different models and techniques, we will also see real-world examples of how these models are actually used in practical business environments. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+  "prereqs": "21292 or 21257 or 70257",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Safak, Veli"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "course_code": "98027",
+  "course_title": "Student Taught Courses (StuCo): Navigating the Gen Z Mindset",
+  "units": "3",
+  "description": "This course explores the psychological and social dynamics defining Gen Z, including topics such as social validation, fear of missing out, and digital culture. Students will engage with key concepts through discussions, reflections, and projects to better understand and navigate the Gen Z mindset.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W3",
+      "timings": {
+        "days": [
+          "TWR"
+        ],
+        "begin": "05:00PM",
+        "end": "05:50PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Sharaf, Retaj",
+          "Khelifi, Sarra"
+        ]
+      }
+    }
+  ]
+}

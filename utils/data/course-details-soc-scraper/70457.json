@@ -1,0 +1,26 @@
+{
+  "course_code": "70457",
+  "course_title": "International Consulting Experience : International Consulting Experience",
+  "units": "6",
+  "description": "This experiential course is a unique opportunity to combine general and strategic management consulting with international experience. The course is designed to facilitate a real-world experience by organizing the class in groups of students from the Qatar and Pittsburgh campuses and connecting them with companies (based in the Middle East) for a consulting experience with the following learning outcomes: Learn how to scope and execute a consulting plan (discovery and identification of problem(s) with client, design of deliverables plan, execute plan); Strengthen data collection and analytical skills related to real world problems; Enhance collaboration and professional skills with culturally diverse team members across the globe; Utilize broad business knowledge to build solution(s) for real world client; Reflect on their professional growth, teamwork, and application of knowledge with an external client. The course requires travel to Doha, Qatar and Pittsburgh, PA with regular meetings throughout mini 3 with the international team and client.",
+  "prereqs": "70311 or 70371 or 70381 or 70391",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W3",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Fadlallah, Hussein"
+        ]
+      }
+    }
+  ]
+}

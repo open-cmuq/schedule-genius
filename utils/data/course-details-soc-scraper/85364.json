@@ -1,0 +1,26 @@
+{
+  "course_code": "85364",
+  "course_title": "Environmental Psychology",
+  "units": "9",
+  "description": "TBA",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "02:30PM",
+        "end": "03:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Bruder, Jennifer Lynn"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "course_code": "98028",
+  "course_title": "Student Taught Courses (StuCo): Arab Women Through the Lens of Film and Theater",
+  "units": "3",
+  "description": "The positioning of Arab women in Arab societies (including gender roles, power, expectations, etc.) has changed over time as Arab societies underwent political and socio-cultural changes. One medium where we can see these changes is film. In this course, we examine Arab films from different periods in time, specifically prioritizing the portrayal of Arab women in them, and what this portrayal reflects about the society, culture, and politics of the time. Our classes will discuss selected films that allow us to understand the positioning of Arab women in a certain society and time period, and our discussions will be informed by readings on relevant theory/history that allow us to have a productive analysis. This course is thus relevant to students interested in both film studies and social structures, especially using film as a tool to understand social implications about Arab women in Arab societies. In this discussion-based class, students will have the opportunity to practice film analysis in class, and will build skills to eventually present an original student-led film analysis to the class.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W3",
+      "timings": {
+        "days": [
+          "TR"
+        ],
+        "begin": "06:00PM",
+        "end": "07:15PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Al Disi, Aldana",
+          "Al-Kaabi, Haya"
+        ]
+      }
+    }
+  ]
+}

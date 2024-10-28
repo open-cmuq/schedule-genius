@@ -1,0 +1,26 @@
+{
+  "course_code": "76345",
+  "course_title": "Introduction to Document Design",
+  "units": "3",
+  "description": "TBD",
+  "prereqs": "(76101) or (76102) or (76106 and 76107) or (76106 and 76108) or (76107 and 76108)",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W4",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person (rotation) + remote",
+        "instructor": [
+          "Ishizaki, Suguru"
+        ]
+      }
+    }
+  ]
+}

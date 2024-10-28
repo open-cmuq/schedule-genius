@@ -1,0 +1,26 @@
+{
+  "course_code": "69103",
+  "course_title": "Archery",
+  "units": "3",
+  "description": "This course introduces students to the fundamentals of archery. Students will learn proper shooting techniques, archery range safety, and the principles of bow mechanics. By the end of the course, students will have developed the necessary skills to safely and effectively participate in archery, both recreationally and competitively. The course also aims to foster concentration, patience, and physical coordination.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W4",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Nevel, Jarrin"
+        ]
+      }
+    }
+  ]
+}

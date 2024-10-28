@@ -1,0 +1,26 @@
+{
+  "course_code": "79293",
+  "course_title": "Inward Odyssey",
+  "units": "9",
+  "description": "This course is ONLY offered at Carnegie Mellon in Qatar. Inward Odyssey will explore world history by examining it through the outward-looking eyes of travel writers, on the assumption that travelogues, though supposedly written about the \"other,\" in fact provide crucial insights about the mindset of the culture that produced them, and often serve as a vehicle for cultural self-exploration or even self-criticism. In terms of content, this course is intended to overlap with World History, Islam and the European World, and US-Arab Encounters. However, this course is intended to be a skills course, designed not to teach students about specific historical periods, but rather to give students the tools they need to conduct their own critical explorations into the historical past.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Reilly, Benjamin"
+        ]
+      }
+    }
+  ]
+}

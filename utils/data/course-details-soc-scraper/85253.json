@@ -1,0 +1,26 @@
+{
+  "course_code": "85253",
+  "course_title": "Psychopathology",
+  "units": "3",
+  "description": "tba",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W4",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person + remote",
+        "instructor": [
+          "Creswell, Kasey"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "course_code": "66502",
+  "course_title": "H&SS Senior Honors Thesis II",
+  "units": "9",
+  "description": "This sequence is open only to those seniors who have been admitted to the H&SS Senior Honors Program.  This second semester course is the culmination of an original, year-long independent research project.  Research topics are selected by faculty and students.",
+  "prereqs": "66501",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Aoun, Chadi"
+        ]
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "X",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Liginlal, Divakaran"
+        ]
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "Y",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Aazam, Mohammad"
+        ]
+      }
+    }
+  ]
+}

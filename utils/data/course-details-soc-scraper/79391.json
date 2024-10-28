@@ -1,0 +1,26 @@
+{
+  "course_code": "79391",
+  "course_title": "Nations and Nationalisms in South Asia",
+  "units": "9",
+  "description": "This course examines the role which nationalism has played in the formation and political development of the nations and states of South Asia.  It, therefore, examines nationalist forces in anti-colonial struggles, in post-colonial state formation and in contemporary political developments. It will be of relevance to students with an interest in political developments in Asia, with particular reference to forms of nationalism and nation-building.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "10:00AM",
+        "end": "11:15AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Nair, Deepa"
+        ]
+      }
+    }
+  ]
+}

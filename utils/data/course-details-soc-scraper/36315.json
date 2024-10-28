@@ -1,0 +1,26 @@
+{
+  "course_code": "36315",
+  "course_title": "Statistical Graphics and Visualization",
+  "units": "9",
+  "description": "Graphical displays of quantitative information take on many forms as they help us understand both data and models.  This course will serve to introduce the student to the most common forms of graphical displays and their uses and misuses.  Students will learn both how to create these displays and how to understand them. Each student will be required to engage in a project using graphical methods to understand data collected from a real scientific or engineering experiment.  In addition to two weekly lectures there will be lab sessions where the students learn to use software to aid in the production of appropriate graphical displays.",
+  "prereqs": "36202 or 36208 or 36219 or 21325 or 15259 or 36309 or 36225 or 36218 or 70208 or 36235",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UT"
+        ],
+        "begin": "08:30AM",
+        "end": "09:45AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Park, Taeyong"
+        ]
+      }
+    }
+  ]
+}

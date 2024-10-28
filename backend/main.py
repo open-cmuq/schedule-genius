@@ -4,7 +4,6 @@ from pathlib import Path
 import json
 import os
 import sys
-import mimetypes
 # To temporarily deal with uploads 
 import tempfile
 import shutil
@@ -99,11 +98,14 @@ async def getAudit(major: str, entry_year: str):
 async def upload_schedule(
         file: UploadFile = File(...),
         sched_name: str = Form(...)):
-    mime_type,_ = mimetypes.guess_type(file.filename)
     # User input is one of the trickiest things, the least we can do is 
     # verify that any uploaded documents are excel sheets and that 
     # code injection shouldn't be possible
-    if mime_type != "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet":
+    valid_content_types = [
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",  # .xlsx
+        "application/vnd.ms-excel"  # .xls
+    ]
+    if file.content_type not in valid_content_types:
         raise HTTPException(status_code=415, detail="Invalid file type. Only Excel files are allowed.")
 
     with tempfile.TemporaryDirectory() as temp_dir:

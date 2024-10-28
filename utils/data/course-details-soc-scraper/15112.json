@@ -2,7 +2,7 @@
   "course_code": "15112",
   "course_title": "Fundamentals of Programming and Computer Science",
   "units": "12",
-  "description": "A technical introduction to the fundamentals of programming with an emphasis  on producing clear, robust, and reasonably efficient code using top-down  design, informal analysis, and effective testing and debugging. Starting  from first principles, we will cover a large subset of the Python  programming language, including its standard libraries and programming  paradigms.  We will also target numerous deployment scenarios, including  standalone programs, shell scripts, and web-based applications.  This course assumes no prior programming experience. Even so, it is a  fast-paced and rigorous preparation for 15-122.  Students seeking a more  gentle introduction to computer science should consider first taking 15-110.    NOTE: students must achieve a C or better in order to use   this course to satisfy the pre-requisite for any subsequent Computer   Science course.",
+  "description": "A technical introduction to the fundamentals of programming with an emphasis  on producing clear, robust, and reasonably efficient code using top-down  design, informal analysis, and effective testing and debugging. Starting  from first principles, we will cover a large subset of the Python  programming language, including its standard libraries and programming  paradigms.  We will also target numerous deployment scenarios, including  standalone programs, shell scripts, and web-based applications.  This course assumes no prior programming experience. Even so, it is a  fast-paced and rigorous preparation for 15-122.  Students seeking a more  gentle introduction to computer science should consider first taking 15-110.    NOTE: students must achieve a C or better in order to use   this course to satisfy the pre-requisite for any subsequent Computer   Science course. (GHC Clusters are the 3 labs on on Gates floor 5, 5207, 5208, and 5210)",
   "prereqs": "None",
   "coreqs": "None",
   "sections": [
@@ -18,7 +18,7 @@
         "teaching_location": "Doha, Qatar",
         "delivery_mode": "In-person Expectation",
         "instructor": [
-          "Riley, Ryan"
+          "Feo Flushing, Eduardo"
         ]
       }
     }

@@ -1,0 +1,26 @@
+{
+  "course_code": "99408",
+  "course_title": "Get Career Ready: Unlocking Pathways to Success",
+  "units": "3",
+  "description": "This course gives students the skills and knowledge they need to succeed in their chosen careers. By the end of the course, students will set meaningful career goals, create a plan to achieve them, develop their employability skills, and strategically position themselves for success in the competitive job market. Students will also gain insights from professional guest speakers who will share their experiences, perspectives, and industry-specific knowledge.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W3",
+      "timings": {
+        "days": [
+          "M"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Usova, Tatiana"
+        ]
+      }
+    }
+  ]
+}

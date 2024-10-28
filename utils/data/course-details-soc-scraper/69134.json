@@ -1,0 +1,26 @@
+{
+  "course_code": "69134",
+  "course_title": "Beginning Golf",
+  "units": "3",
+  "description": "This course is designed to give the student all the skills necessary to play a satisfactory game of golf. The long game, the short game and putting are covered. It is a leisure time sport that is challenging and can be used by the student for the rest of his/her life.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W3",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person only",
+        "instructor": [
+          "Nevel, Jarrin"
+        ]
+      }
+    }
+  ]
+}

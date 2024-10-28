@@ -1,0 +1,26 @@
+{
+  "course_code": "33104",
+  "course_title": "Experimental Physics",
+  "units": "9",
+  "description": "This course provides students  with an introduction to the methods of experimental physics. Particular emphasis is placed on three aspects of experimentation: laboratory technique, including both the execution and the documentation of an experiment; data analysis, including the treatment of statistical and systematic errors and computer-aided analysis of experimental data; and written communication of experimental procedures and results. The concepts and skills for measurement and data analysis are acquired gradually through a series of experiments covering a range of topics from mechanics to nuclear and atomic physics.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "01:30PM",
+        "end": "04:30PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-Person + Technology",
+        "instructor": [
+          "Zayed, Mohamed"
+        ]
+      }
+    }
+  ]
+}

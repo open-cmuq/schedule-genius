@@ -1,0 +1,26 @@
+{
+  "course_code": "76373",
+  "course_title": "Argument",
+  "units": "9",
+  "description": "This course introduces the fundamentals of argumentation theory and offers guided practice in analyzing and producing arguments. Through analysis, we will learn what an argument is, how to identify one, and what the names and functions of a variety of argument features are. We will also produces arguements by addressing the questions: What are my argumentative goals? How do I build a theory of my audience? What means of persuasion are available for me to achieve my goals? And how should I order the contents of my argument?",
+  "prereqs": "(76101) or (76102) or (76106 and 76107) or (76107 and 76108) or (76106 and 76108)",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "10:00AM",
+        "end": "11:15AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Squires, Jeffrey"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "course_code": "05897",
+  "course_title": "Special Topics in HCI",
+  "units": "9",
+  "description": "Special Topics in HCI is an opportunity for students interested in HCI to gain a deeper understanding of a specific area in this field. Each class is designed to cover an emerging research area within HCI, from designing large-scale peer learning systems to designing games around audience agency. All sections will help students: (1) build a more comprehensive understanding of an area of study within HCI, (2) work closely with faculty and peers to create mini-projects or team assignments that help students master the course material, (3) explore evidence-based research methods and techniques in HCI.    Sections will vary in topic and often change from semester to semester. Because of this, students can take multiple sections, as they are individual classes. Undergraduate sections are listed as 499 and graduate sections are listed as 899.   For descriptions of specific sections for this academic year, visit the \"Courses\" section on the Human-Computer Interaction Institute website: http://hcii.cmu.edu/academics/courses",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "Remote only",
+        "instructor": []
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "X",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "Remote only",
+        "instructor": []
+      }
+    }
+  ]
+}

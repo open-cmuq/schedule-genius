@@ -1,0 +1,26 @@
+{
+  "course_code": "09106",
+  "course_title": "Modern Chemistry II",
+  "units": "10",
+  "description": "This course provides an overview of  thermodynamics, kinetics and chemical equilibrium. Topics include the flow of energy in chemical systems; the spontaneity of chemical processes, i.e. entropy and free energy; the mechanisms and rates of chemical reactions; and the use of chemical equilibrium to reason about acid-base chemistry, solubility and electrochemistry. Applications include the energy economy, biological systems and environmental chemistry. 3 hrs. lec., 2 hrs. rec.",
+  "prereqs": "09105 or 09107",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UMTWR"
+        ],
+        "begin": "11:30AM",
+        "end": "12:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Murshid, Nimer"
+        ]
+      }
+    }
+  ]
+}

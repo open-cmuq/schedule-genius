@@ -1,0 +1,26 @@
+{
+  "course_code": "36218",
+  "course_title": "Probability Theory for Computer Scientists",
+  "units": "9",
+  "description": "Probability theory is the mathematical foundation for the study of both statistics and of random systems. This course is an intensive introduction to probability,from the foundations and mechanics to its application in statistical methods and modeling of random processes. Special topics and many examples are drawn from areas and problems that are of interest to computer scientists and that should prepare computer science students for the probabilistic and statistical ideas they encounter in downstream courses and research. A grade of C or better is required in order to use this course as a pre-requisite for 36-226, 36-326, and 36-410. If you hold a Statistics primary/additional major or minor you will be required to complete 36-226. For those who do not have a major or minor in Statistics, and receive at least a B in 36-218, you will be eligible to move directly onto 36-401.",
+  "prereqs": "(21112 and 21111) or (21120) or (21256) or (21259)",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UMTW"
+        ],
+        "begin": "08:45AM",
+        "end": "09:35AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Demirkoparan, Hasan"
+        ]
+      }
+    }
+  ]
+}

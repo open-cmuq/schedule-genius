@@ -1,0 +1,42 @@
+{
+  "course_code": "21112",
+  "course_title": "Integral Calculus",
+  "units": "10",
+  "description": "Definite and indefinite integrals, and hyperbolic functions;  applications of integration, integration by substitution and by parts. Successful completion of 21-111 and 21-112 entitles a student to enroll in any mathematics course for which 21-120 is a prerequisite. (Three 50 minute lectures, two 50 minute recitations)",
+  "prereqs": "21111",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "UMTWR"
+        ],
+        "begin": "10:00AM",
+        "end": "10:50AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Weston, Anthony Ross"
+        ]
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "X",
+      "timings": {
+        "days": [
+          "UMTWR"
+        ],
+        "begin": "11:30AM",
+        "end": "12:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Weston, Anthony Ross"
+        ]
+      }
+    }
+  ]
+}

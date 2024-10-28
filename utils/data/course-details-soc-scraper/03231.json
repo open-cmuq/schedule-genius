@@ -1,0 +1,42 @@
+{
+  "course_code": "03231",
+  "course_title": "Honors Biochemistry",
+  "units": "9",
+  "description": "This course provides an introduction to molecules and processes found in living systems. Amino acids, sugars, lipids and nucleotides and their corresponding higher structures, proteins, polysaccharides, membranes and nucleic acids are studied. Kinetics and mechanisms of enzymes as well as elementary metabolic cycles and the energetics of biological systems are studied with a quantitative approach.",
+  "prereqs": "03121 or 03151",
+  "coreqs": "09217, 09219",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "Lec 2",
+      "timings": {
+        "days": [
+          "UTR"
+        ],
+        "begin": "10:00AM",
+        "end": "10:50AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Naik, Adviti"
+        ]
+      }
+    },
+    {
+      "section_type": "Recitation",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "W"
+        ],
+        "begin": "02:30PM",
+        "end": "03:20PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Naik, Adviti"
+        ]
+      }
+    }
+  ]
+}

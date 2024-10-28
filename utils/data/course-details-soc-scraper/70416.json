@@ -1,0 +1,26 @@
+{
+  "course_code": "70416",
+  "course_title": "New Venture Creation",
+  "units": "9",
+  "description": "This course exposes students to the nuances of financing new ventures, getting them started legally and marketing their products or services. Students pull together all the ideas and information from different functional aspects of their projects into coherent and persuasive mini-business plans that serve as roadmaps for building their businesses; and useful instruments to find sufficient financing for the new ventures, so that they can convince the outside world that these opportunities are viable, with substantial potential for success. This course may use third-party course material that is not available for individual purchase from the publisher.   If so, the third-party course material will be secured and provided by the Tepper School to students enrolled in the course, and students enrolled in the course will be required to pay to the University the associated additional course materials fee for the third-party course material provided.   The amount of the course materials fee is dependent on the University's cost of the particular materials provided, and typically ranges from $13 to $75.",
+  "prereqs": "15390 or 70414 or 70421 or 70420 or 70415 or 70425",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "TR"
+        ],
+        "begin": "02:30PM",
+        "end": "03:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Hakim, Maher"
+        ]
+      }
+    }
+  ]
+}

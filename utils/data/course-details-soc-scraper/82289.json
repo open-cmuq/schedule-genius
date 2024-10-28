@@ -1,7 +1,7 @@
 {
   "course_code": "82289",
   "course_title": "Tutoring for Community Outreach - CMUQ",
-  "units": "9-18",
+  "units": "9",
   "description": "TBA",
   "prereqs": "None",
   "coreqs": "None",
@@ -11,10 +11,10 @@
       "section_id": "W",
       "timings": {
         "days": [
-          "M"
+          "UT"
         ],
-        "begin": "04:00PM",
-        "end": "05:15PM",
+        "begin": "11:30AM",
+        "end": "12:45PM",
         "teaching_location": "Doha, Qatar",
         "delivery_mode": "In-person Expectation",
         "instructor": [

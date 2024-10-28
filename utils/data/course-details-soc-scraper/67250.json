@@ -1,0 +1,42 @@
+{
+  "course_code": "67250",
+  "course_title": "The Information Systems Milieux",
+  "units": "9",
+  "description": "Information systems (IS) are changing work practices, reshaping organizations, transforming cultures, and giving new meaning to the ways we see the world. This course is designed to help students understand the role of IS in the enterprise and the means by which these systems are created, utilized and maintained. The course will focus on enterprise information architecture including the components of enterprise strategy, business, application, information, and infrastructure layers. This course provides not only a framework for understanding information systems, but also a language to identify their dynamic complexities and interdependencies.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "10:00AM",
+        "end": "11:15AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Aoun, Chadi"
+        ]
+      }
+    },
+    {
+      "section_type": "Lecture",
+      "section_id": "X",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "11:30AM",
+        "end": "12:45PM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Aoun, Chadi"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "course_code": "17425",
+  "course_title": "Introduction to Social Networks",
+  "units": "3",
+  "description": "Ever wondered how TikTok trends go viral, why some memes explode while others flop, or how influencers turn millions of followers into multimillion-dollar brands? What makes a social media recommendation algorithm so effective and so toxic at the same time? How do online echo chambers and polarization emerge in social media platforms? Why does Linux and the broader open-source ecosystem thrive despite weak economic incentives? Why do complex software systems sometimes fail despite being well-engineered? How can you land your dream jobs and get ahead in life? How does mass adoption of technological innovations (e.g., Bitcoin) unfold? Underlying these seemingly unrelated questions is the powerful influence of social networks, the collection of on- and offline connections that people form with one another. This course dives into the science of social networks, a powerful framework that offers explanations to these offline and social media phenomena. The course introduces key concepts and measures in network science with concrete examples that help to understand how tech giants, digital marketers, and top influencers stay ahead in the digital age. Students will be trained how to effectively use network analysis software and visualization tools for reaching deeper insights about our social world.",
+  "prereqs": "None",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W3",
+      "timings": {
+        "days": [
+          "TBA"
+        ],
+        "begin": "TBA",
+        "end": "TBA",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person + remote",
+        "instructor": [
+          "Park, Patrick"
+        ]
+      }
+    }
+  ]
+}

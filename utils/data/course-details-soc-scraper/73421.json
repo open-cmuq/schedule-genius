@@ -1,0 +1,26 @@
+{
+  "course_code": "73421",
+  "course_title": "Emerging Markets",
+  "units": "10",
+  "description": "The goal of the course is to study the economic and institutional forces that spur or hinder business activity and growth in emerging economies. The course is designed to provide both quantitative and theoretical foundations for the study of emerging markets. On the quantitative side, the course will introduce students to the empirical analysis of the growth forces and obstacles facing emerging markets by providing numerous hands-on opportunities using real-world data. On the theory side, the course will provide an overview of fiscal, trade and exchange rate policies adopted in emerging economies. The course will focus on successful emerging economies such as India, China, S. Korea and Ireland with broader lessons and comparisons drawn from developed countries. The course will also look at distressed economies, such as North Korea and Venezuela analyzing the challenges and opportunities faced by these developing nations today.  (Lecture, 3 hours). Minimum grade of \"C\" required in all economics pre-requisite courses.",
+  "prereqs": "(36200 or 70207 or 15259 or 36202 or 36207) and (73104 or 73102) and (73103)",
+  "coreqs": "None",
+  "sections": [
+    {
+      "section_type": "Lecture",
+      "section_id": "W",
+      "timings": {
+        "days": [
+          "MW"
+        ],
+        "begin": "08:30AM",
+        "end": "09:45AM",
+        "teaching_location": "Doha, Qatar",
+        "delivery_mode": "In-person Expectation",
+        "instructor": [
+          "Castano Zuluaga, Andres"
+        ]
+      }
+    }
+  ]
+}
