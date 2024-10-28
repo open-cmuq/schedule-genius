@@ -20,9 +20,13 @@ function filterKeywords(courses,keyword,audit) {
 
       if (keyword.length > 0) {
         const keywords = keyword.map(k => k.toLowerCase());
+        const matchesInstructor = course.sections?.some(section =>
+          section.timings.instructor.some(instructor =>
+            keywords.some(keyword => instructor.toLowerCase().includes(keyword))
+          )
+        );
         const matchesCode = keywords.some(keyword => course.course_code.toLowerCase().includes(keyword));
         const matchesTitle = keywords.some(keyword => course.course_title.toLowerCase().includes(keyword));
-        console.log(matchesTitle);
         const matchesCountsFor = keywords.some(keyword => {
           const lowerKeyword = keyword.toLowerCase();
           return Array.from(countsFor(course.course_code, audit)).some(entry =>
@@ -30,14 +34,16 @@ function filterKeywords(courses,keyword,audit) {
           );
         });
         const matchesDescription = keywords.some(keyword => course.description.toLowerCase().includes(keyword));
-
+        
+        if (matchesInstructor) score += 5;
         if (matchesCode) score += 4;
         if (matchesTitle) score += 3;
         if (matchesCountsFor) score += 2;
         if (matchesDescription) score += 1;
 
         // If no match at all, return null (we'll filter these out later)
-        if (!matchesCode && !matchesTitle && !matchesCountsFor && !matchesDescription) return null;
+        if (!matchesInstructor && !matchesCode && !matchesTitle && !matchesCountsFor 
+          && !matchesDescription) return null;
       }
 
       return { course, score };
