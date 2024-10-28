@@ -7,5 +7,5 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
-    #volumes:
-      #  - ./backend/:/schedule-genius/backend
+    volumes:
+      - /home/talhah/sched-data:/schedule-genius/backend/data

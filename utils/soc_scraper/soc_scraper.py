@@ -253,4 +253,4 @@ def convertScheduleToJson(df, semCode, semName, path):
 
 if __name__ == "__main__":
     df = getCourseSchedule("S25")
-    convertScheduleToJson(df,"S25","Spring 2025 Students", "../data/soc-schedule.json")
+    convertScheduleToJson(df,"S25","Spring 2025 Students", "/home/talhah/sched-data/schedules/soc-schedule.json")
