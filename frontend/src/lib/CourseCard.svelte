@@ -12,8 +12,8 @@
   function handleMouseEnter() {
     console.log("Mouse entered")
     hoverTimeout = setTimeout(() => {
-      hovered = true;
-    }, 600); 
+      hovered = false;
+    }, 1000); 
   }
 
   function handleMouseLeave() {
