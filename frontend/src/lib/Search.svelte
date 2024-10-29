@@ -97,7 +97,7 @@
 
 
 {#if showOverlay}
-  <div class="modal modal-open">
+  <div class="modal modal-middle modal-open">
     <div class="modal-box max-w-4xl w-full relative">
       <!-- Fixed Close Button -->
       <button class="btn btn-sm btn-circle absolute top-4 right-4 z-20" on:click={() => showOverlay = false}>
