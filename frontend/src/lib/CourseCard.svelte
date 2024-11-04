@@ -10,9 +10,8 @@
   let hoverTimeout;
 
   function handleMouseEnter() {
-    console.log("Mouse entered")
     hoverTimeout = setTimeout(() => {
-      hovered = false;
+      hovered = true;
     }, 1000); 
   }
 
@@ -23,8 +22,6 @@
 </script>
 
 <div on:click={() => selectCourseSearch(course)}
-     on:mouseenter={handleMouseEnter}
-     on:mouseleave={handleMouseLeave}
      class="course-card relative">
   
   <!-- Course information displayed on the card -->

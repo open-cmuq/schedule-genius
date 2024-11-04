@@ -76,7 +76,7 @@ function daysOverlap(days1, days2) {
   return days1.some(day => days2.includes(day));
 }
 
-function filterConflictingCourses(courses, coursesSelected) {
+export function filterConflictingCourses(courses, coursesSelected) {
   const selectedTimings = [];
 
   // Collect timings of selected courses
@@ -155,9 +155,9 @@ function filterCoursesCleared(courses,taken){
 export const filterCourses = (courses, filters,audit,coursesSelected) => {
   let results = filterKeywords(courses,filters.keyword,audit);
   
-  if (filters.noConflicts){
-    results = filterConflictingCourses(results,coursesSelected);
-  }
+  //if (filters.noConflicts){
+  //  results = filterConflictingCourses(results,coursesSelected);
+  //}
   
   if (filters.countsFor.length > 0){
     results = filterCountsFor(results,filters.countsFor,audit);

@@ -94,6 +94,10 @@
     saveScheduleCard(card);
   }
 
+  function toggleModal() {
+    document.getElementById("courses-taken").showModal();
+  }
+
   onMount(async () => {
     // Fixes bug where user deletes data and audit is only fetched 
     // once the user changes card selection
@@ -184,9 +188,19 @@
           {/each}
           <button 
             class="ml-2 bg-gray-400 text-white p-2 rounded-full w-5 h-5 flex items-center justify-center" 
-            on:click={() => {/* TODO Open course addition menu */}}>
+            on:click={toggleModal}>
             +
           </button>
+
+          <dialog id="courses-taken" class="modal">
+            <div class="modal-box">
+              <h3 class="text-lg font-bold">Feature Not Enabled</h3>
+              <p class="py-4">This feature isn't enabled yet. Please check back later!</p>
+            </div>
+            <form method="dialog" class="modal-backdrop">
+              <button class="absolute inset-0 w-full h-full opacity-0">Close</button>
+            </form>
+          </dialog>
       </div>
     </div>  
   </div>

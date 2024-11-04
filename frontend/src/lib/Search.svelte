@@ -2,20 +2,20 @@
   import {flip} from 'svelte/animate';
   import { selectedScheduleID } from "../store.js";
   import CourseCard from "$lib/CourseCard.svelte";
-  import { filterCourses } from "$lib/search";
+  import { filterCourses, filterConflictingCourses } from "$lib/search";
 
   export let selectCourse;
   export let card;
   export let audit;
   export let courses;
   export let loadSchedule;
-  export let showSearch;
 
   let filteredCourses = [];
 
   let searchTerm = "";
   let searchTimeout;
   let showOverlay = false;
+  let cacheCourses = courses;
 
   let filters = {
     keyword: [],
@@ -47,15 +47,32 @@
 
   function selectCourseSearch(course) {
     selectCourse(course);
-    filteredCourses = filterCourses(courses, filters, audit, card.courses);
+    refreshCache();
+    filteredCourses = filterCourses(cacheCourses, filters, audit, card.courses);
+  }
+  
+  // Some searches are unecessary, to speed up compute time we cache 
+  // these results and update it only when necessary
+  function refreshCache(){
+    if (filters.noConflicts){
+      cacheCourses = filterConflictingCourses(courses,card.courses);
+    } else{
+      cacheCourses = courses;
+    }
+    filteredCourses = filterCourses(cacheCourses, filters, audit, card.courses);
   }
 
   function toggleNoConflicts() {
     filters.noConflicts = !filters.noConflicts;
-    filteredCourses = filterCourses(courses, filters, audit, card.courses);
+    refreshCache();
   }
 
   function searchCourses() {
+    // Due to initialization of cacheCourses, cache could possibly 
+    // be null at this point
+    if (cacheCourses == null) {
+      cacheCourses = courses;
+    }
     clearTimeout(searchTimeout);
     searchTimeout = setTimeout(() => {
       if (filters.keyword.length > 0) {
@@ -63,7 +80,7 @@
       } else {
         filters.keyword.push(searchTerm);
       }
-      filteredCourses = filterCourses(courses, filters, audit, card.courses);
+      filteredCourses = filterCourses(cacheCourses, filters, audit, card.courses);
     }, 100);
   }
 
@@ -116,7 +133,8 @@
                 class="input input-bordered w-full mb-4"
               />
               <label class="flex items-center gap-2">
-                <input type="checkbox" on:change={toggleNoConflicts} class="checkbox" />
+                <input type="checkbox" on:change={toggleNoConflicts} 
+                  bind:checked={filters.noConflicts} class="checkbox" />
                 Hide courses which conflict with current schedule
               </label>
             </div>
