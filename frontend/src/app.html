@@ -9,7 +9,10 @@
        window.dataLayer = window.dataLayer || [];
        function gtag(){dataLayer.push(arguments);}
        gtag('js', new Date());
-       gtag('config', 'G-SM0V2WBM5B');
+       gtag('config', 'G-SM0V2WBM5B',{
+         'cookie_domain':'schedule-genius.vercel.app',
+	 'cookie_flags:':'SameSite=Lax; Secure',
+       });
     </script>
     <title>Schedule Genius</title>
 		%sveltekit.head%
